@@ -17,7 +17,4 @@ Usable talent calculator hosted here: https://vanilla-reforged.github.io/vanilla
 
 ### Vanilla Reforged Links
 
-Find us on Discord
-https://discord.gg/EVQ6MTpXnj
-or support us on Patreon
-https://patreon.com/vanillareforged
+Find us on the web https://vanillareforged.org/en/
