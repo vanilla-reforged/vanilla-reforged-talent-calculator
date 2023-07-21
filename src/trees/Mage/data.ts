@@ -337,8 +337,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Causes your Fire Ward to have a ${[
-          50,
-          100,
+          20,
+          40,
         ]}% chance to reflect Fire spells when active.`,
       },
       "Master of Elements": {
