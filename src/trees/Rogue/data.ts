@@ -320,18 +320,6 @@ export const data: TalentData = {
           100,
         ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
       },
-      "Aggression": {
-        name: "Aggression",
-        pos: "d1",
-        icon: icons["ability_racial_avatar"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Increases the damage of your Sinister Strike and Eviscerate abilities by ${[
-          2,
-          4,
-          6,
-        ]}%.`,
-      },
       "Fist Weapon Specialization": {
         name: "Fist Weapon Specialization",
         pos: "d2",
@@ -360,16 +348,25 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Weapon Expertise": {
-        name: "Weapon Expertise",
+      "Aggression": {
+        name: "Aggression",
         pos: "e1",
-        icon: icons["spell_holy_blessingofstrength"],
-        maxRank: 2,
+        icon: icons["ability_racial_avatar"],
+        maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases your skill with Sword, Fist, and Dagger weapons by ${[
-          3,
-          5,
+        description: talentText`Increases the damage of your Sinister Strike and Eviscerate abilities by ${[
+          2,
+          4,
+          6,
         ]}%.`,
+      },
+      "Blade Flurry": {
+        name: "Blade Flurry",
+        pos: "e2",
+        icon: icons["ability_warrior_punishingblow"],
+        maxRank: 1,
+        reqPoints: 20,
+        description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (120 sec. cooldown)`,
       },
       "Mace Specialization": {
         name: "Mace Specialization",
@@ -391,15 +388,6 @@ export const data: TalentData = {
           5,
         ]}% chance to stun your target for 3 sec. with a Mace.`,
       },
-      "Blade Flurry": {
-        name: "Blade Flurry",
-        pos: "e2",
-        icon: icons["ability_warrior_punishingblow"],
-        maxRank: 1,
-        reqPoints: 20,
-        description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (120 sec. cooldown)`,
-      },
-//placeholder fist weapon special
       "Sword Specialization": {
         name: "Sword Specialization",
         pos: "f1",
@@ -413,6 +401,17 @@ export const data: TalentData = {
           4,
           5,
         ]}% chance to get an extra attack on the same target after dealing damage with your Sword.`,
+      },
+      "Weapon Expertise": {
+        name: "Weapon Expertise",
+        pos: "f3",
+        icon: icons["spell_holy_blessingofstrength"],
+        maxRank: 2,
+        reqPoints: 25,
+        description: talentText`Increases your skill with Sword, Fist, and Dagger weapons by ${[
+          3,
+          5,
+        ]}.`,
       },
 //placeholder aggression
       "Adrenaline Rush": {
