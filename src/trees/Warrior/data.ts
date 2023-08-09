@@ -136,22 +136,9 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Impale": {
-        name: "Impale",
-        pos: "d1",
-        icon: icons["ability_searingarrow"],
-        maxRank: 2,
-        reqPoints: 15,
-        prereq: "Deep Wounds",
-        arrows: [{ dir: "left", from: "d2", to: "d1" }],
-        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
-          10,
-          20,
-        ]}%.`,
-      },
       "Deep Wounds": {
         name: "Deep Wounds",
-        pos: "d2",
+        pos: "d1",
         icon: icons["ability_backstab"],
         maxRank: 3,
         reqPoints: 15,
@@ -160,6 +147,19 @@ export const data: TalentData = {
           8,
           12,
         ]}% of your melee weapon's average damage.`,
+      },
+      "Impale": {
+        name: "Impale",
+        pos: "d2",
+        icon: icons["ability_searingarrow"],
+        maxRank: 2,
+        reqPoints: 15,
+        prereq: "Deep Wounds",
+        arrows: [{ dir: "right", from: "d1", to: "d2" }],
+        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
+          10,
+          20,
+        ]}%.`,
       },
       "Polearm Specialization": {
         name: "Polearm Specialization",
