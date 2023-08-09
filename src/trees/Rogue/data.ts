@@ -388,9 +388,20 @@ export const data: TalentData = {
           5,
         ]}% chance to stun your target for 1 sec. with a Mace.`,
       },
+      "Weapon Expertise": {
+        name: "Weapon Expertise",
+        pos: "f1",
+        icon: icons["spell_holy_blessingofstrength"],
+        maxRank: 2,
+        reqPoints: 25,
+        description: talentText`Increases your skill with Sword, Fist, and Dagger weapons by ${[
+          3,
+          5,
+        ]}.`,
+      },
       "Sword Specialization": {
         name: "Sword Specialization",
-        pos: "f1",
+        pos: "f3",
         icon: icons["inv_sword_27"],
         maxRank: 5,
         reqPoints: 25,
@@ -401,17 +412,6 @@ export const data: TalentData = {
           4,
           5,
         ]}% chance to get an extra attack on the same target after dealing damage with your Sword.`,
-      },
-      "Weapon Expertise": {
-        name: "Weapon Expertise",
-        pos: "f3",
-        icon: icons["spell_holy_blessingofstrength"],
-        maxRank: 2,
-        reqPoints: 25,
-        description: talentText`Increases your skill with Sword, Fist, and Dagger weapons by ${[
-          3,
-          5,
-        ]}.`,
       },
 //placeholder aggression
       "Adrenaline Rush": {
