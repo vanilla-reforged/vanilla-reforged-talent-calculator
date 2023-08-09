@@ -148,18 +148,17 @@ export const data: TalentData = {
           12,
         ]}% of your melee weapon's average damage.`,
       },
-      "Impale": {
-        name: "Impale",
+      "Improved Hamstring": {
+        name: "Improved Hamstring",
         pos: "d2",
-        icon: icons["ability_searingarrow"],
-        maxRank: 2,
+        icon: icons["ability_shockwave"],
+        maxRank: 3,
         reqPoints: 15,
-        prereq: "Deep Wounds",
-        arrows: [{ dir: "right", from: "d1", to: "d2" }],
-        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
+        description: talentText`Gives your Hamstring ability a ${[
+          5,
           10,
-          20,
-        ]}%.`,
+          15,
+        ]}% chance to immobilize the target for 5 sec.`,
       },
       "Polearm Specialization": {
         name: "Polearm Specialization",
@@ -175,17 +174,18 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Hamstring": {
-        name: "Improved Hamstring",
+      "Impale": {
+        name: "Impale",
         pos: "e1",
-        icon: icons["ability_shockwave"],
-        maxRank: 3,
+        icon: icons["ability_searingarrow"],
+        maxRank: 2,
         reqPoints: 20,
-        description: talentText`Gives your Hamstring ability a ${[
-          5,
+        prereq: "Deep Wounds",
+        arrows: [{ dir: "down", from: "d1", to: "d2" }],
+        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
           10,
-          15,
-        ]}% chance to immobilize the target for 5 sec.`,
+          20,
+        ]}%.`,
       },
       "Sweeping Strikes": {
         name: "Sweeping Strikes",
