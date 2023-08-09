@@ -75,6 +75,20 @@ export const data: TalentData = {
           25,
         ]} of your rage points when you change stances.`,
       },
+      "Axe Specialization": {
+        name: "Axe Specialization",
+        pos: "b3",
+        icon: icons["inv_axe_06"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Increases your chance to get a critical strike with Axes by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Improved Thunder Clap": {
         name: "Improved Thunder Clap",
         pos: "b4",
@@ -122,9 +136,22 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Impale": {
+        name: "Impale",
+        pos: "d1",
+        icon: icons["ability_searingarrow"],
+        maxRank: 2,
+        reqPoints: 15,
+        prereq: "Deep Wounds",
+        arrows: [{ dir: "down", from: "d1", to: "e1" }],
+        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Deep Wounds": {
         name: "Deep Wounds",
-        pos: "d1",
+        pos: "d2",
         icon: icons["ability_backstab"],
         maxRank: 3,
         reqPoints: 15,
@@ -133,20 +160,6 @@ export const data: TalentData = {
           8,
           12,
         ]}% of your melee weapon's average damage.`,
-      },
-      "Axe Specialization": {
-        name: "Axe Specialization",
-        pos: "d2",
-        icon: icons["inv_axe_06"],
-        maxRank: 5,
-        reqPoints: 15,
-        description: talentText`Increases your chance to get a critical strike with Axes by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
       },
       "Polearm Specialization": {
         name: "Polearm Specialization",
@@ -162,18 +175,17 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Impale": {
-        name: "Impale",
+      "Improved Hamstring": {
+        name: "Improved Hamstring",
         pos: "e1",
-        icon: icons["ability_searingarrow"],
-        maxRank: 2,
+        icon: icons["ability_shockwave"],
+        maxRank: 3,
         reqPoints: 20,
-        prereq: "Deep Wounds",
-        arrows: [{ dir: "down", from: "d1", to: "e1" }],
-        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
+        description: talentText`Gives your Hamstring ability a ${[
+          5,
           10,
-          20,
-        ]}%.`,
+          15,
+        ]}% chance to immobilize the target for 5 sec.`,
       },
       "Sweeping Strikes": {
         name: "Sweeping Strikes",
@@ -216,18 +228,6 @@ export const data: TalentData = {
           4,
           5,
         ]}% chance to get an extra attack on the same target after dealing damage with your Sword.`,
-      },
-      "Improved Hamstring": {
-        name: "Improved Hamstring",
-        pos: "f3",
-        icon: icons["ability_shockwave"],
-        maxRank: 3,
-        reqPoints: 25,
-        description: talentText`Gives your Hamstring ability a ${[
-          5,
-          10,
-          15,
-        ]}% chance to immobilize the target for 5 sec.`,
       },
       "Mortal Strike": {
         name: "Mortal Strike",
