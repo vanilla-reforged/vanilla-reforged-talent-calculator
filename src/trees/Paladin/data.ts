@@ -571,7 +571,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_mindvision"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`Increases Holy damage done by party members within 30 yards by 30%. Players may only have one Aura on them per Paladin at any one time.`,
+        description: talentText`Increases Holy damage done by party members within 30 yards by 20%. Players may only have one Aura on them per Paladin at any one time.`,
       },
     },
   },

@@ -243,12 +243,12 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Your critical strikes from Fire damage spells cause the target to burn for an additional ${[
+          4,
           8,
+          12,
           16,
-          24,
-          32,
-          40,
-        ]}% of your spell's damage over 4 sec.`,
+          20,
+        ]}% of your spell's damage.`,
       },
       "Flame Throwing": {
         name: "Flame Throwing",
@@ -604,7 +604,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec. Stacks up to 5 times.`,
+        ]}% chance to apply the Winter's Chill effect to you, which increases the chance your Frost spells will critically hit by 2% for 15 sec. Stacks up to 5 times.`,
       },
       "Ice Barrier": {
         name: "Ice Barrier",

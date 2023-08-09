@@ -638,7 +638,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Improved Immolate",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Ignites a target that is already afflicted by Immolate, dealing 249 to 316 Fire damage and consuming the Immolate spell. (10 sec. cooldown)`,
+        description: talentText`Ignites a target dealing 249 to 316 Fire damage. (12 sec. cooldown)`,
       },
     },
   },

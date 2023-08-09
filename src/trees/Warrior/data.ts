@@ -116,11 +116,11 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Improved Rend",
         arrows: [{ dir: "down", from: "a3", to: "c3" }],
-        description: talentText`Your critical strikes cause the opponent to bleed, dealing ${[
-          20,
-          40,
-          60,
-        ]}% of your melee weapon's average damage over 12 sec.`,
+        description: talentText`Your critical strikes cause the opponent to bleed, instantly dealing ${[
+          4,
+          8,
+          12,
+        ]}% of your melee weapon's average damage.`,
       },
       "Axe Specialization": {
         name: "Axe Specialization",

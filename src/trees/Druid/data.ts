@@ -119,7 +119,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`The enemy is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec.`,
+        description: talentText`The enemy is swarmed by insects, causing 66 Nature damage.`,
       },
       "Nature's Reach": {
         name: "Nature's Reach",

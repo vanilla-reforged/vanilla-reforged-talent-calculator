@@ -68,9 +68,23 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
+      "Mental Agility": {
+        name: "Mental Agility",
+        pos: "b3",
+        icon: icons["ability_hibernation"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the Mana cost of your offensive spells by ${[
+          10,
+          20,
+          30,
+          40,
+          50,
+        ]}%`,
+      },
       "Improved Inner Fire": {
         name: "Improved Inner Fire",
-        pos: "b3",
+        pos: "b4",
         icon: icons["spell_holy_innerfire"],
         maxRank: 3,
         reqPoints: 5,
@@ -392,20 +406,6 @@ export const data: TalentData = {
     background: backgrounds["shadow"],
     icon: icons["spell_shadow_shadowwordpain"],
     talents: {
-      "Mental Agility": {
-        name: "Mental Agility",
-        pos: "a1",
-        icon: icons["ability_hibernation"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Reduces the Mana cost of your offensive instant cast spells by ${[
-          10,
-          20,
-          30,
-          40,
-          50,
-        ]}%`,
-      },
       "Spirit Tap": {
         name: "Spirit Tap",
         pos: "a2",
@@ -502,7 +502,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_siphonmana"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Assault the target's mind with Shadow energy, causing 75 Shadow damage over 3 sec. and slowing their movement speed by 50%.`,
+        description: talentText`Assault the target's mind with Shadow energy, causing 53 Shadow damage.`,
       },
       "Shadow Reach": {
         name: "Shadow Reach",
@@ -539,7 +539,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to cause your target to be vulnerable to Shadow damage. This vulnerability increases the Shadow damage dealt to your target by 3% and lasts 15 sec. Stacks up to 5 times.`,
+        ]}% chance to grant you and the members of your party the Shadow Weaving effect, which increases Shadow damage dealt by 3% and lasts 15 sec. Stacks up to 5 times.`,
       },
       "Silence": {
         name: "Silence",
