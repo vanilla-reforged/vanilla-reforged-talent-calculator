@@ -217,7 +217,7 @@ export const data: TalentData = {
       },
       "Sword Specialization": {
         name: "Sword Specialization",
-        pos: "f1",
+        pos: "f3",
         icon: icons["inv_sword_27"],
         maxRank: 5,
         reqPoints: 25,
