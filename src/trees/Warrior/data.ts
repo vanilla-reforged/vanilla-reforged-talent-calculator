@@ -143,7 +143,7 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         prereq: "Deep Wounds",
-        arrows: [{ dir: "down", from: "d1", to: "e1" }],
+        arrows: [{ dir: "down", from: "d2", to: "d1" }],
         description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
           10,
           20,
