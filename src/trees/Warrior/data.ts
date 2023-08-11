@@ -237,7 +237,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Sweeping Strikes",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec. (6 sec. cooldown)`,
+        description: talentText`A vicious strike that deals weapon damage plus 85. (6 sec. cooldown)`,
       },
     },
   },
@@ -465,6 +465,18 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["inv_shield_06"],
     talents: {
+      "Improved Disarm": {
+        name: "Improved Disarm",
+        pos: "a1",
+        icon: icons["ability_warrior_disarm"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the duration of your Disarm abilty by ${[
+          1,
+          2,
+          3,
+        ]} secs.`,
+      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
@@ -590,7 +602,7 @@ export const data: TalentData = {
       },
       "Improved Sunder Armor": {
         name: "Improved Sunder Armor",
-        pos: "d1",
+        pos: "d2",
         icon: icons["ability_warrior_sunder"],
         maxRank: 3,
         reqPoints: 15,
@@ -599,18 +611,6 @@ export const data: TalentData = {
           2,
           3,
         ]} rage point${["", "s", "s"]}.`,
-      },
-      "Improved Disarm": {
-        name: "Improved Disarm",
-        pos: "d2",
-        icon: icons["ability_warrior_disarm"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Increases the duration of your Disarm abilty by ${[
-          1,
-          2,
-          3,
-        ]} secs.`,
       },
       "Improved Taunt": {
         name: "Improved Taunt",
