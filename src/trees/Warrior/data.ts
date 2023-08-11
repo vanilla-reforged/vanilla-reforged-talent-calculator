@@ -365,7 +365,7 @@ export const data: TalentData = {
 //placeholder dual wield
       "Improved Execute": {
         name: "Improved Execute",
-        pos: "d2",
+        pos: "d1",
         icon: icons["inv_sword_48"],
         maxRank: 2,
         reqPoints: 15,
@@ -373,6 +373,20 @@ export const data: TalentData = {
           2,
           5,
         ]}.`,
+      },
+      "Improved Slam": {
+        name: "Improved Slam",
+        pos: "d2",
+        icon: icons["ability_warrior_decisivestrike"],
+        maxRank: 5,
+        reqPoints: 15,
+        description: talentText`Decreases the casting time of your Slam ability by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+        ]} sec.`,
       },
       "Enrage": {
         name: "Enrage",
@@ -388,19 +402,16 @@ export const data: TalentData = {
           25,
         ]}% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.`,
       },
-      "Improved Slam": {
-        name: "Improved Slam",
+      "Improved Berserker Rage": {
+        name: "Improved Berserker Rage",
         pos: "e1",
-        icon: icons["ability_warrior_decisivestrike"],
-        maxRank: 5,
+        icon: icons["spell_nature_ancestralguardian"],
+        maxRank: 2,
         reqPoints: 20,
-        description: talentText`Decreases the casting time of your Slam ability by ${[
-          0.1,
-          0.2,
-          0.3,
-          0.4,
-          0.5,
-        ]} sec.`,
+        description: talentText`The Berserker Rage ability will generate ${[
+          5,
+          10,
+        ]} rage when used.`,
       },
       "Death Wish": {
         name: "Death Wish",
@@ -420,17 +431,6 @@ export const data: TalentData = {
           8,
           16,
         ]} sec.`,
-      },
-      "Improved Berserker Rage": {
-        name: "Improved Berserker Rage",
-        pos: "f1",
-        icon: icons["spell_nature_ancestralguardian"],
-        maxRank: 2,
-        reqPoints: 25,
-        description: talentText`The Berserker Rage ability will generate ${[
-          5,
-          10,
-        ]} rage when used.`,
       },
       "Flurry": {
         name: "Flurry",
