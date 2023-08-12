@@ -446,7 +446,7 @@ export const data: TalentData = {
         name: "Lightning Reflexes",
         pos: "b2",
         icon: icons["spell_nature_invisibilty"],
-        maxRank: 10,
+        maxRank: 5,
         reqPoints: 5,
         description: talentText`Increases your Dodge chance by ${[
           1,
