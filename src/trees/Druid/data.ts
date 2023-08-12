@@ -174,7 +174,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_naturesblessing"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`All spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.`,
+        description: talentText`Your damaging spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.`,
       },
       "Moonglow": {
         name: "Moonglow",
@@ -182,7 +182,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Reduce the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by ${[
+        description: talentText`Reduce the Mana cost of your Moonfire, Starfire and Wrath spells by ${[
           15,
           30,
           45,

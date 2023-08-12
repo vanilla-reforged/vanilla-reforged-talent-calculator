@@ -75,20 +75,6 @@ export const data: TalentData = {
           25,
         ]} of your rage points when you change stances.`,
       },
-      "Axe Specialization": {
-        name: "Axe Specialization",
-        pos: "b3",
-        icon: icons["inv_axe_06"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Increases your chance to get a critical strike with Axes by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Improved Thunder Clap": {
         name: "Improved Thunder Clap",
         pos: "b4",
@@ -160,20 +146,6 @@ export const data: TalentData = {
           15,
         ]}% chance to immobilize the target for 5 sec.`,
       },
-      "Polearm Specialization": {
-        name: "Polearm Specialization",
-        pos: "d3",
-        icon: icons["inv_weapon_halbard_01"],
-        maxRank: 5,
-        reqPoints: 15,
-        description: talentText`Increases your chance to get a critical strike with Polearms by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Impale": {
         name: "Impale",
         pos: "e1",
@@ -195,28 +167,8 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Your next 5 melee attacks strike an additional nearby opponent. (30 sec. cooldown)`,
       },
-      "Mace Specialization": {
-        name: "Mace Specialization",
-        pos: "e3",
-        icon: icons["inv_mace_01"],
-        maxRank: 5,
-        reqPoints: 20,
-        description: talentText`Increases your skill with Maces by ${[
-            1,
-            2,
-            3,
-            4,
-            5,
-          ]}, and gives you a ${[
-            1,
-            2,
-            3,
-            4,
-            5,
-          ]}% chance to stun your target for 1 sec. with a Mace.`,
-      },
-      "Sword Specialization": {
-        name: "Sword Specialization",
+      "Weapon Mastery": {
+        name: "Weapon Mastery",
         pos: "f3",
         icon: icons["inv_sword_27"],
         maxRank: 5,
@@ -227,7 +179,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% chance to get an extra attack on the same target after dealing damage with your Sword.`,
+        ]}% chance to get an extra attack on the same target after dealing damage.`,
       },
       "Mortal Strike": {
         name: "Mortal Strike",
@@ -465,18 +417,6 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["inv_shield_06"],
     talents: {
-      "Improved Disarm": {
-        name: "Improved Disarm",
-        pos: "a1",
-        icon: icons["ability_warrior_disarm"],
-        maxRank: 3,
-        reqPoints: 0,
-        description: talentText`Increases the duration of your Disarm abilty by ${[
-          1,
-          2,
-          3,
-        ]} secs.`,
-      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",

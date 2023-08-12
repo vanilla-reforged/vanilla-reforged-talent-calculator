@@ -117,20 +117,6 @@ export const data: TalentData = {
           75,
         ]}% chance to resist dispel effects.`,
       },
-      "Dagger Specialization": {
-        name: "Dagger Specialization",
-        pos: "d2",
-        icon: icons["inv_weapon_shortblade_05"],
-        maxRank: 5,
-        reqPoints: 15,
-        description: talentText`Increases your chance to get a critical strike with Daggers by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Serrated Blades": {
         name: "Serrated Blades",
         pos: "d3",
@@ -368,39 +354,8 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (120 sec. cooldown)`,
       },
-      "Mace Specialization": {
-        name: "Mace Specialization",
-        pos: "e3",
-        icon: icons["inv_mace_01"],
-        maxRank: 5,
-        reqPoints: 20,
-        description: talentText`Increases your skill with Maces by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}, and gives you a ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}% chance to stun your target for 1 sec. with a Mace.`,
-      },
-      "Weapon Expertise": {
-        name: "Weapon Expertise",
-        pos: "f1",
-        icon: icons["spell_holy_blessingofstrength"],
-        maxRank: 2,
-        reqPoints: 25,
-        description: talentText`Increases your skill with Sword, Fist, and Dagger weapons by ${[
-          3,
-          5,
-        ]}.`,
-      },
-      "Sword Specialization": {
-        name: "Sword Specialization",
+      "Weapon Mastery": {
+        name: "Weapon Mastery",
         pos: "f3",
         icon: icons["inv_sword_27"],
         maxRank: 5,
@@ -411,7 +366,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% chance to get an extra attack on the same target after dealing damage with your Sword.`,
+        ]}% chance to get an extra attack on the same target after dealing damage.`,
       },
 //placeholder aggression
       "Adrenaline Rush": {
@@ -471,7 +426,19 @@ export const data: TalentData = {
           " More effective than Master of Deception (Rank 2)",
           " More effective than Master of Deception (Rank 3)",
           " More effective than Master of Deception (Rank 4)",
-        ]}.`,
+        ]}In Addition increases your speed while stealthed by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}% and reduces the cooldown of your Stealth ability by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]} sec.`,
       },
       "Improved Gouge": {
         name: "Improved Gouge",
@@ -507,26 +474,6 @@ export const data: TalentData = {
           "45 sec",
           "1.5 min",
         ]}.`,
-      },
-      "Camouflage": {
-        name: "Camouflage",
-        pos: "b3",
-        icon: icons["ability_stealth"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Increases your speed while stealthed by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}% and reduces the cooldown of your Stealth ability by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]} sec.`,
       },
       "Initiative": {
         name: "Initiative",

@@ -40,18 +40,6 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-      "Improved Curse of Weakness": {
-        name: "Improved Curse of Weakness",
-        pos: "b1",
-        icon: icons["spell_shadow_curseofmannoroth"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Increases the effect of your Curse of Weakness by ${[
-          6,
-          13,
-          20,
-        ]}%.`,
-      },
       "Improved Drain Soul": {
         name: "Improved Drain Soul",
         pos: "b2",
@@ -132,18 +120,6 @@ export const data: TalentData = {
           10,
           20,
         ]}%.`,
-      },
-//placeholder Nightfall
-      "Improved Drain Mana": {
-        name: "Improved Drain Mana",
-        pos: "d2",
-        icon: icons["spell_shadow_siphonmana"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Causes ${[
-          15,
-          30,
-        ]}% of the Mana drained by your Drain Mana spell to damage the opponent.`,
       },
       "Siphon Life": {
         name: "Siphon Life",
