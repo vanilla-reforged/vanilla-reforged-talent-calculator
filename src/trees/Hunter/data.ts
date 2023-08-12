@@ -554,7 +554,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_flamebolt"],
         maxRank: 1,
         reqPoints: 15,
-        prereq: "Deterrence",
+        prereq: "Clever Traps",
         arrows: [{ dir: "down", from: "c1", to: "e1" }],
         description: talentText`Fires an explosive shot, exploding for $s1 additional damage to the target and nearby enemies.`,
       },
