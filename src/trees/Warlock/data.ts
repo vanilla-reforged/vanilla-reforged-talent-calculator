@@ -12,6 +12,18 @@ export const data: TalentData = {
     background: backgrounds["affliction"],
     icon: icons["spell_shadow_deathcoil"],
     talents: {
+      "Improved Curse of Agony": {
+        name: "Improved Curse of Agony",
+        pos: "a1",
+        icon: icons["spell_shadow_curseofsargeras"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the damage done by your Curse of Agony by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
       "Suppression": {
         name: "Suppression",
         pos: "a2",
@@ -26,12 +38,23 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
+      "Improved Drain Soul": {
+        name: "Improved Drain Soul",
+        pos: "a3",
+        icon: icons["spell_shadow_haunting"],
+        maxRank: 2,
+        reqPoints: 0,
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. In addition your Mana may continue to regenerate while casting at 50% of normal.`,
+      },
       "Improved Corruption": {
         name: "Improved Corruption",
-        pos: "a3",
+        pos: "b2",
         icon: icons["spell_shadow_abominationexplosion"],
         maxRank: 5,
-        reqPoints: 0,
+        reqPoints: 5,
         description: talentText`Reduces the casting time of your Corruption spell by ${[
           0.4,
           0.8,
@@ -40,17 +63,7 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-      "Improved Drain Soul": {
-        name: "Improved Drain Soul",
-        pos: "b2",
-        icon: icons["spell_shadow_haunting"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Gives you a ${[
-          50,
-          100,
-        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. In addition your Mana may continue to regenerate while casting at 50% of normal.`,
-      },
+
       "Improved Life Tap": {
         name: "Improved Life Tap",
         pos: "b3",
@@ -60,18 +73,6 @@ export const data: TalentData = {
         description: talentText`Increases the amount of Mana awarded by your Life Tap spell by ${[
           10,
           20,
-        ]}%.`,
-      },
-      "Improved Curse of Agony": {
-        name: "Improved Curse of Agony",
-        pos: "c1",
-        icon: icons["spell_shadow_curseofsargeras"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Increases the damage done by your Curse of Agony by ${[
-          5,
-          10,
-          15,
         ]}%.`,
       },
       "Fel Concentration": {

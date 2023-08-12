@@ -278,9 +278,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the damage done by your Lightning Shield orbs by ${[
+          25,
           50,
-          100,
-          150,
+          75,
         ]}%.`,
       },
       "Enhancing Totems": {

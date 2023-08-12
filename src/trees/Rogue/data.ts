@@ -46,6 +46,26 @@ export const data: TalentData = {
           12,
           16,
           20,
+        ]} and increases the damage of your Eviscerate ability by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%`,
+      },
+      "Sleight of Hand": {
+        name: "Sleight of Hand",
+        pos: "a4",
+        icon: icons["ability_rogue_feint"],
+        maxRank: 2,
+        reqPoints: 0,
+        description: talentText`Reduces the chance you are critically hit by melee and ranged attacks by ${[
+          1,
+          2,
+        ]}% and increases the threat reduction of your Feint ability by ${[
+          10,
+          20,
         ]}%.`,
       },
 //placeholder ruthelessnes
@@ -68,11 +88,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Increases the chance to apply poisons to your target by ${[
-          5,
-          10,
-          15,
+          4,
+          8,
+          12,
+          16,
           20,
-          25,
         ]}%.`,
       },
       "Relentless Strikes": {
@@ -372,20 +392,6 @@ export const data: TalentData = {
     background: backgrounds["subtlety"],
     icon: icons["ability_stealth"],
     talents: {
-      "Sleight of Hand": {
-        name: "Sleight of Hand",
-        pos: "a1",
-        icon: icons["ability_rogue_feint"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Reduces the chance you are critically hit by melee and ranged attacks by ${[
-          1,
-          2,
-        ]}% and increases the threat reduction of your Feint ability by ${[
-          10,
-          20,
-        ]}%.`,
-      },
       "Master of Deception": {
         name: "Master of Deception",
         pos: "a2",
@@ -441,7 +447,7 @@ export const data: TalentData = {
         pos: "b2",
         icon: icons["spell_nature_invisibilty"],
         maxRank: 10,
-        reqPoints: 0,
+        reqPoints: 5,
         description: talentText`Increases your Dodge chance by ${[
           1,
           2,
