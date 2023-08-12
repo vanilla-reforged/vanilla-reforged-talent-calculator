@@ -95,14 +95,26 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
+      "Serrated Blades": {
+        name: "Serrated Blades",
+        pos: "d2",
+        icon: icons["inv_sword_17"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Causes your attacks to ignore 0 of your target's Armor and increases the damage dealt by your Rupture ability by ${[
+          10,
+          20,
+          30,
+        ]}%. The amount of Armor reduced increases with your level.`,
+      },
       "Vile Poisons": {
         name: "Vile Poisons",
-        pos: "c3",
+        pos: "d3",
         icon: icons["ability_rogue_feigndeath"],
         maxRank: 5,
-        reqPoints: 10,
+        reqPoints: 15,
         prereq: "Improved Poisons",
-        arrows: [{ dir: "down", from: "b3", to: "c3" }],
+        arrows: [{ dir: "down", from: "b3", to: "d3" }],
         description: talentText`Increases the damage dealt by your poisons by ${[
           10,
           20,
@@ -116,18 +128,6 @@ export const data: TalentData = {
           60,
           75,
         ]}% chance to resist dispel effects.`,
-      },
-      "Serrated Blades": {
-        name: "Serrated Blades",
-        pos: "d3",
-        icon: icons["inv_sword_17"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Causes your attacks to ignore 0 of your target's Armor and increases the damage dealt by your Rupture ability by ${[
-          10,
-          20,
-          30,
-        ]}%. The amount of Armor reduced increases with your level.`,
       },
       "Improved Eviscerate": {
         name: "Improved Eviscerate",
@@ -218,17 +218,16 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Slice and Dice": {
-        name: "Improved Slice and Dice",
+      "Endurance": {
+        name: "Endurance",
         pos: "b1",
-        icon: icons["ability_rogue_slicedice"],
-        maxRank: 3,
+        icon: icons["spell_shadow_shadowward"],
+        maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the duration of your Slice and Dice ability by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
+        description: talentText`Reduces the cooldown of your Sprint and Evasion abilities by ${[
+          "45 sec",
+          "1.5 min",
+        ]}.`,
       },
       "Deflection": {
         name: "Deflection",
@@ -258,16 +257,17 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Endurance": {
-        name: "Endurance",
+      "Improved Slice and Dice": {
+        name: "Improved Slice and Dice",
         pos: "c1",
-        icon: icons["spell_shadow_shadowward"],
-        maxRank: 2,
+        icon: icons["ability_rogue_slicedice"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Sprint and Evasion abilities by ${[
-          "45 sec",
-          "1.5 min",
-        ]}.`,
+        description: talentText`Increases the duration of your Slice and Dice ability by ${[
+          15,
+          30,
+          45,
+        ]}%.`,
       },
       "Riposte": {
         name: "Riposte",
@@ -295,20 +295,9 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Improved Sprint": {
-        name: "Improved Sprint",
-        pos: "c4",
-        icon: icons["ability_rogue_sprint"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Gives a ${[
-          50,
-          100,
-        ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
-      },
       "Lethality": {
         name: "Lethality",
-        pos: "d3",
+        pos: "d2",
         icon: icons["ability_criticalstrike"],
         maxRank: 5,
         reqPoints: 15,
@@ -320,17 +309,16 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Aggression": {
-        name: "Aggression",
-        pos: "e1",
-        icon: icons["ability_racial_avatar"],
-        maxRank: 3,
-        reqPoints: 20,
-        description: talentText`Increases the damage of your Sinister Strike and Eviscerate abilities by ${[
-          2,
-          4,
-          6,
-        ]}%.`,
+      "Improved Sprint": {
+        name: "Improved Sprint",
+        pos: "d3",
+        icon: icons["ability_rogue_sprint"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`Gives a ${[
+          50,
+          100,
+        ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
       },
       "Blade Flurry": {
         name: "Blade Flurry",
@@ -339,6 +327,18 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (120 sec. cooldown)`,
+      },
+      "Aggression": {
+        name: "Aggression",
+        pos: "e3",
+        icon: icons["ability_racial_avatar"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Increases the damage of your Sinister Strike and Eviscerate abilities by ${[
+          2,
+          4,
+          6,
+        ]}%.`,
       },
       "Weapon Mastery": {
         name: "Weapon Mastery",
@@ -384,20 +384,6 @@ export const data: TalentData = {
         ]}% and increases the threat reduction of your Feint ability by ${[
           10,
           20,
-        ]}%.`,
-      },
-      "Lightning Reflexes": {
-        name: "Lightning Reflexes",
-        pos: "a2",
-        icon: icons["spell_nature_invisibilty"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Increases your Dodge chance by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
         ]}%.`,
       },
       "Master of Deception": {
@@ -450,9 +436,23 @@ export const data: TalentData = {
           60,
         ]}% chance to add a combo point to your target.`,
       },
+      "Lightning Reflexes": {
+        name: "Lightning Reflexes",
+        pos: "b2",
+        icon: icons["spell_nature_invisibilty"],
+        maxRank: 10,
+        reqPoints: 0,
+        description: talentText`Increases your Dodge chance by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Elusiveness": {
         name: "Elusiveness",
-        pos: "b4",
+        pos: "b3",
         icon: icons["spell_magic_lesserinvisibilty"],
         maxRank: 2,
         reqPoints: 5,

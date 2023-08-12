@@ -77,7 +77,7 @@ export const data: TalentData = {
       },
       "Improved Thunder Clap": {
         name: "Improved Thunder Clap",
-        pos: "b4",
+        pos: "b3",
         icon: icons["ability_thunderclap"],
         maxRank: 3,
         reqPoints: 5,
@@ -122,18 +122,6 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Deep Wounds": {
-        name: "Deep Wounds",
-        pos: "d1",
-        icon: icons["ability_backstab"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Your critical strikes cause the opponent to bleed, instantly dealing ${[
-          4,
-          8,
-          12,
-        ]}% of your melee weapon's average damage.`,
-      },
       "Improved Hamstring": {
         name: "Improved Hamstring",
         pos: "d2",
@@ -146,18 +134,17 @@ export const data: TalentData = {
           15,
         ]}% chance to immobilize the target for 5 sec.`,
       },
-      "Impale": {
-        name: "Impale",
-        pos: "e1",
-        icon: icons["ability_searingarrow"],
-        maxRank: 2,
-        reqPoints: 20,
-        prereq: "Deep Wounds",
-        arrows: [{ dir: "down", from: "d1", to: "e1" }],
-        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
-          10,
-          20,
-        ]}%.`,
+      "Deep Wounds": {
+        name: "Deep Wounds",
+        pos: "d3",
+        icon: icons["ability_backstab"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Your critical strikes cause the opponent to bleed, instantly dealing ${[
+          4,
+          8,
+          12,
+        ]}% of your melee weapon's average damage.`,
       },
       "Sweeping Strikes": {
         name: "Sweeping Strikes",
@@ -166,6 +153,19 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Your next 5 melee attacks strike an additional nearby opponent. (30 sec. cooldown)`,
+      },
+      "Impale": {
+        name: "Impale",
+        pos: "e3",
+        icon: icons["ability_searingarrow"],
+        maxRank: 2,
+        reqPoints: 20,
+        prereq: "Deep Wounds",
+        arrows: [{ dir: "down", from: "d3", to: "e3" }],
+        description: talentText`Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by ${[
+          10,
+          20,
+        ]}%.`,
       },
       "Weapon Mastery": {
         name: "Weapon Mastery",
@@ -266,29 +266,9 @@ export const data: TalentData = {
           40,
         ]}% chance to generate an additional Rage point when you deal melee damage with a weapon.`,
       },
-      "Blood Craze": {
-        name: "Blood Craze",
-        pos: "c1",
-        icon: icons["spell_shadow_summonimp"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Regenerates ${[
-          5,
-          10,
-          15,
-        ]}% of your total Health over 6 sec after being the victim of a critical strike.`,
-      },
-      "Piercing Howl": {
-        name: "Piercing Howl",
-        pos: "c2",
-        icon: icons["spell_shadow_deathscream"],
-        maxRank: 1,
-        reqPoints: 10,
-        description: talentText`Causes all enemies near the warrior to be dazed, reducing movement speed by 50% for 6 sec.`,
-      },
       "Dual Wield Specialization": {
         name: "Dual Wield Specialization",
-        pos: "c3",
+        pos: "c1",
         icon: icons["ability_dualwield"],
         maxRank: 5,
         reqPoints: 10,
@@ -299,6 +279,26 @@ export const data: TalentData = {
           20,
           25,
         ]}%.`,
+      },
+      "Piercing Howl": {
+        name: "Piercing Howl",
+        pos: "c2",
+        icon: icons["spell_shadow_deathscream"],
+        maxRank: 1,
+        reqPoints: 10,
+        description: talentText`Causes all enemies near the warrior to be dazed, reducing movement speed by 50% for 6 sec.`,
+      },
+      "Blood Craze": {
+        name: "Blood Craze",
+        pos: "c3",
+        icon: icons["spell_shadow_summonimp"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Regenerates ${[
+          5,
+          10,
+          15,
+        ]}% of your total Health over 6 sec after being the victim of a critical strike.`,
       },
       "Improved Battle Shout": {
         name: "Improved Battle Shout",
@@ -314,10 +314,20 @@ export const data: TalentData = {
           25,
         ]}%.`,
       },
-//placeholder dual wield
+      "Improved Berserker Rage": {
+        name: "Improved Berserker Rage",
+        pos: "d1",
+        icon: icons["spell_nature_ancestralguardian"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`The Berserker Rage ability will generate ${[
+          5,
+          10,
+        ]} rage when used.`,
+      },
       "Improved Execute": {
         name: "Improved Execute",
-        pos: "d1",
+        pos: "d2",
         icon: icons["inv_sword_48"],
         maxRank: 2,
         reqPoints: 15,
@@ -325,20 +335,6 @@ export const data: TalentData = {
           2,
           5,
         ]}.`,
-      },
-      "Improved Slam": {
-        name: "Improved Slam",
-        pos: "d2",
-        icon: icons["ability_warrior_decisivestrike"],
-        maxRank: 5,
-        reqPoints: 15,
-        description: talentText`Decreases the casting time of your Slam ability by ${[
-          0.1,
-          0.2,
-          0.3,
-          0.4,
-          0.5,
-        ]} sec.`,
       },
       "Enrage": {
         name: "Enrage",
@@ -354,16 +350,16 @@ export const data: TalentData = {
           25,
         ]}% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.`,
       },
-      "Improved Berserker Rage": {
-        name: "Improved Berserker Rage",
-        pos: "e1",
-        icon: icons["spell_nature_ancestralguardian"],
+      "Improved Intercept": {
+        name: "Improved Intercept",
+        pos: "d4",
+        icon: icons["ability_rogue_sprint"],
         maxRank: 2,
-        reqPoints: 20,
-        description: talentText`The Berserker Rage ability will generate ${[
-          5,
-          10,
-        ]} rage when used.`,
+        reqPoints: 15,
+        description: talentText`Reduces the cooldown of your Intercept abiilty by ${[
+          8,
+          16,
+        ]} sec.`,
       },
       "Death Wish": {
         name: "Death Wish",
@@ -373,15 +369,18 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`When activated, increases your physical damage by 10% and makes you immune to Fear effects, but lowers your armor and all resistances by 10%. (180 sec. cooldown)`,
       },
-      "Improved Intercept": {
-        name: "Improved Intercept",
-        pos: "e4",
-        icon: icons["ability_rogue_sprint"],
-        maxRank: 2,
+      "Improved Slam": {
+        name: "Improved Slam",
+        pos: "e3",
+        icon: icons["ability_warrior_decisivestrike"],
+        maxRank: 5,
         reqPoints: 20,
-        description: talentText`Reduces the cooldown of your Intercept abiilty by ${[
-          8,
-          16,
+        description: talentText`Decreases the casting time of your Slam ability by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
         ]} sec.`,
       },
       "Flurry": {

@@ -62,20 +62,6 @@ export const data: TalentData = {
           20,
         ]}%.`,
       },
-      "Improved Drain Life": {
-        name: "Improved Drain Life",
-        pos: "b4",
-        icon: icons["spell_shadow_lifedrain02"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Increases the Health drained by your Drain Life spell by ${[
-          4,
-          8,
-          12,
-          16,
-          20,
-        ]}%.`,
-      },
       "Improved Curse of Agony": {
         name: "Improved Curse of Agony",
         pos: "c1",
@@ -118,6 +104,20 @@ export const data: TalentData = {
         reqPoints: 15,
         description: talentText`Increases the range of your Affliction spells by ${[
           10,
+          20,
+        ]}%.`,
+      },
+      "Improved Drain Life": {
+        name: "Improved Drain Life",
+        pos: "d2",
+        icon: icons["spell_shadow_lifedrain02"],
+        maxRank: 5,
+        reqPoints: 15,
+        description: talentText`Increases the Health drained by your Drain Life spell by ${[
+          4,
+          8,
+          12,
+          16,
           20,
         ]}%.`,
       },

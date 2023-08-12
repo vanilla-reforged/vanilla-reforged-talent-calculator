@@ -271,13 +271,13 @@ export const data: TalentData = {
           5,
         ]}%`,
       },
-      "Aimed Shot": {
-        name: "Aimed Shot",
+      "Trueshot Aura": {
+        name: "Trueshot Aura",
         pos: "c1",
-        icon: icons["inv_spear_07"],
+        icon: icons["ability_trueshot"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`An aimed shot that increases ranged damage by 70 (6 sec cooldown)`,
+        description: talentText`Increase the attack power of party members within 45 yards by 15. Lasts 30 min.`,
       },
       "Improved Arcane Shot": {
         name: "Improved Arcane Shot",
@@ -381,15 +381,15 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Trueshot Aura": {
-        name: "Trueshot Aura",
+      "Aimed Shot": {
+        name: "Aimed Shot",
         pos: "g2",
-        icon: icons["ability_trueshot"],
+        icon: icons["inv_spear_07"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Barrage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increase the attack power of party members within 45 yards by 50. Lasts 30 min.`,
+        description: talentText`An aimed shot that increases ranged damage by 330 (6 sec cooldown)`,
       },
     },
   },
@@ -521,17 +521,6 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec. (5 min cooldown)`,
       },
-      "Trap Mastery": {
-        name: "Trap Mastery",
-        pos: "d1",
-        icon: icons["ability_ensnare"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Decreases the chance enemies will resist trap effects by ${[
-          5,
-          10,
-        ]}%.`,
-      },
       "Surefooted": {
         name: "Surefooted",
         pos: "d2",
@@ -547,6 +536,27 @@ export const data: TalentData = {
           10,
           15,
         ]}%`,
+      },
+      "Trap Mastery": {
+        name: "Trap Mastery",
+        pos: "d4",
+        icon: icons["ability_ensnare"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`Decreases the chance enemies will resist trap effects by ${[
+          5,
+          10,
+        ]}%.`,
+      },
+      "Explosive Shot": {
+        name: "Explosive Shot",
+        pos: "e1",
+        icon: icons["spell_fire_flamebolt"],
+        maxRank: 1,
+        reqPoints: 15,
+        prereq: "Deterrence",
+        arrows: [{ dir: "down", from: "c1", to: "e1" }],
+        description: talentText`Fires an explosive shot, exploding for $s1 additional damage to the target and nearby enemies.`,
       },
       "Killer Instinct": {
         name: "Killer Instinct",
