@@ -480,7 +480,7 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         prereq: "Lightning Reflexes",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
+        arrows: [{ dir: "down", from: "b2", to: "c2" }],
         description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point. (20 sec. cooldown)`,
       },
       "Improved Expose Armor": {
