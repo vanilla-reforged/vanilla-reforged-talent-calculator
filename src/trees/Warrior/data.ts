@@ -361,17 +361,9 @@ export const data: TalentData = {
           16,
         ]} sec.`,
       },
-      "Death Wish": {
-        name: "Death Wish",
-        pos: "e2",
-        icon: icons["spell_shadow_deathpact"],
-        maxRank: 1,
-        reqPoints: 20,
-        description: talentText`When activated, increases your physical damage by 10% and makes you immune to Fear effects, but lowers your armor and all resistances by 10%. (180 sec. cooldown)`,
-      },
       "Improved Slam": {
         name: "Improved Slam",
-        pos: "e3",
+        pos: "e1",
         icon: icons["ability_warrior_decisivestrike"],
         maxRank: 5,
         reqPoints: 20,
@@ -382,6 +374,14 @@ export const data: TalentData = {
           0.4,
           0.5,
         ]} sec.`,
+      },
+      "Death Wish": {
+        name: "Death Wish",
+        pos: "e2",
+        icon: icons["spell_shadow_deathpact"],
+        maxRank: 1,
+        reqPoints: 20,
+        description: talentText`When activated, increases your physical damage by 10% and makes you immune to Fear effects, but lowers your armor and all resistances by 10%. (180 sec. cooldown)`,
       },
       "Flurry": {
         name: "Flurry",
