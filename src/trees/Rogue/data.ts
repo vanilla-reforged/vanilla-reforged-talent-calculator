@@ -306,20 +306,6 @@ export const data: TalentData = {
           100,
         ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
       },
-      "Fist Weapon Specialization": {
-        name: "Fist Weapon Specialization",
-        pos: "d2",
-        icon: icons["inv_gauntlets_04"],
-        maxRank: 5,
-        reqPoints: 15,
-        description: talentText`Increases your chance to get a critical strike with Fist Weapons by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Lethality": {
         name: "Lethality",
         pos: "d3",
@@ -426,7 +412,7 @@ export const data: TalentData = {
           " More effective than Master of Deception (Rank 2)",
           " More effective than Master of Deception (Rank 3)",
           " More effective than Master of Deception (Rank 4)",
-        ]}In Addition increases your speed while stealthed by ${[
+        ]} In Addition increases your speed while stealthed by ${[
           3,
           6,
           9,
