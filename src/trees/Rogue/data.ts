@@ -388,7 +388,7 @@ export const data: TalentData = {
       },
       "Master of Deception": {
         name: "Master of Deception",
-        pos: "a3",
+        pos: "a2",
         icon: icons["spell_shadow_charm"],
         maxRank: 5,
         reqPoints: 0,
@@ -414,7 +414,7 @@ export const data: TalentData = {
       },
       "Improved Gouge": {
         name: "Improved Gouge",
-        pos: "a4",
+        pos: "a3",
         icon: icons["ability_gouge"],
         maxRank: 3,
         reqPoints: 0,
