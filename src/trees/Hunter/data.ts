@@ -553,7 +553,7 @@ export const data: TalentData = {
         pos: "e1",
         icon: icons["spell_fire_flamebolt"],
         maxRank: 1,
-        reqPoints: 15,
+        reqPoints: 20,
         prereq: "Clever Traps",
         arrows: [{ dir: "down", from: "c1", to: "e1" }],
         description: talentText`Fires an explosive shot, exploding for 330 additional damage to the target and nearby enemies.`,
