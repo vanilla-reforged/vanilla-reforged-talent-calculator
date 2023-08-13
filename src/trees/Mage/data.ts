@@ -46,13 +46,13 @@ export const data: TalentData = {
         icon: icons["spell_nature_starfall"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives you a ${[
-          20,
-          40,
-          60,
-          80,
-          100,
-        ]}% chance to avoid interruption caused by damage while channeling Arcane Missiles.`,
+        description: talentText`Reduces the Casting time of your Arcane Missile spell by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+        ]} sec.`,
       },
       "Magic Absorption": {
         name: "Magic Absorption",
