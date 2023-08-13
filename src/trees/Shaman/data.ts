@@ -75,6 +75,17 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
+      "Guardian Totems": {
+        name: "Guardian Totems",
+        pos: "b4",
+        icon: icons["spell_nature_stoneskintotem"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by ${[
+          25,
+          50,
+        ]}% and reduces the cooldown of your Grounding Totem by ${[1, 2]} sec.`,
+      },
       "Elemental Focus": {
         name: "Elemental Focus",
         pos: "c1",
@@ -137,18 +148,6 @@ export const data: TalentData = {
           100,
         ]}% to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.`,
       },
-      "Elemental Devastation": {
-        name: "Elemental Devastation",
-        pos: "d4",
-        icon: icons["classic_spell_fire_elementaldevastation"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Your offensive spell crits will increase your chance to get a critical strike with melee attacks by ${[
-          3,
-          6,
-          9,
-        ]}% for 10 sec.`,
-      },
       "Storm Reach": {
         name: "Storm Reach",
         pos: "e1",
@@ -201,6 +200,20 @@ export const data: TalentData = {
     background: backgrounds["enhancement"],
     icon: icons["spell_nature_lightningshield"],
     talents: {
+      "Iron Will": {
+        name: "Iron Will",
+        pos: "a1",
+        icon: icons["spell_magic_magearmor"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases your chance to resist Stun and Charm effects by an additional ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}%.`,
+      },
       "Ancestral Knowledge": {
         name: "Ancestral Knowledge",
         pos: "a2",
@@ -235,16 +248,16 @@ export const data: TalentData = {
           25
         ]}%.`,
       },
-      "Guardian Totems": {
-        name: "Guardian Totems",
+      "Improved Ghost Wolf": {
+        name: "Improved Ghost Wolf",
         pos: "b1",
-        icon: icons["spell_nature_stoneskintotem"],
+        icon: icons["spell_nature_spiritwolf"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by ${[
-          25,
-          50,
-        ]}% and reduces the cooldown of your Grounding Totem by ${[1, 2]} sec.`,
+        description: talentText`Reduces the cast time of your Ghost Wolf spell by ${[
+          1,
+          2,
+        ]} sec.`,
       },
       "Thundering Strikes": {
         name: "Thundering Strikes",
@@ -260,27 +273,32 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Ghost Wolf": {
-        name: "Improved Ghost Wolf",
+      "Weapon Mastery": {
+        name: "Weapon Mastery",
         pos: "b3",
-        icon: icons["spell_nature_spiritwolf"],
-        maxRank: 2,
+        icon: icons["ability_hunter_swiftstrike"],
+        maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cast time of your Ghost Wolf spell by ${[
-          1,
+        description: talentText`Increases the damage you deal with all weapons by ${[
           2,
-        ]} sec.`,
+          4,
+          6,
+          8,
+          10,
+        ]}%.`,
       },
-      "Improved Lightning Shield": {
-        name: "Improved Lightning Shield",
+      "Toughnes": {
+        name: "Toughness",
         pos: "b4",
-        icon: icons["spell_nature_lightningshield"],
-        maxRank: 3,
+        icon: icons["spell_holy_devotion"],
+        maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the damage done by your Lightning Shield orbs by ${[
-          25,
-          50,
-          75,
+        description: talentText`Increases your armor value from items by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Enhancing Totems": {
@@ -332,32 +350,16 @@ export const data: TalentData = {
           30,
         ]}% for your next 3 swings after dealing a critical strike.`,
       },
-      "Toughnes": {
-        name: "Toughness",
+      "Improved Lightning Shield": {
+        name: "Improved Lightning Shield",
         pos: "d3",
-        icon: icons["spell_holy_devotion"],
-        maxRank: 5,
+        icon: icons["spell_nature_lightningshield"],
+        maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases your armor value from items by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}%.`,
-      },
-      "Improved Weapon Totems": {
-        name: "Improved Weapon Totems",
-        pos: "e1",
-        icon: icons["spell_fire_enchantweapon"],
-        maxRank: 2,
-        reqPoints: 20,
-        description: talentText`Increases the melee attack power bonus of your Windfury Totem by ${[
-          15,
-          30,
-        ]}% and increases the damage caused by your Flametongue Totem by ${[
-          6,
-          12,
+        description: talentText`Increases the damage done by your Lightning Shield orbs by ${[
+          25,
+          50,
+          75,
         ]}%.`,
       },
       "Elemental Weapons": {
@@ -388,19 +390,31 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Allows you to use Two-Handed Axes and Two-Handed Maces.`,
       },
-      "Weapon Mastery": {
-        name: "Weapon Mastery",
-        pos: "f3",
-        icon: icons["ability_hunter_swiftstrike"],
-        maxRank: 5,
+      "Improved Weapon Totems": {
+        name: "Improved Weapon Totems",
+        pos: "f0",
+        icon: icons["spell_fire_enchantweapon"],
+        maxRank: 2,
         reqPoints: 25,
-        description: talentText`Increases the damage you deal with all weapons by ${[
-          2,
-          4,
+        description: talentText`Increases the melee attack power bonus of your Windfury Totem by ${[
+          15,
+          30,
+        ]}% and increases the damage caused by your Flametongue Totem by ${[
           6,
-          8,
-          10,
+          12,
         ]}%.`,
+      },
+      "Elemental Devastation": {
+        name: "Elemental Devastation",
+        pos: "f3",
+        icon: icons["classic_spell_fire_elementaldevastation"],
+        maxRank: 3,
+        reqPoints: 25,
+        description: talentText`Your offensive spell crits will increase your chance to get a critical strike with melee attacks by ${[
+          3,
+          6,
+          9,
+        ]}% for 10 sec.`,
       },
       "Stormstrike": {
         name: "Stormstrike",
@@ -445,32 +459,32 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
-      "Tidal Focus": {
-        name: "Tidal Focus",
-        pos: "a3",
-        icon: icons["spell_frost_manarecharge"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Reduces the Mana cost of your healing spells by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Imroved Reincarnation": {
         name: "Imroved Reincarnation",
-        pos: "b1",
+        pos: "a3",
         icon: icons["spell_nature_reincarnation"],
         maxRank: 2,
-        reqPoints: 5,
+        reqPoints: 0,
         description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
           10,
           20,
         ]} min and increases the amount of health and mana you reincarnate with by an additional ${[
           10,
           20,
+        ]}%.`,
+      },
+      "Tidal Focus": {
+        name: "Tidal Focus",
+        pos: "b1",
+        icon: icons["spell_frost_manarecharge"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the Mana cost of your healing spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
         ]}%.`,
       },
       "Ancestral Healing": {
