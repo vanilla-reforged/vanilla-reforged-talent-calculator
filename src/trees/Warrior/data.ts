@@ -365,14 +365,12 @@ export const data: TalentData = {
         name: "Improved Slam",
         pos: "e1",
         icon: icons["ability_warrior_decisivestrike"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 20,
         description: talentText`Decreases the casting time of your Slam ability by ${[
-          0.1,
-          0.2,
-          0.3,
-          0.4,
+          0.25,
           0.5,
+          0.75,
         ]} sec.`,
       },
       "Death Wish": {
