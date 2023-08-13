@@ -443,7 +443,7 @@ export const data: TalentData = {
           0.3,
           0.4,
           0.5,
-        ]}%.`,
+        ]} sec.`,
       },
       "Tidal Focus": {
         name: "Tidal Focus",
