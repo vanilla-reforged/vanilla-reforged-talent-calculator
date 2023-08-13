@@ -392,7 +392,7 @@ export const data: TalentData = {
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
-        pos: "f0",
+        pos: "f1",
         icon: icons["spell_fire_enchantweapon"],
         maxRank: 2,
         reqPoints: 25,
