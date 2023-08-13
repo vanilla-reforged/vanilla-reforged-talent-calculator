@@ -397,7 +397,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Burst of Faith",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Upon death, the priest becomes the Spirit of Redemption for 20 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies.`,
+        description: talentText`The priest becomes the Spirit of Redemption for 15 seconds.  The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects.  While in this form the priests healing spells are 40% more effective.  When the effect ends, the priest dies.`,
       },
     },
   },
