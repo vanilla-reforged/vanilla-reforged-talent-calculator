@@ -280,11 +280,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Increases the damage you deal with all weapons by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}%.`,
       },
       "Toughnes": {
