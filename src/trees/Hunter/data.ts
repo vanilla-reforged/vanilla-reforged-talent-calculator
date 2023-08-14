@@ -285,7 +285,7 @@ export const data: TalentData = {
         pos: "d2",
         icon: icons["ability_townwatch"],
         maxRank: 3,
-        reqPoints: 20,
+        reqPoints: 15,
         description: talentText`Increases the range of your ranged weapons by ${[
           2,
           4,
