@@ -51,17 +51,6 @@ export const data: TalentData = {
           40,
         ]}%.`,
       },
-      "Improved Eyes of the Beast": {
-        name: "Improved Eyes of the Beast",
-        pos: "b1",
-        icon: icons["ability_eyeoftheowl"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the duration of your Eyes of the Beast by ${[
-          2,
-          4,
-        ]} min.`,
-      },
       "Improved Aspect of the Monkey": {
         name: "Improved Aspect of the Monkey",
         pos: "b2",
