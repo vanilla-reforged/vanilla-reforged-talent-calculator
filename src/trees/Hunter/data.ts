@@ -62,7 +62,7 @@ export const data: TalentData = {
         pos: "b2",
         icon: icons["ability_hunter_mendpet"],
         maxRank: 1,
-        reqPoints: 0,
+        reqPoints: 5,
         description: talentText`Gives the Mend Pet spell a ${[
           100,
         ]}% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.`,
