@@ -562,14 +562,12 @@ export const data: TalentData = {
         name: "Improved Immolate",
         pos: "e2",
         icon: icons["spell_fire_immolation"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the initial damage of your Immolate spell by ${[
-          5,
           10,
-          15,
           20,
-          25,
+          30,
         ]}%.`,
       },
       "Ruin": {

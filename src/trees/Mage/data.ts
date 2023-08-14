@@ -165,16 +165,14 @@ export const data: TalentData = {
         name: "Arcane Mind",
         pos: "e3",
         icon: icons["spell_shadow_charm"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 20,
         prereq: "Arcane Resilience",
         arrows: [{ dir: "down", from: "d3", to: "e3" }],
         description: talentText`Increases your maximum Mana by ${[
-          2,
           4,
-          6,
           8,
-          10,
+          12,
         ]}%.`,
       },
       "Arcane Instability": {
