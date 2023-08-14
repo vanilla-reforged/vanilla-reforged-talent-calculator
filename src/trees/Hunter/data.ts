@@ -12,19 +12,30 @@ export const data: TalentData = {
     background: backgrounds["beast-mastery"],
     icon: icons["ability_hunter_beasttaming"],
     talents: {
-      "Improved Aspect of the Hawk": {
-        name: "Improved Aspect of the Hawk",
+      "Improved Mend Pet": {
+        name: "Improved Mend Pet",
+        pos: "a1",
+        icon: icons["ability_hunter_mendpet"],
+        maxRank: 2,
+        reqPoints: 0,
+        description: talentText`Gives the Mend Pet spell a ${[
+          50,
+          100,
+        ]}% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.`,
+      },
+      "Improved Aspect of the Monkey": {
+        name: "Improved Aspect of the Monkey",
         pos: "a2",
-        icon: icons["spell_nature_ravenform"],
+        icon: icons["ability_hunter_aspectofthemonkey"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
-          1,
+        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey by ${[
           2,
-          3,
           4,
-          5,
-        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
+          6,
+          8,
+          10,
+        ]}%.`,
       },
       "Endurance Training": {
         name: "Endurance Training",
@@ -42,44 +53,32 @@ export const data: TalentData = {
       },
       "Bestial Discipline": {
         name: "Bestial Discipline",
-        pos: "a1",
+        pos: "b1",
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 2,
-        reqPoints: 0,
+        reqPoints: 5,
         description: talentText`Increase the Focus regeneration of your pets by ${[
           20,
           40,
         ]}%.`,
       },
-      "Improved Aspect of the Monkey": {
-        name: "Improved Aspect of the Monkey",
+      "Improved Aspect of the Hawk": {
+        name: "Improved Aspect of the Hawk",
         pos: "b2",
-        icon: icons["ability_hunter_aspectofthemonkey"],
+        icon: icons["spell_nature_ravenform"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey by ${[
+        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
-        ]}%.`,
-      },
-      "Thick Hide": {
-        name: "Thick Hide",
-        pos: "b3",
-        icon: icons["inv_misc_pelt_bear_03"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Increases the Armor rating of your pets by ${[
-          10,
-          20,
-          30,
-        ]}%.`,
+          5,
+        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
       },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",
-        pos: "b4",
+        pos: "b3",
         icon: icons["ability_hunter_beastsoothe"],
         maxRank: 2,
         reqPoints: 5,
@@ -127,16 +126,17 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Improved Mend Pet": {
-        name: "Improved Mend Pet",
+      "Thick Hide": {
+        name: "Thick Hide",
         pos: "d2",
-        icon: icons["ability_hunter_mendpet"],
-        maxRank: 2,
+        icon: icons["inv_misc_pelt_bear_03"],
+        maxRank: 3,
         reqPoints: 15,
-        description: talentText`Gives the Mend Pet spell a ${[
-          50,
-          100,
-        ]}% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.`,
+        description: talentText`Increases the Armor rating of your pets by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
       },
       "Ferocity": {
         name: "Ferocity",
@@ -359,9 +359,20 @@ export const data: TalentData = {
     background: backgrounds["survival"],
     icon: icons["ability_hunter_swiftstrike"],
     talents: {
+      "Improved Feign Death": {
+        name: "Improved Feign Death",
+        pos: "a1",
+        icon: icons["ability_rogue_feigndeath"],
+        maxRank: 2,
+        reqPoints: 0,
+        description: talentText`Reduces the chance your Feign Death ability will be resisted by ${[
+          2,
+          4,
+        ]}%.`,
+      },
       "Monster Slaying": {
         name: "Monster Slaying",
-        pos: "a1",
+        pos: "a2",
         icon: icons["inv_misc_head_dragon_black"],
         maxRank: 3,
         reqPoints: 0,
@@ -375,9 +386,23 @@ export const data: TalentData = {
           3,
         ]}%.`,
       },
+      "Improved Wing Clip": {
+        name: "Improved Wing Clip",
+        pos: "a3",
+        icon: icons["ability_rogue_trip"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Wing Clip ability a ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}% chance to immobilize the target for 5 sec.`,
+      },
       "Humanoid Slaying": {
         name: "Humanoid Slaying",
-        pos: "a2",
+        pos: "b2",
         icon: icons["spell_holy_prayerofhealing"],
         maxRank: 3,
         reqPoints: 0,
@@ -391,20 +416,9 @@ export const data: TalentData = {
           3,
         ]}%.`,
       },
-      "Improved Feign Death": {
-        name: "Improved Feign Death",
-        pos: "a4",
-        icon: icons["ability_rogue_feigndeath"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Reduces the chance your Feign Death ability will be resisted by ${[
-          2,
-          4,
-        ]}%.`,
-      },
       "Entrapment": {
         name: "Entrapment",
-        pos: "b1",
+        pos: "b3",
         icon: icons["spell_nature_stranglevines"],
         maxRank: 5,
         reqPoints: 5,
@@ -415,20 +429,6 @@ export const data: TalentData = {
           20,
           25,
         ]}% chance to entrap the target, preventing them from moving for 5 sec.`,
-      },
-      "Improved Wing Clip": {
-        name: "Improved Wing Clip",
-        pos: "b3",
-        icon: icons["ability_rogue_trip"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Gives your Wing Clip ability a ${[
-          5,
-          10,
-          15,
-          20,
-          25,
-        ]}% chance to immobilize the target for 5 sec.`,
       },
       "Clever Traps": {
         name: "Clever Traps",
@@ -441,13 +441,21 @@ export const data: TalentData = {
           50,
         ]}% and the damage of Immolation and Explosive trap by ${[25, 50]}%.`,
       },
-      "Survivalist": {
-        name: "Survivalist",
+      "Surefooted": {
+        name: "Surefooted",
         pos: "c2",
-        icon: icons["spell_shadow_twilight"],
-        maxRank: 5,
+        icon: icons["ability_kick"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases total health by ${[2, 4, 6, 8, 10]}%`,
+        description: talentText`Increases hit chance by ${[
+          1,
+          2,
+          3,
+        ]}% and increases the chance movement impairing effects will be resisted by an additional ${[
+          5,
+          10,
+          15,
+        ]}%`,
       },
       "Deterrence": {
         name: "Deterrence",
@@ -457,32 +465,24 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec. (5 min cooldown)`,
       },
-      "Surefooted": {
-        name: "Surefooted",
-        pos: "d2",
-        icon: icons["ability_kick"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Increases hit chance by ${[
-          2,
-          4,
-          6,
-        ]}% and increases the chance movement impairing effects will be resisted by an additional ${[
-          5,
-          10,
-          15,
-        ]}%`,
-      },
       "Trap Mastery": {
         name: "Trap Mastery",
-        pos: "d4",
+        pos: "c4",
         icon: icons["ability_ensnare"],
         maxRank: 2,
-        reqPoints: 15,
+        reqPoints: 10,
         description: talentText`Decreases the chance enemies will resist trap effects by ${[
           5,
           10,
         ]}%.`,
+      },
+      "Survivalist": {
+        name: "Survivalist",
+        pos: "d2",
+        icon: icons["spell_shadow_twilight"],
+        maxRank: 5,
+        reqPoints: 15,
+        description: talentText`Increases total health by ${[2, 4, 6, 8, 10]}%`,
       },
       "Explosive Shot": {
         name: "Explosive Shot",
