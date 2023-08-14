@@ -174,7 +174,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_naturesblessing"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Your damaging spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.`,
+        description: talentText`Your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.`,
       },
       "Moonglow": {
         name: "Moonglow",
