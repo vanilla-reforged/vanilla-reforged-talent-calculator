@@ -215,20 +215,6 @@ export const data: TalentData = {
     background: backgrounds["marksmanship"],
     icon: icons["ability_marksmanship"],
     talents: {
-      "Improved Serpent Sting": {
-        name: "Improved Serpent Sting",
-        pos: "a2",
-        icon: icons["ability_hunter_quickshot"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Increases the damage done by your Serpent Sting by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}%.`,
-      },
       "Efficiency": {
         name: "Efficiency",
         pos: "a3",
@@ -278,20 +264,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Increase the attack power of party members within 45 yards by 15. Lasts 30 min.`,
-      },
-      "Improved Arcane Shot": {
-        name: "Improved Arcane Shot",
-        pos: "c2",
-        icon: icons["ability_impalingbolt"],
-        maxRank: 5,
-        reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Arcane Shot by ${[
-          0.5,
-          1.0,
-          1.5,
-          2.0,
-          2.5,
-        ]} sec.`,
       },
       "Improved Scorpid Sting": {
         name: "Improved Scorpid Sting",
@@ -430,20 +402,6 @@ export const data: TalentData = {
           3,
         ]}%.`,
       },
-      "Deflection": {
-        name: "Deflection",
-        pos: "a3",
-        icon: icons["ability_parry"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Increases your Parry chance by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Improved Feign Death": {
         name: "Improved Feign Death",
         pos: "a4",
@@ -468,17 +426,6 @@ export const data: TalentData = {
           32,
           40,
         ]}% chance to entrap the target, preventing them from moving for 5 sec.`,
-      },
-      "Savage Strikes": {
-        name: "Savage Strikes",
-        pos: "b2",
-        icon: icons["ability_racial_bloodrage"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the critical strike chance of Raptor Strike and Mongoose Bite by ${[
-          20,
-          40,
-        ]}%.`,
       },
       "Improved Wing Clip": {
         name: "Improved Wing Clip",

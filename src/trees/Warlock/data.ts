@@ -325,17 +325,6 @@ export const data: TalentData = {
           20,
         ]}%.`,
       },
-      "Improved Firestone": {
-        name: "Improved Firestone",
-        pos: "d4",
-        icon: icons["inv_ammo_firetar"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Increases the bonus Fire damage from Firestones and the Firestone effect by ${[
-          75,
-          150,
-        ]}%.`,
-      },
       "Improved Enslave Demon": {
         name: "Improved Enslave Demon",
         pos: "e1",
