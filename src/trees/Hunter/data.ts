@@ -12,17 +12,6 @@ export const data: TalentData = {
     background: backgrounds["beast-mastery"],
     icon: icons["ability_hunter_beasttaming"],
     talents: {
-      "Improved Mend Pet": {
-        name: "Improved Mend Pet",
-        pos: "a1",
-        icon: icons["ability_hunter_mendpet"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Gives the Mend Pet spell a ${[
-          50,
-          100,
-        ]}% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.`,
-      },
       "Improved Aspect of the Monkey": {
         name: "Improved Aspect of the Monkey",
         pos: "a2",
@@ -51,34 +40,9 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Bestial Discipline": {
-        name: "Bestial Discipline",
-        pos: "b1",
-        icon: icons["spell_nature_abolishmagic"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increase the Focus regeneration of your pets by ${[
-          20,
-          40,
-        ]}%.`,
-      },
-      "Improved Aspect of the Hawk": {
-        name: "Improved Aspect of the Hawk",
-        pos: "b2",
-        icon: icons["spell_nature_ravenform"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
-      },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",
-        pos: "b3",
+        pos: "b1",
         icon: icons["ability_hunter_beastsoothe"],
         maxRank: 2,
         reqPoints: 5,
@@ -92,6 +56,30 @@ export const data: TalentData = {
           25,
           50,
         ]}%.`,
+      },
+      "Improved Mend Pet": {
+        name: "Improved Mend Pet",
+        pos: "b2",
+        icon: icons["ability_hunter_mendpet"],
+        maxRank: 1,
+        reqPoints: 0,
+        description: talentText`Gives the Mend Pet spell a ${[
+          100,
+        ]}% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.`,
+      },
+      "Improved Aspect of the Hawk": {
+        name: "Improved Aspect of the Hawk",
+        pos: "b3",
+        icon: icons["spell_nature_ravenform"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
       },
       "Pathfinding": {
         name: "Pathfinding",
@@ -124,6 +112,17 @@ export const data: TalentData = {
           18,
           24,
           30,
+        ]}%.`,
+      },
+      "Bestial Discipline": {
+        name: "Bestial Discipline",
+        pos: "d1",
+        icon: icons["spell_nature_abolishmagic"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`Increase the Focus regeneration of your pets by ${[
+          20,
+          40,
         ]}%.`,
       },
       "Thick Hide": {
@@ -400,6 +399,17 @@ export const data: TalentData = {
           25,
         ]}% chance to immobilize the target for 5 sec.`,
       },
+      "Trap Mastery": {
+        name: "Trap Mastery",
+        pos: "b1",
+        icon: icons["ability_ensnare"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Decreases the chance enemies will resist trap effects by ${[
+          5,
+          10,
+        ]}%.`,
+      },
       "Humanoid Slaying": {
         name: "Humanoid Slaying",
         pos: "b2",
@@ -464,17 +474,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec. (5 min cooldown)`,
-      },
-      "Trap Mastery": {
-        name: "Trap Mastery",
-        pos: "c4",
-        icon: icons["ability_ensnare"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Decreases the chance enemies will resist trap effects by ${[
-          5,
-          10,
-        ]}%.`,
       },
       "Survivalist": {
         name: "Survivalist",
