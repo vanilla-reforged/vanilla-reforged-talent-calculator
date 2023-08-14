@@ -502,7 +502,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_siphonmana"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Assault the target's mind with Shadow energy, causing 53 Shadow damage.`,
+        description: talentText`Assault the target's mind with Shadow energy, causing 58 - 67 Shadow damage.`,
       },
       "Shadow Reach": {
         name: "Shadow Reach",
