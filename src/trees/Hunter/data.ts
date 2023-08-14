@@ -405,7 +405,7 @@ export const data: TalentData = {
         pos: "b2",
         icon: icons["spell_holy_prayerofhealing"],
         maxRank: 3,
-        reqPoints: 0,
+        reqPoints: 5,
         description: talentText`Increases all damage against Humanoid targets by ${[
           1,
           2,
