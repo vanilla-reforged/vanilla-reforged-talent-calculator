@@ -204,6 +204,20 @@ export const data: TalentData = {
     background: backgrounds["marksmanship"],
     icon: icons["ability_marksmanship"],
     talents: {
+      "Improved Concussive Shot": {
+        name: "Improved Concussive Shot",
+        pos: "a2",
+        icon: icons["spell_frost_stun"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Concussive Shot a ${[
+          4,
+          8,
+          12,
+          16,
+          20,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Efficiency": {
         name: "Efficiency",
         pos: "a3",
@@ -256,7 +270,7 @@ export const data: TalentData = {
       },
       "Improved Scorpid Sting": {
         name: "Improved Scorpid Sting",
-        pos: "c4",
+        pos: "c2",
         icon: icons["ability_hunter_criticalshot"],
         maxRank: 3,
         reqPoints: 10,
@@ -266,19 +280,17 @@ export const data: TalentData = {
           75,
         ]}% of the amount of Strength reduced.`,
       },
-      "Improved Concussive Shot": {
-        name: "Improved Concussive Shot",
+      "Hawk Eye": {
+        name: "Hawk Eye",
         pos: "d2",
-        icon: icons["spell_frost_stun"],
-        maxRank: 5,
-        reqPoints: 15,
-        description: talentText`Gives your Concussive Shot a ${[
+        icon: icons["ability_townwatch"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Increases the range of your ranged weapons by ${[
+          2,
           4,
-          8,
-          12,
-          16,
-          20,
-        ]}% chance to stun the target for 3 sec.`,
+          6,
+        ]} yards.`,
       },
       "Mortal Shots": {
         name: "Mortal Shots",
@@ -296,14 +308,6 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Scatter Shot": {
-        name: "Scatter Shot",
-        pos: "e1",
-        icon: icons["ability_golemstormbolt"],
-        maxRank: 1,
-        reqPoints: 20,
-        description: talentText`A short range shot that deals 50% wepon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used. (30 sec. cooldown)`,
-      },
       "Barrage": {
         name: "Barrage",
         pos: "e2",
@@ -316,17 +320,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Hawk Eye": {
-        name: "Hawk Eye",
+      "Scatter Shot": {
+        name: "Scatter Shot",
         pos: "e3",
-        icon: icons["ability_townwatch"],
-        maxRank: 3,
+        icon: icons["ability_golemstormbolt"],
+        maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the range of your ranged weapons by ${[
-          2,
-          4,
-          6,
-        ]} yards.`,
+        description: talentText`A short range shot that deals 50% wepon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used. (30 sec. cooldown)`,
       },
       "Ranged Weapon Specialization": {
         name: "Ranged Weapon Specialization",
