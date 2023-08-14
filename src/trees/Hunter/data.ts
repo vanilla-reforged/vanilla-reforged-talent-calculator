@@ -556,7 +556,7 @@ export const data: TalentData = {
         reqPoints: 20,
         prereq: "Clever Traps",
         arrows: [{ dir: "down", from: "c1", to: "e1" }],
-        description: talentText`Fires an explosive shot, exploding on 8 targets for 330 additional damage.`,
+        description: talentText`Fires an explosive shot, exploding on 5 targets for 330 additional damage.`,
       },
       "Killer Instinct": {
         name: "Killer Instinct",
