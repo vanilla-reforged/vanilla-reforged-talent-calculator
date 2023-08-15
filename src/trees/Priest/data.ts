@@ -397,7 +397,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Burst of Faith",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`The priest becomes the Spirit of Redemption for 15 seconds.  The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects.  While in this form the priests healing spells are 40% more effective.  When the effect ends, the priest dies.`,
+        description: talentText`Become the Spirit of Redemption, increasing your Healing by 15% and reducing Physical damage done to you by 15%. However, you may only cast Healing spells while in this form.`,
       },
     },
   },
