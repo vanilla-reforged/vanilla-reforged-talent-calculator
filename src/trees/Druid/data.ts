@@ -592,16 +592,13 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Improved Tranquility": {
-        name: "Improved Tranquility",
+      "Swiftmend": {
+        name: "Swiftmend",
         pos: "e4",
-        icon: icons["spell_nature_tranquility"],
-        maxRank: 2,
+        icon: icons["inv_relics_idolofrejuvenation"],
+        maxRank: 1,
         reqPoints: 20,
-        description: talentText`Reduces the threat caused by Tranquility by ${[
-          50,
-          100,
-        ]}%.`,
+    description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.`,
       },
       "Improved Regrowth": {
         name: "Improved Regrowth",
@@ -617,15 +614,15 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Swiftmend": {
-        name: "Swiftmend",
+      "Tree Form": {
+        name: "Tree Form",
         pos: "g2",
-        icon: icons["inv_relics_idolofrejuvenation"],
+        icon: icons["spell_nature_naturetouchdecay"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Tranquil Spirit",
         arrows: [{ dir: "down", from: "d2", to: "g2" }],
-        description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.`,
+        description: talentText`Transforms the Druid into a Tree of Life. While in this form all party members within 30 yards have the healing they receive increased by 3% and the damage they receive decreased by 3%. The Tree of Life can only cast healing spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of roots, snares, and freeze effects.`,
       },
     },
   },
