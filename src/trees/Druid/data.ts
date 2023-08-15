@@ -598,7 +598,7 @@ export const data: TalentData = {
         icon: icons["inv_relics_idolofrejuvenation"],
         maxRank: 1,
         reqPoints: 20,
-    description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.`,
+        description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.`,
       },
       "Improved Regrowth": {
         name: "Improved Regrowth",
