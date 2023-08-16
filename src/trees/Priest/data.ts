@@ -397,7 +397,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Burst of Faith",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Become the Spirit of Redemption, increasing your Healing by 15% and reducing Physical damage done to you by 15%. However, you may only cast Healing spells while in this form.`,
+        description: talentText`Become the Spirit of Redemption, increasing your Healing by 15% and reducing Physical damage done to you by 15%.`,
       },
     },
   },
