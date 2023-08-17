@@ -622,7 +622,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Tranquil Spirit",
         arrows: [{ dir: "down", from: "d2", to: "g2" }],
-        description: talentText`Transforms the Druid into a Tree of Life. While in this form all party members within 30 yards have the healing they receive increased by 3% and the damage they receive decreased by 3%. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms the Druid into a Tree of Life. While in this form all party members within 30 yards have their health increased by 3% and the damage they receive decreased by 3%. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
   },
