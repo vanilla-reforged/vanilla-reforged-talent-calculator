@@ -365,7 +365,7 @@ export const data: TalentData = {
         name: "Improved Slam",
         pos: "e1",
         icon: icons["ability_warrior_decisivestrike"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 20,
         description: talentText`Decreases the casting time of your Slam ability by ${[
           0.1,
