@@ -415,13 +415,13 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowbolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Your Shadow Bolt critical strikes increase Shadow damage you deal by ${[
+        description: talentText`Increases the critical strike chance of your Shadow Bolt spell by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
-        ]}%. Effect lasts 10 sec.`,
+          5,
+        ]}%.`,
       },
       "Cataclysm": {
         name: "Cataclysm",
