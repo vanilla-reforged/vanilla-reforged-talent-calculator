@@ -579,7 +579,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holysmite"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`Attack the enemy with your weapon. In addition the Holy damage you deal is increased by 10% for 10 seconds.`,
+        description: talentText`Attack the enemy with your weapon. In addition the Holy damage you deal is increased by 10% for 10 seconds. (10 sec. cooldown)`,
       },
     },
   },
