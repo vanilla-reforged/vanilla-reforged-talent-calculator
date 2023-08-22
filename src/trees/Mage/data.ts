@@ -596,7 +596,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_chillingblast"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the critical strike chance of your Frost spells spells by ${[
+        description: talentText`Increases the critical strike chance of your Frost spells by ${[
           2,
           4,
           6,

@@ -424,7 +424,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Weapons",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Attack the enemy with your weapon and grant the members of your party a 5% increase to all damage dealt for 10 sec." (10 sec cooldown)`,
+        description: talentText`Attack the enemy with your weapon and grant the members of your party a 5% increase to all damage dealt for 10 sec. (10 sec cooldown)`,
       },
     },
   },
