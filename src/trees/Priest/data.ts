@@ -508,12 +508,11 @@ export const data: TalentData = {
         name: "Shadow Reach",
         pos: "c4",
         icon: icons["spell_shadow_chilltouch"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 10,
         description: talentText`Increases the range of your Shadow spells by ${[
           10,
           20,
-          30,
         ]}%.`,
       },
       "Improved Fade": {
