@@ -152,7 +152,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_slicedice"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Your next 5 melee attacks strike an additional nearby opponent. (30 sec. cooldown)`,
+        description: talentText`Your next 5 melee attacks strike an additional nearby opponent. (30 sec cooldown)`,
       },
       "Impale": {
         name: "Impale",
@@ -189,7 +189,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Sweeping Strikes",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 85. (6 sec. cooldown)`,
+        description: talentText`A vicious strike that deals weapon damage plus 85. (6 sec cooldown)`,
       },
     },
   },
@@ -407,7 +407,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Death Wish",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Instantly attack the target causing damage equal to 45% of your attack power. In addition, the next 5 successful melee attacks will restore 10 health. This effect lasts 8 sec. (6 sec. cooldown)`,
+        description: talentText`Instantly attack the target causing damage equal to 45% of your attack power. In addition, the next 5 successful melee attacks will restore 10 health. This effect lasts 8 sec. (6 sec cooldown)`,
       },
     },
   },
@@ -497,7 +497,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Improved Bloodrage",
         arrows: [{ dir: "down", from: "b1", to: "c1" }],
-        description: talentText`When activated, this ability temporarily grants you 30% of your maximum hit points for 20 seconds. After the effect expires, the hit points are lost. (10 min cooldown)`,
+        description: talentText`When activated, this ability temporarily grants you 30% of your maximum hit points for 20 sec. After the effect expires, the hit points are lost. (10 min cooldown)`,
       },
       "Improved Shield Block": {
         name: "Improved Shield Block",
@@ -511,7 +511,7 @@ export const data: TalentData = {
           0.5,
           1,
           2,
-        ]} second.`,
+        ]} sec.`,
       },
       "Improved Revenge": {
         name: "Improved Revenge",
@@ -571,7 +571,7 @@ export const data: TalentData = {
         description: talentText`Increases the effect duration of your Shield Wall ability by ${[
           3,
           5,
-        ]} secs.`,
+        ]} sec.`,
       },
       "Concussion Blow": {
         name: "Concussion Blow",
@@ -579,7 +579,7 @@ export const data: TalentData = {
         icon: icons["ability_thunderbolt"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Stuns the opponent for 5 sec. (45 sec. cooldown)`,
+        description: talentText`Stuns the opponent for 5 sec. (45 sec cooldown)`,
       },
       "Improved Shield Bash": {
         name: "Improved Shield Bash",
@@ -614,7 +614,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Concussion Blow",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Slam the target with your shield, causing 225 to 236 damage, modified by your shield block value, and dispelling 1 magic effect on the target. Also causes a high amount of threat. (6 sec. cooldown)`,
+        description: talentText`Slam the target with your shield, causing 225 to 236 damage, modified by your shield block value, and dispelling 1 magic effect on the target. Also causes a high amount of threat. (6 sec cooldown)`,
       },
     },
   },

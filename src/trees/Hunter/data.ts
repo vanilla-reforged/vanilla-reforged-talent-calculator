@@ -49,7 +49,7 @@ export const data: TalentData = {
         description: talentText`Revive Pet's casting time is reduced by ${[
           3,
           6,
-        ]} sec, mana cost is reduced by ${[
+        ]} sec., mana cost is reduced by ${[
           40,
           80,
         ]}%, and increases the health your pet returns with by an additional ${[
@@ -184,7 +184,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.`,
+        ]}% chance to gain a 30% attack speed increase for 8 sec. after dealing a critical strike.`,
       },
       "Bestial Wrath": {
         name: "Bestial Wrath",
@@ -349,7 +349,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Barrage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`An aimed shot that increases ranged damage by 330 (6 sec cooldown)`,
+        description: talentText`An aimed shot that increases ranged damage by 330 (6 sec. cooldown)`,
       },
     },
   },
@@ -513,7 +513,7 @@ export const data: TalentData = {
         reqPoints: 20,
         prereq: "Deterrence",
         arrows: [{ dir: "down", from: "c3", to: "e3" }],
-        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 40 damage and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried. (5 sec cooldown)`,
+        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 40 damage and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried. (5 sec. cooldown)`,
       },
       "Lightening Reflexes": {
         name: "Lightening Reflexes",
@@ -537,7 +537,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Killer Instinct",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes 0 Nature damage over 12 sec. Only one Sting per Hunter can be active on the target at a time. (120 sec. cooldown)`,
+        description: talentText`A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes 0 Nature damage over 12 sec.\n\nOnly one Sting per Hunter can be active on the target at a time. (2 min cooldown)`,
       },
     },
   },

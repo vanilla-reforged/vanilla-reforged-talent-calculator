@@ -323,7 +323,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_bear"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec. (15 sec. cooldown)`,
+        description: talentText`Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec. (15 sec cooldown)`,
       },
       "Sharpened Claws": {
         name: "Sharpened Claws",
@@ -598,7 +598,7 @@ export const data: TalentData = {
         icon: icons["inv_relics_idolofrejuvenation"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.`,
+        description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec of Rejuvenation or 18 sec of Regrowth.`,
       },
       "Improved Regrowth": {
         name: "Improved Regrowth",
@@ -622,7 +622,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Tranquil Spirit",
         arrows: [{ dir: "down", from: "d2", to: "g2" }],
-        description: talentText`Transforms the Druid into a Tree of Life. While in this form all party members within 30 yards have their health increased by 3% and the damage they receive decreased by 3%. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms the Druid into a Tree of Life. While in this form all party members within 30 yards have their health increased by 3% and the damage they receive decreased by 3%.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
   },

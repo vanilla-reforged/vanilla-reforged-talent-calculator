@@ -75,7 +75,7 @@ export const data: TalentData = {
         description: talentText`Reduces the cooldown of your Blessing of Protection by ${[
           60,
           120,
-        ]} sec. and increases the duration of your Blessing of Freedom by ${[
+        ]} sec and increases the duration of your Blessing of Freedom by ${[
           3,
           6,
         ]} sec.`,
@@ -154,7 +154,7 @@ export const data: TalentData = {
         reqPoints: 20,
         prereq: "Illumination",
         arrows: [{ dir: "down", from: "d2", to: "e2" }],
-        description: talentText`When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance. (120 sec. cooldown)`,
+        description: talentText`When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance. (2 min cooldown)`,
       },
       "Lasting Judgement": {
         name: "Lasting Judgement",
@@ -190,7 +190,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally. (30 sec. cooldown)`,
+        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally. (30 sec cooldown)`,
       },
     },
   },
@@ -281,7 +281,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_innerfire"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Consecrates the land beneath the Paladin, doing 64 Holy damage over 8 sec to enemies who enter the area. (8 sec. cooldown)`,
+        description: talentText`Consecrates the land beneath the Paladin, doing 64 Holy damage over 8 sec to enemies who enter the area. (8 sec cooldown)`,
       },
       "Improved Righteous Fury": {
         name: "Improved Righteous Fury",
@@ -390,7 +390,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blessing of Sanctuary",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges. (10 sec. cooldown)`,
+        description: talentText`Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges. (10 sec cooldown)`,
       },
     },
   },
@@ -505,7 +505,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 90 to 95 Holy damage, 137 to 146 if the target is stunned or incapacitated.`,
+        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec. Unleashing this Seal's energy will judge an enemy, instantly causing 90 to 95 Holy damage, 137 to 146 if the target is stunned or incapacitated.`,
       },
       "Eye for an Eye": {
         name: "Eye for an Eye",
@@ -547,7 +547,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids. (45 sec. cooldown)`,
+        description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids. (45 sec cooldown)`,
       },
       "Sanctity Aura": {
         name: "Sanctity Aura",
@@ -571,7 +571,7 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]}% bonus to Physical and Holy damage you deal for 8 sec. after dealing a critical strike from a weapon swing, spell, or ability.`,
+        ]}% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.`,
       },
       "Crusader Strike": {
         name: "Crusader Strike",
@@ -579,7 +579,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holysmite"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`Attack the enemy with your weapon. In addition the Holy damage you deal is increased by 10% for 10 seconds. (10 sec. cooldown)`,
+        description: talentText`Attack the enemy with your weapon. In addition the Holy damage you deal is increased by 10% for 10 sec. (10 sec cooldown)`,
       },
     },
   },

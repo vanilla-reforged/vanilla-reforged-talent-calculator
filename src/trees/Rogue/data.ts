@@ -167,7 +167,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When used, adds 2 combo points to your target. You must add to or use those combo points within 15 sec. or the combo points are lost. (120 sec. cooldown)`,
+        description: talentText`When used, adds 2 combo points to your target. You must add to or use those combo points within 15 sec or the combo points are lost. (2 min cooldown)`,
       },
       "Improved Kidney Shot": {
         name: "Improved Kidney Shot",
@@ -203,7 +203,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Seal Fate",
         arrows: [{ dir: "down", from: "f2", to: "g2" }],
-        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%. (120 sec. cooldown)`,
+        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%. (2 min cooldown)`,
       },
     },
   },
@@ -297,7 +297,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Deflection",
         arrows: [{ dir: "down", from: "b2", to: "c2" }],
-        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec. (6 sec. cooldown)`,
+        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec. (6 sec cooldown)`,
       },
       "Dual Wield Specialization": {
         name: "Dual Wield Specialization",
@@ -346,7 +346,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_punishingblow"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (120 sec. cooldown)`,
+        description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (2 min cooldown)`,
       },
       "Aggression": {
         name: "Aggression",
@@ -487,7 +487,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Lightning Reflexes",
         arrows: [{ dir: "down", from: "b2", to: "c2" }],
-        description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point. (20 sec. cooldown)`,
+        description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point. (20 sec cooldown)`,
       },
       "Improved Expose Armor": {
         name: "Improved Expose Armor",
