@@ -415,13 +415,13 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowbolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by ${[
+        description: talentText`Your Shadow Bolt critical strikes increase Shadow damage you deal by ${[
+          2,
           4,
+          6,
           8,
-          12,
-          16,
-          20,
-        ]}% until 4 non-periodic damage sources are applied. Effect lasts a maximum of 12 sec.`,
+          10,
+        ]}%. Effect lasts 10 seconds.`,
       },
       "Cataclysm": {
         name: "Cataclysm",
