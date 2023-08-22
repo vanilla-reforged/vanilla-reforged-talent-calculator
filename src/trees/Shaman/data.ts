@@ -424,7 +424,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Weapons",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Gives you an extra attack. In addition, the Nature damage you deal is increased by 20%. Lasts 10 sec. (20 sec. cooldown)`,
+        description: talentText`Attack the enemy with your weapon. In addition the Nature damage you deal is increased by 10% for 10 seconds.`,
       },
     },
   },

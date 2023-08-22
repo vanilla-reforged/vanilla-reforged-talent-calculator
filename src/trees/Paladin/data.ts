@@ -549,6 +549,14 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids. (45 sec. cooldown)`,
       },
+      "Sanctity Aura": {
+        name: "Sanctity Aura",
+        pos: "e4",
+        icon: icons["spell_holy_mindvision"],
+        maxRank: 1,
+        reqPoints: 20,
+        description: talentText`Increases Holy damage done by party members within 30 yards by 10%. Players may only have one Aura on them per Paladin at any one time.`,
+      },
       "Vengence": {
         name: "Vengence",
         pos: "f2",
@@ -565,13 +573,13 @@ export const data: TalentData = {
           15,
         ]}% bonus to Physical and Holy damage you deal for 8 sec. after dealing a critical strike from a weapon swing, spell, or ability.`,
       },
-      "Sanctity Aura": {
-        name: "Sanctity Aura",
+      "Crusader Strike": {
+        name: "Crusader Strike",
         pos: "g2",
-        icon: icons["spell_holy_mindvision"],
+        icon: icons["spell_holy_holysmite"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`Increases Holy damage done by party members within 30 yards by 20%. Players may only have one Aura on them per Paladin at any one time.`,
+        description: talentText`Attack the enemy with your weapon. In addition the Holy damage you deal is increased by 10% for 10 seconds.`,
       },
     },
   },
