@@ -167,7 +167,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec. or the combo points are lost. (120 sec. cooldown)`,
+        description: talentText`When used, adds 2 combo points to your target. You must add to or use those combo points within 15 sec. or the combo points are lost. (120 sec. cooldown)`,
       },
       "Improved Kidney Shot": {
         name: "Improved Kidney Shot",
