@@ -140,11 +140,11 @@ export const data: TalentData = {
         icon: icons["ability_backstab"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Your critical strikes cause the opponent to bleed, instantly dealing ${[
+        description: talentText`Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by ${[
+          2,
           4,
-          8,
-          12,
-        ]}% of your melee weapon's average damage.`,
+          6,
+        ]}%.`,
       },
       "Sweeping Strikes": {
         name: "Sweeping Strikes",
