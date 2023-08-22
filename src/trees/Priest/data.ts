@@ -134,8 +134,8 @@ export const data: TalentData = {
         prereq: "Divine Fury",
         arrows: [{ dir: "down", from: "b2", to: "d2" }],
         description: talentText`Increases the damage of your Smite and Holy Fire spells by ${[
-          15,
-          30,
+          10,
+          20,
         ]}%.`,
       },
       "Improved Mana Burn": {
