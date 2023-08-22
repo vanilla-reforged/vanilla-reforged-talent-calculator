@@ -533,19 +533,13 @@ export const data: TalentData = {
         icon: icons["spell_shadow_blackplague"],
         maxRank: 5,
         reqPoints: 15,
-        description: talentText`Increases your Shadow damage by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}%. In addition your Shadow damage spells have a ${[
+        description: talentText`Your Shadow damage spells have a ${[
           20,
           40,
           60,
           80,
           100,
-        ]}% chance to grant the members of your party the Shadow Weaving effect. The Shadow Weaving effect increases the damage dealt by 1% and lasts 15 sec. Stacks up to 5 times.`,
+        ]}% chance to grant the members of your party the Shadow Weaving effect. The Shadow Weaving effect increases the damage dealt by 2% and lasts 15 sec. Stacks up to 5 times.`,
       },
       "Silence": {
         name: "Silence",
