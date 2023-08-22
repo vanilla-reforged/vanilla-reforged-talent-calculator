@@ -596,13 +596,13 @@ export const data: TalentData = {
         icon: icons["spell_frost_chillingblast"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Gives your Frost damage spells a ${[
-          20,
-          40,
-          60,
-          80,
-          100,
-        ]}% chance to apply the Winter's Chill effect to you, which increases the chance your Frost spells will critically hit by 2% for 15 sec. Stacks up to 5 times.`,
+        description: talentText`Increases the critical strike chance of your Frost spells spells by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}%.`,
       },
       "Ice Barrier": {
         name: "Ice Barrier",
