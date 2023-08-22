@@ -523,8 +523,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Decreases the cooldown of your Fade ability by ${[
-          4,
-          8,
+          15,
+          30,
         ]} sec.`,
       },
       "Shadow Weaving": {
