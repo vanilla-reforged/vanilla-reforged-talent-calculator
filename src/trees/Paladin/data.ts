@@ -557,8 +557,8 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Increases Holy damage done by party members within 30 yards by 10%. Players may only have one Aura on them per Paladin at any one time.`,
       },
-      "Vengence": {
-        name: "Vengence",
+      "Vengeance": {
+        name: "Vengeance",
         pos: "f2",
         icon: icons["ability_racial_avatar"],
         maxRank: 5,
