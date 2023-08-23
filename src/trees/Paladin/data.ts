@@ -579,7 +579,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holysmite"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`Attack the enemy with your weapon and grant the members of your party a 4% increase to all damage dealt for 10 sec. (10 sec cooldown)`,
+        description: talentText`Attack the enemy with your weapon and grant the members of your party a 3% increase to all damage dealt for 10 sec. (10 sec cooldown)`,
       },
     },
   },

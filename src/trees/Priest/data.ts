@@ -577,7 +577,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to grant the members of your party the Shadow Weaving effect. The Shadow Weaving effect increases the damage dealt by 1.5% and lasts 15 sec. Stacks up to 5 times.`,
+        ]}% chance to grant the members of your party the Shadow Weaving effect. The Shadow Weaving effect increases the damage dealt by 1% and lasts 15 sec. Stacks up to 3 times.`,
       },
       "Shadowform": {
         name: "Shadowform",
