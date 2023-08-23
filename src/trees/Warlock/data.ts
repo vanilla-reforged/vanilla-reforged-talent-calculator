@@ -115,11 +115,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 15,
         description: talentText`Increases the Health drained by your Drain Life spell by ${[
+          2,
           4,
+          6,
           8,
-          12,
-          16,
-          20,
+          10,
         ]}%.`,
       },
       "Siphon Life": {
