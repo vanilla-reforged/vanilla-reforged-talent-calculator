@@ -458,11 +458,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Gives your Destruction spells a ${[
-          7,
-          14,
-          21,
-          28,
-          35,
+          4,
+          8,
+          12,
+          16,
+          20,
         ]}% chance to daze the target for 5 sec.`,
       },
       "Improved Firebolt": {
