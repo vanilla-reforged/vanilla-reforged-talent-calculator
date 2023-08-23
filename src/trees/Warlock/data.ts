@@ -230,8 +230,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 5,
         description: talentText`Increases the amount of Health transfered by your Health Funnel spell by ${[
+          20,
           40,
-          80,
         ]}%.`,
       },
       "Improved Voidwalker": {
