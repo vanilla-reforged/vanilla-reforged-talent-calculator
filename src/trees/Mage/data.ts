@@ -184,9 +184,9 @@ export const data: TalentData = {
         prereq: "Presence of Mind",
         arrows: [{ dir: "down", from: "e2", to: "f2" }],
         description: talentText`Increases your spell damage critical strike chance by ${[
+          1,
           2,
-          4,
-          6,
+          3,
         ]}%.`,
       },
       "Arcane Power": {
