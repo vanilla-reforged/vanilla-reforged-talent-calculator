@@ -196,7 +196,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_forceofnature"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their chance to hit with spells and spell critical chance increased by 3%. In addition all resistances are increased by 30. The Moonkin can only cast Balance spells while shapeshifted. The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their chance to hit with spells and spell critical chance increased by 3%. In addition all resistances are increased by 30. The Moonkin can only cast Balance spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
   },
