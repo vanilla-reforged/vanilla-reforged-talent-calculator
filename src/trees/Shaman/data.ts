@@ -326,13 +326,13 @@ export const data: TalentData = {
         icon: icons["spell_nature_mirrorimage"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases your chance to dodge by an additional ${[
+        description: talentText`Increases your Defense skill by ${[
           2,
           4,
           6,
           8,
           10,
-        ]}%.`,
+        ]}.`,
       },
       "Flurry": {
         name: "Flurry",

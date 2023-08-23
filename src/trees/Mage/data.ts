@@ -289,9 +289,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the critical strike chance of your Flamestrike spell by ${[
-          15,
-          30,
-          45,
+          7,
+          14,
+          21,
         ]}%.`,
       },
       "Pyroblast": {
