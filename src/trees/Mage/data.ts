@@ -46,7 +46,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_starfall"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the Casting time of your Arcane Missile spell by ${[
+        description: talentText`Reduces the Casting time of your Arcane Missiles spell by ${[
           0.1,
           0.2,
           0.3,
