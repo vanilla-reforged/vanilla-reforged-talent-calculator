@@ -175,6 +175,14 @@ export const data: TalentData = {
           12,
         ]}%.`,
       },
+      "Arcane Impact": {
+        name: "Arcane Impact",
+        pos: "e4",
+        icon: icons["spell_nature_starfall"],
+        maxRank: 1,
+        reqPoints: 20,
+        description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%`,
+      },
       "Arcane Instability": {
         name: "Arcane Instability",
         pos: "f2",

@@ -177,30 +177,24 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Crusade": {
+        name: "Crusade",
+        pos: "e3",
+        icon: icons["spell_holy_holysmite"],
+        maxRank: 1,
+        reqPoints: 20,
+        description: talentText`Increases the critical strike damage bonus of your Holy spells by 100%`,
+      },
       "Improved Power Word: Shield": {
         name: "Improved Power Word: Shield",
-        pos: "e3",
+        pos: "f3",
         icon: icons["spell_holy_powerwordshield"],
         maxRank: 3,
-        reqPoints: 20,
-        description: talentText`Increases damage absorbed by your Power Word: Shield by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
-      },
-      "Mental Strength": {
-        name: "Mental Strength",
-        pos: "f3",
-        icon: icons["spell_nature_enchantarmor"],
-        maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases your maximum Mana by ${[
-          4,
-          8,
-          12,
-          16,
+        description: talentText`Increases damage absorbed by your Power Word: Shield by ${[
           20,
+          40,
+          60,
         ]}%.`,
       },
       "Power Infusion": {
@@ -526,19 +520,19 @@ export const data: TalentData = {
           30,
         ]} sec.`,
       },
-      "Shadow Weaving": {
-        name: "Shadow Weaving",
+      "Darkness": {
+        name: "Darkness",
         pos: "d3",
-        icon: icons["spell_shadow_blackplague"],
+        icon: icons["spell_shadow_twilight"],
         maxRank: 5,
         reqPoints: 15,
-        description: talentText`Your Shadow damage spells have a ${[
-          20,
-          40,
-          60,
-          80,
-          100,
-        ]}% chance to grant the members of your party the Shadow Weaving effect. The Shadow Weaving effect increases the damage dealt by 1.5% and lasts 15 sec. Stacks up to 5 times.`,
+        description: talentText`Increases your Shadow spell damage by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}%.`,
       },
       "Silence": {
         name: "Silence",
@@ -571,19 +565,19 @@ export const data: TalentData = {
           20,
         ]}%.`,
       },
-      "Darkness": {
-        name: "Darkness",
+      "Shadow Weaving": {
+        name: "Shadow Weaving",
         pos: "f3",
-        icon: icons["spell_shadow_twilight"],
+        icon: icons["spell_shadow_blackplague"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases your Shadow spell damage by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}%.`,
+        description: talentText`Your Shadow damage spells have a ${[
+          20,
+          40,
+          60,
+          80,
+          100,
+        ]}% chance to grant the members of your party the Shadow Weaving effect. The Shadow Weaving effect increases the damage dealt by 1.5% and lasts 15 sec. Stacks up to 5 times.`,
       },
       "Shadowform": {
         name: "Shadowform",
