@@ -77,7 +77,7 @@ export const data: TalentData = {
       },
       "Natural Shapeshifter": {
         name: "Natural Shapeshifter",
-        pos: "b4",
+        pos: "b3",
         icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 5,
@@ -124,7 +124,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_purge"],
         maxRank: 5,
         reqPoints: 15,
-        prereq: "Improved Moonfire",
+        prereq: "Moonflow",
         arrows: [{ dir: "down", from: "b2", to: "d2" }],
         description: talentText`Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by ${[
           20,
