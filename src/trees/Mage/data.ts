@@ -153,6 +153,14 @@ export const data: TalentData = {
         reqPoints: 15,
         description: talentText`Increases your armor by an amount equal to 150% of your Intellect.`,
       },
+      "Arcane Impact": {
+        name: "Arcane Impact",
+        pos: "e1",
+        icon: icons["spell_nature_starfall"],
+        maxRank: 1,
+        reqPoints: 20,
+        description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%`,
+      },
       "Presence of Mind": {
         name: "Presence of Mind",
         pos: "e2",
@@ -174,14 +182,6 @@ export const data: TalentData = {
           8,
           12,
         ]}%.`,
-      },
-      "Arcane Impact": {
-        name: "Arcane Impact",
-        pos: "e4",
-        icon: icons["spell_nature_starfall"],
-        maxRank: 1,
-        reqPoints: 20,
-        description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%`,
       },
       "Arcane Instability": {
         name: "Arcane Instability",
