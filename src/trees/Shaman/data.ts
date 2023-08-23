@@ -70,9 +70,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the damage done by your Fire Totems by ${[
-          10,
-          20,
-          30,
+          7,
+          14,
+          21,
         ]}%.`,
       },
       "Guardian Totems": {
