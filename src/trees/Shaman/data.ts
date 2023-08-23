@@ -294,11 +294,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Increases your armor value from items by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
       "Enhancing Totems": {
