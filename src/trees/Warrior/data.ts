@@ -295,9 +295,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Regenerates ${[
-          5,
-          10,
-          15,
+          1,
+          2,
+          3,
         ]}% of your total Health over 6 sec after being the victim of a critical strike.`,
       },
       "Improved Battle Shout": {
