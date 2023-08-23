@@ -141,9 +141,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by ${[
+          1,
           2,
-          4,
-          6,
+          3,
         ]}%.`,
       },
       "Sweeping Strikes": {
