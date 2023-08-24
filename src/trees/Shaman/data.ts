@@ -183,15 +183,15 @@ export const data: TalentData = {
           1,
         ]} sec.`,
       },
-      "Elemental Mastery": {
-        name: "Elemental Mastery",
+      "Zhunderstorm": {
+        name: "Thunderstorm",
         pos: "g2",
         icon: icons["spell_nature_wispheal"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, this spell gives your next Fire, Frost, or Nature damage spell a 100% critical strike chance and reduces the mana cost by 100%. (2 min cooldown)`,
+        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and knocking them back. (45 sec cooldown)`,
       },
     },
   },
