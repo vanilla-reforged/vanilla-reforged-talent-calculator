@@ -183,7 +183,7 @@ export const data: TalentData = {
           1,
         ]} sec.`,
       },
-      "Zhunderstorm": {
+      "Thunderstorm": {
         name: "Thunderstorm",
         pos: "g2",
         icon: icons["spell_nature_wispheal"],
@@ -191,7 +191,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and knocking them back. (45 sec cooldown)`,
+        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and knocking enemy players back. (45 sec cooldown)`,
       },
     },
   },
