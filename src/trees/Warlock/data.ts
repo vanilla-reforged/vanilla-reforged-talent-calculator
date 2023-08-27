@@ -400,7 +400,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Soul Link",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min. The effect is canceled if any Demon is summoned.\n\nImp: Increases your Fire damage by 15%.\n\nVoidwalker: Restores 3% of your total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 15%.\n\nFelhunter: Restores 2% of total Mana every 4 sec.`,
+        description: talentText`When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min.\n\nImp: Increases your Fire damage by 15%.\n\nVoidwalker: Restores 3% of your total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 15%.\n\nFelhunter: Restores 2% of total Mana every 4 sec.`,
       },
     },
   },
