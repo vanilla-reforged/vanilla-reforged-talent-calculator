@@ -576,7 +576,7 @@ export const data: TalentData = {
       "Crusader Strike": {
         name: "Crusader Strike",
         pos: "g2",
-        icon: icons["spell_holy_holysmite"],
+        icon: icons["ability_rogue_ambush"],
         maxRank: 1,
         reqPoints: 30,
         description: talentText`A vicious strike that deals weapon damage plus 118. In addition, whenever you Judge an enemy, all party members gain a 3% increase to all damage dealt for 10 sec. (10 sec cooldown)`,
