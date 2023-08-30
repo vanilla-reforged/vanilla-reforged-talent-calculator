@@ -424,7 +424,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Weapons",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 118. In addition, whenever you Shock an enemy, all party members gain a 3% increase to all damage dealt for 10 sec. (10 sec cooldown)`,
+        description: talentText`A vicious strike that deals weapon damage plus 118. In addition, whenever you cast Earth Shock on an enemy, all party members gain a 3% increase to all damage dealt for 10 sec. (10 sec cooldown)`,
       },
     },
   },
