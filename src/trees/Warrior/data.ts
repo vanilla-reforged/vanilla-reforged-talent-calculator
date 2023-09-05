@@ -42,10 +42,10 @@ export const data: TalentData = {
       },
       "Surefooted": {
         name: "Surefooted",
-        pos: "b2",
+        pos: "b3",
         icon: icons["ability_kick"],
         maxRank: 3,
-        reqPoints: 10,
+        reqPoints: 5,
         description: talentText`Increases hit chance by ${[
           1,
           2,
