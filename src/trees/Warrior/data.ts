@@ -402,7 +402,7 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]} rage point${["", "s", "s"]}.`,
+        ]} rage point.`,
       },
       "Last Stand": {
         name: "Last Stand",
@@ -440,7 +440,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]} rage point${["", "s", "s"]}.`,
+        ]} rage point.`,
       },
       "Improved Shield Wall": {
         name: "Improved Shield Wall",
