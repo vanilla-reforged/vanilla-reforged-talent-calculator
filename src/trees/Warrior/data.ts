@@ -310,7 +310,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases your physical damage by 10% and makes you immune to Fear effects, but lowers your armor and all resistances by 10%. (180 sec. cooldown)`,
+        description: talentText`When activated, increases your physical damage by 10% and makes you immune to Fear effects, but lowers your armor and all resistances by 10%. (3 min cooldown)`,
       },
       "Flurry": {
         name: "Flurry",
@@ -390,18 +390,18 @@ export const data: TalentData = {
           5,
         ]}.`,
       },
-      "Improved Thunder Clap": {
-        name: "Improved Thunder Clap",
+      "Improved Sunder Armor": {
+        name: "Improved Sunder Armor",
         pos: "b3",
-        icon: icons["ability_thunderclap"],
+        icon: icons["ability_warrior_sunder"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cost of your Thunder Clap ability by ${[
+        description: talentText`Reduces the cost of your Sunder Armor ability by ${[
+          1,
+          2,
           3,
-          6,
-          9,
-          12,
-          15,
+          4,
+          5,
         ]} rage point.`,
       },
       "Last Stand": {
@@ -428,30 +428,30 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-      "Improved Sunder Armor": {
-        name: "Improved Sunder Armor",
+      "Improved Thunder Clap": {
+        name: "Improved Thunder Clap",
         pos: "c3",
-        icon: icons["ability_warrior_sunder"],
+        icon: icons["ability_thunderclap"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the cost of your Sunder Armor ability by ${[
-          1,
-          2,
+        description: talentText`Reduces the cost of your Thunder Clap ability by ${[
           3,
-          4,
-          5,
-        ]} rage point.`,
+          6,
+          9,
+          12,
+          15,
+        ]} rage points.`,
       },
-      "Improved Shield Wall": {
-        name: "Improved Shield Wall",
+      "Improved Shield Bash": {
+        name: "Improved Shield Bash",
         pos: "d2",
-        icon: icons["ability_warrior_shieldwall"],
+        icon: icons["ability_warrior_shieldbash"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the effect duration of your Shield Wall ability by ${[
-          3,
-          5,
-        ]} sec.`,
+        description: talentText`Gives your Shield Bash ability a ${[
+          50,
+          100,
+        ]}% chance to silence the target for 3 sec.`,
       },
       "Improved Taunt": {
         name: "Improved Taunt",
@@ -472,16 +472,16 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Stuns the opponent for 5 sec. (45 sec cooldown)`,
       },
-      "Improved Shield Bash": {
-        name: "Improved Shield Bash",
+      "Improved Shield Wall": {
+        name: "Improved Shield Wall",
         pos: "e3",
-        icon: icons["ability_warrior_shieldbash"],
+        icon: icons["ability_warrior_shieldwall"],
         maxRank: 2,
         reqPoints: 20,
-        description: talentText`Gives your Shield Bash ability a ${[
-          50,
-          100,
-        ]}% chance to silence the target for 3 sec.`,
+        description: talentText`Increases the effect duration of your Shield Wall ability by ${[
+          3,
+          5,
+        ]} sec.`,
       },
       "One-Handed Specialization": {
         name: "One-Handed Specialization",
