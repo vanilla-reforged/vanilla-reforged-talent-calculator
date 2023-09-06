@@ -33,11 +33,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the Health of your pets by ${[
-          6,
-          12,
-          18,
-          24,
-          30,
+          5,
+          10,
+          15,
+          20,
+          25,
         ]}%.`,
       },
       "Improved Revive Pet": {
