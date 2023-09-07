@@ -118,7 +118,7 @@ export const data: TalentData = {
         icon: icons["ability_backstab"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the critical strike damage bonus of your Bloodthirst, Cleave, Execute, Heroic Strike, Mortal Blow, Mortal Strike and Overpower abilities by  ${[
+        description: talentText`Increases the critical strike damage bonus of your Bloodthirst, Cleave, Execute, Heroic Strike, Mortal Strike and Overpower abilities by  ${[
           10,
           20,
           30,
@@ -166,7 +166,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Sweeping Strikes",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec. (6 sec cooldown)`,
+        description: talentText`A vicious strike that deals weapon damage plus 85. (6 sec cooldown)`,
       },
     },
   },
