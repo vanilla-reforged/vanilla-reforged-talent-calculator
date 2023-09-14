@@ -174,11 +174,9 @@ export const data: TalentData = {
         icon: icons["spell_shadow_chilltouch"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "opportunity",
+        prereq: "Opportunity",
         arrows: [{ dir: "down", from: "f2", to: "g2" }],
-        description: talentText`Your critical strikes from abilities that add combo points have a ${[
-          100,
-        ]}% chance to add an additional combo point.`,
+        description: talentText`Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.`,
       },
     },
   },
