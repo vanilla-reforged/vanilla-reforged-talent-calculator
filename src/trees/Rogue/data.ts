@@ -47,11 +47,13 @@ export const data: TalentData = {
         name: "Improved Backstab",
         pos: "b2",
         icon: icons["ability_backstab"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 5,
         description: talentText`Increases the critical strike chance of your Backstab ability by ${[
-          10,
-          20,
+          6,
+          12,
+          18,
+          24,
           30,
         ]}%.`,
       },
@@ -166,7 +168,6 @@ export const data: TalentData = {
     background: backgrounds["combat"],
     icon: icons["ability_backstab"],
     talents: {
-//placeholder improved gouge
       "Improved Sinister Strike": {
         name: "Improved Sinister Strike",
         pos: "a2",
@@ -312,7 +313,6 @@ export const data: TalentData = {
           5,
         ]}% chance to get an extra attack on the same target after dealing damage.`,
       },
-//placeholder aggression
       "Adrenaline Rush": {
         name: "Adrenaline Rush",
         pos: "g2",
