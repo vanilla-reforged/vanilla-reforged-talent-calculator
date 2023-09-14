@@ -372,7 +372,13 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}%.${["", " More effective than Heightened Senses (Rank 1)."]}`,
+        ]}%.${[
+          "",
+          " More effective than Heightened Senses (Rank 1)",
+          " More effective than Heightened Senses (Rank 2)",
+          " More effective than Heightened Senses (Rank 3)",
+          " More effective than Heightened Senses (Rank 4)",
+        ]}`,
       },
       "Endurance": {
         name: "Endurance",
