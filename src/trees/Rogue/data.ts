@@ -135,18 +135,6 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Improved Kidney Shot": {
-        name: "Improved Kidney Shot",
-        pos: "e3",
-        icon: icons["ability_rogue_kidneyshot"],
-        maxRank: 3,
-        reqPoints: 20,
-        description: talentText`While affected by your Kidney Shot ability, the target receives an additional ${[
-          5,
-          10,
-          15,
-        ]}% damage from all sources.`,
-      },
       "Seal Fate": {
         name: "Seal Fate",
         pos: "f2",
