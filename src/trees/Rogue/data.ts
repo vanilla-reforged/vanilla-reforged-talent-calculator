@@ -103,6 +103,17 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
+      "Improved Expose Armor": {
+        name: "Improved Expose Armor",
+        pos: "c4",
+        icon: icons["ability_warrior_riposte"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Increases the armor reduced by your Expose Armor ability by ${[
+          25,
+          50,
+        ]}%.`,
+      },
       "Serrated Blades": {
         name: "Serrated Blades",
         pos: "d2",
@@ -180,19 +191,19 @@ export const data: TalentData = {
     background: backgrounds["combat"],
     icon: icons["ability_backstab"],
     talents: {
-      "Improved Sinister Strike": {
-        name: "Improved Sinister Strike",
+      "Precision": {
+        name: "Precision",
         pos: "a2",
-        icon: icons["spell_shadow_ritualofsacrifice"],
+        icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the Energy cost of your Sinister Strike ability by ${[
+        description: talentText`Increases your chance to hit with melee weapons by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}.`,
+        ]}%.`,
       },
       "Malice": {
         name: "Malice",
@@ -208,19 +219,19 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Precision": {
-        name: "Precision",
+      "Improved Sinister Strike": {
+        name: "Improved Sinister Strike",
         pos: "b3",
-        icon: icons["ability_marksmanship"],
+        icon: icons["spell_shadow_ritualofsacrifice"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases your chance to hit with melee weapons by ${[
+        description: talentText`Reduces the Energy cost of your Sinister Strike ability by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}%.`,
+        ]}.`,
       },
       "Improved Slice and Dice": {
         name: "Improved Slice and Dice",
@@ -234,17 +245,9 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Riposte": {
-        name: "Riposte",
-        pos: "c2",
-        icon: icons["ability_warrior_challange"],
-        maxRank: 1,
-        reqPoints: 10,
-        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec. (6 sec cooldown)`,
-      },
       "Dual Wield Specialization": {
         name: "Dual Wield Specialization",
-        pos: "c3",
+        pos: "c2",
         icon: icons["ability_dualwield"],
         maxRank: 5,
         reqPoints: 10,
@@ -434,16 +437,13 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point. (20 sec cooldown)`,
       },
-      "Improved Expose Armor": {
-        name: "Improved Expose Armor",
+      "Riposte": {
+        name: "Riposte",
         pos: "c3",
-        icon: icons["ability_warrior_riposte"],
-        maxRank: 2,
+        icon: icons["ability_warrior_challange"],
+        maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the armor reduced by your Expose Armor ability by ${[
-          25,
-          50,
-        ]}%.`,
+        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec. (6 sec cooldown)`,
       },
       "Setup": {
         name: "Setup",
