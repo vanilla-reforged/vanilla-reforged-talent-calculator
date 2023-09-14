@@ -12,17 +12,6 @@ export const data: TalentData = {
     background: backgrounds["assassination"],
     icon: icons["ability_rogue_eviscerate"],
     talents: {
-      "Murder": {
-        name: "Murder",
-        pos: "a1",
-        icon: icons["spell_shadow_deathscream"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by ${[
-          1,
-          2,
-        ]}%.`,
-      },
       "Remorseless Attacks": {
         name: "Remorseless Attacks",
         pos: "a2",
@@ -46,7 +35,7 @@ export const data: TalentData = {
           12,
           16,
           20,
-        ]} and increases the damage of your Eviscerate ability by ${[
+        ]}% and increases the damage of your Eviscerate ability by ${[
           1,
           2,
           3,
@@ -54,21 +43,6 @@ export const data: TalentData = {
           5,
         ]}%`,
       },
-      "Sleight of Hand": {
-        name: "Sleight of Hand",
-        pos: "a4",
-        icon: icons["ability_rogue_feint"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Reduces the chance you are critically hit by melee and ranged attacks by ${[
-          1,
-          2,
-        ]}% and increases the threat reduction of your Feint ability by ${[
-          10,
-          20,
-        ]}%.`,
-      },
-//placeholder ruthelessnes
       "Improved Backstab": {
         name: "Improved Backstab",
         pos: "b2",
@@ -161,14 +135,6 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Premeditation": {
-        name: "Premeditation",
-        pos: "e2",
-        icon: icons["spell_shadow_possession"],
-        maxRank: 1,
-        reqPoints: 20,
-        description: talentText`When used, adds 2 combo points to your target. You must add to or use those combo points within 15 sec or the combo points are lost. (2 min cooldown)`,
-      },
       "Improved Kidney Shot": {
         name: "Improved Kidney Shot",
         pos: "e3",
@@ -249,20 +215,6 @@ export const data: TalentData = {
           "1.5 min",
         ]}.`,
       },
-      "Deflection": {
-        name: "Deflection",
-        pos: "b2",
-        icon: icons["ability_parry"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Increases your Parry chance by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Precision": {
         name: "Precision",
         pos: "b3",
@@ -295,8 +247,6 @@ export const data: TalentData = {
         icon: icons["ability_warrior_challange"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Deflection",
-        arrows: [{ dir: "down", from: "b2", to: "c2" }],
         description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec. (6 sec cooldown)`,
       },
       "Dual Wield Specialization": {
@@ -442,20 +392,6 @@ export const data: TalentData = {
           60,
         ]}% chance to add a combo point to your target.`,
       },
-      "Lightning Reflexes": {
-        name: "Lightning Reflexes",
-        pos: "b2",
-        icon: icons["spell_nature_invisibilty"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Increases your Dodge chance by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Elusiveness": {
         name: "Elusiveness",
         pos: "b3",
@@ -578,16 +514,6 @@ export const data: TalentData = {
           8,
           10,
         ]}%.`,
-      },
-      "Preparation": {
-        name: "Preparation",
-        pos: "g2",
-        icon: icons["spell_shadow_antishadow"],
-        maxRank: 1,
-        reqPoints: 30,
-        prereq: "Hemorrhage",
-        arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, this ability immediately finishes the cooldown on your other Rogue abilities. (7.5 min cooldown)`,
       },
     },
   },
