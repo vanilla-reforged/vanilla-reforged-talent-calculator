@@ -14,7 +14,7 @@ export const data: TalentData = {
     talents: {
       "Remorseless Attacks": {
         name: "Remorseless Attacks",
-        pos: "a2",
+        pos: "a1",
         icon: icons["ability_fiegndead"],
         maxRank: 2,
         reqPoints: 0,
@@ -22,6 +22,20 @@ export const data: TalentData = {
           20,
           40,
         ]}% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike. Lasts 20 sec.`,
+      },
+      "Improved Backstab": {
+        name: "Improved Backstab",
+        pos: "a2",
+        icon: icons["ability_backstab"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases the critical strike chance of your Backstab ability by ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}%.`,
       },
       "Opportunity": {
         name: "Opportunity",
@@ -54,20 +68,6 @@ export const data: TalentData = {
           40,
           60,
         ]}% chance to add a combo point to your target.`,
-      },
-      "Improved Backstab": {
-        name: "Improved Backstab",
-        pos: "b2",
-        icon: icons["ability_backstab"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Increases the critical strike chance of your Backstab ability by ${[
-          6,
-          12,
-          18,
-          24,
-          30,
-        ]}%.`,
       },
       "Improved Poisons": {
         name: "Improved Poisons",
@@ -150,7 +150,7 @@ export const data: TalentData = {
       },
       "Improved Eviscerate": {
         name: "Improved Eviscerate",
-        pos: "e1",
+        pos: "e3",
         icon: icons["ability_rogue_eviscerate"],
         maxRank: 3,
         reqPoints: 20,
@@ -233,18 +233,6 @@ export const data: TalentData = {
           5,
         ]}.`,
       },
-      "Improved Slice and Dice": {
-        name: "Improved Slice and Dice",
-        pos: "c1",
-        icon: icons["ability_rogue_slicedice"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Increases the duration of your Slice and Dice ability by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
-      },
       "Dual Wield Specialization": {
         name: "Dual Wield Specialization",
         pos: "c2",
@@ -252,13 +240,25 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         prereq: "Precision",
-        arrows: [{ dir: "down", from: "b3", to: "c3" }],
+        arrows: [{ dir: "down", from: "b2", to: "c2" }],
         description: talentText`Increases damage done by your offhand weapon by ${[
           10,
           20,
           30,
           40,
           50,
+        ]}%.`,
+      },
+      "Improved Slice and Dice": {
+        name: "Improved Slice and Dice",
+        pos: "c3",
+        icon: icons["ability_rogue_slicedice"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases the duration of your Slice and Dice ability by ${[
+          15,
+          30,
+          45,
         ]}%.`,
       },
       "Lethality": {
@@ -275,16 +275,16 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Improved Sprint": {
-        name: "Improved Sprint",
+      "Improved Kick": {
+        name: "Improved Kick",
         pos: "d3",
-        icon: icons["ability_rogue_sprint"],
+        icon: icons["ability_kick"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Gives a ${[
+        description: talentText`Gives your Kick ability a ${[
           50,
           100,
-        ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
+        ]}% chance to silence the target for 2 sec.`,
       },
       "Blade Flurry": {
         name: "Blade Flurry",
@@ -469,16 +469,16 @@ export const data: TalentData = {
           100,
         ]}% chance to return to stealth mode after using your Sap ability.`,
       },
-      "Improved Kick": {
-        name: "Improved Kick",
+      "Improved Sprint": {
+        name: "Improved Sprint",
         pos: "d3",
-        icon: icons["ability_kick"],
+        icon: icons["ability_rogue_sprint"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Gives your Kick ability a ${[
+        description: talentText`Gives a ${[
           50,
           100,
-        ]}% chance to silence the target for 2 sec.`,
+        ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
       },
       "Hemorrhage": {
         name: "Hemorrhage",
