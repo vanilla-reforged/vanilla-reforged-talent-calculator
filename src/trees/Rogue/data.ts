@@ -150,13 +150,7 @@ export const data: TalentData = {
           12,
           16,
           20,
-        ]}% and increases the damage of your Eviscerate ability by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%`,
+        ]}%.`,
       },
       "Seal Fate": {
         name: "Seal Fate",
