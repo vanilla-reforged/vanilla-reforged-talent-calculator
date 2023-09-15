@@ -442,10 +442,10 @@ export const data: TalentData = {
       },
       "Setup": {
         name: "Setup",
-        pos: "c1",
+        pos: "d1",
         icon: icons["spell_nature_mirrorimage"],
         maxRank: 2,
-        reqPoints: 10,
+        reqPoints: 15,
         description: talentText`Gives you a ${[
           25,
           50,
