@@ -216,12 +216,12 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Gives you a ${[
-          8,
-          16,
-          24,
-          32,
-          40,
-        ]}% chance to generate an additional Energy point when you deal melee damage with a weapon.`,
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}% chance to generate 10 additional Energy points when you deal melee damage with a weapon.`,
       },
       "Relentless Strikes": {
         name: "Relentless Strikes",
