@@ -54,13 +54,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Vigor": {
-        name: "Vigor",
+      "Premeditation": {
+        name: "Premeditation",
         pos: "c1",
-        icon: icons["spell_nature_earthbindtotem"],
+        icon: icons["spell_shadow_possession"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your finishing moves have a 20% chance per combo point to add an additional combo point.`,
+        description: talentText`When used, adds 1 combo points to your target.  You must add to or use those combo points within 10 sec or the combo points are lost. `,
       },
       "Improved Ambush": {
         name: "Improved Ambush",
