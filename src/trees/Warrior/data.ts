@@ -252,13 +252,13 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Earpiercing Howl": {
-        name: "Earpiercing Howl",
+      "Earsplitting Howl": {
+        name: "Earsplitting Howl",
         pos: "c3",
         icon: icons["spell_shadow_summonimp"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes all enemies near the warrior to be disoriented for 2 sec. (30 sec cooldown)`,
+        description: talentText`Causes all enemies near the warrior to be disoriented for 2 sec. (60 sec cooldown)`,
       },
       "Improved Cleave": {
         name: "Improved Cleave",
