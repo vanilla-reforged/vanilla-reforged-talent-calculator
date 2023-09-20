@@ -397,14 +397,12 @@ export const data: TalentData = {
         name: "Improved Sunder Armor",
         pos: "b3",
         icon: icons["ability_warrior_sunder"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 5,
         description: talentText`Reduces the cost of your Sunder Armor ability by ${[
           1,
           2,
           3,
-          4,
-          5,
         ]} rage point.`,
       },
       "Last Stand": {
@@ -445,6 +443,17 @@ export const data: TalentData = {
           15,
         ]} rage points.`,
       },
+      "Improved Revenge": {
+        name: "Improved Revenge",
+        pos: "c4",
+        icon: icons["ability_warrior_revenge"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Increases the critical strike chance of your Revenge ability by ${[
+          25,
+          50,
+        ]}%.`,
+      },
       "Improved Shield Bash": {
         name: "Improved Shield Bash",
         pos: "d2",
@@ -455,6 +464,18 @@ export const data: TalentData = {
           50,
           100,
         ]}% chance to silence the target for 3 sec.`,
+      },
+      "Primal Fury": {
+        name: "Primal Fury",
+        pos: "d3",
+        icon: icons["ability_racial_cannibalize"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Gives you ${[
+          33,
+          66,
+          100,
+        ]} chance to gain an additional 5 Rage anytime you get a critical strike.`,
       },
       "Improved Taunt": {
         name: "Improved Taunt",
@@ -479,11 +500,12 @@ export const data: TalentData = {
         name: "Improved Shield Wall",
         pos: "e3",
         icon: icons["ability_warrior_shieldwall"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the effect duration of your Shield Wall ability by ${[
-          3,
-          5,
+          2,
+          4,
+          6,
         ]} sec.`,
       },
       "One-Handed Specialization": {
