@@ -269,10 +269,10 @@ export const data: TalentData = {
         icon: icons["ability_warrior_cleave"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Increases the bonus damage done by your Cleave ability by ${[
-          60,
-          120,
-        ]}%.`,
+        description: talentText`Reduces the Rage cost of your Cleave ability by ${[
+          2,
+          5,
+        ]}.`,
       },
       "Improved Intercept": {
         name: "Improved Intercept",
