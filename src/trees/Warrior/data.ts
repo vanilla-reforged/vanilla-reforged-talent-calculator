@@ -252,23 +252,25 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Earsplitting Howl": {
-        name: "Earsplitting Howl",
+      "Improved Whirlwind": {
+        name: "Improved Whirlwind",
         pos: "c3",
-        icon: icons["spell_shadow_summonimp"],
-        maxRank: 1,
+        icon: icons["ability_whirlwind"],
+        maxRank: 2,
         reqPoints: 10,
-        description: talentText`Causes all enemies near the warrior to be disoriented for 2 sec. (60 sec cooldown)`,
+        description: talentText`Reduces the Rage cost of your Whirlwind ability by ${[
+          2,
+          5,
+        ]}.`,
       },
       "Improved Cleave": {
         name: "Improved Cleave",
         pos: "c4",
         icon: icons["ability_warrior_cleave"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 10,
         description: talentText`Increases the bonus damage done by your Cleave ability by ${[
-          40,
-          80,
+          60,
           120,
         ]}%.`,
       },
@@ -476,17 +478,6 @@ export const data: TalentData = {
           66,
           100,
         ]} chance to gain an additional 5 Rage anytime you get a critical strike.`,
-      },
-      "Improved Taunt": {
-        name: "Improved Taunt",
-        pos: "d3",
-        icon: icons["spell_nature_reincarnation"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Reduces the cooldown of your Taunt ability by ${[
-          1,
-          2,
-        ]} sec.`,
       },
       "Concussion Blow": {
         name: "Concussion Blow",
