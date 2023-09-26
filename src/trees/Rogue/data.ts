@@ -486,11 +486,12 @@ export const data: TalentData = {
         name: "Dirty Deeds",
         pos: "e3",
         icon: icons["spell_shadow_summonsuccubus"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 20,
         description: talentText`Reduces the Energy cost of your Cheap Shot and Garrote abilities by ${[
+          5,
           10,
-          20,
+          15,
         ]}.`,
       },
       "Deadliness": {
