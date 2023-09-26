@@ -477,7 +477,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]} chance to gain an additional 5 Rage anytime you get a critical strike.`,
+        ]}% chance to gain an additional 5 Rage anytime you get a critical strike.`,
       },
       "Concussion Blow": {
         name: "Concussion Blow",

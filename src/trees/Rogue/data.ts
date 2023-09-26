@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When used, adds 1 combo point to your target.  You must add to or use those combo points within 10 sec or the combo points are lost. `,
+        description: talentText`When used, adds 1 combo point to your target. You must add to or use this combo point within 10 sec or the combo point is lost. (1 min cooldown)`,
       },
       "Improved Ambush": {
         name: "Improved Ambush",
