@@ -62,18 +62,18 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`When used, adds 1 combo point to your target. You must add to or use this combo point within 10 sec or the combo point is lost. (1 min cooldown)`,
       },
-      "Improved Ambush": {
-        name: "Improved Ambush",
+      "Dissection": {
+        name: "Dissection",
         pos: "c2",
-        icon: icons["ability_rogue_ambush"],
+        icon: icons["inv_weapon_shortblade_05"],
         maxRank: 2,
         reqPoints: 10,
         prereq: "Improved Backstab",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Increases the critical strike chance of your Ambush ability by ${[
-          25,
-          50,
-        ]}%.`,
+        description: talentText`Reduces the Energy cost of your Backstab ability by ${[
+          2,
+          5,
+        ]}.`,
       },
       "Improved Poisons": {
         name: "Improved Poisons",
@@ -89,16 +89,17 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Dissection": {
-        name: "Dissection",
+      "Improved Ambush": {
+        name: "Improved Ambush",
         pos: "c4",
-        icon: icons["inv_weapon_shortblade_05"],
+        icon: icons["ability_rogue_ambush"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Reduces the Energy cost of your Backstab ability by ${[
-          2,
-          5,
-        ]}.`,
+
+        description: talentText`Increases the critical strike chance of your Ambush ability by ${[
+          25,
+          50,
+        ]}%.`,
       },
       "Vile Poisons": {
         name: "Vile Poisons",
