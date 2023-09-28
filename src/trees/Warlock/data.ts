@@ -51,7 +51,7 @@ export const data: TalentData = {
       },
       "Improved Corruption": {
         name: "Improved Corruption",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_shadow_abominationexplosion"],
         maxRank: 5,
         reqPoints: 5,
@@ -119,7 +119,7 @@ export const data: TalentData = {
         name: "Improved Drain Life",
         pos: "d2",
         icon: icons["spell_shadow_lifedrain02"],
-        maxRank: 5,
+        maxRank: 2,
         reqPoints: 15,
         description: talentText`Increases the Health drained by your Drain Life spell by ${[
           5,
