@@ -117,7 +117,7 @@ export const data: TalentData = {
       },
       "Improved Drain Life": {
         name: "Improved Drain Life",
-        pos: "d2",
+        pos: "d1",
         icon: icons["spell_shadow_lifedrain02"],
         maxRank: 2,
         reqPoints: 15,
@@ -128,7 +128,7 @@ export const data: TalentData = {
       },
       "Improved Curse of Agony": {
         name: "Improved Curse of Agony",
-        pos: "d3",
+        pos: "d2",
         icon: icons["spell_shadow_curseofsargeras"],
         maxRank: 3,
         reqPoints: 15,
