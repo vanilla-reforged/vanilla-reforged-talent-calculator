@@ -12,17 +12,16 @@ export const data: TalentData = {
     background: backgrounds["affliction"],
     icon: icons["spell_shadow_deathcoil"],
     talents: {
-      "Improved Curse of Agony": {
-        name: "Improved Curse of Agony",
+      "Improved Drain Soul": {
+        name: "Improved Drain Soul",
         pos: "a1",
-        icon: icons["spell_shadow_curseofsargeras"],
-        maxRank: 3,
+        icon: icons["spell_shadow_haunting"],
+        maxRank: 2,
         reqPoints: 0,
-        description: talentText`Increases the damage done by your Curse of Agony by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. For the duration, your Mana will regenerate at a 50% rate while casting.`,
       },
       "Suppression": {
         name: "Suppression",
@@ -37,17 +36,6 @@ export const data: TalentData = {
           4,
           5,
         ]}%.`,
-      },
-      "Improved Drain Soul": {
-        name: "Improved Drain Soul",
-        pos: "a3",
-        icon: icons["spell_shadow_haunting"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Gives you a ${[
-          50,
-          100,
-        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. For the duration, your Mana will regenerate at a 50% rate while casting.`,
       },
       "Improved Fear": {
         name: "Improved Fear",
@@ -75,40 +63,9 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-      "Calamity": {
-        name: "Calamity",
-        pos: "b2",
-        icon: icons["spell_shadow_impphaseshift"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Reduces the mana cost of your Affliction spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
-        ]}% and reduces the threat caused by your Affliction spells by N%. ${[
-          5,
-          10,
-          15,
-          20,
-          25,
-        ]}%.`,
-      },
-      "Improved Life Tap": {
-        name: "Improved Life Tap",
-        pos: "b3",
-        icon: icons["spell_shadow_burningspirit"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the amount of Mana awarded by your Life Tap spell by ${[
-          10,
-          20,
-        ]}%.`,
-      },
       "Fel Concentration": {
         name: "Fel Concentration",
-        pos: "c2",
+        pos: "c1",
         icon: icons["spell_shadow_fingerofdeath"],
         maxRank: 2,
         reqPoints: 10,
@@ -116,6 +73,19 @@ export const data: TalentData = {
           50,
           100,
         ]}% chance to avoid interruption caused by damage while channeling the Drain Life, Drain Mana, or Drain Soul spell.`,
+      },
+      "Grim Reach": {
+        name: "Grim Reach",
+        pos: "c2",
+        icon: icons["spell_shadow_callofbone"],
+        maxRank: 2,
+        reqPoints: 10,
+        prereq: "Suppression",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
+        description: talentText`Increases the range of your Affliction spells by ${[
+          10,
+          20,
+        ]}%.`,
       },
       "Amplify Curse": {
         name: "Amplify Curse",
@@ -125,15 +95,24 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Increases the effect of your next Curse of Agony by 50%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
       },
-      "Grim Reach": {
-        name: "Grim Reach",
-        pos: "d1",
-        icon: icons["spell_shadow_callofbone"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Increases the range of your Affliction spells by ${[
+      "Calamity": {
+        name: "Calamity",
+        pos: "c4",
+        icon: icons["spell_shadow_impphaseshift"],
+        maxRank: 5,
+        reqPoints: 10,
+        description: talentText`Reduces the mana cost of your Affliction spells by ${[
+          5,
           10,
+          15,
           20,
+          25,
+        ]}% and reduces the threat caused by your Affliction spells by ${[
+          5,
+          10,
+          15,
+          20,
+          25,
         ]}%.`,
       },
       "Improved Drain Life": {
@@ -147,13 +126,17 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Siphon Life": {
-        name: "Siphon Life",
-        pos: "e2",
-        icon: icons["spell_shadow_requiem"],
-        maxRank: 1,
-        reqPoints: 20,
-        description: talentText`Transfers 15 health from the target to the caster every 3 sec. Lasts 30 sec.`,
+      "Improved Curse of Agony": {
+        name: "Improved Curse of Agony",
+        pos: "d3",
+        icon: icons["spell_shadow_curseofsargeras"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Increases the damage done by your Curse of Agony by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
       },
       "Blight": {
         name: "Blight",
@@ -177,29 +160,12 @@ export const data: TalentData = {
         arrows: [{ dir: "down", from: "c3", to: "e3" }],
         description: talentText`Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.`,
       },
-      "Improved Curse of Exhaustion": {
-        name: "Improved Curse of Exhaustion",
-        pos: "e4",
-        icon: icons["spell_shadow_grimward"],
-        maxRank: 4,
-        reqPoints: 20,
-        prereq: "Curse of Exhaustion",
-        arrows: [{ dir: "right", from: "e3", to: "e4" }],
-        description: talentText`Increases the speed reduction of your Curse of Exhaustion by ${[
-          5,
-          10,
-          15,
-          20,
-        ]}%.`,
-      },
       "Shadow Mastery": {
         name: "Shadow Mastery",
-        pos: "f2",
+        pos: "f3",
         icon: icons["spell_shadow_shadetruesight"],
         maxRank: 5,
         reqPoints: 25,
-        prereq: "Siphon Life",
-        arrows: [{ dir: "down", from: "e2", to: "f2" }],
         description: talentText`Increases the damage dealt or life drained by your Shadow spells by ${[
           2,
           4,
@@ -214,6 +180,8 @@ export const data: TalentData = {
         icon: icons["spell_shadow_twilight"],
         maxRank: 1,
         reqPoints: 30,
+        prereq: "Blight",
+        arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`Gives your Corruption and Drain Life spells a 10% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.`,
       },
     },
@@ -461,12 +429,18 @@ export const data: TalentData = {
         icon: icons["spell_fire_windsofwoe"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the Mana cost of your Destruction spells by ${[
-          1,
-          2,
-          3,
-          4,
+        description: talentText`Reduces the mana cost of your Destruction spells by ${[
           5,
+          10,
+          15,
+          20,
+          25,
+        ]}% and reduces the threat caused by your Destruction spells by ${[
+          5,
+          10,
+          15,
+          20,
+          25,
         ]}%.`,
       },
       "Bane": {
@@ -475,7 +449,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Shadow Bolt and Immolate spells by ${[
+        description: talentText`Reduces the casting time of your Immolate, Searing Pain and Shadow Bolt spells by ${[
           0.1,
           0.2,
           0.3,
@@ -483,19 +457,17 @@ export const data: TalentData = {
           0.5,
         ]} sec and your Soul Fire spell by ${[0.4, 0.8, 1.2, 1.6, 2]} sec.`,
       },
-      "Aftermath": {
-        name: "Aftermath",
+      "Scorched Earth": {
+        name: "Scorched Earth",
         pos: "b3",
         icon: icons["spell_fire_fire"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 5,
-        description: talentText`Gives your Destruction spells a ${[
+        description: talentText`Increases the damage of your Hellfire, Searing Pain and Soul Fire spells by ${[
+          2,
           4,
-          8,
-          12,
-          16,
-          20,
-        ]}% chance to daze the target for 5 sec.`,
+          6,
+        ]}%.`,
       },
       "Improved Firebolt": {
         name: "Improved Firebolt",
@@ -597,9 +569,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the initial damage of your Immolate spell by ${[
+          5,
           10,
-          20,
-          30,
+          15,
         ]}%.`,
       },
       "Ruin": {
