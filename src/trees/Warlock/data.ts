@@ -31,11 +31,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Reduces the chaance for enemies to resist your Affliction spells by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}%.`,
       },
       "Improved Drain Soul": {
@@ -47,7 +47,19 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. In addition your Mana may continue to regenerate while casting at 50% of normal.`,
+        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. For the duration, your Mana will regenerate at a 50% rate while casting.`,
+      },
+      "Improved Fear": {
+        name: "Improved Fear",
+        pos: "a3",
+        icon: icons["spell_shadow_possession"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Reduces the casting time of your Fear spell by ${[
+          0.1,
+          0.2,
+          0.3,
+        ]}sec.`,
       },
       "Improved Corruption": {
         name: "Improved Corruption",
@@ -63,7 +75,26 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-
+      "Calamity": {
+        name: "Calamity",
+        pos: "b2",
+        icon: icons["spell_shadow_impphaseshift"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the mana cost of your Affliction spells by ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}% and reduces the threat caused by your Affliction spells by N%. ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}%.`,
+      },
       "Improved Life Tap": {
         name: "Improved Life Tap",
         pos: "b3",
@@ -79,13 +110,10 @@ export const data: TalentData = {
         name: "Fel Concentration",
         pos: "c2",
         icon: icons["spell_shadow_fingerofdeath"],
-        maxRank: 5,
+        maxRank: 2,
         reqPoints: 10,
         description: talentText`Gives you a ${[
-          20,
-          40,
-          60,
-          80,
+          50,
           100,
         ]}% chance to avoid interruption caused by damage while channeling the Drain Life, Drain Mana, or Drain Soul spell.`,
       },
@@ -95,7 +123,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the effect of your next Curse of Weakness or Curse of Agony by 50%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (3 min cooldown)`,
+        description: talentText`Increases the effect of your next Curse of Agony by 50%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
       },
       "Grim Reach": {
         name: "Grim Reach",
@@ -115,10 +143,7 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 15,
         description: talentText`Increases the Health drained by your Drain Life spell by ${[
-          2,
-          4,
-          6,
-          8,
+          5,
           10,
         ]}%.`,
       },
@@ -130,6 +155,18 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Transfers 15 health from the target to the caster every 3 sec. Lasts 30 sec.`,
       },
+      "Blight": {
+        name: "Blight",
+        pos: "e2",
+        icon: icons["spell_shadow_requiem"],
+        maxRank: e,
+        reqPoints: 20,
+        description: talentText`Increases the damage of your Corruption, Drain Life and Shadow Bolt spells by ${[
+          2,
+          4,
+          6,
+        ]}%.`,
+      },
       "Curse of Exhaustion": {
         name: "Curse of Exhaustion",
         pos: "e3",
@@ -138,7 +175,7 @@ export const data: TalentData = {
         reqPoints: 20,
         prereq: "Amplify Curse",
         arrows: [{ dir: "down", from: "c3", to: "e3" }],
-        description: talentText`Reduces the target's movement speed by 10% for 12 sec. Only one Curse per Warlock can be active on any one target.`,
+        description: talentText`Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.`,
       },
       "Improved Curse of Exhaustion": {
         name: "Improved Curse of Exhaustion",
