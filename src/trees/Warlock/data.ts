@@ -142,7 +142,7 @@ export const data: TalentData = {
         name: "Blight",
         pos: "e2",
         icon: icons["spell_shadow_requiem"],
-        maxRank: e,
+        maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the damage of your Corruption, Drain Life and Shadow Bolt spells by ${[
           2,
