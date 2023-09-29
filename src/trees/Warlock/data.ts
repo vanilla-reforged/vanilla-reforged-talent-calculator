@@ -93,7 +93,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the effect of your next Curse of Agony by 50%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
+        description: talentText`Increases the effect of your next Curse of Agony by 80%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
       },
       "Calamity": {
         name: "Calamity",
