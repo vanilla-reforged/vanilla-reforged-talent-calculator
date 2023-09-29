@@ -47,7 +47,7 @@ export const data: TalentData = {
           0.1,
           0.2,
           0.3,
-        ]}sec.`,
+        ]} sec.`,
       },
       "Improved Corruption": {
         name: "Improved Corruption",
