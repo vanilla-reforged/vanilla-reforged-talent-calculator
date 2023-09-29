@@ -29,7 +29,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unsummonbuilding"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the chaance for enemies to resist your Affliction spells by ${[
+        description: talentText`Increases your chance to hit with your Affliction spells by ${[
           1,
           2,
           3,
