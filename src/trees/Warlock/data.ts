@@ -63,13 +63,13 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-      "Amplify Curse": {
-        name: "Amplify Curse",
+      "Curse of Exhaustion": {
+        name: "Curse of Exhaustion",
         pos: "c1",
-        icon: icons["spell_shadow_contagion"],
+        icon: icons["spell_shadow_grimward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the effect of your next Curse of Agony by 80%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
+        description: talentText`Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.`,
       },
       "Grim Reach": {
         name: "Grim Reach",
@@ -138,13 +138,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Curse of Exhaustion": {
-        name: "Curse of Exhaustion",
+      "Amplify Curse": {
+        name: "Amplify Curse",
         pos: "e2",
-        icon: icons["spell_shadow_grimward"],
+        icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.`,
+        description: talentText`Increases the effect of your next Curse of Agony by 100%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
       },
       "Blight": {
         name: "Blight",
@@ -178,7 +178,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_twilight"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Curse of Exhaustion",
+        prereq: "Amplify Curse",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`Gives your Corruption and Drain Life spells a 10% chance to cause you to enter a Shadow Trance state after damaging the opponent. The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.`,
       },
