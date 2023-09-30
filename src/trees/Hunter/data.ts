@@ -143,7 +143,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 15,
-        description: talentText`Increases the critical strike chance of your pets by ${[
+        description: talentText`Increases the melee and spell critical strike chance of your pets by ${[
           5,
           10,
           15,
