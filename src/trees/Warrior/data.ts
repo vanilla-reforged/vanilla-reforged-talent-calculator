@@ -108,7 +108,7 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Reduces the Rage cost of your Execute ability by ${[
-          2,
+          3,
           5,
         ]}.`,
       },
@@ -259,7 +259,7 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Reduces the Rage cost of your Whirlwind ability by ${[
-          2,
+          3,
           5,
         ]}.`,
       },
@@ -270,7 +270,7 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Reduces the Rage cost of your Cleave ability by ${[
-          2,
+          3,
           5,
         ]}.`,
       },

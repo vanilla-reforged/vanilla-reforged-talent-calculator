@@ -71,7 +71,7 @@ export const data: TalentData = {
         prereq: "Improved Backstab",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the Energy cost of your Backstab ability by ${[
-          2,
+          3,
           5,
         ]}.`,
       },
