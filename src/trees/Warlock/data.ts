@@ -463,7 +463,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_corpseexplode"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Focused Destruction",
+        prereq: "Seek and Destroy",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Destruction spells by ${[
           10,
