@@ -12,20 +12,6 @@ export const data: TalentData = {
     background: backgrounds["beast-mastery"],
     icon: icons["ability_hunter_beasttaming"],
     talents: {
-      "Improved Aspect of the Monkey": {
-        name: "Improved Aspect of the Monkey",
-        pos: "a2",
-        icon: icons["ability_hunter_aspectofthemonkey"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}%.`,
-      },
       "Endurance Training": {
         name: "Endurance Training",
         pos: "a3",
@@ -55,41 +41,6 @@ export const data: TalentData = {
         ]}%, and increases the health your pet returns with by an additional ${[
           25,
           50,
-        ]}%.`,
-      },
-      "Improved Mend Pet": {
-        name: "Improved Mend Pet",
-        pos: "b2",
-        icon: icons["ability_hunter_mendpet"],
-        maxRank: 1,
-        reqPoints: 5,
-        description: talentText`Gives the Mend Pet spell a ${[
-          100,
-        ]}% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.`,
-      },
-      "Improved Aspect of the Hawk": {
-        name: "Improved Aspect of the Hawk",
-        pos: "b3",
-        icon: icons["spell_nature_ravenform"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
-      },
-      "Pathfinding": {
-        name: "Pathfinding",
-        pos: "c1",
-        icon: icons["ability_mount_jungletiger"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by ${[
-          5,
-          10,
         ]}%.`,
       },
       "Bestial Swiftness": {
@@ -125,18 +76,6 @@ export const data: TalentData = {
           40,
         ]}%.`,
       },
-      "Thick Hide": {
-        name: "Thick Hide",
-        pos: "d2",
-        icon: icons["inv_misc_pelt_bear_03"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Increases the Armor rating of your pets by ${[
-          10,
-          20,
-          30,
-        ]}%.`,
-      },
       "Ferocity": {
         name: "Ferocity",
         pos: "d3",
@@ -169,22 +108,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec. (1 min cooldown)`,
-      },
-      "Frenzy": {
-        name: "Frenzy",
-        pos: "f3",
-        icon: icons["inv_misc_monsterclaw_03"],
-        maxRank: 5,
-        reqPoints: 25,
-        prereq: "Ferocity",
-        arrows: [{ dir: "down", from: "d3", to: "f3" }],
-        description: talentText`Gives your pet a ${[
-          20,
-          40,
-          60,
-          80,
-          100,
-        ]}% chance to gain a 30% attack speed increase for 8 sec. after dealing a critical strike.`,
       },
       "Bestial Wrath": {
         name: "Bestial Wrath",
