@@ -42,7 +42,7 @@ export const data: TalentData = {
       },
       "Endurance Training": {
         name: "Endurance Training",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_nature_reincarnation"],
         maxRank: 5,
         reqPoints: 5,
