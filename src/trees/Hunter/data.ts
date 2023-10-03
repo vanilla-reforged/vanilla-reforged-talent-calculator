@@ -98,7 +98,7 @@ export const data: TalentData = {
           3,
           6,
           9,
-        ]} sec., mana cost is reduced by ${[
+        ]} sec, mana cost is reduced by ${[
           30,
           60,
           90,
