@@ -95,9 +95,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Revive Pet's casting time is reduced by ${[
-          3,
-          6,
-          9,
+          2.3,
+          4.6,
+          7,
         ]} sec, mana cost is reduced by ${[
           30,
           60,
@@ -173,7 +173,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Intimidation",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Send yourself and your pet into a rage causing 20% additional damage for 18 sec. (2 min cooldown)`,
+        description: talentText`Send yourself and your pet into a rage causing you to do 10% additional damage and your pet to do 20% additional damage for 18 sec. (2 min cooldown)`,
       },
     },
   },
