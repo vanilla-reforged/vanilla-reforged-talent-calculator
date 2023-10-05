@@ -74,7 +74,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Predatory Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Each of your Pet's melee attacks have a 20% chance of causing the Pet to enter a Clearcasting state. The Clearcasting state reduces the Focus cost of your Pet's next ability by 100%.`,
+        description: talentText`Imbues the Pet with natural energy. Each of the Pet's melee attacks has a chance of causing the Pet to enter a Clearcasting state. The Clearcasting state reduces the Focus cost of the Pet's next offensive ability by 100%. Lasts 10 min.`,
       },
       "Improved Aspects": {
         name: "Improved Aspects",
