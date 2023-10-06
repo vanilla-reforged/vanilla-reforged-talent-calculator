@@ -95,17 +95,17 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Revive Pet's casting time is reduced by ${[
-          2.3,
-          4.6,
-          7,
+          2,
+          4,
+          6,
         ]} sec, mana cost is reduced by ${[
-          30,
-          60,
-          90,
-        ]}%, and increases the health your pet returns with by an additional ${[
+          10,
           20,
-          40,
-          60,
+          30,
+        ]}%, and increases the health your pet returns with by an additional ${[
+          10,
+          20,
+          30,
         ]}%.`,
       },
       "Spirit Bond": {
