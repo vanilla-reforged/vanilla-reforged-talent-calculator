@@ -46,7 +46,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_reincarnation"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the Health and total Focus of your pets by ${[
+        description: talentText`Increases the Health of your pets by ${[
           3,
           6,
           9,
