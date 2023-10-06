@@ -66,15 +66,15 @@ export const data: TalentData = {
           45,
         ]}%`,
       },
-      "Bestial Clarity": {
-        name: "Bestial Clarity",
+      "Soulmate": {
+        name: "Soulmate",
         pos: "c2",
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
         prereq: "Predatory Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Imbues the Pet with natural energy. Each of the Pet's melee attacks has a chance of causing the Pet to enter a Clearcasting state. The Clearcasting state reduces the Focus cost of the Pet's next offensive ability by 100%. Lasts 10 min.`,
+        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.`,
       },
       "Improved Aspects": {
         name: "Improved Aspects",
