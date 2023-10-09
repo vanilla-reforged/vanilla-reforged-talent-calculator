@@ -83,9 +83,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the effect of your Aspects by ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]}%.`,
       },
       "Improved Revive Pet": {
