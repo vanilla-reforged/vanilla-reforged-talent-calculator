@@ -119,17 +119,17 @@ export const data: TalentData = {
           6,
         ]}% of total health every 10 sec.`,
       },
-      "Primal Fury": {
-        name: "Primal Fury",
+      "Frenzy": {
+        name: "Frenzy",
         pos: "d3",
-        icon: icons["ability_racial_cannibalize"],
+        icon: icons["inv_misc_monsterclaw_03"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Gives your Pet a ${[
+        description: talentText`Gives your pet a ${[
           33,
           66,
           100,
-        ]}% chance to gain an additional 15 Focus anytime it gets a critical strike.`,
+        ]}% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.`,
       },
       "Intimidation": {
         name: "Intimidation",
