@@ -74,7 +74,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Predatory Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.`,
+        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%. (15 min cooldown)`,
       },
       "Improved Aspects": {
         name: "Improved Aspects",
