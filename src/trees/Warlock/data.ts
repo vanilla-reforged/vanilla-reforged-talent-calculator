@@ -189,74 +189,41 @@ export const data: TalentData = {
     background: backgrounds["demonology"],
     icon: icons["spell_shadow_metamorphosis"],
     talents: {
-      
-      "Improved Healthstone": {
-        name: "Improved Healthstone",
-        pos: "a1",
-        icon: icons["inv_stone_04"],
-        maxRank: 2,
-        reqPoints: 0,
-        description: talentText`Increases the amount of Health restored by your Healthstone by ${[
-          10,
-          20,
-        ]}%.`,
-      },
-      "Improved Imp": {
-        name: "Improved Imp",
+      "Demonic Precision": {
+        name: "Demonic Precision",
         pos: "a2",
-        icon: icons["spell_shadow_summonimp"],
-        maxRank: 3,
+        icon: icons["inv_misc_head_dragon_black"],
+        maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by ${[
-          10,
-          20,
-          30,
+        description: talentText`Increases the hit chance of your pets by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
         ]}%.`,
       },
-      "Demonic Embrace": {
-        name: "Demonic Embrace",
+      "Demonic Ferocity": {
+        name: "Demonic Ferocity",
         pos: "a3",
-        icon: icons["spell_shadow_metamorphosis"],
+        icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your total Stamina by ${[
+        description: talentText`Increases the critical strike chance of your pets by ${[
           3,
           6,
           9,
           12,
           15,
-        ]}%, but reduces your total Spirit by ${[1, 2, 3, 4, 5]}%.`,
-      },
-      "Improved Health Funnel": {
-        name: "Improved Health Funnel",
-        pos: "b1",
-        icon: icons["spell_shadow_lifedrain"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the amount of Health transfered by your Health Funnel spell by ${[
-          20,
-          40,
         ]}%.`,
       },
-      "Improved Voidwalker": {
-        name: "Improved Voidwalker",
+      "Fel Endurance": {
+        name: "Fel Endurance",
         pos: "b2",
-        icon: icons["spell_shadow_summonvoidwalker"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by ${[
-          10,
-          20,
-          30,
-        ]}%.`,
-      },
-      "Fel Intellect": {
-        name: "Fel Intellect",
-        pos: "b3",
-        icon: icons["spell_holy_magicalsentry"],
+        icon: icons["spell_shadow_antishadow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the maximum Mana of your Imp, Voidwalker, Succubus, and Felhunter by ${[
+        description: talentText`Increases the maximum Health and Mana of your pets by ${[
           3,
           6,
           9,
@@ -264,21 +231,17 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Improved Succubus": {
-        name: "Improved Succubus",
+      "Bestial Swiftness": {
+        name: "Bestial Swiftness",
         pos: "c1",
-        icon: icons["spell_shadow_summonsuccubus"],
+        icon: icons["ability_druid_dash"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the effect of your Succubus' Lash of Pain and Soothing Kiss spells by ${[
-          10,
-          20,
+        description: talentText`Increases the outdoor movement speed of your pets by ${[
+          15,
           30,
-        ]}%, and increases the duration of your Succubus' Seduction and Lesser Invisibility spells by ${[
-          10,
-          20,
-          30,
-        ]}%.`,
+          45,
+        ]}%`,
       },
       "Fel Domination": {
         name: "Fel Domination",
@@ -286,57 +249,56 @@ export const data: TalentData = {
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its mana cost reduced by 50%. (15 min cooldown)`,
+        prereq: "Demonic Precision",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
+        description: talentText`Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%. (15 min cooldown)`,
       },
-      "Fel Stamina": {
-        name: "Fel Stamina",
+      "Improved Demon Armor": {
+        name: "Improved Demon Armor",
         pos: "c3",
-        icon: icons["spell_shadow_antishadow"],
-        maxRank: 5,
+        icon: icons["spell_shadow_ragingscream"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the maximum Health of your Imp, Voidwalker, Succubus, and Felhutner by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}%.`,
+        description: talentText`Increases the effects of your Demon Armor spell by ${[
+          10,
+          20,
+          30,
+        ]} sec and the Mana cost by ${[10, 20, 30]}%.`,
       },
       "Master Summoner": {
         name: "Master Summoner",
-        pos: "d2",
+        pos: "c4",
         icon: icons["spell_shadow_impphaseshift"],
-        maxRank: 2,
-        reqPoints: 15,
-        prereq: "Fel Domination",
-        arrows: [{ dir: "down", from: "c2", to: "d2" }],
+        maxRank: 3,
+        reqPoints: 10,
         description: talentText`Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by ${[
           2,
           4,
-        ]} sec and the Mana cost by ${[20, 40]}%.`,
+          6,
+        ]} sec and the Mana cost by ${[10, 20, 30]}%.`,
       },
-      "Unholy Power": {
-        name: "Unholy Power",
+      "Demonic Embrace": {
+        name: "Demonic Embrace",
+        pos: "d2",
+        icon: icons["spell_shadow_metamorphosis"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`Increases your total Stamina by ${[
+          5,
+          10,
+        ]}%.`,
+      },
+      "Demonic Command": {
+        name: "Demonic Commands",
         pos: "d3",
         icon: icons["spell_shadow_shadowworddominate"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by ${[
+        description: talentText`Increases the effectiveness of your pets abilities by ${[
           10,
           20,
           30,
         ]}%.`,
-      },
-      "Improved Enslave Demon": {
-        name: "Improved Enslave Demon",
-        pos: "e1",
-        icon: icons["spell_shadow_enslavedemon"],
-        maxRank: 2,
-        reqPoints: 20,
-        description: talentText`Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
-          25,
-          50,
-        ]}% and reduces the resist chance by ${[5, 10]}%.`,
       },
       "Soul Link": {
         name: "Soul Link",
@@ -346,15 +308,16 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. In addition, both the demon and master will inflict 1% more damage. Lasts as long as the demon is active.`,
       },
-      "Improved Spellstone": {
-        name: "Improved Spellstone",
-        pos: "e4",
-        icon: icons["inv_misc_gem_sapphire_01"],
-        maxRank: 2,
+      "Fear of Consequences": {
+        name: "Fear of Consequences",
+        pos: "e3",
+        icon: icons["spell_shadow_shadowworddominate"],
+        maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the amount of damage absorbed by your Spellstone by ${[
-          15,
-          30,
+        description: talentText`Increases the damage done by your pets by ${[
+          3,
+          6,
+          9,
         ]}%.`,
       },
       "Master Demonologist": {
@@ -363,8 +326,6 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowpact"],
         maxRank: 5,
         reqPoints: 25,
-        prereq: "Unholy Power",
-        arrows: [{ dir: "down", from: "d3", to: "f3" }],
         description: talentText`Grants both the Warlock and the summoned demon an effect as long as the demon is active.\n\nImp - Reduces threat caused by ${[
           4,
           8,
