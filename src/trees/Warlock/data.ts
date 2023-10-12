@@ -245,7 +245,7 @@ export const data: TalentData = {
       },
       "Fel Domination": {
         name: "Fel Domination",
-        pos: "c2",
+        pos: "c3",
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
