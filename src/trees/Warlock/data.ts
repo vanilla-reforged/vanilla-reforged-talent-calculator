@@ -189,6 +189,7 @@ export const data: TalentData = {
     background: backgrounds["demonology"],
     icon: icons["spell_shadow_metamorphosis"],
     talents: {
+      
       "Improved Healthstone": {
         name: "Improved Healthstone",
         pos: "a1",
