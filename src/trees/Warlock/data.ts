@@ -219,7 +219,7 @@ export const data: TalentData = {
       },
       "Fel Endurance": {
         name: "Fel Endurance",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_shadow_antishadow"],
         maxRank: 5,
         reqPoints: 5,
