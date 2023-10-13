@@ -251,7 +251,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Demonic Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%. (15 min cooldown)`,
+        description: talentText`Your next pet Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%. (15 min cooldown)`,
       },
       "Improved Demon Armor": {
         name: "Improved Demon Armor",
@@ -271,7 +271,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_impphaseshift"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by ${[
+        description: talentText`Reduces the casting time of your pet Summoning spells by ${[
           2,
           4,
           6,
