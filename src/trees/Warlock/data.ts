@@ -192,7 +192,7 @@ export const data: TalentData = {
       "Demonic Precision": {
         name: "Demonic Precision",
         pos: "a2",
-        icon: icons["inv_misc_head_dragon_black"],
+        icon: icons["spell_shadow_ragingscream"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the hit chance of your pets by ${[
@@ -206,7 +206,7 @@ export const data: TalentData = {
       "Demonic Ferocity": {
         name: "Demonic Ferocity",
         pos: "a3",
-        icon: icons["inv_misc_monsterclaw_04"],
+        icon: icons["spell_shadow_curseoftounges"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the critical strike chance of your pets by ${[
@@ -311,7 +311,7 @@ export const data: TalentData = {
       "Fear of Consequences": {
         name: "Fear of Consequences",
         pos: "e3",
-        icon: icons["spell_shadow_shadowworddominate"],
+        icon: icons["spell_shadow_improvedvampiricembrace"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the damage done by your pets by ${[
