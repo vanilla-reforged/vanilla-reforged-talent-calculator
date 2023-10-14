@@ -231,8 +231,8 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Bestial Swiftness": {
-        name: "Bestial Swiftness",
+      "Fel Swiftness": {
+        name: "Fel Swiftness",
         pos: "c1",
         icon: icons["ability_druid_dash"],
         maxRank: 3,
