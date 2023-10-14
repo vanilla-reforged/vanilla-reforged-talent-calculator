@@ -256,7 +256,7 @@ export const data: TalentData = {
       "Improved Demon Armor": {
         name: "Improved Demon Armor",
         pos: "c3",
-        icon: icons["spell_shadow_ragingscream"],
+        icon: icons["spell_shadow_demon_armor"],
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the effects of your Demon Armor spell by ${[
