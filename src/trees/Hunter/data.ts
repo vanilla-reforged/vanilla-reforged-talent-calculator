@@ -212,7 +212,7 @@ export const data: TalentData = {
       },
       "Improved Quick Shot": {
         name: "Improved Quick Shot",
-        pos: "a3",
+        pos: "b3",
         icon: icons["ability_impalingbolt"],
         maxRank: 5,
         reqPoints: 5,
