@@ -455,7 +455,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases your melee damage by ${[10, 20, 30,]}%.`,
+        description: talentText`Increases your melee damage by ${[5, 10, 15,]}%.`,
       },
       "Scatter Shot": {
         name: "Scatter Shot",
