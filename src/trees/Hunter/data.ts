@@ -494,7 +494,7 @@ export const data: TalentData = {
       "Stalk": {
         name: "Stalk",
         pos: "g2",
-        icon: icons["inv_spear_02"],
+        icon: icons["ability_stealth"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Scatter Shot",
