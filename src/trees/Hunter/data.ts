@@ -270,15 +270,15 @@ export const data: TalentData = {
           10,
         ]}%`,
       },
-      "Improved Concussive Shot": {
-        name: "Improved Concussive Shot",
+      "Improved Rapid Fire": {
+        name: "Improved Rapid Fire",
         pos: "d2",
-        icon: icons["spell_frost_stun"],
+        icon: icons["ability_hunter_runningshot"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the effect duration of your Concussive Shot ability by ${[
-          1,
-          2,
+        description: talentText`Reduces the cooldown of your Rapid Fire ability by ${[
+          15,
+          30,
         ]} sec.`,
       },
       "Mortal Shots": {
