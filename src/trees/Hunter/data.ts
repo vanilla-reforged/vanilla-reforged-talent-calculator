@@ -277,8 +277,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Reduces the cooldown of your Rapid Fire ability by ${[
-          15,
           30,
+          60,
         ]} sec.`,
       },
       "Mortal Shots": {
