@@ -269,6 +269,17 @@ export const data: TalentData = {
           25,
         ]}%.`,
       },
+      "Burning Soul": {
+        name: "Burning Soul",
+        pos: "c4",
+        icon: icons["spell_fire_fire"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Gives your Fire spells a ${[
+          10,
+          20,
+        ]} chance to not lose casting time when you take damage.`,
+      },
       "Master of Elements": {
         name: "Master of Elements",
         pos: "d2",
