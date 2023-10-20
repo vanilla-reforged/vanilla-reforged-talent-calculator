@@ -294,7 +294,7 @@ export const data: TalentData = {
       },
       "Blast Wave": {
         name: "Blast Wave",
-        pos: "e1",
+        pos: "e2",
         icon: icons["spell_holy_excorcism_02"],
         maxRank: 1,
         reqPoints: 20,
@@ -302,7 +302,7 @@ export const data: TalentData = {
       },
       "Ashmaker": {
         name: "Ashmaker",
-        pos: "e2",
+        pos: "e3",
         icon: icons["spell_nature_wispheal"],
         maxRank: 3,
         reqPoints: 20,
@@ -399,6 +399,8 @@ export const data: TalentData = {
         icon: icons["spell_shadow_darkritual"],
         maxRank: 2,
         reqPoints: 10,
+        prereq: "Frozen Focus",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by ${[
           10,
           20,
