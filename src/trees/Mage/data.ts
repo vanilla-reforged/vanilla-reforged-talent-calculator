@@ -276,9 +276,9 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Gives your Fire spells a ${[
-          10,
-          20,
-        ]} chance to not lose casting time when you take damage.`,
+          35,
+          70,
+        ]}% chance to not lose casting time when you take damage.`,
       },
       "Master of Elements": {
         name: "Master of Elements",
