@@ -326,7 +326,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowpact"],
         maxRank: 5,
         reqPoints: 25,
-        prereq: "Demonic Comman",
+        prereq: "Demonic Command",
         arrows: [{ dir: "down", from: "d3", to: "f3" }],
         description: talentText`Grants both the Warlock and the summoned demon an effect as long as the demon is active.\n\nImp - Reduces threat caused by ${[
           4,
