@@ -383,9 +383,20 @@ export const data: TalentData = {
           5,
         ]} sec.`,
       },
+      "Pursuit of Injustice": {
+        name: "Pursuit of Injustice",
+        pos: "b1",
+        icon: icons["ability_rogue_feint"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases movement and mounted movement speed by ${[
+          5,
+          10,
+        ]}%. This does not stack with other movement speed increasing effects.`,
+      },
       "Improved Sap": {
         name: "Improved Sap",
-        pos: "b1",
+        pos: "b3",
         icon: icons["ability_sap"],
         maxRank: 3,
         reqPoints: 5,
@@ -394,17 +405,6 @@ export const data: TalentData = {
           66,
           100,
         ]}% chance to return to stealth mode after using your Sap ability.`,
-      },
-      "Pursuit of Injustice": {
-        name: "Pursuit of Injustice",
-        pos: "b3",
-        icon: icons["ability_rogue_feint"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases movement and mounted movement speed by ${[
-          5,
-          10,
-        ]}%. This does not stack with other movement speed increasing effects.`,
       },
       "Elusiveness": {
         name: "Elusiveness",
