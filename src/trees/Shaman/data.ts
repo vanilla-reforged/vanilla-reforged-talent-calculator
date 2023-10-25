@@ -12,6 +12,36 @@ export const data: TalentData = {
     background: backgrounds["elemental"],
     icon: icons["spell_nature_lightning"],
     talents: {
+      "Nature's Guidance": {
+        name: "Nature's Guidance",
+        pos: "a2",
+        icon: icons["spell_frost_stun"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases your chance to hit with spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
+      "Call of Thunder": {
+        name: "Call of Thunder",
+        pos: "a3",
+        icon: icons["spell_nature_callstorm"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases the critical strike chance of your Chain Lightning, Lightning Bolt and Shock spells by an additional ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
+
+
       "Convection": {
         name: "Convection",
         pos: "a2",
@@ -108,20 +138,7 @@ export const data: TalentData = {
           1,
         ]} sec.`,
       },
-      "Call of Thunder": {
-        name: "Call of Thunder",
-        pos: "c3",
-        icon: icons["spell_nature_callstorm"],
-        maxRank: 5,
-        reqPoints: 10,
-        description: talentText`Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by an additional ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
+
       "Improved Fire Totems": {
         name: "Improved Fire Totems",
         pos: "d1",
@@ -433,18 +450,7 @@ export const data: TalentData = {
     background: backgrounds["restoration"],
     icon: icons["spell_nature_magicimmunity"],
     talents: {
-      "Nature's Guidance": {
-        name: "Nature's Guidance",
-        pos: "a1",
-        icon: icons["spell_frost_stun"],
-        maxRank: 3,
-        reqPoints: 0,
-        description: talentText`Increases your chance to hit with melee attacks and spells by ${[
-          1,
-          2,
-          3,
-        ]}%.`,
-      },
+
       "Improved Healing Wave": {
         name: "Improved Healing Wave",
         pos: "a2",
