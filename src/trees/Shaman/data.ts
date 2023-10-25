@@ -151,7 +151,7 @@ export const data: TalentData = {
         pos: "f3",
         icon: icons["spell_fire_fireball"],
         maxRank: 5,
-        reqPoints: 0,
+        reqPoints: 25,
         description: talentText`Increases the damage done by your Chain Lightning, Lightning Bolt and Shock spells by ${[
           2,
           4,
