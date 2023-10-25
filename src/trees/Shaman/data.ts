@@ -40,7 +40,33 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-
+      "Lightning Mastery": {
+        name: "Lightning Mastery",
+        pos: "b3",
+        icon: icons["spell_lightning_lightningbolt01"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cast time of your Lightning Bolt and Chain Lightning spells by ${[
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1,
+        ]} sec.`,
+      },
+      "Storm Reach": {
+        name: "Storm Reach",
+        pos: "c2",
+        icon: icons["spell_nature_stormreach"],
+        maxRank: 2,
+        reqPoints: 10,
+        prereq: "Nature's Guidance",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
+        description: talentText`Increases the range of your Lightning Bolt and Chain Lightning spells by ${[
+          3,
+          6,
+        ]} yards.`,
+      },
 
       "Convection": {
         name: "Convection",
@@ -69,17 +95,6 @@ export const data: TalentData = {
           4,
           5,
         ]}%.`,
-      },
-      "Earth's Grasp": {
-        name: "Earth's Grasp",
-        pos: "b1",
-        icon: icons["spell_nature_stoneclawtotem"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the health of your Stoneclaw Totem by ${[
-          50,
-          100,
-        ]}% and the radius of your Earthbind Totem by ${[10, 20]}%.`,
       },
       "Elemental Warding": {
         name: "Elemental Warding",
@@ -165,17 +180,6 @@ export const data: TalentData = {
           100,
         ]}% to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.`,
       },
-      "Storm Reach": {
-        name: "Storm Reach",
-        pos: "e1",
-        icon: icons["spell_nature_stormreach"],
-        maxRank: 2,
-        reqPoints: 20,
-        description: talentText`Increases the range of your Lightning Bolt and Chain Lightning spells by ${[
-          3,
-          6,
-        ]} yards.`,
-      },
       "Elemental Fury": {
         name: "Elemental Fury",
         pos: "e2",
@@ -184,22 +188,7 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Increases the critical strike challenge bonus of your Searing, Magma, and Fire Nova totems and your Fire, Frost, and Nature spells by 100%.`,
       },
-      "Lightning Mastery": {
-        name: "Lightning Mastery",
-        pos: "f3",
-        icon: icons["spell_lightning_lightningbolt01"],
-        maxRank: 5,
-        reqPoints: 25,
-        prereq: "Call of Thunder",
-        arrows: [{ dir: "down", from: "c3", to: "f3" }],
-        description: talentText`Reduces the cast time of your Lightning Bolt and Chain Lightning spells by ${[
-          0.2,
-          0.4,
-          0.6,
-          0.8,
-          1,
-        ]} sec.`,
-      },
+
       "Thunderstorm": {
         name: "Thunderstorm",
         pos: "g2",
