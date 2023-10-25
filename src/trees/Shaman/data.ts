@@ -81,7 +81,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by ${[
+        description: talentText`Reduces the mana cost of your Chain Lightning, Lightning Bolt and Shock spells by ${[
           10,
           20,
           30,
@@ -140,7 +140,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_frostward"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Chain Lightning, Lightning and Shock spells by ${[
+        description: talentText`Increases the damage of your Chain Lightning, Lightning Bolt and Shock spells by ${[
           2,
           4,
           6,
