@@ -54,6 +54,14 @@ export const data: TalentData = {
           1,
         ]} sec.`,
       },
+      "Elemental Focus": {
+        name: "Elemental Focus",
+        pos: "c1",
+        icon: icons["spell_shadow_manaburn"],
+        maxRank: 1,
+        reqPoints: 10,
+        description: talentText`Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
+      },
       "Storm Reach": {
         name: "Storm Reach",
         pos: "c2",
@@ -67,13 +75,12 @@ export const data: TalentData = {
           6,
         ]} yards.`,
       },
-
       "Convection": {
         name: "Convection",
-        pos: "a2",
+        pos: "c3",
         icon: icons["spell_nature_wispsplode"],
         maxRank: 5,
-        reqPoints: 0,
+        reqPoints: 10,
         description: talentText`Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by ${[
           10,
           20,
@@ -82,81 +89,20 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Concussion": {
-        name: "Concussion",
-        pos: "a3",
-        icon: icons["spell_fire_fireball"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
-      "Elemental Warding": {
-        name: "Elemental Warding",
-        pos: "b2",
-        icon: icons["spell_nature_spiritarmor"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Reduces the damage taken by Fire, Frost and Nature effects by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
-      },
-      "Call of Flame": {
-        name: "Call of Flame",
-        pos: "b3",
-        icon: icons["spell_fire_immolation"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Increases the damage done by your Fire Totems by ${[
-          7,
-          14,
-          21,
-        ]}%.`,
-      },
-      "Guardian Totems": {
-        name: "Guardian Totems",
-        pos: "b4",
-        icon: icons["spell_nature_stoneskintotem"],
+      "Eye of the Storm": {
+        name: "Eye of the Storm",
+        pos: "c4",
+        icon: icons["spell_nature_eyeofthestorm"],
         maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by ${[
-          25,
+        reqPoints: 10,
+        description: talentText`Gives you a ${[
           50,
-        ]}% and reduces the cooldown of your Grounding Totem by ${[1, 2]} sec.`,
-      },
-      "Elemental Focus": {
-        name: "Elemental Focus",
-        pos: "c1",
-        icon: icons["spell_shadow_manaburn"],
-        maxRank: 1,
-        reqPoints: 10,
-        description: talentText`Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
-      },
-      "Reverberation": {
-        name: "Reverberation",
-        pos: "c2",
-        icon: icons["spell_frost_frostward"],
-        maxRank: 5,
-        reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Shock spells by ${[
-          0.2,
-          0.4,
-          0.6,
-          0.8,
-          1,
-        ]} sec.`,
-      },
-
+          100,
+        ]}% to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.`,
+      },    
       "Improved Fire Totems": {
         name: "Improved Fire Totems",
-        pos: "d1",
+        pos: "d2",
         icon: icons["spell_fire_sealoffire"],
         maxRank: 2,
         reqPoints: 15,
@@ -168,17 +114,17 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Eye of the Storm": {
-        name: "Eye of the Storm",
-        pos: "d2",
-        icon: icons["spell_nature_eyeofthestorm"],
+      "Call of Flame": {
+        name: "Call of Flame",
+        pos: "d3",
+        icon: icons["spell_fire_immolation"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Gives you a ${[
-          33,
-          66,
-          100,
-        ]}% to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.`,
+        description: talentText`Increases the damage done by your Fire Totems by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
       },
       "Elemental Fury": {
         name: "Elemental Fury",
@@ -188,7 +134,32 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Increases the critical strike challenge bonus of your Searing, Magma, and Fire Nova totems and your Fire, Frost, and Nature spells by 100%.`,
       },
-
+      "Stormcaller": {
+        name: "Stormcaller",
+        pos: "e3",
+        icon: icons["spell_frost_frostward"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Increases the damage of your Chain Lightning, Lightning and Shock spells by ${[
+          2,
+          4,
+          6,
+        ]}%.`,
+      },
+      "Concussion": {
+        name: "Concussion",
+        pos: "f3",
+        icon: icons["spell_fire_fireball"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases the damage done by your Chain Lightning, Lightning Bolt and Shock spells by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}%.`,
+      },
       "Thunderstorm": {
         name: "Thunderstorm",
         pos: "g2",
@@ -197,7 +168,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and dazing them for 6 sec. (30 sec cooldown)`,
+        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and dazing them for 6 sec. (45 sec cooldown)`,
       },
     },
   },
@@ -439,7 +410,30 @@ export const data: TalentData = {
     background: backgrounds["restoration"],
     icon: icons["spell_nature_magicimmunity"],
     talents: {
+      "Elemental Warding": {
+        name: "Elemental Warding",
+        pos: "b2",
+        icon: icons["spell_nature_spiritarmor"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the damage taken by Fire, Frost and Nature effects by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
 
+      "Guardian Totems": {
+        name: "Guardian Totems",
+        pos: "b4",
+        icon: icons["spell_nature_stoneskintotem"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by ${[
+          25,
+          50,
+        ]}% and reduces the cooldown of your Grounding Totem by ${[1, 2]} sec.`,
+      },
       "Improved Healing Wave": {
         name: "Improved Healing Wave",
         pos: "a2",
