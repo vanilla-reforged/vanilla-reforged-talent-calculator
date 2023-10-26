@@ -240,7 +240,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places an Elemental Blessing on the Shaman, reducing damage dealt from all sources by up to 10 for 30 min. In addition, when the target blocks a melee attack the attacker will take 14 Nature damage.`,
+        description: talentText`Places an Elemental Blessing on the Shaman, reducing damage dealt from all sources by up to 10 for 30 min. In addition, when the Shaman blocks a melee attack the attacker will take 14 Nature damage.`,
       },
       "Elemental Devastation": {
         name: "Elemental Devastation",
