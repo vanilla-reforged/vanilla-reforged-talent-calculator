@@ -356,7 +356,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofmight"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Sweeping Strikess",
+        prereq: "Sweeping Strikes",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`A vicious strike that deals weapon damage plus 85. (6 sec cooldown)`,
       },
