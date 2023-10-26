@@ -224,7 +224,7 @@ export const data: TalentData = {
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
-        pos: "b3",
+        pos: "b4",
         icon: icons["spell_nature_lightningshield"],
         maxRank: 3,
         reqPoints: 5,
@@ -369,7 +369,7 @@ export const data: TalentData = {
     talents: {
       "Elemental Warding": {
         name: "Elemental Warding",
-        pos: "b2",
+        pos: "f2",
         icon: icons["spell_nature_spiritarmor"],
         maxRank: 3,
         reqPoints: 5,
@@ -379,10 +379,9 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-
       "Guardian Totems": {
         name: "Guardian Totems",
-        pos: "b4",
+        pos: "f4",
         icon: icons["spell_nature_stoneskintotem"],
         maxRank: 2,
         reqPoints: 5,
