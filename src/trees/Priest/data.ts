@@ -14,7 +14,7 @@ export const data: TalentData = {
     talents: {
       "Faithful Guidance": {
         name: "Faithful Guidance",
-        pos: "a3",
+        pos: "a2",
         icon: icons["spell_holy_layonhands"],
         maxRank: 5,
         reqPoints: 0,
@@ -68,7 +68,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_purify"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Faithful Wrath",
+        prereq: "Faithful Guidance",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Holy spells by ${[
           10,
@@ -224,7 +224,7 @@ export const data: TalentData = {
         pos: "c1",
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
-        reqPoints: 20,
+        reqPoints: 10,
         description: talentText`When activated reduces the Mana cost of your next spell by 100%. (2 min cooldown)`,
       },
       "Improved Healing": {
@@ -233,6 +233,8 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal02"],
         maxRank: 5,
         reqPoints: 10,
+        prereq: "Silent Resolve",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by ${[
           3,
           6,
@@ -273,7 +275,7 @@ export const data: TalentData = {
         name: "Inspiration",
         pos: "d2",
         icon: icons["spell_holy_layonhands"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 15,
         description: talentText`Increase your target's armor by ${[
           10,
@@ -453,7 +455,7 @@ export const data: TalentData = {
       },
       "Improved Shadow Word: Suffering": {
         name: "Improved Shadow Word: Suffering",
-        pos: "a3",
+        pos: "d3",
         icon: icons["spell_shadow_shadowwordpain"],
         maxRank: 3,
         reqPoints: 15,
