@@ -263,7 +263,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}% and the Mana cost by ${[10, 20, 30]}%.`,
+        ]}%.`,
       },
       "Master Summoner": {
         name: "Master Summoner",
