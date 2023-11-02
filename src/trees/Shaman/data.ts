@@ -179,7 +179,7 @@ export const data: TalentData = {
     talents: {
       "Shield Specialization": {
         name: "Shield Specialization",
-        pos: "a32",
+        pos: "a2",
         icon: icons["inv_shield_06"],
         maxRank: 5,
         reqPoints: 0,
