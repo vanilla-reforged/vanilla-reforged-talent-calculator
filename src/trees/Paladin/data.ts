@@ -42,7 +42,7 @@ export const data: TalentData = {
       },
       "Quick Prayer": {
         name: "Quick Prayer",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 5,
@@ -304,7 +304,7 @@ export const data: TalentData = {
       },
       "Crusaders Charge": {
         name: "Crusaders Charge",
-        pos: "e1",
+        pos: "e2",
         icon: icons["ability_golemthunderclap"],
         maxRank: 1,
         reqPoints: 20,
