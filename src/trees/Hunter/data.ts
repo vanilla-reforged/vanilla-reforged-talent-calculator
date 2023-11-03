@@ -208,7 +208,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}%`,
+        ]}%.`,
       },
       "Improved Quick Shot": {
         name: "Improved Quick Shot",

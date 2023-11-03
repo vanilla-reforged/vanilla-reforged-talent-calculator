@@ -32,7 +32,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_callstorm"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of your Chain Lightning, Lightning Bolt and Shock spells by an additional ${[
+        description: talentText`Increases the critical strike chance of your Chain Lightning, Lightning Bolt and Shock spells by ${[
           1,
           2,
           3,
@@ -46,7 +46,7 @@ export const data: TalentData = {
         icon: icons["spell_lightning_lightningbolt01"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cast time of your Lightning Bolt and Chain Lightning spells by ${[
+        description: talentText`Reduces the casting time of your Lightning Bolt and Chain Lightning spells by ${[
           0.2,
           0.4,
           0.6,
@@ -203,7 +203,7 @@ export const data: TalentData = {
         icon: icons["ability_thunderbolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike and hit with your weapon by ${[
+        description: talentText`Increases your chance to get a critical strike and your chance to hit with melee weapons by ${[
           1,
           2,
           3,
@@ -513,7 +513,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the effectiveness of your healing spells by ${[
+        description: talentText`Increases the amount healed by your healing spells by ${[
           2,
           4,
           6,
