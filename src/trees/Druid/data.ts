@@ -163,6 +163,8 @@ export const data: TalentData = {
         icon: icons["spell_nature_forceofnature"],
         maxRank: 1,
         reqPoints: 30,
+        prereq: "Vengeance",
+        arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec. \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
@@ -308,7 +310,6 @@ export const data: TalentData = {
       icon: icons["ability_racial_cannibalize"],
       maxRank: 3,
       reqPoints: 15,
-      prereq: "Sharpened Claws",
       description: talentText`Gives you ${[
         33,
         66,
