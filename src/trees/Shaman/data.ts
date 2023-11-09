@@ -12,10 +12,10 @@ export const data: TalentData = {
     background: backgrounds["elemental"],
     icon: icons["spell_nature_lightning"],
     talents: {
-      "Nature's Guidance": {
-        name: "Nature's Guidance",
+      "Storm's Guidance": {
+        name: "Storm's Guidance",
         pos: "a2",
-        icon: icons["spell_frost_stun"],
+        icon: icons["spell_nature_tranquility"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to hit with spells by ${[
@@ -26,8 +26,8 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Call of Thunder": {
-        name: "Call of Thunder",
+      "Storm's Wrath": {
+        name: "Storm's Wrath",
         pos: "a3",
         icon: icons["spell_nature_callstorm"],
         maxRank: 5,
@@ -137,7 +137,7 @@ export const data: TalentData = {
       "Stormcaller": {
         name: "Stormcaller",
         pos: "e3",
-        icon: icons["spell_frost_frostward"],
+        icon: icons["spell_nature_earthbind"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the damage of your Chain Lightning, Lightning Bolt and Shock spells by ${[
@@ -327,7 +327,7 @@ export const data: TalentData = {
       "Thunderstruck": {
         name: "Thunderstruck",
         pos: "e3",
-        icon: icons["spell_nature_wispheal"],
+        icon: icons["spell_nature_purge"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Your Shock spells have a ${[
