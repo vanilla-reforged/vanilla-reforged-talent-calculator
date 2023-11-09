@@ -68,7 +68,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_stormreach"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Nature's Guidance",
+        prereq: "Storm's Guidance",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Lightning Bolt and Chain Lightning spells by ${[
           3,
