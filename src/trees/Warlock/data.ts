@@ -87,7 +87,7 @@ export const data: TalentData = {
       "Calamity": {
         name: "Calamity",
         pos: "c3",
-        icon: icons["spell_shadow_impphaseshift"],
+        icon: icons["spell_shadow_manaburn"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Affliction spells by ${[
@@ -192,7 +192,7 @@ export const data: TalentData = {
       "Demonic Precision": {
         name: "Demonic Precision",
         pos: "a2",
-        icon: icons["spell_shadow_ragingscream"],
+        icon: icons["inv_gauntlets_01"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the hit chance of your pets by ${[
@@ -206,7 +206,7 @@ export const data: TalentData = {
       "Demonic Ferocity": {
         name: "Demonic Ferocity",
         pos: "a3",
-        icon: icons["spell_shadow_curseoftounges"],
+        icon: icons["inv_helmet_07"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the critical strike chance of your pets by ${[
