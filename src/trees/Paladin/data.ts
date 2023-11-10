@@ -359,7 +359,7 @@ export const data: TalentData = {
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with melee weapons by ${[
+        description: talentText`Improves your chance to hit by ${[
           1,
           2,
           3,
