@@ -12,10 +12,10 @@ export const data: TalentData = {
     background: backgrounds["discipline"],
     icon: icons["spell_holy_wordfortitude"],
     talents: {
-      "Faithful Guidance": {
-        name: "Faithful Guidance",
+      "Guided by Faith": {
+        name: "Guided by Faith",
         pos: "a2",
-        icon: icons["spell_holy_layonhands"],
+        icon: icons["spell_holy_sealofsalvation"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to hit with spells by ${[
@@ -26,13 +26,13 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Faithful Wrath": {
-        name: "Faithful Wrath",
+      "Faith and Wrath": {
+        name: "Faith and Wrath",
         pos: "a3",
-        icon: icons["spell_holy_sealofsalvation"],
+        icon: icons["spell_holy_holyprotection"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical effect chance of your Holy spells by ${[
+        description: talentText`Improves your chance to get a critical strike with spells by ${[
           1,
           2,
           3,
@@ -208,7 +208,7 @@ export const data: TalentData = {
       "Divine Grace": {
         name: "Divine Grace",
         pos: "b3",
-        icon: icons["spell_holy_greaterheal"],
+        icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Healing spells by ${[
@@ -456,7 +456,7 @@ export const data: TalentData = {
       "Improved Shadow Word: Suffering": {
         name: "Improved Shadow Word: Suffering",
         pos: "d3",
-        icon: icons["spell_shadow_shadowwordpain"],
+        icon: icons["spell_shadow_improvedvampiricembrace"],
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Increases the damage of your Shadow Word: Suffering spell by ${[
