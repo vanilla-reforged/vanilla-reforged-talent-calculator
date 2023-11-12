@@ -15,7 +15,7 @@ export const data: TalentData = {
       "Arcane Focus": {
         name: "Arcane Focus",
         pos: "a2",
-        icon: icons["spell_holy_devotion"],
+        icon: icons["spell_holy_dispelmagic"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to hit with your Arcane spells by ${[
@@ -29,7 +29,7 @@ export const data: TalentData = {
       "Arcane Wrath": {
         name: "Arcane Wrath",
         pos: "a3",
-        icon: icons["spell_holy_dispelmagic"],
+        icon: icons["spell_holy_devotion"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the critical strike chance of your Arcane spells by ${[
