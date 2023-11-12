@@ -206,7 +206,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_eviscerate"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to get a critical strike with melee weapons by ${[
+        description: talentText`Improves your chance to get a critical strike by ${[
           1,
           2,
           3,
