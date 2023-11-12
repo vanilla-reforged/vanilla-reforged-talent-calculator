@@ -203,7 +203,7 @@ export const data: TalentData = {
         icon: icons["ability_thunderbolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to get a critical strike and your chance to hit with melee weapons by ${[
+        description: talentText`Improves your chance to get a critical strike and your chance to hit by ${[
           1,
           2,
           3,

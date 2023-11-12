@@ -32,7 +32,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_bloodrage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your critical strike chance by ${[
+        description: talentText`Improves your chance to get a critical strike by ${[
           1,
           2,
           3,
