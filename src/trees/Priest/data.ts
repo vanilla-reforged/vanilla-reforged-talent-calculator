@@ -68,7 +68,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_purify"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Faithful Guidance",
+        prereq: "Guided by Faith",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Holy spells by ${[
           10,
