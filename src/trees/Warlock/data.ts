@@ -29,7 +29,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unsummonbuilding"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with your Affliction spells by ${[
+        description: talentText`Improves your chance to hit with Affliction spells by ${[
           1,
           2,
           3,
@@ -195,7 +195,7 @@ export const data: TalentData = {
         icon: icons["inv_gauntlets_01"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the hit chance of your pets by ${[
+        description: talentText`Improves the hit chance of your pet by ${[
           3,
           6,
           9,
@@ -209,7 +209,7 @@ export const data: TalentData = {
         icon: icons["inv_helmet_07"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of your pets by ${[
+        description: talentText`Improves the critical strike chance of your pet by ${[
           3,
           6,
           9,
@@ -377,7 +377,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_soulburn"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with your Destruction spells by ${[
+        description: talentText`Improves your chance to hit with Destruction spells by ${[
           1,
           2,
           3,
@@ -391,7 +391,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_flameshock"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of your Destruction spells by ${[
+        description: talentText`Improves your chance to get a critical strike with Destruction spells by ${[
           1,
           2,
           3,
