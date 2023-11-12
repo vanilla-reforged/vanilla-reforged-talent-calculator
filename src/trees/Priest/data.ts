@@ -362,7 +362,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_burningspirit"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with Shadow spells by ${[
+        description: talentText`Improves your chance to hit with Shadow spells by ${[
           1,
           2,
           3,
