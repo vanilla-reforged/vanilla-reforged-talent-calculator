@@ -134,7 +134,7 @@ export const data: TalentData = {
       "Arcane Impact": {
         name: "Arcane Impact",
         pos: "e2",
-        icon: icons["spell_nature_starfall"],
+        icon: icons["spell_arcane_starfire"],
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%`,
