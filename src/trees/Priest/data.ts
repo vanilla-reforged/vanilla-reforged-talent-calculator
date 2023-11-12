@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofsalvation"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with spells by ${[
+        description: talentText`Improves your chance to hit with spells by ${[
           1,
           2,
           3,
