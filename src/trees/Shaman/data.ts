@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_manaburn"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
+        description: talentText`Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by 100%.        `,
       },
       "Storm Reach": {
         name: "Storm Reach",
@@ -70,9 +70,9 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Storm's Guidance",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Increases the range of your Lightning Bolt and Chain Lightning spells by ${[
-          3,
-          6,
+        description: talentText`Increases the range of Elemental spells by ${[
+          10,
+          20,
         ]} yards.`,
       },
       "Convection": {
