@@ -245,7 +245,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Increases damage done by your offhand weapon by ${[
+        description: talentText`Increases the damage done by your offhand weapon by ${[
           10,
           20,
           30,
