@@ -334,7 +334,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to grant the members of your party a 3% damage bonus which lasts for 12 sec.`,
+        ]}% chance to to increase the damage done by your party by 3% for 12 sec.`,
       },
       "Weapon Mastery": {
         name: "Weapon Mastery",
