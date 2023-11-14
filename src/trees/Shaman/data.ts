@@ -462,7 +462,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to avoid interruption caused by damage while casting any healing spell.`,
+        ]}% chance to resist interruption caused by damage while casting any healing spell.`,
       },
       "Ancestral Healing": {
         name: "Ancestral Healing",

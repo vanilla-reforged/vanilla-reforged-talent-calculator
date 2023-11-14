@@ -43,7 +43,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Reduces the casting time of your Fear spell by ${[
+        description: talentText`Reduces the casting time of your Howl of Terror and Fear spells by ${[
           0.1,
           0.2,
           0.3,
@@ -113,7 +113,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to avoid interruption caused by damage while channeling the Drain Life, Drain Mana, or Drain Soul spell.`,
+        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spell.`,
       },
       "Improved Drain Life": {
         name: "Improved Drain Life",
@@ -132,7 +132,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_curseofsargeras"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage done by your Curse of Agony by ${[
+        description: talentText`Increases the damage done by your Curse of Agony spell by ${[
           5,
           10,
           15,
@@ -144,7 +144,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the effect of your next Curse of Agony by 100%, or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
+        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
       },
       "Blight": {
         name: "Blight",
@@ -152,7 +152,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_requiem"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Corruption, Drain Life and Shadow Bolt spells by ${[
+        description: talentText`Increases the damage done by your Corruption, Drain Life and Shadow Bolt spells by ${[
           2,
           4,
           6,
@@ -223,7 +223,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_antishadow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the maximum Health and Mana of your pets by ${[
+        description: talentText`Increases the maximum Health and Mana of your pet by ${[
           3,
           6,
           9,
@@ -237,7 +237,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_dash"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the outdoor movement speed of your pets by ${[
+        description: talentText`Increases the outdoor movement speed of your pet by ${[
           15,
           30,
           45,
@@ -294,7 +294,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowworddominate"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the effectiveness of your pets abilities by ${[
+        description: talentText`Increases the effect of your pet abilities by ${[
           10,
           20,
           30,
@@ -306,7 +306,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_improvedvampiricembrace"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your pets by ${[
+        description: talentText`Increases the damage done by your pet by ${[
           3,
           6,
           9,
@@ -463,7 +463,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           35,
           70,
-        ]}%  chance to resist interruption caused by damage while casting any destruction spell.`,
+        ]}% chance to resist interruption caused by damage while casting any Destruction spell.`,
       },
       "Pyroclasm": {
         name: "Pyroclasm",
@@ -482,7 +482,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_immolation"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the initial damage of your Immolate spell by ${[
+        description: talentText`Increases the initial damage done by your Immolate spell by ${[
           5,
           10,
           15,
@@ -502,7 +502,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fire"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Hellfire, Searing Pain and Soul Fire spells by ${[
+        description: talentText`Increases the damage done by your Hellfire, Searing Pain and Soul Fire spells by ${[
           2,
           4,
           6,

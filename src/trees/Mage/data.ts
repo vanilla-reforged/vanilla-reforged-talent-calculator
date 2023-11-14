@@ -275,10 +275,10 @@ export const data: TalentData = {
         icon: icons["spell_fire_fire"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives your Fire spells a ${[
+        description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to not lose casting time when you take damage.`,
+        ]}% chance to resist interruption caused by damage while casting any Fire spell.`,
       },
       "Master of Elements": {
         name: "Master of Elements",
@@ -443,10 +443,10 @@ export const data: TalentData = {
         icon: icons["spell_frost_wisp"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives your Frost spells a ${[
+        description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to not lose casting time when you take damage.`,
+        ]}% chance to resist interruption caused by damage while casting any Frost spell.`,
       },
       "Improved Blizzard": {
         name: "Improved Blizzard",
