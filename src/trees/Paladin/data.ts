@@ -240,7 +240,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_lightningshield"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places a Blessing on the Paladin, reducing damage dealt from all sources by up to 10 for 30 min. In addition, when the Paladin blocks a melee attack the attacker will take 14 Holy damage.`,
+        description: talentText`Places a Blessing on the Paladin, reducing damage received from all sources by up to 10 for 30 min. In addition, when the Paladin blocks a melee attack the attacker will take 14 Holy damage.`,
       },
       "Redoubt": {
         name: "Redoubt",

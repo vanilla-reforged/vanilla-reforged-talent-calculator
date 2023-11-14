@@ -140,7 +140,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_earthbind"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Chain Lightning, Lightning Bolt and Shock spells by ${[
+        description: talentText`Increases the damage done by your Chain Lightning, Lightning Bolt and Shock spells by ${[
           2,
           4,
           6,
@@ -240,7 +240,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places an Elemental Blessing on the Shaman, reducing damage dealt from all sources by up to 10 for 30 min. In addition, when the Shaman blocks a melee attack the attacker will take 14 Nature damage.`,
+        description: talentText`Places an Elemental Blessing on the Shaman, reducing damage received from all sources by up to 10 for 30 min. In addition, when the Shaman blocks a melee attack the attacker will take 14 Nature damage.`,
       },
       "Redoubt": {
         name: "Redoubt",
@@ -291,7 +291,7 @@ export const data: TalentData = {
         description: talentText`Increases the melee attack power bonus of your Windfury Totem by ${[
           5,
           10,
-        ]}% and increases the damage caused by your Flametongue Totem by ${[
+        ]}% and increases the damage done by your Flametongue Totem by ${[
           5,
           10,
         ]}%.`,
@@ -310,7 +310,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by ${[
+        ]}% and increases the damage done by your Flametongue Weapon and Frostbrand Weapon by ${[
           5,
           10,
           15,
