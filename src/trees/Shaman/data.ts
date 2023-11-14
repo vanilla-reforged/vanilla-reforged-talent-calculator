@@ -264,11 +264,11 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Thundering Strikes",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by ${[
+        description: talentText`Improves your chance to get a critical strike by ${[
           5,
           10,
           15,
-        ]}% for 10 sec.`,
+        ]}% for 10 sec, after getting a critical strike with a spell.`,
       },
       "Enhancing Totems": {
         name: "Enhancing Totems",

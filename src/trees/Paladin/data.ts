@@ -500,13 +500,13 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Gives you a ${[
+        description: talentText`Your critical strikes increase the physical and holy damage you deal by ${[
           3,
           6,
           9,
           12,
           15,
-        ]}% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.`,
+        ]}% for 8 sec.`,
       },
       "Crusader Strike": {
         name: "Crusader Strike",
