@@ -141,7 +141,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathscream"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Backstab and Eviscerate abilities by ${[
+        description: talentText`Increases the damage done by your Backstab and Eviscerate abilities by ${[
           2,
           4,
           6,
@@ -153,7 +153,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by ${[
+        description: talentText`Increases the damage done when striking from behind with your Backstab, Garrote, or Ambush abilities by ${[
           3,
           6,
           9,
