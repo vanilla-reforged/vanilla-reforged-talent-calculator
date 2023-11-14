@@ -132,7 +132,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_volcano"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the critical strike challenge bonus of your Searing, Magma, and Fire Nova totems and your Fire, Frost, and Nature spells by 100%.`,
+        description: talentText`Increases the critical strike damage bonus of your Elemental spells and Fire Totems by 100%.`,
       },
       "Stormcaller": {
         name: "Stormcaller",
@@ -217,7 +217,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_spiritwolf"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Reduces the cast time of your Ghost Wolf spell by ${[
+        description: talentText`Reduces the casting time of your Ghost Wolf spell by ${[
           1,
           2,
         ]} sec.`,
@@ -228,7 +228,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_lightningshield"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the damage done by your Lightning Shield orbs by ${[
+        description: talentText`Increases the damage done by your Lightning Shield spell by ${[
           15,
           30,
           45,
@@ -264,7 +264,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Thundering Strikes",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Your offensive spell crits will increase your chance to get a critical strike with melee attacks by ${[
+        description: talentText`Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by ${[
           5,
           10,
           15,
@@ -431,7 +431,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and reduced the Mana cost of your totems by ${[
+        ]}% and reduced the Mana cost of your Totems by ${[
           3,
           6,
           9,
@@ -448,7 +448,7 @@ export const data: TalentData = {
         description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
           10,
           20,
-        ]} min and increases the amount of health and mana you reincarnate with by an additional ${[
+        ]} min and increases the amount of health and mana you reincarnate with by ${[
           10,
           20,
         ]}%.`,
