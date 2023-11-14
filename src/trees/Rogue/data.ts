@@ -133,7 +133,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_lament"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%. (2 min cooldown)`,
+        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate ability by 100%. (2 min cooldown)`,
       },
       "Murder": {
         name: "Murder",
