@@ -81,7 +81,7 @@ export const data: TalentData = {
         icon: icons["ability_poisons"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the chance to apply poisons to your target by ${[
+        description: talentText`Improves the chance to apply poisons to your target by ${[
           3,
           6,
           9,
@@ -96,7 +96,7 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
 
-        description: talentText`Increases the critical strike chance of your Ambush ability by ${[
+        description: talentText`Improves the critical strike chance of your Ambush ability by ${[
           25,
           50,
         ]}%.`,
@@ -110,7 +110,7 @@ export const data: TalentData = {
         description: talentText`Increases the damage dealt by your poisons by ${[
           15,
           30,
-        ]}% and gives your poisons an additional ${[
+        ]}% and gives your poisons a ${[
           30,
           60,
         ]}% chance to resist dispel effects.`,
