@@ -227,7 +227,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% chance to generate 10 additional Energy points when you deal melee damage with a weapon.`,
+        ]}% chance to generate 10 Energy when you deal melee damage.`,
       },
       "Relentless Strikes": {
         name: "Relentless Strikes",
@@ -259,10 +259,10 @@ export const data: TalentData = {
         icon: icons["ability_rogue_sprint"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives a ${[
+        description: talentText`Gives your Sprint ability a ${[
           50,
           100,
-        ]}% chance to remove all movement impairing effects when you activate your Sprint ability.`,
+        ]}% chance to remove all movement impairing effects.`,
       },
       "Improved Slice and Dice": {
         name: "Improved Slice and Dice",
@@ -312,7 +312,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Sinister Strike and Eviscerate abilities by ${[
+        description: talentText`Increases the damage done by your Sinister Strike and Eviscerate abilities by ${[
           2,
           4,
           6,
