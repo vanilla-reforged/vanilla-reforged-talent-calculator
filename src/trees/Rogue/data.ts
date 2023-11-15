@@ -209,7 +209,7 @@ export const data: TalentData = {
         icon: icons["ability_gouge"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the effect duration of your Gouge ability by ${[
+        description: talentText`Increases the duration of your Gouge ability by ${[
           0.5,
           1,
           1.5,
@@ -517,7 +517,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Veil yourself in Shadows, removing all harmful magic and curse effects and absorbing 900 magic damage for 40 sec. (2 min cooldown)`,
+        description: talentText`Veil yourself in Shadows, removing all harmful magic and curse effects and absorbing 650 magic damage for 40 sec. (2 min cooldown)`,
       },
     },
   },
