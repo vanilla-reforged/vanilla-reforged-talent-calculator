@@ -89,7 +89,7 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]} and reduces the threat caused by your Arcane spells by ${[
+        ]}% and reduces the threat caused by your Arcane spells by ${[
           5,
           10,
           15,
@@ -125,7 +125,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_detectlesserinvisibility"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Decreases the mana lost per point of damage taken when Mana Sheild is active by ${[
+        description: talentText`Decreases the mana lost per point of damage taken when Mana Shield is active by ${[
           20,
           40,
           60,
@@ -137,7 +137,7 @@ export const data: TalentData = {
         icon: icons["spell_arcane_starfire"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%`,
+        description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%.`,
       },
       "Magic Absorption": {
         name: "Magic Absorption",
@@ -177,7 +177,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Arcane Impact",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, your spells deal 30% more damage while costing 30% more mana to cast. This effect lasts 15 sec. (2 min cooldown)`,
+        description: talentText`When activated, your spells deal 30% more damage while costing 30% more mana for 15 sec. (2 min cooldown)`,
       },
     },
   },
@@ -261,7 +261,7 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]} and reduces the threat caused by your Fire spells by ${[
+        ]}% and reduces the threat caused by your Fire spells by ${[
           5,
           10,
           15,
@@ -286,7 +286,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_masterofelements"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Your Fire and Frost spell criticals will refund ${[
+        description: talentText`Your Fire and Frost spell critical strikes will refund ${[
           10,
           20,
         ]}% of their base mana cost.`,
@@ -297,7 +297,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_incinerate"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Your critical strikes from Fire damage spells cause the target to burn for an additional ${[
+        description: talentText`Your Fire spell critical strikes cause the target to burn for an additional ${[
           4,
           8,
           12,
@@ -317,7 +317,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispheal"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Fireball, Fireblast and Pyroblast spells by ${[
+        description: talentText`Increases the damage done by your Fireball, Fireblast and Pyroblast spells by ${[
           2,
           4,
           6,
@@ -402,7 +402,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_frost"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot, move or cast spells. (7.5 min cooldown)`,
+        description: talentText`You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot, move or cast spells. (5 min cooldown)`,
       },
       "Arctic Reach": {
         name: "Arctic Reach",
@@ -412,7 +412,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Frozen Focus",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by ${[
+        description: talentText`Increases the range of your Frost spells by ${[
           10,
           20,
         ]}%.`,
@@ -465,7 +465,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_glacier"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage dealt by your Cone of Cold spell by ${[
+        description: talentText`Increases the damage done by your Cone of Cold spell by ${[
           10,
           20,
           30,

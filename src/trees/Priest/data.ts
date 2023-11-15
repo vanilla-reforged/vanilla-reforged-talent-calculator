@@ -165,7 +165,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusade",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20%. Lasts 15 sec. (2 min cooldown)`,
+        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20% for 15 sec. (2 min cooldown)`,
       },
     },
   },
