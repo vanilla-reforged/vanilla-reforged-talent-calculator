@@ -106,10 +106,10 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessedrecovery"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`After being struck by a melee or ranged critical hit, heal ${[
+        description: talentText`Heals ${[
           15,
           30,
-        ]}% of the damage taken over 6 sec.`,
+        ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
       },
       "Searing Light": {
         name: "Searing Light",
@@ -274,10 +274,10 @@ export const data: TalentData = {
         icon: icons["spell_holy_layonhands"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increase your target's armor by ${[
+        description: talentText`Increase your target's armor value by ${[
           10,
           20,
-        ]}% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.`,
+        ]}% for 15 sec after getting a critical effect from one of your Healing spells.`,
       },
       "Improved Prayer of Healing": {
         name: "Improved Prayer of Healing",
