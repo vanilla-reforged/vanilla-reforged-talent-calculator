@@ -117,7 +117,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_searinglightpriest"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Smite and Holy Fire spells by ${[
+        description: talentText`Increases the damage done by your Smite and Holy Fire spells by ${[
           5,
           10,
           15,
