@@ -109,7 +109,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_layonhands"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increase your target's armor by ${[
+        description: talentText`Increase your target's armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your Healing spells.`,
