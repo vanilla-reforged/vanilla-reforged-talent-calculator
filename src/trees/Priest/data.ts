@@ -87,7 +87,7 @@ export const data: TalentData = {
           30,
           40,
           50,
-        ]}%`,
+        ]}%.`,
       },
       "Martyrdom": {
         name: "Martyrdom",
@@ -222,7 +222,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated reduces the Mana cost of your next spell by 100%. (2 min cooldown)`,
+        description: talentText`When activated, reduces the Mana cost of your next spell by 100%. (2 min cooldown)`,
       },
       "Improved Healing": {
         name: "Improved Healing",
