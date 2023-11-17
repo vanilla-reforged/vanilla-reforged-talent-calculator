@@ -297,7 +297,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_summonlightwell"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Holy spell with a casting time of less than 10 sec becomes an instant cast spell. (2 min cooldown)`,
+        description: talentText`When activated, your next Holy spell becomes an instant cast spell. (2 min cooldown)`,
       },
       "Improved Power Word: Shield": {
         name: "Improved Power Word: Shield",
