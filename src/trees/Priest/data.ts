@@ -480,7 +480,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to grant the members of your party a 3% damage bonus which lasts for 12 sec.`,
+        ]}% chance to to increase the damage done by your party by 3% for 12 sec.`,
       },
       "Darkness": {
         name: "Darkness",
@@ -504,7 +504,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Silence",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Assume a Shadowform, increasing your Shadow damage by 15% and reducing Physical damage done to you by 15%. However, you may not cast Holy spells while in this form.`,
+        description: talentText`Assume a Shadowform, increasing your Shadow damage by 10% and reducing Physical damage done to you by 10%. However, you may not cast Holy spells while in this form.`,
       },
     },
   },
