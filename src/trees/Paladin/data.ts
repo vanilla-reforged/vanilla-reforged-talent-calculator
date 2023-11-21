@@ -43,7 +43,7 @@ export const data: TalentData = {
       "Quick Prayer": {
         name: "Quick Prayer",
         pos: "b3",
-        icon: icons["spell_holy_greaterheal"],
+        icon: icons["spell_holy_unyieldingfaith"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Healing spells by ${[
@@ -57,7 +57,7 @@ export const data: TalentData = {
       "Surge of Faith": {
         name: "Surge of Faith",
         pos: "c1",
-        icon: icons["spell_nature_moonglow"],
+        icon: icons["inv_misc_gem_pearl_04"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`When activated, reduces the Mana cost of your next spell by 100%.`,
@@ -103,10 +103,10 @@ export const data: TalentData = {
           70,
         ]}% chance to not lose casting time when you take damage.`,
       },
-      "Inspiration": {
-        name: "Inspiration",
+      "Revelation": {
+        name: "Revelation",
         pos: "d2",
-        icon: icons["spell_holy_layonhands"],
+        icon: icons["spell_holy_holyprotection"],
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Increase your target's armor value by ${[
@@ -305,7 +305,7 @@ export const data: TalentData = {
       "Crusaders Charge": {
         name: "Crusaders Charge",
         pos: "e2",
-        icon: icons["ability_golemthunderclap"],
+        icon: icons["spell_holy_vindicatio"],
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec.`,
@@ -481,11 +481,10 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids. (45 sec cooldown)`,
       },
-
       "Justice": {
         name: "Justice",
         pos: "e3",
-        icon: icons["spell_holy_righteousfury"],
+        icon: icons["inv_gizmo_01"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Your Judgement spell has a ${[
@@ -511,7 +510,7 @@ export const data: TalentData = {
       "Crusader Strike": {
         name: "Crusader Strike",
         pos: "g2",
-        icon: icons["ability_rogue_ambush"],
+        icon: icons["ability_meleedamage"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Repentance",
