@@ -302,8 +302,8 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Crusaders Charge": {
-        name: "Crusaders Charge",
+      "Crusader's Charge": {
+        name: "Crusader's Charge",
         pos: "e2",
         icon: icons["spell_holy_vindication"],
         maxRank: 1,
@@ -342,7 +342,7 @@ export const data: TalentData = {
         icon: icons["classic_spell_holy_blessingofprotection"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Crusaders Charge",
+        prereq: "Crusader's Charge",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges. (10 sec cooldown)`,
       },
