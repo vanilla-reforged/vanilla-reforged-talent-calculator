@@ -112,7 +112,7 @@ export const data: TalentData = {
         description: talentText`Increase your target's armor value by ${[
           10,
           20,
-        ]}% for 15 sec after getting a critical effect from one of your Healing spells.`,
+        ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
       "Lasting Judgement": {
         name: "Lasting Judgement",
