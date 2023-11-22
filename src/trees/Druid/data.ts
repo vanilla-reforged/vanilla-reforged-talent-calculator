@@ -469,10 +469,10 @@ export const data: TalentData = {
           70,
         ]}% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.`,
       },
-      "Inspiration": {
-        name: "Inspiration",
+      "Natural Fortitude": {
+        name: "Natural Fortitude",
         pos: "d2",
-        icon: icons["spell_holy_layonhands"],
+        icon: icons["spell_nature_undyingstrength"],
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Increase your target's armor value by ${[
