@@ -456,7 +456,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_righteousfury"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Gives your Judgement ability a ${[
+        description: talentText`Gives your Judgement spell a ${[
           50,
           100,
         ]}% chance to silence the target for 2 sec.`,
