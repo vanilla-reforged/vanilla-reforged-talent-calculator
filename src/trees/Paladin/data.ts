@@ -453,7 +453,7 @@ export const data: TalentData = {
       "Improved Judgement": {
         name: "Improved Seal of the Crusader",
         pos: "d2",
-        icon: icons["spell_holy_holysmite"],
+        icon: icons["spell_holy_righteousfury"],
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Gives your Judgement ability a ${[
