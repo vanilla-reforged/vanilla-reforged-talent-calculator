@@ -450,17 +450,16 @@ export const data: TalentData = {
           30,
         ]}% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
       },
-      "Improved Seal of the Crusader": {
+      "Improved Judgement": {
         name: "Improved Seal of the Crusader",
         pos: "d2",
         icon: icons["spell_holy_holysmite"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
+        description: talentText`Gives your Judgement ability a ${[
+          50,
+          100,
+        ]}% chance to silence the target for 2 sec.`,
       },
       "Improved Seal of the Crusader": {
         name: "Improved Seal of the Crusader",
