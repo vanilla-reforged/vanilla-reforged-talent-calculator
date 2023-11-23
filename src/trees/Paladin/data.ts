@@ -197,13 +197,13 @@ export const data: TalentData = {
           5,
         ]}% chance to generate 2% of your base mana when a block occurs.`,
       },
-      "Holy Power": {
-        name: "Holy Power",
+      "Power of Faith": {
+        name: "Power of Faith",
         pos: "a3",
         icon: icons["spell_holy_power"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical effect chance and the hit chance of your offensive Holy Spells by ${[
+        description: talentText`Improves your chance to get a critical strike and your chance to hit with spells by ${[
           1,
           2,
           3,
