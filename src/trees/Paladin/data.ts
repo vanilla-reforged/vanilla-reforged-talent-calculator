@@ -484,7 +484,7 @@ export const data: TalentData = {
       "Justice": {
         name: "Justice",
         pos: "e3",
-        icon: icons["inv_relics_libramofhope"],
+        icon: icons["spell_holy_mindvision"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Your Judgement spell has a ${[
