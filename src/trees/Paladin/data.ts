@@ -168,7 +168,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally. (30 sec cooldown)`,
+        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or healing an ally for 204 to 220. (30 sec cooldown)`,
       },
     },
   },
@@ -273,7 +273,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofmight"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Decreases the cooldown of your Hammer of Justice spell by ${[
+        description: talentText`Reduces the cooldown of your Hammer of Justice spell by ${[
           5,
           10,
           15,
