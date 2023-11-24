@@ -192,7 +192,7 @@ export const data: TalentData = {
       "Demonic Precision": {
         name: "Demonic Precision",
         pos: "a2",
-        icon: icons["inv_gauntlets_01"],
+        icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your pet's chance to hit by ${[
@@ -206,7 +206,7 @@ export const data: TalentData = {
       "Demonic Ferocity": {
         name: "Demonic Ferocity",
         pos: "a3",
-        icon: icons["inv_helmet_07"],
+        icon: icons["ability_druid_bash"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your pet's chance to get a critical strike by ${[
