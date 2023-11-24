@@ -140,11 +140,11 @@ export const data: TalentData = {
         icon: icons["spell_holy_greaterheal"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a ${[
+        description: talentText`Gives you a ${[
           33,
           66,
           100,
-        ]}% chance to gain Mana equal to the base cost of the spell.`,
+        ]}% chance to gain Mana equal to the base cost of the spell, after getting a critical effect from one of your healing spells.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
