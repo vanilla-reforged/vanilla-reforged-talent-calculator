@@ -467,7 +467,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holysmite"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by ${[
+        description: talentText`Increases the melee attack power bonus of your Seal of the Crusader spell and the Holy damage increase of your Judgement of the Crusader spell by ${[
           5,
           10,
           15,
