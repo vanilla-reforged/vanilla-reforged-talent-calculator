@@ -15,7 +15,7 @@ export const data: TalentData = {
       "Predatory Precision": {
         name: "Predatory Precision",
         pos: "a2",
-        icon: icons["inv_misc_head_dragon_black"],
+        icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the hit chance of your pets by ${[
@@ -29,7 +29,7 @@ export const data: TalentData = {
       "Ferocity": {
         name: "Ferocity",
         pos: "a3",
-        icon: icons["inv_misc_monsterclaw_04"],
+        icon: icons["ability_druid_bash"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the critical strike chance of your pets by ${[
