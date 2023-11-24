@@ -296,7 +296,7 @@ export const data: TalentData = {
       "Steady Hands": {
         name: "Steady Hands",
         pos: "e2",
-        icon: icons["spell_ice_lament"],
+        icon: icons["ability_rogue_kidneyshot"],
         maxRank: 1,
         reqPoints: 20,
         description: talentText`When activated, increases the critical strike chance of your next Aimed Shot, Multi-Shot or Quick Shot by 100%. (2 min cooldown)`,
