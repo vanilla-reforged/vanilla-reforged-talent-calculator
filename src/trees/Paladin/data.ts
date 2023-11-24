@@ -120,7 +120,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_healingaura"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the duration of your Judgement of Light and Judgement of Wisdom by ${[
+        description: talentText`Increases the duration of your Judgement of Light and Judgement of Wisdom spells by ${[
           36,
           73,
           110,
@@ -217,7 +217,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofvalor"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the duration of your Blessing of Freedom by ${[
+        description: talentText`Increases the duration of your Blessing of Freedom spell by ${[
           3,
           6,
         ]} sec.`,
@@ -228,7 +228,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofprotection"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Blessing of Protection by ${[
+        description: talentText`Reduces the cooldown of your Blessing of Protection spell by ${[
           40,
           80,
           120,
