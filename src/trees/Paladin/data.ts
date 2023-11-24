@@ -132,7 +132,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance. (2 min cooldown)`,
+        description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%. (2 min cooldown)`,
       },
       "Illumination": {
         name: "Illumination",
