@@ -242,6 +242,8 @@ export const data: TalentData = {
       icon: icons["ability_druid_bash"],
       maxRank: 5,
       reqPoints: 10,
+      prereq: "Feral Aggression",
+      arrows: [{ dir: "down", from: "a2", to: "c2" }],
       description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
         8,
         16,
@@ -329,7 +331,7 @@ export const data: TalentData = {
         pos: "e2",
         icon: icons["ability_hunter_pet_bear"],
         maxRank: 1,
-        reqPoints: 10,
+        reqPoints: 20,
         description: talentText`Causes you to charge an enemy, stunning the target for 3 sec. (18 sec cooldown)`,
       },
       "Eye of the Tiger": {
@@ -505,7 +507,7 @@ export const data: TalentData = {
         pos: "e3",
         icon: icons["spell_nature_resistnature"],
         maxRank: 3,
-        reqPoints: 25,
+        reqPoints: 20,
         description: talentText`Increases the critical effect chance of your Regrowth spell by ${[
           15,
           30,
