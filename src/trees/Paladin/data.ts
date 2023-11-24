@@ -398,7 +398,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_auraoflight"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the damage done by your Retribution Aura by ${[
+        description: talentText`Increases the damage done by your Retribution Aura spell by ${[
           15,
           30,
           45,
@@ -491,7 +491,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to grant the members of your party a 3% damage bonus which lasts for 12 sec.`,
+        ]}% chance to to increase the damage done by your party by 3% for 12 sec.`,
       },
       "Vengeance": {
         name: "Vengeance",
