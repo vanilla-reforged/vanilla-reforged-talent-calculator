@@ -98,10 +98,10 @@ export const data: TalentData = {
         icon: icons["spell_arcane_blink"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives your Flash of Light and Holy Light spells a ${[
+        description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to not lose casting time when you take damage.`,
+        ]}% chance to resist interruption caused by damage while casting any healing spell.`,
       },
       "Revelation": {
         name: "Revelation",
