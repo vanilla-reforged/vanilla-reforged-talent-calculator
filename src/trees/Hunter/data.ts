@@ -26,8 +26,8 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Ferocity": {
-        name: "Ferocity",
+      "Predatory Ferocity": {
+        name: "Predatory Ferocity",
         pos: "a3",
         icon: icons["ability_druid_bash"],
         maxRank: 5,
