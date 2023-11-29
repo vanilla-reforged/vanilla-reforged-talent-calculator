@@ -475,7 +475,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}%`,
+        ]}%.`,
       },
       "Lightning Reflexes": {
         name: "Lightning Reflexes",
@@ -489,7 +489,7 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]}%`,
+        ]}%.`,
       },
       "Stalk": {
         name: "Stalk",
