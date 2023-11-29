@@ -319,7 +319,7 @@ export const data: TalentData = {
         icon: icons["inv_weapon_rifle_06"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage your deal with ranged weapons by ${[
+        description: talentText`Increases the damage you deal with ranged weapons by ${[
           2,
           4,
           6,
