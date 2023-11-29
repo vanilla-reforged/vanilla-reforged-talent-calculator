@@ -241,7 +241,7 @@ export const data: TalentData = {
           15,
           30,
           45,
-        ]}%`,
+        ]}%.`,
       },
       "Fel Domination": {
         name: "Fel Domination",
