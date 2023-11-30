@@ -46,7 +46,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_reincarnation"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the Health of your pets by ${[
+        description: talentText`Increases the maximum Health of your pet by ${[
           3,
           6,
           9,
@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_dash"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the outdoor movement speed of your pets by ${[
+        description: talentText`Increases the outdoor movement speed of your pet by ${[
           15,
           30,
           45,
@@ -94,15 +94,15 @@ export const data: TalentData = {
         icon: icons["ability_hunter_beastsoothe"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Revive Pet's casting time is reduced by ${[
+        description: talentText`Reduces the casting time of your Revive Pet spell by ${[
           2,
           4,
           6,
-        ]} sec, mana cost is reduced by ${[
+        ]} sec, the Mana cost by ${[
           10,
           20,
           30,
-        ]}%, and increases the health your pet returns with by an additional ${[
+        ]}% and increases the Health your pet returns with by an additional ${[
           10,
           20,
           30,
@@ -145,7 +145,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increase the Focus regeneration of your pets by ${[
+        description: talentText`Increase the Focus regeneration of your pet by ${[
           15,
           30,
           45,
@@ -196,13 +196,13 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Lethal Shots": {
-        name: "Lethal Shots",
+      "Lethal Attacks": {
+        name: "Lethal Attacks",
         pos: "a3",
         icon: icons["ability_searingarrow"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your critical strike chance with ranged weapons by ${[
+        description: talentText`Improves your chance to get a critical strike by ${[
           1,
           2,
           3,
@@ -230,7 +230,7 @@ export const data: TalentData = {
         icon: icons["ability_trueshot"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increase the attack power of party members within 45 yards by 15. Lasts 30 min.`,
+        description: talentText`Increases the attack power of party members within 45 yards by 15. Lasts 30 min.`,
       },
       "Hawk Eye": {
         name: "Hawk Eye",
@@ -241,9 +241,9 @@ export const data: TalentData = {
         prereq: "Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your ranged weapons by ${[
-          3,
-          6,
-        ]} yards.`,
+          10,
+          20,
+        ]}%.`,
       },
       "Efficiency": {
         name: "Efficiency",
@@ -251,7 +251,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your Shots and Stings by ${[
+        description: talentText`Reduces the Mana cost of your Shot and Sting abilities by ${[
           10,
           20,
           30,
@@ -287,7 +287,7 @@ export const data: TalentData = {
         icon: icons["ability_piercedamage"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases your ranged weapon critical strike damage bonus by ${[
+        description: talentText`Increases the critical strike damage bonus of your ranged attacks by ${[
           10,
           20,
           30,
@@ -335,7 +335,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Steady Hands",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`An aimed shot that increases ranged damage by 330 (6 sec. cooldown)`,
+        description: talentText`An aimed shot that deals ranged weapon damage plus 330 (6 sec. cooldown)`,
       },
     },
   },
@@ -471,7 +471,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage of your Survival abilities by ${[
+        description: talentText`Increases the damage done by your Survival abilities by ${[
           2,
           4,
           6,
