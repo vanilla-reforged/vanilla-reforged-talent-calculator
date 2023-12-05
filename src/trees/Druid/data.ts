@@ -68,7 +68,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_naturetouchgrow"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Nature's Focus",
+        prereq: "Nature's Guidance",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by ${[
           10,
@@ -242,7 +242,7 @@ export const data: TalentData = {
       icon: icons["ability_druid_demoralizingroar"],
       maxRank: 5,
       reqPoints: 10,
-      prereq: "Feral Aggression",
+      prereq: "Feral Reflexes",
       arrows: [{ dir: "down", from: "a2", to: "c2" }],
       description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
         8,
@@ -433,7 +433,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_elunesgrace"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Silent Resolve",
+        prereq: "Subtlety",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the mana cost of your Healing Touch and Tranquility spells by ${[
           3,
