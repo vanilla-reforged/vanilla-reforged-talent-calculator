@@ -13,9 +13,9 @@ export const data: TalentData = {
     icon: icons["spell_nature_naturesblessing"],
     talents: {
       "Nature's Focus": {
-        name: "Nature's Focus",
+        name: "Nature's Guidance",
         pos: "a2",
-        icon: icons["spell_holy_devotion"],
+        icon: icons["spell_nature_natureresistancetotem"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to hit with your Arcane spells by ${[
@@ -29,7 +29,7 @@ export const data: TalentData = {
       "Nature's Wrath": {
         name: "Nature's Wrath",
         pos: "a3",
-        icon: icons["spell_nature_natureswrath"],
+        icon: icons["spell_nature_astralrecal"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the critical strike chance of your Arcane spells by ${[
@@ -174,10 +174,10 @@ export const data: TalentData = {
     background: backgrounds["feral"],
     icon: icons["ability_racial_bearform"],
     talents: {
-      "Feral Aggression": {
-        name: "Feral Aggression",
+      "Feral Reflexes": {
+        name: "Feral Reflexes",
         pos: "a2",
-        icon: icons["ability_druid_demoralizingroar"],
+        icon: icons["ability_tracking"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to dodge in Bear and Direbear Form by ${[
@@ -197,7 +197,7 @@ export const data: TalentData = {
       "Brutal Strikes": {
         name: "Brutal Strikes",
         pos: "a3",
-        icon: icons["ability_hunter_pet_cat"],
+        icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to get a critical strike and your chance to hit with melee attacks by ${[
@@ -236,10 +236,10 @@ export const data: TalentData = {
       reqPoints: 10,
       description: talentText`Decrease the armor of the target by 175 for 40 sec. While affected, the target cannot stealth or turn invisible.`,
     },
-    "Brutal Impact": {
-      name: "Brutal Impact",
+    "Protective Instincts": {
+      name: "Protective Instincts",
       pos: "c2",
-      icon: icons["ability_druid_bash"],
+      icon: icons["ability_druid_demoralizingroar"],
       maxRank: 5,
       reqPoints: 10,
       prereq: "Feral Aggression",
@@ -337,7 +337,7 @@ export const data: TalentData = {
       "Eye of the Tiger": {
         name: "Eye of the Tiger",
         pos: "e3",
-        icon: icons["ability_eyeoftheowl"],
+        icon: icons["ability_hunter_pet_cat"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Your Claw, Rake, Maul and Swipe abilities have a ${[
