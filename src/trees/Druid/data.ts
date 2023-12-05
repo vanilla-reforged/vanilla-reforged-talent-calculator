@@ -12,7 +12,7 @@ export const data: TalentData = {
     background: backgrounds["balance"],
     icon: icons["spell_nature_naturesblessing"],
     talents: {
-      "Nature's Focus": {
+      "Nature's Guidance": {
         name: "Nature's Guidance",
         pos: "a2",
         icon: icons["spell_nature_natureresistancetotem"],
