@@ -411,19 +411,19 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cast time of your Healing Touch spell by ${[
-          0.1,
-          0.2,
-          0.3,
-          0.4,
-          0.5,
-        ]} sec and gives you a ${[
+        description: talentText`Gives you a ${[
           20,
           40,
           60,
           80,
           100,
-        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.`,
+        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form and reduces the cast time of your Healing Touch spell by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+        ]} sec.`,
       },
       "Omen of Clarity": {
         name: "Omen of Clarity",
