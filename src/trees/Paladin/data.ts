@@ -265,6 +265,7 @@ export const data: TalentData = {
         description: talentText`Increases the damage done by your Seal of Righteousness spells by ${[
           5,
           10,
+          15,
         ]}%.`,
       },
       "Improved Hammer of Justice": {
