@@ -405,8 +405,8 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Improved Healing Touch": {
-        name: "Improved Healing Touch",
+      "Restorative Mind": {
+        name: "Restorative Mind",
         pos: "b3",
         icon: icons["spell_nature_healingtouch"],
         maxRank: 5,
@@ -417,7 +417,13 @@ export const data: TalentData = {
           0.3,
           0.4,
           0.5,
-        ]} sec.`,
+        ]} sec and gives you a ${[
+          20,
+          40,
+          60,
+          80,
+          100,
+        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.`,
       },
       "Omen of Clarity": {
         name: "Omen of Clarity",
