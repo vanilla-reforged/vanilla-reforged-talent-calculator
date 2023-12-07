@@ -301,10 +301,10 @@ export const data: TalentData = {
       ]}% chance to add an additional combo point. In addition increases the damage caused by your Claw and Rake abilities by ${[
         5,
         10,
-      ]}% and increases the stun duration of your Pounce ability by ${[
-        0.5,
-        1,
-      ]} sec.`,
+      ]}% and gives your Rake ability a ${[
+        50,
+        100,
+      ]}% chance to silence the target for 3 sec.`,
     },
     "Primal Fury": {
       name: "Primal Fury",
