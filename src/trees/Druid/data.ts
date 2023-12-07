@@ -408,7 +408,7 @@ export const data: TalentData = {
       "Restorative Mind": {
         name: "Restorative Mind",
         pos: "b3",
-        icon: icons["spell_nature_healingtouch"],
+        icon: icons["spell_holy_blessingofstamina"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the cast time of your Healing Touch spell by ${[
