@@ -46,7 +46,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cast time of your Starfire and Wrath spell by ${[
+        description: talentText`Reduces the casting time of your Starfire and Wrath spells by ${[
           0.1,
           0.2,
           0.3,
