@@ -298,7 +298,7 @@ export const data: TalentData = {
       description: talentText`Your critial strikes from Cat Form abilities that add combo points have a ${[
         50,
         100,
-      ]}% chance to add an additional combo point. In addition increases the damage caused by your Claw and Rake abilities by ${[
+      ]}% chance to add an additional combo point. In addition increases the damage caused by your Claw and Ravage abilities by ${[
         5,
         10,
       ]}% and gives your Rake ability a ${[
