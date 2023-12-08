@@ -316,7 +316,7 @@ export const data: TalentData = {
         33,
         66,
         100,
-      ]} chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form. In addition increases the damage caused by your Maul and Swipe abilities by ${[
+      ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form. In addition increases the damage caused by your Maul and Swipe abilities by ${[
         5,
         10,
         15,
