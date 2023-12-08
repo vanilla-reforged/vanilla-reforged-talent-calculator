@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_natureresistancetotem"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with your Arcane spells by ${[
+        description: talentText`Improves your chance to hit with spells by ${[
           1,
           2,
           3,
@@ -32,7 +32,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_astralrecal"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of your Arcane spells by ${[
+        description: talentText`Improves your chance to get a critical strike with spells by ${[
           1,
           2,
           3,
