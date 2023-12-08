@@ -70,7 +70,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Nature's Guidance",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by ${[
+        description: talentText`Increases the range of your Balance spells by ${[
           10,
           20,
         ]}%.`,
