@@ -309,7 +309,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_vindication"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec.`,
+        description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec. (18 sec cooldown)`,
       },
       "Force of Faith": {
         name: "Force of Faith",
