@@ -304,7 +304,7 @@ export const data: TalentData = {
       ]}% and gives your Rake ability a ${[
         50,
         100,
-      ]}% chance to silence the target for 3 sec.`,
+      ]}% chance to silence the target for 2 sec.`,
     },
     "Primal Fury": {
       name: "Primal Fury",
