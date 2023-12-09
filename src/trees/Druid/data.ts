@@ -200,7 +200,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to get a critical strike and your chance to hit with melee attacks by ${[
+        description: talentText`Improves your chance to get a critical strike and your chance to hit by ${[
           1,
           2,
           3,
@@ -214,13 +214,13 @@ export const data: TalentData = {
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
       reqPoints: 5,
-      description: talentText`Reduces the cost of your Claw and Rake abilities by ${[
+      description: talentText`Reduces the Energy cost of your Claw and Rake abilities by ${[
         1,
         2,
         3,
         4,
         5,
-      ]} Energy and increases the damage caused by your Ferocious Bite ability by ${[
+      ]} and increases the damage caused by your Ferocious Bite ability by ${[
         3,
         6,
         9,
