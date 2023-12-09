@@ -270,10 +270,10 @@ export const data: TalentData = {
       icon: icons["spell_nature_spiritwolf"],
       maxRank: 2,
       reqPoints: 10,
-      description: talentText`Increases your movement speed by ${[
+      description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
         15,
         30,
-      ]}% while outdoors in Cat Form and increases your chance to dodge attacks while in Cat Form by ${[
+      ]}% and increases your chance to dodge an attack while in Cat Form by ${[
         2,
         4,
       ]}%.`,
@@ -417,7 +417,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form and reduces the cast time of your Healing Touch spell by ${[
+        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form. In addition reduces the casting time of your Healing Touch spell by ${[
           0.1,
           0.2,
           0.3,
@@ -526,7 +526,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_protectionformnature"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the effect of all healing spells by ${[
+        description: talentText`Increases the amount healed by your healing spells by ${[
           2,
           4,
           6,
