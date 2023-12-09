@@ -106,7 +106,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_natureswrath"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the chance of your Nature's Grasp to entangle an enemy by ${[
+        description: talentText`Improves the chance of your Nature's Grasp spell to entangle an enemy by ${[
           30,
           60,
         ]}%.`,
