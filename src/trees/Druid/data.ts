@@ -81,7 +81,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduce the Mana cost of your Moonfire, Starfire and Wrath spells by ${[
+        description: talentText`Reduce the Mana cost of your offensive spells by ${[
           10,
           20,
           30,
@@ -95,10 +95,10 @@ export const data: TalentData = {
         icon: icons["spell_nature_stranglevines"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives your Balance spells a${[
+        description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to not lose casting time when you take damage.`,
+        ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
       },
       "Improved Nature's Grasp": {
         name: "Improved Nature's Grasp",
@@ -352,7 +352,7 @@ export const data: TalentData = {
         icon: icons["inv_staff_01"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage you deal with physical attacks in all forms by ${[
+        description: talentText`Increases the physical damage you deal by ${[
           2,
           4,
           6,
@@ -475,7 +475,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.`,
+        ]}% chance to avoid interruption caused by damage while casting any healing spell.`,
       },
       "Natural Fortitude": {
         name: "Natural Fortitude",
