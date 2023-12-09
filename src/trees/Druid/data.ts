@@ -180,13 +180,13 @@ export const data: TalentData = {
         icon: icons["ability_tracking"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to dodge in Bear and Direbear Form by ${[
+        description: talentText`Increases your chance to dodge an attack in Bear and Direbear Form by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% and increases threath caused in Bear and Direbear Form by ${[
+        ]}% and increases the threath you cause in Bear and Direbear Form by ${[
           3,
           6,
           9,
