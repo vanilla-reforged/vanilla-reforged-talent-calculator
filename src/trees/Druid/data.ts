@@ -117,7 +117,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Insect Swarm spell by ${[
+        description: talentText`Improves the damage done by your Insect Swarm spell by ${[
           5,
           10,
           15,
