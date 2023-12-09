@@ -129,7 +129,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_purge"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 100%.`,
+        description: talentText`Increases the critical strike damage bonus of your Balance spells by 100%.`,
       },
       "Perfectly Balanced": {
         name: "Perfectly Balanced",
