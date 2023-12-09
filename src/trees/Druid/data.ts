@@ -256,13 +256,13 @@ export const data: TalentData = {
         6,
         8,
         10,
-      ]} Rage. In addition reduces the cost of your Maul, and Swipe abilities by ${[
+      ]} Rage. In addition reduces the Rage cost of your Maul, and Swipe abilities by ${[
         1,
         2,
         3,
         4,
         5,
-      ]} Rage.`,
+      ]}.`,
     },
     "Feline Swiftness": {
       name: "Feline Swiftness",
