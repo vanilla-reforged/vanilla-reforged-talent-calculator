@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage. (10 sec cooldown)`,
+        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  (10 sec cooldown)`,
       },
       "Nature's Reach": {
         name: "Nature's Reach",
@@ -165,7 +165,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec. \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.  \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
   },
@@ -234,7 +234,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decrease the armor of the target by 175 for 40 sec. While affected, the target cannot stealth or turn invisible.`,
+      description: talentText`Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
     },
     "Protective Instincts": {
       name: "Protective Instincts",
@@ -256,7 +256,7 @@ export const data: TalentData = {
         6,
         8,
         10,
-      ]} Rage. In addition reduces the Rage cost of your Maul, and Swipe abilities by ${[
+      ]} Rage.  In addition reduces the Rage cost of your Maul, and Swipe abilities by ${[
         1,
         2,
         3,
@@ -313,7 +313,7 @@ export const data: TalentData = {
         33,
         66,
         100,
-      ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form. In addition increases the damage caused by your Maul and Swipe abilities by ${[
+      ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.  In addition increases the damage caused by your Maul and Swipe abilities by ${[
         5,
         10,
         15,
@@ -329,7 +329,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_bear"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to charge an enemy, stunning the target for 3 sec. (18 sec cooldown)`,
+        description: talentText`Causes you to charge an enemy, stunning the target for 3 sec.  (18 sec cooldown)`,
       },
       "Eye of the Tiger": {
         name: "Eye of the Tiger",
@@ -365,7 +365,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Feral Charge",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your Intellect by 35%. In addition, while in Bear or Dire Bear Form your Stamina is increased by 35% and while in Cat Form your Agility is increased by 35%.`,
+        description: talentText`Increases your Intellect by 35%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 35% and while in Cat Form your Agility is increased by 35%.`,
       },
     },
   },
@@ -414,7 +414,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form. In addition reduces the casting time of your Healing Touch spell by ${[
+        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.  In addition reduces the casting time of your Healing Touch spell by ${[
           0.1,
           0.2,
           0.3,
@@ -428,7 +428,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state. The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%. Lasts 10 min.`,
+        description: talentText`Imbues the druid with natural energy.  Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
       },
       "Tranquil Spirit": {
         name: "Tranquil Spirit",
@@ -503,7 +503,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Nature spell becomes an instant cast spell. (2 min cooldown)`,
+        description: talentText`When activated, your next Nature spell becomes an instant cast spell.  (2 min cooldown)`,
       },
       "Improved Regrowth": {
         name: "Improved Regrowth",
