@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When used, adds 1 combo point to your target. You must add to or use this combo point within 10 sec or the combo point is lost. (1 min cooldown)`,
+        description: talentText`When used, adds 1 combo point to your target.  You must add to or use this combo point within 10 sec or the combo point is lost.  (1 min cooldown)`,
       },
       "Dissection": {
         name: "Dissection",
@@ -95,7 +95,6 @@ export const data: TalentData = {
         icon: icons["ability_rogue_ambush"],
         maxRank: 2,
         reqPoints: 10,
-
         description: talentText`Improves the critical strike chance of your Ambush ability by ${[
           25,
           50,
@@ -125,7 +124,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}%. The amount of Armor reduced increases with your level.`,
+        ]}%.  The amount of Armor reduced increases with your level.`,
       },
       "Cold Blood": {
         name: "Cold Blood",
@@ -133,7 +132,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_lament"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate ability by 100%. (2 min cooldown)`,
+        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate ability by 100%.  (2 min cooldown)`,
       },
       "Murder": {
         name: "Murder",
@@ -187,7 +186,7 @@ export const data: TalentData = {
         description: talentText`After killing a target that yields experience or honor, gives you a ${[
           20,
           40,
-        ]}% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike. Lasts 20 sec.`,
+        ]}% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 sec.`,
       },
       "Precision": {
         name: "Precision",
@@ -304,7 +303,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_punishingblow"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec. (2 min cooldown)`,
+        description: talentText`Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 sec.  (2 min cooldown)`,
       },
       "Aggression": {
         name: "Aggression",
@@ -340,7 +339,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blade Flurry",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your Energy regeneration rate by 100% for 15 sec. In addition you become immune to stun and incapacitate effects. (2 min cooldown)`,
+        description: talentText`Increases your Energy regeneration rate by 100% for 15 sec.  In addition you become immune to stun and incapacitate effects.  (2 min cooldown)`,
       },
     },
   },
@@ -392,7 +391,7 @@ export const data: TalentData = {
         description: talentText`Increases movement and mounted movement speed by ${[
           5,
           10,
-        ]}%. This does not stack with other movement speed increasing effects.`,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Improved Sap": {
         name: "Improved Sap",
@@ -425,7 +424,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Heightened Senses",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point. (20 sec cooldown)`,
+        description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec.  Awards 1 combo point.  (20 sec cooldown)`,
       },
       "Setup": {
         name: "Setup",
@@ -481,7 +480,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_lifedrain"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`An instant strike that damages the opponent and causes the target to hemmorhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point.`,
+        description: talentText`An instant strike that damages the opponent and causes the target to hemmorhage, increasing any Physical damage dealt to the target by up to 3.  Lasts 30 charges or 15 sec.  Awards 1 combo point.`,
       },
       "Dirty Deeds": {
         name: "Dirty Deeds",
@@ -517,7 +516,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Veil yourself in Shadows, removing all harmful magic and curse effects and absorbing 650 magic damage for 40 sec. (2 min cooldown)`,
+        description: talentText`Veil yourself in Shadows, removing all harmful magic and curse effects and absorbing 650 magic damage for 40 sec.  (2 min cooldown)`,
       },
     },
   },

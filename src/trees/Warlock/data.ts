@@ -21,7 +21,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul. For the duration, your Mana will regenerate at a 50% rate while casting.`,
+        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul.  For the duration, your Mana will regenerate at a 50% rate while casting.`,
       },
       "Suppression": {
         name: "Suppression",
@@ -69,7 +69,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_grimward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.`,
+        description: talentText`Reduces the target's movement speed by 30% for 12 sec.  Only one Curse per Warlock can be active on any one target.`,
       },
       "Grim Reach": {
         name: "Grim Reach",
@@ -144,7 +144,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by 20%. Lasts 30 sec. (2 min cooldown)`,
+        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by 20%.  Lasts 30 sec.  (2 min cooldown)`,
       },
       "Blight": {
         name: "Blight",
@@ -251,7 +251,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Demonic Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Your next pet Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%. (15 min cooldown)`,
+        description: talentText`Your next pet Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%.  (15 min cooldown)`,
       },
       "Improved Demon Armor": {
         name: "Improved Demon Armor",
@@ -275,7 +275,11 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]} sec and the Mana cost by ${[10, 20, 30]}%.`,
+        ]} sec and the Mana cost by ${[
+          10,
+          20,
+          30
+        ]}%.`,
       },
       "Demonic Embrace": {
         name: "Demonic Embrace",
@@ -318,7 +322,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. In addition, both the demon and master will inflict 1% more damage. Lasts as long as the demon is active.`,
+        description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead.  In addition, both the demon and master will inflict 1% more damage.  Lasts as long as the demon is active.`,
       },
       "Master Demonologist": {
         name: "Master Demonologist",
@@ -328,25 +332,25 @@ export const data: TalentData = {
         reqPoints: 25,
         prereq: "Demonic Command",
         arrows: [{ dir: "down", from: "d3", to: "f3" }],
-        description: talentText`Grants both the Warlock and the summoned demon an effect as long as the demon is active.\n\nImp - Reduces threat caused by ${[
+        description: talentText`Grants both the Warlock and the summoned demon an effect as long as the demon is active.  \n\nImp - Reduces threat caused by ${[
           4,
           8,
           12,
           16,
           20,
-        ]}%.\n\nVoidwalker - Reduces physical damage taken by ${[
+        ]}%.  \n\nVoidwalker - Reduces physical damage taken by ${[
           2,
           4,
           6,
           8,
           10,
-        ]}%.\n\nSuccubus - Increases all damage caused by ${[
+        ]}%.  \n\nSuccubus - Increases all damage caused by ${[
           2,
           4,
           6,
           8,
           10,
-        ]}%.\n\nFelhunter - Increases all resistances by ${[
+        ]}%.  \n\nFelhunter - Increases all resistances by ${[
           0.2,
           0.4,
           0.6,
@@ -362,7 +366,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Soul Link",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min.\n\nImp: Increases your Fire damage by 15%.\n\nVoidwalker: Restores 3% of your total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 15%.\n\nFelhunter: Restores 2% of total Mana every 4 sec.`,
+        description: talentText`When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min.  \n\nImp: Increases your Fire damage by 15%.  \n\nVoidwalker: Restores 3% of your total Health every 4 sec.  \n\nSuccubus: Increases your Shadow damage by 15%.  \n\nFelhunter: Restores 2% of total Mana every 4 sec.`,
       },
     },
   },
@@ -411,7 +415,13 @@ export const data: TalentData = {
           0.3,
           0.4,
           0.5,
-        ]} sec and your Soul Fire spell by ${[0.4, 0.8, 1.2, 1.6, 2]} sec.`,
+        ]} sec and your Soul Fire spell by ${[
+          0.4,
+          0.8,
+          1.2,
+          1.6,
+          2
+        ]} sec.`,
       },
       "Shadowburn": {
         name: "Shadowburn",
@@ -419,7 +429,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_scourgebuild"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Instantly blasts the target for 91 to 104 Shadow damage. If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard. (15 sec cooldown)`,
+        description: talentText`Instantly blasts the target for 91 to 104 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  (15 sec cooldown)`,
       },
       "Destructive Reach": {
         name: "Destructive Reach",
@@ -530,7 +540,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ruin",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Ignites a target dealing 249 to 316 Fire damage. (12 sec cooldown)`,
+        description: talentText`Ignites a target dealing 249 to 316 Fire damage.  (12 sec cooldown)`,
       },
     },
   },

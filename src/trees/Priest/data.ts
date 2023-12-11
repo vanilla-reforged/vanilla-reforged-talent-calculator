@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holynova"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes an explosion of holy light around the caster, causing 29 to 34 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63. These effects cause no threat.`,
+        description: talentText`Causes an explosion of holy light around the caster, causing 29 to 34 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63.  These effects cause no threat.`,
       },
       "Holy Reach": {
         name: "Holy Reach",
@@ -129,7 +129,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holysmite"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the critical strike damage bonus of your Holy Fire and Smite spells by 100%`,
+        description: talentText`Increases the critical strike damage bonus of your Holy Fire and Smite spells by 100%.`,
       },
       "Spiritual Guidance": {
         name: "Spiritual Guidance",
@@ -165,7 +165,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusade",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20% for 15 sec. (2 min cooldown)`,
+        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20% for 15 sec.  (2 min cooldown)`,
       },
     },
   },
@@ -222,7 +222,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%. (2 min cooldown)`,
+        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  (2 min cooldown)`,
       },
       "Improved Healing": {
         name: "Improved Healing",
@@ -297,7 +297,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_summonlightwell"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Holy spell becomes an instant cast spell. (2 min cooldown)`,
+        description: talentText`When activated, your next Holy spell becomes an instant cast spell.  (2 min cooldown)`,
       },
       "Improved Power Word: Shield": {
         name: "Improved Power Word: Shield",
@@ -351,7 +351,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience. For the duration, your Mana will regenerate at a 50% rate while casting. Lasts 15 sec.`,
+        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.`,
       },
       "Shadow Focus": {
         name: "Shadow Focus",
@@ -399,7 +399,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unsummonbuilding"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 1 min. (10 sec cooldown)`,
+        description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 1 min.  (10 sec cooldown)`,
       },
       "Shadow Reach": {
         name: "Shadow Reach",
@@ -468,7 +468,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_impphaseshift"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Silences the target, preventing them from casting spells for 5 sec. (45 sec cooldown)`,
+        description: talentText`Silences the target, preventing them from casting spells for 5 sec.  (45 sec cooldown)`,
       },
       "Shadow Weaving": {
         name: "Shadow Weaving",
@@ -504,7 +504,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Silence",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Assume a Shadowform, increasing your Shadow damage by 10% and reducing Physical damage done to you by 10%. However, you may not cast Holy spells while in this form.`,
+        description: talentText`Assume a Shadowform, increasing your Shadow damage by 10% and reducing Physical damage done to you by 10%.  However, you may not cast Holy spells while in this form.`,
       },
     },
   },

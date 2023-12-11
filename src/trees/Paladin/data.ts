@@ -87,7 +87,7 @@ export const data: TalentData = {
         description: talentText`Gives the target of your Lay on Hands spell a ${[
           15,
           30,
-        ]}% bonus to their armor value from items for 2 min. In addition, the cooldown of your Lay on Hands spell is reduced by ${[
+        ]}% bonus to their armor value from items for 2 min.  In addition, the cooldown of your Lay on Hands spell is reduced by ${[
           10,
           20,
         ]} min.`,
@@ -132,7 +132,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%. (2 min cooldown)`,
+        description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%.  (2 min cooldown)`,
       },
       "Illumination": {
         name: "Illumination",
@@ -168,7 +168,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or healing an ally for 204 to 220. (30 sec cooldown)`,
+        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or healing an ally for 204 to 220.  (30 sec cooldown)`,
       },
     },
   },
@@ -240,7 +240,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_lightningshield"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places a Blessing on the Paladin, reducing damage received from all sources by up to 10 for 30 min. In addition, when the Paladin blocks a melee attack the attacker will take 14 Holy damage.`,
+        description: talentText`Places a Blessing on the Paladin, reducing damage received from all sources by up to 10 for 30 min.  In addition, when the Paladin blocks a melee attack the attacker will take 14 Holy damage.`,
       },
       "Redoubt": {
         name: "Redoubt",
@@ -309,7 +309,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_vindication"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec. (18 sec cooldown)`,
+        description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec.  (18 sec cooldown)`,
       },
       "Force of Faith": {
         name: "Force of Faith",
@@ -345,7 +345,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusader's Charge",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges. (10 sec cooldown)`,
+        description: talentText`Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.  (10 sec cooldown)`,
       },
     },
   },
@@ -411,7 +411,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec. Unleashing this Seal's energy will judge an enemy, instantly causing 90 to 95 Holy damage, 137 to 146 if the target is stunned or incapacitated.`,
+        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.  \n\nUnleashing this Seal's energy will judge an enemy, instantly causing 90 to 95 Holy damage, 137 to 146 if the target is stunned or incapacitated.`,
       },
       "Benediction": {
         name: "Benediction",
@@ -449,7 +449,7 @@ export const data: TalentData = {
         description: talentText`All spell criticals against you cause ${[
           15,
           30,
-        ]}% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
+        ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
       },
       "Improved Judgement": {
         name: "Improved Seal of the Crusader",
@@ -480,7 +480,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids. (45 sec cooldown)`,
+        description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec.  Any damage caused will awaken the target.  Only works against Humanoids.  (45 sec cooldown)`,
       },
       "Justice": {
         name: "Justice",
@@ -516,7 +516,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Repentance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 85. (10 sec cooldown)`,
+        description: talentText`A vicious strike that deals weapon damage plus 85.  (10 sec cooldown)`,
       },
     },
   },
