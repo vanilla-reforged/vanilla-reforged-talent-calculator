@@ -316,13 +316,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Sweeping Strikes": {
-        name: "Sweeping Strikes",
+      "Plate Mail": {
+        name: "Plate Mail",
         pos: "e2",
-        icon: icons["ability_rogue_slicedice"],
+        icon: icons["inv_chest_plate01"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Your next 5 melee attacks strike an additional nearby opponent.  (30 sec cooldown)`,
+        description: talentText`Allows you to wear Plate Mail armor.`,
       },
       "Thunderstruck": {
         name: "Thunderstruck",
