@@ -168,7 +168,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or healing an ally for 204 to 220.  (30 sec cooldown)`,
+        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or healing an ally for 204 to 220.  (10 sec cooldown)`,
       },
     },
   },
