@@ -1,9 +1,11 @@
-# Vanilla Reforged Talent Calculator
+# vanilla reforged talent calculator
 
 Talent calculator hosted here: https://vanilla-reforged.github.io/vanilla-reforged-talent-calculator/#/
 
-## Vanilla Reforged Links
+## vanilla reforged links
 
-Find and join us on the web https://vanillareforged.org/en/
+[Vanilla Reforged Website](https://vanillareforged.org/)
 
-Support our efforts on Patreon https://www.patreon.com/vanillareforged
+[Vanilla Reforged Discord]((https://discord.gg/KkkDV5zmPb))
+
+[Vanilla Reforged Patreon](https://www.patreon.com/vanillareforged)
