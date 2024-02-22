@@ -281,8 +281,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Reduces the cooldown of your Intercept ability by ${[
-          8,
-          16,
+          7,
+          14,
         ]} sec.`,
       },
       "Enrage": {
