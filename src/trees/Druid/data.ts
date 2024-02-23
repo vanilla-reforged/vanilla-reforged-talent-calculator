@@ -165,7 +165,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.  \n\nThe Moonkin can only cast Balance spells while shapeshifted.  \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 0.5 sec.  The Moonkin can only cast Balance spells while shapeshifted.  \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
   },
