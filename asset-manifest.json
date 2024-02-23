@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/vanilla-reforged-talent-calculator/static/css/main.0ae4d62a.css",
-    "main.js": "/vanilla-reforged-talent-calculator/static/js/main.3fe9424b.js",
+    "main.js": "/vanilla-reforged-talent-calculator/static/js/main.a00da89f.js",
     "static/css/859.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/859.db995429.chunk.css",
-    "static/js/859.15db9581.chunk.js": "/vanilla-reforged-talent-calculator/static/js/859.15db9581.chunk.js",
+    "static/js/859.b2596688.chunk.js": "/vanilla-reforged-talent-calculator/static/js/859.b2596688.chunk.js",
     "static/css/79.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/79.db995429.chunk.css",
     "static/js/79.ab29e35f.chunk.js": "/vanilla-reforged-talent-calculator/static/js/79.ab29e35f.chunk.js",
     "static/css/214.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/214.db995429.chunk.css",
@@ -50,9 +50,9 @@
     "static/media/survival_instincts.jpg": "/vanilla-reforged-talent-calculator/static/media/survival_instincts.29e44a68c42c648cbe1e.jpg",
     "index.html": "/vanilla-reforged-talent-calculator/index.html",
     "main.0ae4d62a.css.map": "/vanilla-reforged-talent-calculator/static/css/main.0ae4d62a.css.map",
-    "main.3fe9424b.js.map": "/vanilla-reforged-talent-calculator/static/js/main.3fe9424b.js.map",
+    "main.a00da89f.js.map": "/vanilla-reforged-talent-calculator/static/js/main.a00da89f.js.map",
     "859.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/859.db995429.chunk.css.map",
-    "859.15db9581.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/859.15db9581.chunk.js.map",
+    "859.b2596688.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/859.b2596688.chunk.js.map",
     "79.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/79.db995429.chunk.css.map",
     "79.ab29e35f.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/79.ab29e35f.chunk.js.map",
     "214.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/214.db995429.chunk.css.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.0ae4d62a.css",
-    "static/js/main.3fe9424b.js"
+    "static/js/main.a00da89f.js"
   ]
 }
