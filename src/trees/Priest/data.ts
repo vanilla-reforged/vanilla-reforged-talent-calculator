@@ -165,7 +165,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusade",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20% for 15 sec.  (2 min cooldown)`,
+        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20% for 15 sec.  2 min cooldown`,
       },
     },
   },
@@ -222,7 +222,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  (2 min cooldown)`,
+        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  2 min cooldown`,
       },
       "Improved Healing": {
         name: "Improved Healing",
@@ -297,7 +297,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_summonlightwell"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Holy spell becomes an instant cast spell.  (2 min cooldown)`,
+        description: talentText`When activated, your next Holy spell becomes an instant cast spell.  2 min cooldown`,
       },
       "Improved Power Word: Shield": {
         name: "Improved Power Word: Shield",
@@ -399,7 +399,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unsummonbuilding"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 1 min.  (10 sec cooldown)`,
+        description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 1 min.  10 sec cooldown`,
       },
       "Shadow Reach": {
         name: "Shadow Reach",
@@ -468,7 +468,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_impphaseshift"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Silences the target, preventing them from casting spells for 5 sec.  (45 sec cooldown)`,
+        description: talentText`Silences the target, preventing them from casting spells for 5 sec.  45 sec cooldown`,
       },
       "Shadow Weaving": {
         name: "Shadow Weaving",

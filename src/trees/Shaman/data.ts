@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_manaburn"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.        `,
+        description: talentText`Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
       },
       "Storm Reach": {
         name: "Storm Reach",
@@ -73,7 +73,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of Elemental spells by ${[
           10,
           20,
-        ]} yards.`,
+        ]}%.`,
       },
       "Convection": {
         name: "Convection",
@@ -168,7 +168,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and dazing them for 6 sec.  (30 sec cooldown)`,
+        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and dazing them for 6 sec.  30 sec cooldown`,
       },
     },
   },
@@ -358,7 +358,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Plate Mail",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 85.  (6 sec cooldown)`,
+        description: talentText`A vicious strike that deals weapon damage plus 85.  6 sec cooldown`,
       },
     },
   },
@@ -493,7 +493,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Nature spell becomes an instant cast spell.  (2 min cooldown)`,
+        description: talentText`When activated, your next Nature spell becomes an instant cast spell.  2 min cooldown`,
       },
       "Healing Way": {
         name: "Healing Way",
@@ -529,7 +529,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Nature's Swiftness",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 170 mana every 3 sec to group members within 20 yards.  (5 min cooldown)`,
+        description: talentText`Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 170 mana every 3 sec to group members within 20 yards.  5 min cooldown`,
       },
     },
   },
