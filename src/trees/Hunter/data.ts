@@ -74,7 +74,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Predatory Precision",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.  (15 min cooldown)`,
+        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.  15 min cooldown`,
       },
       "Improved Aspects": {
         name: "Improved Aspects",
@@ -137,7 +137,7 @@ export const data: TalentData = {
         icon: icons["ability_devour"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.  (45 sec cooldown)`,
+        description: talentText`Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.  45 sec cooldown`,
       },
       "Bestial Discipline": {
         name: "Bestial Discipline",
@@ -173,7 +173,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Intimidation",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Send your pet into a rage causing 50% additional damage for 18 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.  (2 min cooldown)`,
+        description: talentText`Send your pet into a rage causing 50% additional damage for 18 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.  2 min cooldown`,
       },
     },
   },
@@ -299,7 +299,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_kidneyshot"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Aimed Shot, Multi-Shot or Quick Shot by 100%.  (2 min cooldown)`,
+        description: talentText`When activated, increases the critical strike chance of your next Aimed Shot, Multi-Shot or Quick Shot by 100%.  2 min cooldown`,
       },
       "Barrage": {
         name: "Barrage",
@@ -335,7 +335,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Steady Hands",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`An aimed shot that deals ranged weapon damage plus 330.  (6 sec cooldown)`,
+        description: talentText`An aimed shot that deals ranged weapon damage plus 330.  6 sec cooldown`,
       },
     },
   },
@@ -414,7 +414,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Heightened Senses",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.  (5 min cooldown)`,
+        description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.  5 min cooldown`,
       },
       "Clever Traps": {
         name: "Clever Traps",
@@ -439,7 +439,7 @@ export const data: TalentData = {
         description: talentText`Increases movement and mounted movement speed by ${[
           5,
           10,
-        ]}% This does not stack with other movement speed increasing effects.`,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Improved Disengage": {
         name: "Improved Disengage",
@@ -463,7 +463,7 @@ export const data: TalentData = {
         icon: icons["ability_golemstormbolt"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`A short range shot that deals 50% wepon damage and disorients the target for 4 sec.  Any damage caused will remove the effect.  Turns off your attack when used.  (30 sec cooldown)`,
+        description: talentText`A short range shot that deals 50% wepon damage and disorients the target for 4 sec.  Any damage caused will remove the effect.  Turns off your attack when used.  30 sec cooldown`,
       },
       "Killer Instinct": {
         name: "Killer Instinct",

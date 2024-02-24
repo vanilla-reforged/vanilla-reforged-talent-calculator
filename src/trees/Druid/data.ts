@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  (10 sec cooldown)`,
+        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
       },
       "Nature's Reach": {
         name: "Nature's Reach",
@@ -329,7 +329,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_bear"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to charge an enemy, stunning the target for 3 sec.  (18 sec cooldown)`,
+        description: talentText`Causes you to charge an enemy, stunning the target for 3 sec.  18 sec cooldown`,
       },
       "Eye of the Tiger": {
         name: "Eye of the Tiger",
@@ -428,7 +428,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Imbues the druid with natural energy.  Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
+        description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
       },
       "Tranquil Spirit": {
         name: "Tranquil Spirit",
@@ -503,7 +503,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Nature spell becomes an instant cast spell.  (2 min cooldown)`,
+        description: talentText`When activated, your next Nature spell becomes an instant cast spell.  2 min cooldown`,
       },
       "Improved Regrowth": {
         name: "Improved Regrowth",
