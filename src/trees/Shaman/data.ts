@@ -358,7 +358,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Plate Mail",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals weapon damage plus 85.  6 sec cooldown`,
+        description: talentText`A vicious strike that deals weapon damage plus 85.  10 sec cooldown`,
       },
     },
   },
