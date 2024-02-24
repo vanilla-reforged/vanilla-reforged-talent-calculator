@@ -457,7 +457,7 @@ export const data: TalentData = {
         description: talentText`Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by ${[
           30,
           50,
-        ]}%.  Lasts 1.50 sec.`,
+        ]}%.  Lasts 2 sec.`,
       },
       "Improved Cone of Cold": {
         name: "Improved Cone of Cold",
