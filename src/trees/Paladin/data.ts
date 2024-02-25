@@ -191,11 +191,11 @@ export const data: TalentData = {
           4,
           5,
         ]}% and has a ${[
-          1,
-          2,
-          3,
-          4,
-          5,
+          20,
+          40,
+          60,
+          80,
+          100,
         ]}% chance to generate 2% of your base mana when a block occurs.`,
       },
       "Power of Faith": {
