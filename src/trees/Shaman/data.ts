@@ -195,7 +195,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to generate 2% of your base mana when a block occurs.`,
+        ]}% chance to generate 2% of your total mana when a block occurs.`,
       },
       "Thundering Strikes": {
         name: "Thundering Strikes",
