@@ -235,8 +235,8 @@ export const data: TalentData = {
           120,
         ]} sec.`,
       },
-      "Blessing of Sanctuary": {
-        name: "Blessing of Sanctuary",
+      "Sanctuary": {
+        name: "Sanctuary",
         pos: "c1",
         icon: icons["spell_nature_lightningshield"],
         maxRank: 1,
