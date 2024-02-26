@@ -168,7 +168,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 285 to 338 Nature damage, and dazing them for 6 sec.  30 sec cooldown`,
+        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 277 to 331 Nature damage, and dazing them for 6 sec.  30 sec cooldown`,
       },
     },
   },
