@@ -310,7 +310,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% and increases the damage done by your Flametongue Weapon and Frostbrand Weapon by ${[
+        ]}% and increases the damage done by your Flametongue Weapon by ${[
           5,
           10,
           15,
@@ -431,7 +431,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and reduced the Mana cost of your Totems by ${[
+        ]}% and reduces the Mana cost of your Totems by ${[
           3,
           6,
           9,
