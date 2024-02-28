@@ -12,9 +12,17 @@ export const data: TalentData = {
     background: backgrounds["balance"],
     icon: icons["spell_nature_naturesblessing"],
     talents: {
+      "Nature's Grasp": {
+        name: "Nature's Guidance",
+        pos: "a1",
+        icon: icons["spell_nature_natureswrath"],
+        maxRank: 1,
+        reqPoints: 0,
+        description: talentText`While active, any time an enemy strikes the caster they have a 35% chance to become afflicted by Entangling Roots (Rank 1).  Only useable outdoors.  1 charge.  Lasts 45 sec.  1 min cooldown`,
+      },
       "Nature's Guidance": {
         name: "Nature's Guidance",
-        pos: "a2",
+        pos: "a3",
         icon: icons["spell_nature_natureresistancetotem"],
         maxRank: 5,
         reqPoints: 0,
@@ -28,7 +36,7 @@ export const data: TalentData = {
       },
       "Nature's Wrath": {
         name: "Nature's Wrath",
-        pos: "a3",
+        pos: "a4",
         icon: icons["spell_nature_astralrecal"],
         maxRank: 5,
         reqPoints: 0,
