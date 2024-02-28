@@ -41,7 +41,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_natureresistancetotem"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with spells by 
+        description: talentText`Improves your chance to hit with spells by ${[
           1,
           2,
           3,
