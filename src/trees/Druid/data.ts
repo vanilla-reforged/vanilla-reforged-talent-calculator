@@ -63,18 +63,6 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Thorns": {
-        name: "Improved Thorns",
-        pos: "b1",
-        icon: icons["spell_nature_thorns"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Increases damage caused by your Thorns spell by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
-      },
       "Nature's Speed": {
         name: "Nature's Speed",
         pos: "b2",
@@ -88,6 +76,18 @@ export const data: TalentData = {
           0.4,
           0.5,
         ]} sec.`,
+      },
+      "Improved Thorns": {
+        name: "Improved Thorns",
+        pos: "b3",
+        icon: icons["spell_nature_thorns"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Increases damage caused by your Thorns spell by ${[
+          15,
+          30,
+          45,
+        ]}%.`,
       },
       "Insect Swarm": {
         name: "Insect Swarm",
