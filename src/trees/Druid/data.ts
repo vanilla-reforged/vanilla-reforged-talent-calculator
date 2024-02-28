@@ -77,7 +77,7 @@ export const data: TalentData = {
       },
       "Nature's Speed": {
         name: "Nature's Speed",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 5,
         reqPoints: 5,
