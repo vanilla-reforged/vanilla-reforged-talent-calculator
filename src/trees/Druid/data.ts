@@ -100,17 +100,9 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Insect Swarm": {
-        name: "Insect Swarm",
-        pos: "c1",
-        icon: icons["spell_nature_insectswarm"],
-        maxRank: 1,
-        reqPoints: 10,
-        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
-      },
       "Moonglow": {
         name: "Moonglow",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_nature_sentinal"],
         maxRank: 5,
         reqPoints: 10,
@@ -121,6 +113,14 @@ export const data: TalentData = {
           40,
           50,
         ]}%.`,
+      },
+      "Insect Swarm": {
+        name: "Insect Swarm",
+        pos: "c3",
+        icon: icons["spell_nature_insectswarm"],
+        maxRank: 1,
+        reqPoints: 10,
+        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
       },
       "Balanced Soul": {
         name: "Balanced Soul",
@@ -150,6 +150,8 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 3,
         reqPoints: 15,
+        prereq: "Insect Swarm",
+        arrows: [{ dir: "down", from: "c3", to: "d3" }],
         description: talentText`Improves the damage done by your Insect Swarm spell by ${[
           5,
           10,
