@@ -63,6 +63,17 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Nature's Reach": {
+        name: "Nature's Reach",
+        pos: "b1",
+        icon: icons["spell_nature_naturetouchgrow"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Balance spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Nature's Speed": {
         name: "Nature's Speed",
         pos: "b2",
@@ -96,17 +107,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
-      },
-      "Nature's Reach": {
-        name: "Nature's Reach",
-        pos: "c2",
-        icon: icons["spell_nature_naturetouchgrow"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your Balance spells by ${[
-          10,
-          20,
-        ]}%.`,
       },
       "Moonglow": {
         name: "Moonglow",
