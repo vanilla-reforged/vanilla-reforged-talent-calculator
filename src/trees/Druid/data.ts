@@ -74,6 +74,7 @@ export const data: TalentData = {
           30,
           45,
         ]}%.`,
+      },
       "Nature's Speed": {
         name: "Nature's Speed",
         pos: "b3",
