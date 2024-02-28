@@ -100,6 +100,18 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
+      "Improved Entangling Roots": {
+        name: "Improved Entangling Roots",
+        pos: "c1",
+        icon: icons["spell_nature_stranglevines"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Reduces the casting time of your Entangling Roots spells by ${[
+          0.3,
+          0.6,
+          0.9,
+        ]} sec.`,
+      },
       "Moonglow": {
         name: "Moonglow",
         pos: "c2",
