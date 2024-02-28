@@ -68,8 +68,6 @@ export const data: TalentData = {
         icon: icons["inv_weapon_shortblade_05"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Improved Backstab",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the Energy cost of your Backstab ability by ${[
           3,
           5,
@@ -242,8 +240,6 @@ export const data: TalentData = {
         icon: icons["ability_dualwield"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Precision",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the damage done by your offhand weapon by ${[
           10,
           20,
@@ -422,8 +418,6 @@ export const data: TalentData = {
         icon: icons["spell_shadow_curse"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Heightened Senses",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec.  Awards 1 combo point.  20 sec cooldown`,
       },
       "Setup": {

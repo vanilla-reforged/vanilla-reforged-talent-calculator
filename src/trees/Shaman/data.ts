@@ -68,8 +68,6 @@ export const data: TalentData = {
         icon: icons["spell_nature_stormreach"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Storm's Guidance",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of Elemental spells by ${[
           10,
           20,
@@ -248,8 +246,6 @@ export const data: TalentData = {
         icon: icons["inv_shield_06"],
         maxRank: 3,
         reqPoints: 10,
-        prereq: "Shield Specialization",
-        arrows: [{ dir: "down", from: "a3", to: "c3" }],
         description: talentText`Increases the amount of damage absorbed by your shield by ${[
           10,
           20,
@@ -262,8 +258,6 @@ export const data: TalentData = {
         icon: icons["classic_spell_fire_elementaldevastation"],
         maxRank: 3,
         reqPoints: 10,
-        prereq: "Thundering Strikes",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Improves your chance to get a critical strike by ${[
           5,
           10,
@@ -423,8 +417,6 @@ export const data: TalentData = {
         icon: icons["spell_frost_manarecharge"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Grace",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the Mana cost of your healing spells by ${[
           1,
           2,

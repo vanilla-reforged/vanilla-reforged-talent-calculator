@@ -77,8 +77,6 @@ export const data: TalentData = {
         icon: icons["spell_shadow_callofbone"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Suppression",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Affliction spells by ${[
           10,
           20,
@@ -249,8 +247,6 @@ export const data: TalentData = {
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Demonic Precision",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Your next pet Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%.  15 min cooldown`,
       },
       "Improved Demon Armor": {
@@ -437,8 +433,6 @@ export const data: TalentData = {
         icon: icons["spell_shadow_corpseexplode"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Seek and Destroy",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Destruction spells by ${[
           10,
           20,

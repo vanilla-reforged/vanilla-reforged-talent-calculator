@@ -68,8 +68,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_holybolt"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Silent Resolve",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the amount healed by your Holy Light and Flash of Light spells by ${[
           3,
           6,
@@ -249,8 +247,6 @@ export const data: TalentData = {
         icon: icons["inv_shield_06"],
         maxRank: 3,
         reqPoints: 10,
-        prereq: "Shield Specialization",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the amount of damage absorbed by your shield by ${[
           10,
           20,
@@ -420,8 +416,6 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Precision",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the Mana cost of your Judgement and Seal spells by ${[
           10,
           20,

@@ -71,8 +71,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Tactical Mastery",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the time required for your rage to decay while out of combat by 30%.`,
       },
       "Improved Shouts": {
@@ -242,8 +240,6 @@ export const data: TalentData = {
         icon: icons["ability_dualwield"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Precision",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the damage done by your offhand weapon by ${[
           10,
           20,
@@ -423,8 +419,6 @@ export const data: TalentData = {
         icon: icons["ability_defend"],
         maxRank: 3,
         reqPoints: 10,
-        prereq: "Shield Specialization",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Allows your Shield Block ability to block an additional attack and increases the duration by ${[
           0.5,
           1,

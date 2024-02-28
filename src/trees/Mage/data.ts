@@ -70,8 +70,6 @@ export const data: TalentData = {
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Arcane Focus",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Arcane spells by ${[
           10,
           20,
@@ -242,8 +240,6 @@ export const data: TalentData = {
         icon: icons["spell_fire_flare"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Fiery Focus",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Fire spells by ${[
           10,
           20,
@@ -410,8 +406,6 @@ export const data: TalentData = {
         icon: icons["spell_shadow_darkritual"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Frozen Focus",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Frost spells by ${[
           10,
           20,

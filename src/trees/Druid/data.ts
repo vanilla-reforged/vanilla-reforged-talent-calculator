@@ -68,8 +68,6 @@ export const data: TalentData = {
         icon: icons["spell_nature_naturetouchgrow"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Nature's Guidance",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Balance spells by ${[
           10,
           20,
@@ -242,8 +240,6 @@ export const data: TalentData = {
       icon: icons["ability_druid_demoralizingroar"],
       maxRank: 5,
       reqPoints: 10,
-      prereq: "Feral Reflexes",
-      arrows: [{ dir: "down", from: "a2", to: "c2" }],
       description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
         8,
         16,
@@ -436,8 +432,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_elunesgrace"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Subtlety",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the mana cost of your Healing Touch and Tranquility spells by ${[
           3,
           6,

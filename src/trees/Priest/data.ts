@@ -68,8 +68,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_purify"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Guided by Faith",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Holy spells by ${[
           10,
           20,
@@ -230,8 +228,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal02"],
         maxRank: 5,
         reqPoints: 10,
-        prereq: "Silent Resolve",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by ${[
           3,
           6,
@@ -407,8 +403,6 @@ export const data: TalentData = {
         icon: icons["spell_shadow_chilltouch"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Shadow Focus",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your Shadow spells by ${[
           10,
           20,

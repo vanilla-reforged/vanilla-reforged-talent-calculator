@@ -72,8 +72,6 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Predatory Precision",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.  15 min cooldown`,
       },
       "Improved Aspects": {
@@ -238,8 +236,6 @@ export const data: TalentData = {
         icon: icons["ability_townwatch"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Precision",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the range of your ranged weapons by ${[
           10,
           20,
@@ -412,8 +408,6 @@ export const data: TalentData = {
         icon: icons["ability_whirlwind"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Heightened Senses",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.  5 min cooldown`,
       },
       "Clever Traps": {
