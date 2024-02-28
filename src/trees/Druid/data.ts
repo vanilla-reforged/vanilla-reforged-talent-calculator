@@ -20,13 +20,28 @@ export const data: TalentData = {
         reqPoints: 0,
         description: talentText`While active, any time an enemy strikes the caster they have a 35% chance to become afflicted by Entangling Roots (Rank 1).  Only useable outdoors.  1 charge.  Lasts 45 sec.  1 min cooldown`,
       },
+      "Improved Nature's Grasp": {
+        name: "Nature's Guidance",
+        pos: "a2",
+        icon: icons["spell_nature_natureswrath"],
+        maxRank: 4,
+        reqPoints: 0,
+        prereq: "Nature's Grasp",
+        arrows: [{ dir: "right", from: "a1", to: "a2" }],
+        description: talentText`Increases the chance for your Nature's Grasp to entangle an enemy by ${[
+          15,
+          30,
+          45,
+          65,
+        ]}%.`,
+      },
       "Nature's Guidance": {
         name: "Nature's Guidance",
         pos: "a3",
         icon: icons["spell_nature_natureresistancetotem"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with spells by ${[
+        description: talentText`Improves your chance to hit with spells by 
           1,
           2,
           3,
