@@ -121,8 +121,8 @@ export const data: TalentData = {
           70,
         ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
       },
-      "Improved Nature's Grasp": {
-        name: "Improved Nature's Grasp",
+      "placeholder Improved Nature's Grasp": {
+        name: "placeholder Improved Nature's Grasp",
         pos: "d2",
         icon: icons["spell_nature_natureswrath"],
         maxRank: 2,
