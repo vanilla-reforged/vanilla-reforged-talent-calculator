@@ -145,15 +145,15 @@ export const data: TalentData = {
           70,
         ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
       },
-      "placeholder Improved Nature's Grasp": {
-        name: "placeholder Improved Nature's Grasp",
+      "Improved Moonfire": {
+        name: "Improved Moonfire",
         pos: "d2",
-        icon: icons["spell_nature_natureswrath"],
+        icon: icons["spell_nature_starfall"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Improves the chance of your Nature's Grasp spell to entangle an enemy by ${[
-          30,
-          60,
+        description: talentText`Increases the damage and critical strike chance of your Moonfire spell by ${[
+          5,
+          10,
         ]}%.`,
       },
       "Improved Insect Swarm": {
