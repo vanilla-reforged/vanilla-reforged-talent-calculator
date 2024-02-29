@@ -54,7 +54,7 @@ export const data: TalentData = {
       },
       "Endurance Training": {
         name: "Endurance Training",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_nature_reincarnation"],
         maxRank: 5,
         reqPoints: 5,
@@ -64,6 +64,18 @@ export const data: TalentData = {
           9,
           12,
           15,
+        ]}%.`,
+      },
+      "Pathfinding": {
+        name: "Pathfinding",
+        pos: "b3",
+        icon: icons["ability_mount_jungletiger"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by ${[
+          2,
+          4,
+          6,
         ]}%.`,
       },
       "Bestial Swiftness": {
