@@ -220,6 +220,20 @@ export const data: TalentData = {
     background: backgrounds["marksmanship"],
     icon: icons["ability_marksmanship"],
     talents: {
+      "Improved Concussive Shot": {
+        name: "Improved Concussive Shot",
+        pos: "a1",
+        icon: icons["ability_marksmanship"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Concussive Shot a ${[
+          4,
+          8,
+          12,
+          16,
+          20,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Precision": {
         name: "Precision",
         pos: "a2",
