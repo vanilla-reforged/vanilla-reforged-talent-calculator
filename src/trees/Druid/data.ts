@@ -340,11 +340,12 @@ export const data: TalentData = {
       name: "Natural Shapeshifter",
       pos: "c4",
       icon: icons["spell_nature_wispsplode"],
-      maxRank: 2,
+      maxRank: 3,
       reqPoints: 10,
       description: talentText`Reduces the mana cost of all shapeshifting by ${[
+        10,
         20,
-        40,
+        30,
       ]}%.`,
     },
     "Blood Frenzy": {
