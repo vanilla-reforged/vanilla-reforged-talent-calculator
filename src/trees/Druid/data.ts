@@ -477,6 +477,20 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
+      "Improved Healing Touch": {
+        name: "Improved Healing Touch",
+        pos: "b2",
+        icon: icons["spell_nature_healingtouch"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cast time of your Healing Touch spell by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+        ]} sec.`,
+      },
       "Furor": {
         name: "Furor",
         pos: "b3",
