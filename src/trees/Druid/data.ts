@@ -223,22 +223,16 @@ export const data: TalentData = {
     talents: {
       "Feral Reflexes": {
         name: "Feral Reflexes",
-        pos: "a2",
+        pos: "a1",
         icon: icons["ability_tracking"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to dodge an attack in Bear and Direbear Form by ${[
+        description: talentText`Increases your chance to dodge an attack by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% and increases the threath you cause in Bear and Direbear Form by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
         ]}%.`,
       },
       "Brutal Strikes": {
