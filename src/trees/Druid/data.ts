@@ -328,13 +328,7 @@ export const data: TalentData = {
         24,
         32,
         40,
-      ]}% and your Enrage ability now instantly generates ${[
-        2,
-        4,
-        6,
-        8,
-        10,
-      ]} Rage.  In addition reduces the Rage cost of your Maul, and Swipe abilities by ${[
+      ]}% and reduces the Rage cost of your Maul, and Swipe abilities by ${[
         1,
         2,
         3,
