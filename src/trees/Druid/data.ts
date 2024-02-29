@@ -63,17 +63,6 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Nature's Reach": {
-        name: "Nature's Reach",
-        pos: "b1",
-        icon: icons["spell_nature_naturetouchgrow"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the range of your Balance spells by ${[
-          10,
-          20,
-        ]}%.`,
-      },
       "Nature's Speed": {
         name: "Nature's Speed",
         pos: "b2",
@@ -100,16 +89,30 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Balanced Soul": {
-        name: "Balanced Soul",
-        pos: "c1",
-        icon: icons["spell_nature_naturetouchdecay"],
+      "Nature's Reach": {
+        name: "Nature's Reach",
+        pos: "b4",
+        icon: icons["spell_nature_naturetouchgrow"],
         maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Balance spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
+      "Improved Entangling Roots": {
+        name: "Improved Entangling Roots",
+        pos: "c1",
+        icon: icons["spell_nature_stranglevines"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Gives you a ${[
-          35,
-          70,
-        ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
+        prereq: "Nature's Grasp",
+        arrows: [{ dir: "down", from: "a1", to: "c1" }],
+        description: talentText`Reduces the casting time of your Entangling Roots spells by ${[
+          0.3,
+          0.6,
+          0.9,
+        ]} sec.`,
       },
       "Moonglow": {
         name: "Moonglow",
@@ -133,17 +136,16 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
       },
-      "Improved Entangling Roots": {
-        name: "Improved Entangling Roots",
+      "Balanced Soul": {
+        name: "Balanced Soul",
         pos: "c4",
-        icon: icons["spell_nature_stranglevines"],
-        maxRank: 3,
+        icon: icons["spell_nature_naturetouchdecay"],
+        maxRank: 2,
         reqPoints: 10,
-        description: talentText`Reduces the casting time of your Entangling Roots spells by ${[
-          0.3,
-          0.6,
-          0.9,
-        ]} sec.`,
+        description: talentText`Gives you a ${[
+          35,
+          70,
+        ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
       },
       "Improved Moonfire": {
         name: "Improved Moonfire",
