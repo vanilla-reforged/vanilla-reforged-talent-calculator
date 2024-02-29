@@ -309,6 +309,17 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Increases the attack power of party members within 45 yards by 15.  Lasts 30 min.`,
       },
+      "Improved Serpent Sting": {
+        name: "Improved Serpent Sting",
+        pos: "c2",
+        icon: icons["ability_townwatch"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the duration of your Serpent Sting ability by ${[
+          3,
+          6,
+        ]} sec.`,
+      },
       "Efficiency": {
         name: "Efficiency",
         pos: "c3",
