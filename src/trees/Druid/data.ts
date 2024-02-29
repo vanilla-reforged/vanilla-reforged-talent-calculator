@@ -181,7 +181,7 @@ export const data: TalentData = {
       "Perfectly Balanced": {
         name: "Perfectly Balanced",
         pos: "e3",
-        icon: icons["spell_nature_starfall"],
+        icon: icons["spell_shadow_teleport"],
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Your Insect Swarm spell has a ${[
