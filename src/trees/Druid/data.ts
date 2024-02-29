@@ -249,13 +249,13 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Brutal Strikes": {
-        name: "Brutal Strikes",
+      "Sharpened Claws": {
+        name: "Sharpened Claws",
         pos: "a3",
         icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike and your chance to hit by ${[
+        description: talentText`Improves your chance to get a critical strike by ${[
           1,
           2,
           3,
