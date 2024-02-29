@@ -115,7 +115,7 @@ export const data: TalentData = {
       "Improved Aspects": {
         name: "Improved Aspects",
         pos: "c3",
-        icon: icons["spell_nature_ravenform"],
+        icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the effect of your Aspects by ${[
