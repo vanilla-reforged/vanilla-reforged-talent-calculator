@@ -279,7 +279,7 @@ export const data: TalentData = {
       },
       "Ferocity": {
       name: "Ferocity",
-      pos: "b3",
+      pos: "b2",
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
       reqPoints: 5,
@@ -296,6 +296,17 @@ export const data: TalentData = {
         12,
         15,
       ]}%.`,
+    },
+    "Improved Enrage": {
+      name: "Improved Enrage",
+      pos: "b3",
+      icon: icons["ability_druid_enrage"],
+      maxRank: 2,
+      reqPoints: 5,
+      description: talentText`The Enrage ability now instantly generates ${[
+        5,
+        10,
+      ]} Rage.`,
     },
     "Faerie Fire (Feral)": {
       name: "Faerie Fire (Feral)",
