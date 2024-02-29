@@ -316,9 +316,23 @@ export const data: TalentData = {
       reqPoints: 10,
       description: talentText`Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
     },
+    "Feline Swiftness": {
+      name: "Feline Swiftness",
+      pos: "c2",
+      icon: icons["spell_nature_spiritwolf"],
+      maxRank: 2,
+      reqPoints: 10,
+      description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
+        15,
+        30,
+      ]}% and increases your chance to dodge an attack while in Cat Form by ${[
+        2,
+        4,
+      ]}%.`,
+    },
     "Protective Instincts": {
       name: "Protective Instincts",
-      pos: "c2",
+      pos: "c3",
       icon: icons["ability_druid_demoralizingroar"],
       maxRank: 5,
       reqPoints: 10,
@@ -335,20 +349,6 @@ export const data: TalentData = {
         4,
         5,
       ]}.`,
-    },
-    "Feline Swiftness": {
-      name: "Feline Swiftness",
-      pos: "c3",
-      icon: icons["spell_nature_spiritwolf"],
-      maxRank: 2,
-      reqPoints: 10,
-      description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
-        15,
-        30,
-      ]}% and increases your chance to dodge an attack while in Cat Form by ${[
-        2,
-        4,
-      ]}%.`,
     },
     "Natural Shapeshifter": {
       name: "Natural Shapeshifter",
@@ -381,6 +381,8 @@ export const data: TalentData = {
       icon: icons["ability_racial_cannibalize"],
       maxRank: 3,
       reqPoints: 15,
+      prereq: "Protective Instincts",
+      arrows: [{ dir: "down", from: "c3", to: "d3" }],
       description: talentText`Gives you ${[
         33,
         66,
