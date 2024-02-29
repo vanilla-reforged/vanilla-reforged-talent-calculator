@@ -309,20 +309,9 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Increases the attack power of party members within 45 yards by 15.  Lasts 30 min.`,
       },
-      "Improved Serpent Sting": {
-        name: "Improved Serpent Sting",
-        pos: "c2",
-        icon: icons["ability_townwatch"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the duration of your Serpent Sting ability by ${[
-          3,
-          6,
-        ]} sec.`,
-      },
       "Efficiency": {
         name: "Efficiency",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
@@ -333,6 +322,17 @@ export const data: TalentData = {
           40,
           50,
         ]}%.`,
+      },
+      "Improved Serpent Sting": {
+        name: "Improved Serpent Sting",
+        pos: "c3",
+        icon: icons["ability_hunter_quickshot"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the duration of your Serpent Sting ability by ${[
+          3,
+          6,
+        ]} sec.`,
       },
       "Improved Hunter's Mark": {
         name: "Improved Hunter's Mark",
