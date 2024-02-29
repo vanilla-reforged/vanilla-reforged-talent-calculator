@@ -221,18 +221,18 @@ export const data: TalentData = {
     background: backgrounds["feral"],
     icon: icons["ability_racial_bearform"],
     talents: {
-      "Feral Reflexes": {
-        name: "Feral Reflexes",
+      "Feral Threat": {
+        name: "Feral Threat",
         pos: "a1",
         icon: icons["ability_tracking"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to dodge an attack by ${[
-          1,
-          2,
+        description: talentText`Increases the threat you cause in Bear and Dire Bear Form by ${[
           3,
-          4,
-          5,
+          6,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Precision": {
@@ -261,20 +261,6 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}%.`,
-      },
-      "Feral Threat": {
-        name: "Feral Threat",
-        pos: "a4",
-        icon: icons["ability_warrior_innerrage"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Increases the threat you cause in Bear and Dire Bear Form by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
         ]}%.`,
       },
       "Feline Swiftness": {
