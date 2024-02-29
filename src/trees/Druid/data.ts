@@ -449,6 +449,18 @@ export const data: TalentData = {
     background: backgrounds["restoration"],
     icon: icons["spell_nature_healingtouch"],
     talents: {
+      "Improved Rejuvenation": {
+        name: "Improved Rejuvenation",
+        pos: "a1",
+        icon: icons["spell_nature_rejuvenation"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the effect of your Rejuvenation spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
       "Subtlety": {
         name: "Subtlety",
         pos: "a2",
@@ -476,6 +488,18 @@ export const data: TalentData = {
           8,
           10,
         ]}%.`,
+      },
+      "Improved Rebirth": {
+        name: "Improved Rebirth",
+        pos: "a4",
+        icon: icons["spell_nature_reincarnation"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Reduces the cooldown of your Rebirth spell by ${[
+          3,
+          6,
+          9,
+        ]} min.`,
       },
       "Improved Healing Touch": {
         name: "Improved Healing Touch",
@@ -559,18 +583,6 @@ export const data: TalentData = {
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
-      },
-      "Improved Rebirth": {
-        name: "Improved Rebirth",
-        pos: "d3",
-        icon: icons["spell_nature_reincarnation"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Decreases the cooldown of your Rebirth spell by ${[
-          3,
-          6,
-          9,
-        ]} min.`,
       },
       "Nature's Swiftness": {
         name: "Nature's Swiftness",
