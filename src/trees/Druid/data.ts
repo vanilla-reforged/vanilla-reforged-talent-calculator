@@ -100,17 +100,16 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Improved Entangling Roots": {
-        name: "Improved Entangling Roots",
+      "Balanced Soul": {
+        name: "Balanced Soul",
         pos: "c1",
-        icon: icons["spell_nature_stranglevines"],
-        maxRank: 3,
+        icon: icons["spell_nature_healingway"],
+        maxRank: 2,
         reqPoints: 10,
-        description: talentText`Reduces the casting time of your Entangling Roots spells by ${[
-          0.3,
-          0.6,
-          0.9,
-        ]} sec.`,
+        description: talentText`Gives you a ${[
+          35,
+          70,
+        ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
       },
       "Moonglow": {
         name: "Moonglow",
@@ -134,16 +133,17 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
       },
-      "Balanced Soul": {
-        name: "Balanced Soul",
+      "Improved Entangling Roots": {
+        name: "Improved Entangling Roots",
         pos: "c4",
-        icon: icons["spell_nature_healingway"],
-        maxRank: 2,
+        icon: icons["spell_nature_stranglevines"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Gives you a ${[
-          35,
-          70,
-        ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
+        description: talentText`Reduces the casting time of your Entangling Roots spells by ${[
+          0.3,
+          0.6,
+          0.9,
+        ]} sec.`,
       },
       "Improved Moonfire": {
         name: "Improved Moonfire",
