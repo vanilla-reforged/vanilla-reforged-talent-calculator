@@ -223,18 +223,16 @@ export const data: TalentData = {
     background: backgrounds["feral"],
     icon: icons["ability_racial_bearform"],
     talents: {
-      "Feral Threat": {
-        name: "Feral Threat",
+      "Thick Hide": {
+        name: "Thick Hide",
         pos: "a1",
-        icon: icons["ability_tracking"],
-        maxRank: 5,
+        icon: icons["inv_misc_pelt_bear_03"],
+        maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the threat you cause in Bear and Dire Bear Form by ${[
-          3,
+        description: talentText`Increases your Armor contribution from items by ${[
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
         ]}%.`,
       },
       "Precision": {
@@ -265,16 +263,18 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Thick Hide": {
-        name: "Thick Hide",
+      "Feral Threat": {
+        name: "Feral Threat",
         pos: "a4",
-        icon: icons["inv_misc_pelt_bear_03"],
-        maxRank: 3,
+        icon: icons["ability_tracking"],
+        maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your Armor contribution from items by ${[
-          2,
-          4,
+        description: talentText`Increases the threat you cause in Bear and Dire Bear Form by ${[
+          3,
           6,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Feline Swiftness": {
