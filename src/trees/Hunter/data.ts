@@ -12,6 +12,18 @@ export const data: TalentData = {
     background: backgrounds["beast-mastery"],
     icon: icons["ability_hunter_beasttaming"],
     talents: {
+      "Thick Hide": {
+        name: "Thick Hide",
+        pos: "a1",
+        icon: icons["inv_misc_pelt_bear_03"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the Armor rating of your pets by ${[
+          6,
+          12,
+          18,
+        ]}%.`,
+      },
       "Predatory Precision": {
         name: "Predatory Precision",
         pos: "a2",
