@@ -173,7 +173,7 @@ export const data: TalentData = {
         icon: icons["ability_devour"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.  45 sec cooldown`,
+        description: talentText`Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.  25 sec cooldown`,
       },
       "Bestial Discipline": {
         name: "Bestial Discipline",
