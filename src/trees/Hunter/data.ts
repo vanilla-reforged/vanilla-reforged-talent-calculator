@@ -262,6 +262,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Improved Aspect of the Hawk": {
+        name: "Improved Aspect of the Hawk",
+        pos: "b2",
+        icon: icons["spell_nature_ravenform"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
+      },
       "Improved Quick Shot": {
         name: "Improved Quick Shot",
         pos: "b3",
