@@ -263,6 +263,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Feral Threat": {
+        name: "Feral Threat",
+        pos: "a4",
+        icon: icons["ability_warrior_innerrage"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases the threat you cause in Bear and Dire Bear Form by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}%.`,
+      },
       "Ferocity": {
       name: "Ferocity",
       pos: "b3",
