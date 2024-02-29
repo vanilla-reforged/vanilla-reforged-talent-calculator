@@ -262,6 +262,17 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Hawk Eye": {
+        name: "Hawk Eye",
+        pos: "b1",
+        icon: icons["ability_townwatch"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your ranged weapons by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Improved Aspect of the Hawk": {
         name: "Improved Aspect of the Hawk",
         pos: "b2",
@@ -297,17 +308,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Increases the attack power of party members within 45 yards by 15.  Lasts 30 min.`,
-      },
-      "Hawk Eye": {
-        name: "Hawk Eye",
-        pos: "c2",
-        icon: icons["ability_townwatch"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your ranged weapons by ${[
-          10,
-          20,
-        ]}%.`,
       },
       "Efficiency": {
         name: "Efficiency",
