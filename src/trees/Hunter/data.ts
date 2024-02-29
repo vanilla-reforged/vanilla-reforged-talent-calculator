@@ -234,13 +234,13 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Lethal Attacks": {
-        name: "Lethal Attacks",
+      "Lethal Shots": {
+        name: "Lethal Shots",
         pos: "a3",
         icon: icons["ability_searingarrow"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike by ${[
+        description: talentText`Increases your critical strike chance with ranged weapons by ${[
           1,
           2,
           3,
