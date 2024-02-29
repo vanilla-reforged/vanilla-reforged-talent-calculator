@@ -223,7 +223,7 @@ export const data: TalentData = {
       "Improved Concussive Shot": {
         name: "Improved Concussive Shot",
         pos: "a1",
-        icon: icons["ability_marksmanship"],
+        icon: icons["spell_frost_stun"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Gives your Concussive Shot a ${[
