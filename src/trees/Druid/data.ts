@@ -263,6 +263,18 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Thick Hide": {
+        name: "Thick Hide",
+        pos: "a4",
+        icon: icons["inv_misc_pelt_bear_03"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases your Armor contribution from items by ${[
+          2,
+          4,
+          6,
+        ]}%.`,
+      },
       "Feline Swiftness": {
         name: "Feline Swiftness",
         pos: "b1",
