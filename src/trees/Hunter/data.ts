@@ -323,26 +323,16 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Improved Serpent Sting": {
-        name: "Improved Serpent Sting",
-        pos: "c3",
-        icon: icons["ability_hunter_quickshot"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases the duration of your Serpent Sting ability by ${[
-          3,
-          6,
-        ]} sec.`,
-      },
       "Improved Hunter's Mark": {
         name: "Improved Hunter's Mark",
-        pos: "c4",
+        pos: "c3",
         icon: icons["ability_hunter_snipershot"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the Ranged Attack Power bonus of your Hunter's Mark spell by ${[
           5,
           10,
+          15,
         ]}%`,
       },
       "Improved Rapid Fire": {
