@@ -277,6 +277,20 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
+      "Feline Swiftness": {
+        name: "Feline Swiftness",
+        pos: "b1",
+        icon: icons["spell_nature_spiritwolf"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
+          15,
+          30,
+        ]}% and increases your chance to dodge an attack while in Cat Form by ${[
+          2,
+          4,
+        ]}%.`,
+      },
       "Ferocity": {
       name: "Ferocity",
       pos: "b2",
@@ -316,20 +330,6 @@ export const data: TalentData = {
       reqPoints: 10,
       description: talentText`Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
     },
-    "Feline Swiftness": {
-      name: "Feline Swiftness",
-      pos: "c2",
-      icon: icons["spell_nature_spiritwolf"],
-      maxRank: 2,
-      reqPoints: 10,
-      description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
-        15,
-        30,
-      ]}% and increases your chance to dodge an attack while in Cat Form by ${[
-        2,
-        4,
-      ]}%.`,
-    },
     "Protective Instincts": {
       name: "Protective Instincts",
       pos: "c3",
@@ -367,6 +367,8 @@ export const data: TalentData = {
       icon: icons["ability_ghoulfrenzy"],
       maxRank: 2,
       reqPoints: 15,
+      prereq: "Ferocity",
+      arrows: [{ dir: "down", from: "b2", to: "d2" }],
       description: talentText`Increases the damage done by your Claw and Ravage abilities by ${[
         5,
         10,
