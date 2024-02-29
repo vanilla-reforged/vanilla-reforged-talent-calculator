@@ -235,6 +235,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Precision": {
+        name: "Precision",
+        pos: "a2",
+        icon: icons["ability_marksmanship"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Improves your chance to hit by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Brutal Strikes": {
         name: "Brutal Strikes",
         pos: "a3",
