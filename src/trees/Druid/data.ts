@@ -584,6 +584,22 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
+      "Tranquil Mind": {
+        name: "Tranquil Mind",
+        pos: "d3",
+        icon: icons["spell_nature_tranquility"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Reduces threat caused by Tranquility by ${[
+          33,
+          66,
+          100,
+        ]}% and reduces the cooldown of your Innervate spell by ${[
+          1,
+          2,
+          3,
+        ]} min.`,
+      },
       "Nature's Swiftness": {
         name: "Nature's Swiftness",
         pos: "e2",
