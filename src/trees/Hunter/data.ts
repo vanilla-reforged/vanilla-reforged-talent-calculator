@@ -92,25 +92,35 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Bestial Swiftness": {
-        name: "Bestial Swiftness",
-        pos: "c1",
-        icon: icons["ability_druid_dash"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Increases the outdoor movement speed of your pet by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
-      },
       "Soulmate": {
         name: "Soulmate",
-        pos: "c2",
+        pos: "c1",
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.  15 min cooldown`,
+      },
+      "Improved Revive Pet": {
+        name: "Improved Revive Pet",
+        pos: "c2",
+        icon: icons["ability_hunter_beastsoothe"],
+        maxRank: 3,
+        reqPoints: 10,
+        prereq: "Soulmate",
+        arrows: [{ dir: "right", from: "c1", to: "c2" }],
+        description: talentText`Reduces the casting time of your Revive Pet spell by ${[
+          2,
+          4,
+          6,
+        ]} sec, the Mana cost by ${[
+          10,
+          20,
+          30,
+        ]}% and increases the Health your pet returns with by an additional ${[
+          10,
+          20,
+          30,
+        ]}%.`,
       },
       "Improved Aspects": {
         name: "Improved Aspects",
@@ -124,24 +134,16 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Improved Revive Pet": {
-        name: "Improved Revive Pet",
+      "Bestial Swiftness": {
+        name: "Bestial Swiftness",
         pos: "c4",
-        icon: icons["ability_hunter_beastsoothe"],
+        icon: icons["ability_druid_dash"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the casting time of your Revive Pet spell by ${[
-          2,
-          4,
-          6,
-        ]} sec, the Mana cost by ${[
-          10,
-          20,
+        description: talentText`Increases the outdoor movement speed of your pet by ${[
+          15,
           30,
-        ]}% and increases the Health your pet returns with by an additional ${[
-          10,
-          20,
-          30,
+          45,
         ]}%.`,
       },
       "Spirit Bond": {
