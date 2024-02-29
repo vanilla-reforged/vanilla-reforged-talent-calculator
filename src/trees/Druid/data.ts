@@ -478,7 +478,7 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Restorative Mind": {
+      "placeholder_Restorative Mind": {
         name: "Restorative Mind",
         pos: "b3",
         icon: icons["spell_holy_blessingofstamina"],
