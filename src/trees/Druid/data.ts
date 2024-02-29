@@ -103,7 +103,7 @@ export const data: TalentData = {
       "Balanced Soul": {
         name: "Balanced Soul",
         pos: "c1",
-        icon: icons["spell_nature_healingway"],
+        icon: icons["spell_nature_naturetouchdecay"],
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Gives you a ${[
