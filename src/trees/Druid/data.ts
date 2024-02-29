@@ -52,7 +52,7 @@ export const data: TalentData = {
       "Nature's Wrath": {
         name: "Nature's Wrath",
         pos: "a4",
-        icon: icons["spell_nature_astralrecal"],
+        icon: icons["spell_nature_naturesblessing"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your chance to get a critical strike with spells by ${[
@@ -137,7 +137,7 @@ export const data: TalentData = {
       "Balanced Soul": {
         name: "Balanced Soul",
         pos: "c4",
-        icon: icons["spell_nature_stranglevines"],
+        icon: icons["spell_nature_healingway"],
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Gives you a ${[
