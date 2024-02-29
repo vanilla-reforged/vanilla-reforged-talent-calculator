@@ -511,12 +511,6 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]}% and increases the effect of your Rejuvenation spell by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
         ]}%.`,
       },
       "Reflection": {
