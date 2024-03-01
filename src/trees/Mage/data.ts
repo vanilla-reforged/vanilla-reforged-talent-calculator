@@ -103,7 +103,7 @@ export const data: TalentData = {
       },
       "Arcane Mind": {
         name: "Arcane Mind",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_shadow_charm"],
         maxRank: 5,
         reqPoints: 10,
@@ -119,6 +119,18 @@ export const data: TalentData = {
           15,
           20,
           25,
+        ]}%.`,
+      },
+      "Improved Arcane Explosion": {
+        name: "Improved Arcane Explosion",
+        pos: "c3",
+        icon: icons["spell_nature_wispsplode"],
+        maxRank: 5,
+        reqPoints: 10,
+        description: talentText`Increases the critical strike chance of your Arcane Explosion spell by an additional ${[
+          5,
+          10,
+          15,
         ]}%.`,
       },
       "Arcane Meditation": {
