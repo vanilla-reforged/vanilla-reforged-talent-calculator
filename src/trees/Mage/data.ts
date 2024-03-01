@@ -78,7 +78,7 @@ export const data: TalentData = {
       },
       "Arcane Reach": {
         name: "Arcane Reach",
-        pos: "c2",
+        pos: "b1",
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 2,
         reqPoints: 10,
