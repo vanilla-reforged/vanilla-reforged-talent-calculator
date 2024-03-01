@@ -227,11 +227,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Gives your Concussive Shot a ${[
-          4,
-          8,
+          3,
+          6,
+          9,
           12,
-          16,
-          20,
+          15,
         ]}% chance to stun the target for 3 sec.`,
       },
       "Precision": {
