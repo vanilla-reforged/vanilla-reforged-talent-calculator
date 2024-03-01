@@ -615,7 +615,7 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 20,
         prereq: "Tranquil Spirit",
-        arrows: [{ dir: "down", from: "b3", to: "d3" }],
+        arrows: [{ dir: "down", from: "c3", to: "e3" }],
         description: talentText`Reduces the cooldown of your Tranquility spell by ${[
           50,
           100,
