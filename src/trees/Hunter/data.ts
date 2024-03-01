@@ -411,14 +411,15 @@ export const data: TalentData = {
     background: backgrounds["survival"],
     icon: icons["ability_hunter_swiftstrike"],
     talents: {
-      "Improved Feign Death": {
-        name: "Improved Feign Death",
+      "Trap Mastery": {
+        name: "Trap Mastery",
         pos: "a1",
-        icon: icons["ability_rogue_feigndeath"],
-        maxRank: 2,
+        icon: icons["ability_ensnare"],
+        maxRank: 3,
         reqPoints: 0,
-        description: talentText`Reduces the chance your Feign Death ability will be resisted by ${[
-          8,
+        description: talentText`Decreases the chance enemies will resist trap effects by ${[
+          5,
+          10,
           16,
         ]}%.`,
       },
@@ -450,18 +451,6 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Trap Mastery": {
-        name: "Trap Mastery",
-        pos: "a4",
-        icon: icons["ability_ensnare"],
-        maxRank: 3,
-        reqPoints: 0,
-        description: talentText`Decreases the chance enemies will resist trap effects by ${[
-          5,
-          10,
-          16,
-        ]}%.`,
-      },
       "Surefooted": {
         name: "Surefooted",
         pos: "b1",
@@ -473,9 +462,9 @@ export const data: TalentData = {
           2,
           3,
         ]}% and increases the chance movement impairing effects will be resisted by an additional ${[
-          5,
-          10,
-          15,
+          2,
+          4,
+          6,
         ]}%. `,
       },
       "Survivalist": {
@@ -540,6 +529,17 @@ export const data: TalentData = {
           40,
           50,
         ]}% and the damage of Immolation and Explosive trap by ${[10, 20, 30, 40, 50,]}%.`,
+      },
+      "Improved Feign Death": {
+        name: "Improved Feign Death",
+        pos: "c4",
+        icon: icons["ability_rogue_feigndeath"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Reduces the chance your Feign Death ability will be resisted by ${[
+          8,
+          16,
+        ]}%.`,
       },
       "Improved Disengage": {
         name: "Improved Disengage",

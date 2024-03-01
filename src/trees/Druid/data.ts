@@ -277,26 +277,63 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Feline Swiftness": {
-        name: "Feline Swiftness",
+      "Improved Enrage": {
+        name: "Improved Enrage",
         pos: "b1",
-        icon: icons["spell_nature_spiritwolf"],
+        icon: icons["ability_druid_enrage"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
-          15,
+        description: talentText`The Enrage ability now instantly generates ${[
+          5,
+          10,
+        ]} Rage.`,
+      },
+      "Natural Shapeshifter": {
+        name: "Natural Shapeshifter",
+        pos: "b2",
+        icon: icons["spell_nature_wispsplode"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the mana cost of all shapeshifting by ${[
+          10,
+          20,
           30,
-        ]}% and increases your chance to dodge an attack while in Cat Form by ${[
-          2,
-          4,
         ]}%.`,
       },
-      "Ferocity": {
+      "Protective Instincts": {
+        name: "Protective Instincts",
+        pos: "b3",
+        icon: icons["ability_druid_demoralizingroar"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
+          8,
+          16,
+          24,
+          32,
+          40,
+        ]}% and reduces the Rage cost of your Maul, and Swipe abilities by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}.`,
+      },
+    "Faerie Fire (Feral)": {
+      name: "Faerie Fire (Feral)",
+      pos: "c1",
+      icon: icons["spell_nature_faeriefire"],
+      maxRank: 1,
+      reqPoints: 10,
+      description: talentText`Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
+    },
+    "Ferocity": {
       name: "Ferocity",
-      pos: "b2",
+      pos: "c2",
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
-      reqPoints: 5,
+      reqPoints: 10,
       description: talentText`Reduces the Energy cost of your Claw and Rake abilities by ${[
         1,
         2,
@@ -311,55 +348,18 @@ export const data: TalentData = {
         15,
       ]}%.`,
     },
-    "Improved Enrage": {
-      name: "Improved Enrage",
-      pos: "b3",
-      icon: icons["ability_druid_enrage"],
-      maxRank: 2,
-      reqPoints: 5,
-      description: talentText`The Enrage ability now instantly generates ${[
-        5,
-        10,
-      ]} Rage.`,
-    },
-    "Faerie Fire (Feral)": {
-      name: "Faerie Fire (Feral)",
-      pos: "c1",
-      icon: icons["spell_nature_faeriefire"],
-      maxRank: 1,
-      reqPoints: 10,
-      description: talentText`Decrease the armor of the target by 175 for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
-    },
-    "Protective Instincts": {
-      name: "Protective Instincts",
-      pos: "c3",
-      icon: icons["ability_druid_demoralizingroar"],
-      maxRank: 5,
-      reqPoints: 10,
-      description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
-        8,
-        16,
-        24,
-        32,
-        40,
-      ]}% and reduces the Rage cost of your Maul, and Swipe abilities by ${[
-        1,
-        2,
-        3,
-        4,
-        5,
-      ]}.`,
-    },
-    "Natural Shapeshifter": {
-      name: "Natural Shapeshifter",
+    "Feline Swiftness": {
+      name: "Feline Swiftness",
       pos: "c4",
-      icon: icons["spell_nature_wispsplode"],
-      maxRank: 3,
+      icon: icons["spell_nature_spiritwolf"],
+      maxRank: 2,
       reqPoints: 10,
-      description: talentText`Reduces the mana cost of all shapeshifting by ${[
-        10,
-        20,
+      description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
+        15,
         30,
+      ]}% and increases your chance to dodge an attack while in Cat Form by ${[
+        2,
+        4,
       ]}%.`,
     },
     "Blood Frenzy": {
@@ -385,7 +385,7 @@ export const data: TalentData = {
       maxRank: 3,
       reqPoints: 15,
       prereq: "Protective Instincts",
-      arrows: [{ dir: "down", from: "c3", to: "d3" }],
+      arrows: [{ dir: "down", from: "b3", to: "d3" }],
       description: talentText`Gives you ${[
         33,
         66,
@@ -491,17 +491,17 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Improved Rebirth": {
-        name: "Improved Rebirth",
-        pos: "a4",
-        icon: icons["spell_nature_reincarnation"],
+      "Improved Regrowth": {
+        name: "Improved Regrowth",
+        pos: "b1",
+        icon: icons["spell_nature_resistnature"],
         maxRank: 3,
-        reqPoints: 0,
-        description: talentText`Reduces the cooldown of your Rebirth spell by ${[
-          3,
-          6,
-          9,
-        ]} min.`,
+        reqPoints: 5,
+        description: talentText`Increases the critical effect chance of your Regrowth spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
       },
       "Furor": {
         name: "Furor",
@@ -579,7 +579,7 @@ export const data: TalentData = {
       },
       "Natural Fortitude": {
         name: "Natural Fortitude",
-        pos: "d2",
+        pos: "d1",
         icon: icons["spell_nature_undyingstrength"],
         maxRank: 2,
         reqPoints: 15,
@@ -588,22 +588,16 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-      "Tranquil Mind": {
-        name: "Tranquil Mind",
-        pos: "d3",
-        icon: icons["spell_nature_tranquility"],
+      "Improved Rebirth": {
+        name: "Improved Rebirth",
+        pos: "d2",
+        icon: icons["spell_nature_reincarnation"],
         maxRank: 3,
         reqPoints: 15,
-        prereq: "Tranquil Spirit",
-        arrows: [{ dir: "down", from: "c3", to: "d3" }],
-        description: talentText`Reduces threat caused by Tranquility by ${[
-          33,
-          66,
-          100,
-        ]}% and reduces the cooldown of your Innervate spell by ${[
-          1,
-          2,
+        description: talentText`Reduces the cooldown of your Rebirth spell by ${[
           3,
+          6,
+          9,
         ]} min.`,
       },
       "Nature's Swiftness": {
@@ -614,17 +608,23 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`When activated, your next Nature spell becomes an instant cast spell.  2 min cooldown`,
       },
-      "Improved Regrowth": {
-        name: "Improved Regrowth",
+      "Tranquil Mind": {
+        name: "Tranquil Mind",
         pos: "e3",
-        icon: icons["spell_nature_resistnature"],
+        icon: icons["spell_nature_tranquility"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the critical effect chance of your Regrowth spell by ${[
-          15,
-          30,
-          44,
-        ]}%.`,
+        prereq: "Tranquil Spirit",
+        arrows: [{ dir: "down", from: "c3", to: "d3" }],
+        description: talentText`Reduces the cooldown of your Tranquility spell by ${[
+          50,
+          100,
+          150,
+        ]} sec and the cooldown of your Innervate spell by ${[
+          100,
+          200,
+          300,
+        ]} sec.`,
       },
       "Gift of Nature": {
         name: "Gift of Nature",
