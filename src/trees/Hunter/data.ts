@@ -478,6 +478,20 @@ export const data: TalentData = {
           15,
         ]}%. `,
       },
+      "Survivalist": {
+        name: "Survivalist",
+        pos: "b2",
+        icon: icons["spell_shadow_twilight"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Increases total health by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}%.`,
+      },
       "Entrapment": {
         name: "Entrapment",
         pos: "b3",
