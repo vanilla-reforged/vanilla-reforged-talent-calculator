@@ -52,6 +52,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Improved Blink": {
+        name: "Improved Blink",
+        pos: "b2",
+        icon: icons["spell_arcane_blink"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Blink spell by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]} sec.`,
+      },
       "Improved Arcane Missiles": {
         name: "Improved Arcane Missiles",
         pos: "b3",
