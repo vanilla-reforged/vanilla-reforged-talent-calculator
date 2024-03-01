@@ -81,7 +81,7 @@ export const data: TalentData = {
         pos: "b1",
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 2,
-        reqPoints: 10,
+        reqPoints: 5,
         description: talentText`Increases the range of your Arcane spells by ${[
           10,
           20,
