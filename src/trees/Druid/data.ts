@@ -369,7 +369,7 @@ export const data: TalentData = {
       maxRank: 2,
       reqPoints: 15,
       prereq: "Ferocity",
-      arrows: [{ dir: "down", from: "b2", to: "d2" }],
+      arrows: [{ dir: "down", from: "c2", to: "d2" }],
       description: talentText`Increases the damage done by your Claw and Ravage abilities by ${[
         5,
         10,
