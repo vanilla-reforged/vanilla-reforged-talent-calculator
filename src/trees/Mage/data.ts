@@ -504,7 +504,7 @@ export const data: TalentData = {
       "Frost Bomb": {
         name: "Frost Bomb",
         pos: "g2",
-        icon: icons["spell_frost_frostshock"],
+        icon: icons["spell_frost_wizardmark"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Ice Shards",
