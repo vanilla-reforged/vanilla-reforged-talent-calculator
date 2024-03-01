@@ -12,6 +12,18 @@ export const data: TalentData = {
     background: backgrounds["arcane"],
     icon: icons["spell_holy_magicalsentry"],
     talents: {
+      "Arcane Resilience": {
+        name: "Arcane Resilience",
+        pos: "a1",
+        icon: icons["spell_arcane_arcaneresilience"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases your armor by an amount equal to ${[
+          25,
+          50,
+          75,
+        ]}% of your Intellect.`,
+      },
       "Arcane Focus": {
         name: "Arcane Focus",
         pos: "a2",
