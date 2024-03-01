@@ -525,7 +525,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Heightened Senses",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.  5 min cooldown`,
+        description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.  2 min cooldown`,
       },
       "Clever Traps": {
         name: "Clever Traps",
