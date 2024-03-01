@@ -480,7 +480,7 @@ export const data: TalentData = {
       },
       "Survivalist": {
         name: "Survivalist",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_shadow_twilight"],
         maxRank: 5,
         reqPoints: 5,
@@ -494,7 +494,7 @@ export const data: TalentData = {
       },
       "Entrapment": {
         name: "Entrapment",
-        pos: "b3",
+        pos: "b4",
         icon: icons["spell_nature_stranglevines"],
         maxRank: 5,
         reqPoints: 5,
@@ -523,6 +523,8 @@ export const data: TalentData = {
         icon: icons["ability_whirlwind"],
         maxRank: 1,
         reqPoints: 10,
+        prereq: "Heightened Senses",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.  5 min cooldown`,
       },
       "Clever Traps": {
