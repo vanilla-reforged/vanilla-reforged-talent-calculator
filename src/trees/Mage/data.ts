@@ -125,7 +125,7 @@ export const data: TalentData = {
         name: "Improved Arcane Explosion",
         pos: "c3",
         icon: icons["spell_nature_wispsplode"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the critical strike chance of your Arcane Explosion spell by an additional ${[
           5,
