@@ -462,6 +462,22 @@ export const data: TalentData = {
           16,
         ]}%.`,
       },
+      "Surefooted": {
+        name: "Surefooted",
+        pos: "b1",
+        icon: icons["ability_kick"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Increases hit chance by ${[
+          1,
+          2,
+          3,
+        ]}% and increases the chance movement impairing effects will be resisted by an additional ${[
+          5,
+          10,
+          15,
+        ]}%. `,
+      },
       "Entrapment": {
         name: "Entrapment",
         pos: "b3",
@@ -508,17 +524,6 @@ export const data: TalentData = {
           40,
           50,
         ]}% and the damage of Immolation and Explosive trap by ${[10, 20, 30, 40, 50,]}%.`,
-      },
-      "Surefooted": {
-        name: "Surefooted",
-        pos: "c4",
-        icon: icons["ability_kick"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases movement and mounted movement speed by ${[
-          5,
-          10,
-        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Improved Disengage": {
         name: "Improved Disengage",
