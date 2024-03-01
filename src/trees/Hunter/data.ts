@@ -528,7 +528,7 @@ export const data: TalentData = {
           30,
           40,
           50,
-        ]}% and the damage of Immolation and Explosive trap by ${[10, 20, 30, 40, 50,]}%.`,
+        ]}% and the damage of Steel and Explosive trap by ${[10, 20, 30, 40, 50,]}%.`,
       },
       "Improved Feign Death": {
         name: "Improved Feign Death",

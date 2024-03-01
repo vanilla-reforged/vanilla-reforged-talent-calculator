@@ -548,8 +548,6 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Furor",
-        arrows: [{ dir: "down", from: "b2", to: "c2" }],
         description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
       },
       "Tranquil Spirit": {
