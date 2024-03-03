@@ -332,7 +332,7 @@ export const data: TalentData = {
       "Improved Flamestrike": {
         name: "Improved Flamestrike",
         pos: "c3",
-        icon: icons["spell_fire_flameshock"],
+        icon: icons["spell_fire_selfdestruct"],
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the critical strike chance of your Flamestrike spell by ${[
