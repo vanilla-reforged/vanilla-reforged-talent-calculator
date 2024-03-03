@@ -272,18 +272,6 @@ export const data: TalentData = {
           6,
         ]} sec.`,
       },
-      "Improved Hammer of Justice": {
-        name: "Improved Hammer of Justice",
-        pos: "b2",
-        icon: icons["spell_holy_sealofmight"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Hammer of Justice spell by ${[
-          6,
-          12,
-          18,
-        ]} sec.`,
-      },
       "Divine Endurance": {
         name: "Divine Endurance",
         pos: "b3",
@@ -294,6 +282,18 @@ export const data: TalentData = {
           1,
           2,
           3,
+        ]} sec.`,
+      },
+      "Improved Hammer of Justice": {
+        name: "Improved Hammer of Justice",
+        pos: "b4",
+        icon: icons["spell_holy_sealofmight"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Hammer of Justice spell by ${[
+          6,
+          12,
+          18,
         ]} sec.`,
       },
       "Sanctuary": {
@@ -310,6 +310,8 @@ export const data: TalentData = {
         icon: icons["inv_shield_06"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Shield Specialization",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the amount of damage absorbed by your shield by ${[
           10,
           20,
@@ -322,10 +324,24 @@ export const data: TalentData = {
         icon: icons["spell_holy_divineintervention"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Divine Endurance",
+        arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Reduces the cooldown of your Blessing of Protection, Divine Protection and Divine Shield spells by ${[
           30,
           60,
           90,
+        ]} sec.`,
+      },
+      "Combat Prayers": {
+        name: "Combat Prayers",
+        pos: "c4",
+        icon: icons["spell_holy_sealofsalvation"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Reduces the cooldown of your Consecration and Exorcism spells by ${[
+          0.5,
+          1,
+          1.5,
         ]} sec.`,
       },
       "Reckoning": {
