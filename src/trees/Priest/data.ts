@@ -267,7 +267,7 @@ export const data: TalentData = {
       "Inspiration": {
         name: "Inspiration",
         pos: "d2",
-        icon: icons["spell_holy_layonhands"],
+        icon: icons["spell_holy_power"],
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Increase your target's armor value by ${[
