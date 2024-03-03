@@ -105,7 +105,7 @@ export const data: TalentData = {
       "Revelation": {
         name: "Revelation",
         pos: "d2",
-        icon: icons["spell_holy_holyprotection"],
+        icon: icons["spell_holy_power"],
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Increase your target's armor value by ${[
