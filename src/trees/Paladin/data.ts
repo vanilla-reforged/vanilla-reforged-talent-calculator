@@ -201,20 +201,6 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["spell_holy_devotionaura"],
     talents: {
-      "Divine Focus": {
-        name: "Divine Focus",
-        pos: "a1",
-        icon: icons["spell_holy_unyieldingfaith"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Improves your chance to hit with spells by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}%.`,
-      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
@@ -235,13 +221,13 @@ export const data: TalentData = {
           100,
         ]}% chance to generate 2% of your total mana when a block occurs.`,
       },
-      "Power of Faith": {
-        name: "Power of Faith",
+      "Divine Focus": {
+        name: "Divine Focus",
         pos: "a3",
-        icon: icons["spell_holy_power"],
+        icon: icons["spell_holy_unyieldingfaith"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike and your chance to hit with spells by ${[
+        description: talentText`Improves your chance to hit with spells by ${[
           1,
           2,
           3,
