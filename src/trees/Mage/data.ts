@@ -527,7 +527,7 @@ export const data: TalentData = {
       },
       "Frost Channeling": {
         name: "Frost Channeling",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_frost_stun"],
         maxRank: 5,
         reqPoints: 10,
@@ -547,7 +547,7 @@ export const data: TalentData = {
       },
       "Frozen Soul": {
         name: "Frozen Soul",
-        pos: "c4",
+        pos: "c3",
         icon: icons["spell_frost_wisp"],
         maxRank: 2,
         reqPoints: 10,
