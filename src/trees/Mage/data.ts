@@ -222,6 +222,20 @@ export const data: TalentData = {
     background: backgrounds["fire"],
     icon: icons["spell_fire_firebolt02"],
     talents: {
+      "Impact": {
+        name: "Impact",
+        pos: "a1",
+        icon: icons["spell_fire_meteorstorm"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Fire spells a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Fiery Focus": {
         name: "Fiery Focus",
         pos: "a2",
