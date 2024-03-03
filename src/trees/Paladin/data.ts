@@ -69,11 +69,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Increases the amount healed by your Holy Light and Flash of Light spells by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
       "Improved Lay on Hands": {
