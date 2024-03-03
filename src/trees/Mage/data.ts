@@ -264,9 +264,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Flame Throwing": {
+        name: "Flame Throwing",
+        pos: "b1",
+        icon: icons["spell_fire_flare"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Fire spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Improved Fireball": {
         name: "Improved Fireball",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_fire_firebolt02"],
         maxRank: 5,
         reqPoints: 5,
@@ -278,6 +289,18 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
+      "Improved Fire Blast": {
+        name: "Improved Fire Blast",
+        pos: "b3",
+        icon: icons["spell_fire_fireball"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Fire Blast spell by ${[
+          0.5,
+          1,
+          1.5,
+        ]} sec.`,
+      },
       "Pyroblast": {
         name: "Pyroblast",
         pos: "c1",
@@ -286,20 +309,9 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Hurls an immense fiery boulder that causes 141 to 188 Fire damage.`,
       },
-      "Flame Throwing": {
-        name: "Flame Throwing",
-        pos: "c2",
-        icon: icons["spell_fire_flare"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your Fire spells by ${[
-          10,
-          20,
-        ]}%.`,
-      },
       "Master of Flame": {
         name: "Master of Flame",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_fire_flameshock"],
         maxRank: 5,
         reqPoints: 10,
@@ -315,6 +327,18 @@ export const data: TalentData = {
           15,
           20,
           25,
+        ]}%.`,
+      },
+      "Improved Flamestrike": {
+        name: "Improved Flamestrike",
+        pos: "c3",
+        icon: icons["spell_fire_flameshock"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases the critical strike chance of your Flamestrike spell by ${[
+          5,
+          10,
+          15,
         ]}%.`,
       },
       "Burning Soul": {
