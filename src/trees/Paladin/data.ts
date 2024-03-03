@@ -140,7 +140,7 @@ export const data: TalentData = {
       },
       "Illumination": {
         name: "Illumination",
-        pos: "d3,
+        pos: "d3"
         icon: icons["spell_holy_greaterheal"],
         maxRank: 3,
         reqPoints: 15,
