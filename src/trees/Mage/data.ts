@@ -466,6 +466,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Frostbite": {
+        name: "Frostbite",
+        pos: "a4",
+        icon: icons["spell_frost_frostarmor"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Chill effects a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% chance to freeze the target for 5 sec.`,
+      },
       "Improved Frostbolt": {
         name: "Improved Frostbolt",
         pos: "b2",
@@ -491,20 +505,6 @@ export const data: TalentData = {
           4,
           6,
         ]} sec.`,
-      },
-      "Frostbite": {
-        name: "Frostbite",
-        pos: "b4",
-        icon: icons["spell_frost_frostarmor"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Gives your Chill effects a ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}% chance to freeze the target for 5 sec.`,
       },
       "Ice Block": {
         name: "Ice Block",
