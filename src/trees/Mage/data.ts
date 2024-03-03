@@ -225,7 +225,7 @@ export const data: TalentData = {
       "Fiery Focus": {
         name: "Fiery Focus",
         pos: "a2",
-        icon: icons["spell_fire_meteorstorm"],
+        icon: icons["spell_fire_firebolt"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your chance to hit with Fire spells by ${[
@@ -239,7 +239,7 @@ export const data: TalentData = {
       "Fiery Wrath": {
         name: "Fiery Wrath",
         pos: "a3",
-        icon: icons["spell_fire_selfdestruct"],
+        icon: icons["spell_fire_lavaspawn"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your chance to get a critical strike with Fire spells by ${[
