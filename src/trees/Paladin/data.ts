@@ -201,6 +201,18 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["spell_holy_devotionaura"],
     talents: {
+      "Improved Devotion Aura": {
+        name: "Improved Devotion Aura",
+        pos: "a1",
+        icon: icons["spell_holy_devotionaura"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the armor bonus of your Devotion Aura by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
