@@ -389,7 +389,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispheal"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Fireball, Fireblast and Pyroblast spells by ${[
+        description: talentText`Increases the damage done by your Fireball, Fire Blast and Pyroblast spells by ${[
           2,
           4,
           6,
