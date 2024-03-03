@@ -12,13 +12,13 @@ export const data: TalentData = {
     background: backgrounds["holy"],
     icon: icons["spell_holy_holybolt"],
     talents: {
-      "Divine Focus": {
-        name: "Divine Focus",
+      "Divine Wrath": {
+        name: "Divine Wrath",
         pos: "a1",
-        icon: icons["spell_nature_manaregentotem"],
+        icon: icons["spell_holy_holyprotection"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with spells by ${[
+        description: talentText`Improves your chance to get a critical strike with spells by ${[
           1,
           2,
           3,
@@ -56,7 +56,7 @@ export const data: TalentData = {
       },
       "Quick Prayer": {
         name: "Quick Prayer",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
@@ -67,6 +67,20 @@ export const data: TalentData = {
           0.4,
           0.5,
         ]} sec.`,
+      },
+      "Faithful Preparation": {
+        name: "Faithful Preparation",
+        pos: "b3",
+        icon: icons["spell_holy_layonhands"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Divine Intervention and Lay on Hands spells by ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]} min.`,
       },
       "Surge of Faith": {
         name: "Surge of Faith",
@@ -90,20 +104,17 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Improved Lay on Hands": {
-        name: "Improved Lay on Hands",
+      "Improved Cleanse": {
+        name: "Improved Cleanse",
         pos: "c3",
-        icon: icons["spell_holy_layonhands"],
-        maxRank: 2,
+        icon: icons["spell_holy_renew"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Gives the target of your Lay on Hands spell a ${[
-          15,
-          30,
-        ]}% bonus to their armor value from items for 2 min.  
-        In addition, the cooldown of your Lay on Hands spell is reduced by ${[
-          10,
-          20,
-        ]} min.`,
+        description: talentText`Reduces the mana cost of your Cleanse and Purify spells by ${[
+          6,
+          12,
+          18,
+        ]}%.`,
       },
       "Spiritual Focus": {
         name: "Spiritual Focus",
@@ -127,17 +138,17 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-      "Lasting Judgement": {
-        name: "Lasting Judgement",
-        pos: "d3",
-        icon: icons["spell_holy_healingaura"],
+      "Illumination": {
+        name: "Illumination",
+        pos: "d3,
+        icon: icons["spell_holy_greaterheal"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the duration of your Judgement of Light and Judgement of Wisdom spells by ${[
-          36,
-          73,
-          110,
-        ]} sec.`,
+        description: talentText`Gives you a ${[
+          33,
+          66,
+          100,
+        ]}% chance to gain Mana equal to the base cost of the spell, after getting a critical effect from one of your healing spells.`,
       },
       "Divine Favor": {
         name: "Divine Favor",
@@ -147,17 +158,17 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%.  2 min cooldown`,
       },
-      "Illumination": {
-        name: "Illumination",
+      "Lasting Judgement": {
+        name: "Lasting Judgement",
         pos: "e3",
-        icon: icons["spell_holy_greaterheal"],
+        icon: icons["spell_holy_healingaura"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Gives you a ${[
-          33,
-          66,
-          100,
-        ]}% chance to gain Mana equal to the base cost of the spell, after getting a critical effect from one of your healing spells.`,
+        description: talentText`Increases the duration of your Judgement of Light and Judgement of Wisdom spells by ${[
+          15,
+          30,
+          45,
+        ]} sec.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
@@ -190,6 +201,20 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["spell_holy_devotionaura"],
     talents: {
+      "Divine Focus": {
+        name: "Divine Focus",
+        pos: "a1",
+        icon: icons["spell_holy_unyieldingfaith"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Improves your chance to hit with spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
