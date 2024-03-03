@@ -12,6 +12,20 @@ export const data: TalentData = {
     background: backgrounds["holy"],
     icon: icons["spell_holy_holybolt"],
     talents: {
+      "Divine Focus": {
+        name: "Divine Focus",
+        pos: "a1",
+        icon: icons["spell_nature_manaregentotem"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Improves your chance to hit with spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Silent Resolve": {
         name: "Silent Resolve",
         pos: "a2",
