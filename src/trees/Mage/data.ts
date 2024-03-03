@@ -480,6 +480,17 @@ export const data: TalentData = {
           10,
         ]}% chance to freeze the target for 5 sec.`,
       },
+      "Arctic Reach": {
+        name: "Arctic Reach",
+        pos: "b1",
+        icon: icons["spell_shadow_darkritual"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Frost spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Improved Frostbolt": {
         name: "Improved Frostbolt",
         pos: "b2",
@@ -513,17 +524,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot, move or cast spells.  5 min cooldown`,
-      },
-      "Arctic Reach": {
-        name: "Arctic Reach",
-        pos: "c2",
-        icon: icons["spell_shadow_darkritual"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your Frost spells by ${[
-          10,
-          20,
-        ]}%.`,
       },
       "Frost Channeling": {
         name: "Frost Channeling",
