@@ -426,6 +426,18 @@ export const data: TalentData = {
     background: backgrounds["frost"],
     icon: icons["spell_frost_frostbolt02"],
     talents: {
+      "Improved Ice Armor": {
+        name: "Improved Ice Armor",
+        pos: "a1",
+        icon: icons["spell_frost_frostarmor02"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the armor and resistances given by your Frost Armor and Ice Armor spells by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
       "Frozen Focus": {
         name: "Frozen Focus",
         pos: "a2",
@@ -456,7 +468,7 @@ export const data: TalentData = {
       },
       "Improved Frostbolt": {
         name: "Improved Frostbolt",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_frost_frostbolt02"],
         maxRank: 5,
         reqPoints: 5,
@@ -467,6 +479,32 @@ export const data: TalentData = {
           0.4,
           0.5,
         ]} sec.`,
+      },
+      "Improved Frost Nova": {
+        name: "Improved Frost Nova",
+        pos: "b3",
+        icon: icons["spell_frost_freezingbreath"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Frost Nova spell by ${[
+          2,
+          4,
+          6,
+        ]} sec.`,
+      },
+      "Frostbite": {
+        name: "Frostbite",
+        pos: "b4",
+        icon: icons["spell_frost_frostarmor"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Gives your Chill effects a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% chance to freeze the target for 5 sec.`,
       },
       "Ice Block": {
         name: "Ice Block",
