@@ -43,7 +43,7 @@ export const data: TalentData = {
       "Quick Prayer": {
         name: "Quick Prayer",
         pos: "b3",
-        icon: icons["spell_holy_unyieldingfaith"],
+        icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Healing spells by ${[
