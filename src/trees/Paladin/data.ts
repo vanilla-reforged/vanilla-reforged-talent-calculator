@@ -446,13 +446,13 @@ export const data: TalentData = {
           30,
         ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
       },
-      "Improved Judgement": {
-        name: "Improved Seal of the Crusader",
+      "Improved Rebuke": {
+        name: "Improved Rebuke",
         pos: "d2",
-        icon: icons["spell_holy_righteousfury"],
+        icon: icons["inv_gauntlets_04"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Gives your Judgement spell a ${[
+        description: talentText`Gives your Rebuke spell a ${[
           50,
           100,
         ]}% chance to silence the target for 2 sec.`,
