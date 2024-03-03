@@ -418,6 +418,20 @@ export const data: TalentData = {
     background: backgrounds["retribution"],
     icon: icons["spell_holy_auraoflight"],
     talents: {
+      "Punishment": {
+        name: "Punishment",
+        pos: "a1",
+        icon: icons["spell_frost_stun"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Judgement spell a ${[
+          3,
+          6,
+          9,
+          12,
+          16,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Precision": {
         name: "Precision",
         pos: "a2",
@@ -457,6 +471,18 @@ export const data: TalentData = {
           10,
         ]}%.  This does not stack with other movement speed increasing effects.`,
       },
+      "Improved Judgement": {
+        name: "Improved Judgement",
+        pos: "b2",
+        icon: icons["spell_holy_righteousfury"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Decreases the cooldown of your Judgement spell by ${[
+          0.5,
+          1,
+          1.5,
+        ]} sec.`,
+      }, 
       "Improved Retribution Aura": {
         name: "Improved Retribution Aura",
         pos: "b3",
@@ -491,15 +517,18 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Improved Consecration": {
-        name: "Improved Consecration",
+      "Holy Wrath": {
+        name: "Holy Wrath",
         pos: "c3",
-        icon: icons["spell_holy_innerfire"],
-        maxRank: 2,
+        icon: icons["spell_holy_excorcism"],
+        maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the damage done by your Consecration spell by ${[
-          5,
-          10,
+        description: talentText`Increases the damage of your Consecration and Exorcism spells by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Eye for an Eye": {
