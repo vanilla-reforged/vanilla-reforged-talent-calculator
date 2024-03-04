@@ -128,7 +128,9 @@ export const data: TalentData = {
         icon: icons["spell_holy_powerwordshield"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases damage absorbed by your Power Word: Shield by ${[
+        prereq: "Improved Weakened Soul",
+        arrows: [{ dir: "down", from: "b3", to: "c3" }],
+        description: talentText`Increases damage absorbed by your Power Word: Shield spell by ${[
           10,
           20,
           30,
@@ -327,6 +329,8 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessedrecovery"],
         maxRank: 2,
         reqPoints: 10,
+        prereq: "Improved Desperate Prayer",
+        arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Heals ${[
           15,
           30,
@@ -519,6 +523,8 @@ export const data: TalentData = {
         icon: icons["spell_shadow_improvedvampiricembrace"],
         maxRank: 2,
         reqPoints: 10,
+        prereq: "Vampiric Embrace",
+        arrows: [{ dir: "right", from: "c1", to: "c2" }],
         description: talentText`Increases the percentage healed by Vampiric Embrace by an additional  ${[
           5,
           10,
