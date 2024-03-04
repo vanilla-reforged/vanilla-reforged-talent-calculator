@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vanilla-reforged-talent-calculator/static/css/main.0ae4d62a.css",
-    "main.js": "/vanilla-reforged-talent-calculator/static/js/main.4bd415ed.js",
+    "main.js": "/vanilla-reforged-talent-calculator/static/js/main.563a015b.js",
     "static/css/859.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/859.db995429.chunk.css",
     "static/js/859.a5fde322.chunk.js": "/vanilla-reforged-talent-calculator/static/js/859.a5fde322.chunk.js",
     "static/css/79.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/79.db995429.chunk.css",
@@ -13,7 +13,7 @@
     "static/css/729.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/729.db995429.chunk.css",
     "static/js/729.ee1c5e32.chunk.js": "/vanilla-reforged-talent-calculator/static/js/729.ee1c5e32.chunk.js",
     "static/css/196.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/196.db995429.chunk.css",
-    "static/js/196.df751872.chunk.js": "/vanilla-reforged-talent-calculator/static/js/196.df751872.chunk.js",
+    "static/js/196.7da32e34.chunk.js": "/vanilla-reforged-talent-calculator/static/js/196.7da32e34.chunk.js",
     "static/css/577.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/577.db995429.chunk.css",
     "static/js/577.9ae04c68.chunk.js": "/vanilla-reforged-talent-calculator/static/js/577.9ae04c68.chunk.js",
     "static/css/281.db995429.chunk.css": "/vanilla-reforged-talent-calculator/static/css/281.db995429.chunk.css",
@@ -50,7 +50,7 @@
     "static/media/survival_instincts.jpg": "/vanilla-reforged-talent-calculator/static/media/survival_instincts.29e44a68c42c648cbe1e.jpg",
     "index.html": "/vanilla-reforged-talent-calculator/index.html",
     "main.0ae4d62a.css.map": "/vanilla-reforged-talent-calculator/static/css/main.0ae4d62a.css.map",
-    "main.4bd415ed.js.map": "/vanilla-reforged-talent-calculator/static/js/main.4bd415ed.js.map",
+    "main.563a015b.js.map": "/vanilla-reforged-talent-calculator/static/js/main.563a015b.js.map",
     "859.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/859.db995429.chunk.css.map",
     "859.a5fde322.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/859.a5fde322.chunk.js.map",
     "79.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/79.db995429.chunk.css.map",
@@ -62,7 +62,7 @@
     "729.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/729.db995429.chunk.css.map",
     "729.ee1c5e32.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/729.ee1c5e32.chunk.js.map",
     "196.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/196.db995429.chunk.css.map",
-    "196.df751872.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/196.df751872.chunk.js.map",
+    "196.7da32e34.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/196.7da32e34.chunk.js.map",
     "577.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/577.db995429.chunk.css.map",
     "577.9ae04c68.chunk.js.map": "/vanilla-reforged-talent-calculator/static/js/577.9ae04c68.chunk.js.map",
     "281.db995429.chunk.css.map": "/vanilla-reforged-talent-calculator/static/css/281.db995429.chunk.css.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.0ae4d62a.css",
-    "static/js/main.4bd415ed.js"
+    "static/js/main.563a015b.js"
   ]
 }
