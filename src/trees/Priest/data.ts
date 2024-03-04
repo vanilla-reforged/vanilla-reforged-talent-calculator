@@ -187,6 +187,18 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Increases the critical strike damage bonus of your Holy Fire and Smite spells by 100%.`,
       },
+      "Burst of Light": {
+        name: "Burst of Light",
+        pos: "e2",
+        icon: icons["spell_holy_holybolt"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Gives your offensive spells a ${[
+          2,
+          4,
+          6,
+        ]}% chance to reduce the casting time of your next Holy Fire or Smite Spell spell by 100%.`,
+      },
       "Force of Will": {
         name: "Force of Will",
         pos: "f3",
