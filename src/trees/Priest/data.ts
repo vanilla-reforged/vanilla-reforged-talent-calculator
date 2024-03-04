@@ -285,6 +285,20 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
+      "Improved Desperate Prayer": {
+        name: "Improved Desperate Prayer",
+        pos: "b2",
+        icon: icons["spell_holy_restoration"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Desperate Prayer spell by ${[
+          12,
+          24,
+          36,
+          48,
+          60,
+        ]} sec.`,
+      },
       "Inner Focus": {
         name: "Inner Focus",
         pos: "c1",
