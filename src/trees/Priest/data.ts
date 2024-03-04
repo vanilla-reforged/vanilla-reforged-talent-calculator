@@ -468,9 +468,20 @@ export const data: TalentData = {
           10,
         ]}% chance to stun the target for 3 sec.`,
       },
+      "Shadow Reach": {
+        name: "Shadow Reach",
+        pos: "b1",
+        icon: icons["spell_shadow_chilltouch"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Shadow spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Warping Shadows": {
         name: "Warping Shadows",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_shadow_siphonmana"],
         maxRank: 5,
         reqPoints: 5,
@@ -482,6 +493,30 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
+      "Improved Shadow Words": {
+        name: "Improved Shadow Words",
+        pos: "b3",
+        icon: icons["spell_shadow_shadowwordpain"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Shadow Word spells by ${[
+          0.5,
+          1,
+          1.5,
+        ]} sec.`,
+      },
+      "Improved Psychic Scream": {
+        name: "Improved Psychic Scream",
+        pos: "b4",
+        icon: icons["spell_shadow_psychicscream"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Psychic Scream spell by ${[
+          2,
+          4,
+          6,
+        ]} sec.`,
+      },
       "Vampiric Embrace": {
         name: "Vampiric Embrace",
         pos: "c1",
@@ -490,15 +525,15 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 1 min.  10 sec cooldown`,
       },
-      "Shadow Reach": {
-        name: "Shadow Reach",
+      "Improved Vampiric Embrace": {
+        name: "Improved Vampiric Embrace",
         pos: "c2",
-        icon: icons["spell_shadow_chilltouch"],
+        icon: icons["spell_shadow_improvedvampiricembrace"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Increases the range of your Shadow spells by ${[
+        description: talentText`Increases the percentage healed by Vampiric Embrace by an additional  ${[
+          5,
           10,
-          20,
         ]}%.`,
       },
       "Improved Mind Blast": {
@@ -513,17 +548,6 @@ export const data: TalentData = {
           1.5,
           2.0,
           2.5,
-        ]} sec.`,
-      },
-      "Improved Psychic Scream": {
-        name: "Improved Psychic Scream",
-        pos: "c4",
-        icon: icons["spell_shadow_psychicscream"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Psychic Scream spell by ${[
-          4,
-          8,
         ]} sec.`,
       },
       "Improved Fade": {
