@@ -150,7 +150,7 @@ export const data: TalentData = {
         pos: "d2",
         icon: icons["spell_holy_spiritualguidence"],
         maxRank: 2,
-        reqPoints: 20,
+        reqPoints: 15,
         description: talentText`Increases spell damage and healing by up to ${[
           15,
           30,
