@@ -219,6 +219,18 @@ export const data: TalentData = {
     background: backgrounds["holy"],
     icon: icons["spell_holy_holybolt"],
     talents: {
+      "Improved Renew": {
+        name: "Improved Renew",
+        pos: "a1",
+        icon: icons["spell_holy_renew"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the amount healed by your Renew spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
       "Silent Resolve": {
         name: "Silent Resolve",
         pos: "a2",
@@ -260,7 +272,7 @@ export const data: TalentData = {
       },
       "Divine Grace": {
         name: "Divine Grace",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
@@ -275,7 +287,7 @@ export const data: TalentData = {
       "Inner Focus": {
         name: "Inner Focus",
         pos: "c1",
-        icon: icons["spell_frost_windwalkon"],
+        icon: icons[spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  2 min cooldown`,
@@ -287,12 +299,6 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}% and increases the amount healed by your Renew spell by ${[
           3,
           6,
           9,
