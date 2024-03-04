@@ -13,7 +13,7 @@ export const data: TalentData = {
     icon: icons["spell_holy_wordfortitude"],
     talents: {
       "Improved Inner Fire": {
-        name: "Improved Inner Fire,
+        name: "Improved Inner Fire",
         pos: "a1",
         icon: icons["spell_holy_innerfire"],
         maxRank: 3,
@@ -24,10 +24,10 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Guided by Faith": {
-        name: "Guided by Faith",
+      "Divine Focus": {
+        name: "Divine Focus",
         pos: "a2",
-        icon: icons["spell_holy_sealofsalvation"],
+        icon: icons["spell_holy_unyieldingfaith"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your chance to hit with spells by ${[
@@ -38,8 +38,8 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Faith and Wrath": {
-        name: "Faith and Wrath",
+      "Divine Wrath": {
+        name: "Divine Wrath",
         pos: "a3",
         icon: icons["spell_holy_holyprotection"],
         maxRank: 5,
@@ -52,9 +52,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Holy Reach": {
+        name: "Holy Reach",
+        pos: "b1",
+        icon: icons["spell_holy_purify"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Holy spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Divine Fury": {
         name: "Divine Fury",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_holy_sealofwrath"],
         maxRank: 5,
         reqPoints: 5,
@@ -66,6 +77,18 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
+      "Improved Weakened Soul": {
+        name: "Improved Weakened Soul",
+        pos: "b3",
+        icon: icons["spell_holy_ashestoashes"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Decreases the duration of your Power Word: Shield's Weakened Soul effect by ${[
+          1,
+          2,
+          3,
+        ]} sec.`,
+      },
       "Holy Nova": {
         name: "Holy Nova",
         pos: "c1",
@@ -74,17 +97,7 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Causes an explosion of holy light around the caster, causing 29 to 34 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63.  These effects cause no threat.`,
       },
-      "Holy Reach": {
-        name: "Holy Reach",
-        pos: "c2",
-        icon: icons["spell_holy_purify"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your Holy spells by ${[
-          10,
-          20,
-        ]}%.`,
-      },
+
       "Mental Agility": {
         name: "Mental Agility",
         pos: "c3",
