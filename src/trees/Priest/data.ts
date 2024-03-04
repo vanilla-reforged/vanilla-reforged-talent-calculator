@@ -89,6 +89,17 @@ export const data: TalentData = {
           3,
         ]} sec.`,
       },
+      "Martyrdom": {
+        name: "Martyrdom",
+        pos: "b4",
+        icon: icons["spell_nature_tranquility"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
+      },
       "Holy Nova": {
         name: "Holy Nova",
         pos: "c1",
@@ -97,7 +108,6 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Causes an explosion of holy light around the caster, causing 29 to 34 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63.  These effects cause no threat.`,
       },
-
       "Mental Agility": {
         name: "Mental Agility",
         pos: "c3",
@@ -111,17 +121,6 @@ export const data: TalentData = {
           40,
           50,
         ]}%.`,
-      },
-      "Martyrdom": {
-        name: "Martyrdom",
-        pos: "c4",
-        icon: icons["spell_nature_tranquility"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Gives you a ${[
-          50,
-          100,
-        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
       },
       "Blessed Recovery": {
         name: "Blessed Recovery",
