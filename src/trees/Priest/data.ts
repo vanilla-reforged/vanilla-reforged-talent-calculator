@@ -442,21 +442,9 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Shadow Word: Pain": {
-        name: "Improved Shadow Word: Pain",
-        pos: "a3",
-        icon: icons["spell_shadow_shadowwordpain"],
-        maxRank: 3,
-        reqPoints: 0,
-        description: talentText`Increases the duration of your Shadow Word: Pain spell by ${[
-          2,
-          4,
-          6,
-        ]} sec.`,
-      },
       "Blackout": {
         name: "Blackout",
-        pos: "a4",
+        pos: "a3",
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 5,
         reqPoints: 0,
