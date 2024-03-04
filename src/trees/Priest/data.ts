@@ -550,6 +550,18 @@ export const data: TalentData = {
           2.5,
         ]} sec.`,
       },
+      "Improved Shadowguard": {
+        name: "Improved Shadowguard",
+        pos: "c4",
+        icon: icons["spell_nature_lightningshield"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases the damage done by your Shadowguard spell by ${[
+          15,
+          30,
+          45,
+        ]}%.`,
+      },
       "Improved Fade": {
         name: "Improved Fade",
         pos: "d2",
@@ -564,7 +576,7 @@ export const data: TalentData = {
       "Improved Shadow Word: Suffering": {
         name: "Improved Shadow Word: Suffering",
         pos: "d3",
-        icon: icons["spell_shadow_improvedvampiricembrace"],
+        icon: icons["spell_shadow_shadowwordpain"],
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Increases the damage of your Shadow Word: Suffering spell by ${[
