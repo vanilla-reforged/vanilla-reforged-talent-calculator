@@ -40,6 +40,32 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Improved Expose Armor": {
+        name: "Improved Expose Armor",
+        pos: "b1",
+        icon: icons["ability_warrior_riposte"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Increases the armor reduced by your Expose Armor ability by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
+      "Dissection": {
+        name: "Dissection",
+        pos: "b2",
+        icon: icons["inv_weapon_shortblade_05"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the Energy cost of your Backstab ability by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}.`,
+      },
       "Ruthlessness": {
         name: "Ruthlessness",
         pos: "b3",
@@ -62,16 +88,19 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`When used, adds 1 combo point to your target.  You must add to or use this combo point within 10 sec or the combo point is lost.  1 min cooldown`,
       },
-      "Dissection": {
-        name: "Dissection",
+      "Improved Garrote": {
+        name: "Improved Garrote",
         pos: "c2",
-        icon: icons["inv_weapon_shortblade_05"],
-        maxRank: 2,
+        icon: icons["ability_rogue_garrote"],
+        maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Energy cost of your Backstab ability by ${[
-          3,
+        description: talentText`Increases the damage of your Garrote ability by ${[
           5,
-        ]}.`,
+          10,
+          15,
+          20,
+          25,
+        ]}%.`,
       },
       "Improved Poisons": {
         name: "Improved Poisons",
@@ -118,11 +147,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_17"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Causes your attacks to ignore 0 of your target's Armor and increases the damage dealt by your Rupture ability by ${[
-          10,
-          20,
-          30,
-        ]}%.  The amount of Armor reduced increases with your level.`,
+        description: talentText`Causes your attacks to ignore 0 of your target's Armor.  The amount of Armor reduced increases with your level.`,
       },
       "Cold Blood": {
         name: "Cold Blood",
