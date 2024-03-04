@@ -110,7 +110,7 @@ export const data: TalentData = {
       },
       "Mental Agility": {
         name: "Mental Agility",
-        pos: "c3",
+        pos: "c2",
         icon: icons["ability_hibernation"],
         maxRank: 5,
         reqPoints: 10,
@@ -122,6 +122,29 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
+      "Improved Power Word: Shield": {
+        name: "Improved Power Word: Shield",
+        pos: "c3",
+        icon: icons["spell_holy_powerwordshield"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases damage absorbed by your Power Word: Shield by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
+      "Meditation": {
+        name: "Meditation",
+        pos: "c4",
+        icon: icons["spell_nature_sleep"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Allows ${[
+          10,
+          20,
+        ]}% of your Mana regeneration to continue while casting.`,
+      },
       "Blessed Recovery": {
         name: "Blessed Recovery",
         pos: "d2",
@@ -132,6 +155,17 @@ export const data: TalentData = {
           15,
           30,
         ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
+      },
+      "Spiritual Guidance": {
+        name: "Spiritual Guidance",
+        pos: "d2",
+        icon: icons["spell_holy_spiritualguidence"],
+        maxRank: 2,
+        reqPoints: 20,
+        description: talentText`Increases spell damage and healing by up to ${[
+          15,
+          30,
+        ]}% of your total Spirit.`,
       },
       "Searing Light": {
         name: "Searing Light",
@@ -152,18 +186,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Increases the critical strike damage bonus of your Holy Fire and Smite spells by 100%.`,
-      },
-      "Spiritual Guidance": {
-        name: "Spiritual Guidance",
-        pos: "e3",
-        icon: icons["spell_holy_spiritualguidence"],
-        maxRank: 3,
-        reqPoints: 20,
-        description: talentText`Increases spell damage and healing by up to ${[
-          15,
-          30,
-          45,
-        ]}% of your total Spirit.`,
       },
       "Force of Will": {
         name: "Force of Will",
@@ -266,17 +288,6 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Meditation": {
-        name: "Meditation",
-        pos: "c3",
-        icon: icons["spell_nature_sleep"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Allows ${[
-          10,
-          20,
-        ]}% of your Mana regeneration to continue while casting.`,
-      },
       "Holy Focus": {
         name: "Holy Focus",
         pos: "c4",
@@ -318,18 +329,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         description: talentText`When activated, your next Holy spell becomes an instant cast spell.  2 min cooldown`,
-      },
-      "Improved Power Word: Shield": {
-        name: "Improved Power Word: Shield",
-        pos: "e3",
-        icon: icons["spell_holy_powerwordshield"],
-        maxRank: 3,
-        reqPoints: 20,
-        description: talentText`Increases damage absorbed by your Power Word: Shield by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
