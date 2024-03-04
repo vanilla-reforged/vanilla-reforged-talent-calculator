@@ -333,7 +333,7 @@ export const data: TalentData = {
         ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
       },
       "Healing Focus": {
-        name: "Healing Focus,
+        name: "Healing Focus",
         pos: "c4",
         icon: icons["spell_holy_healingfocus"],
         maxRank: 2,
