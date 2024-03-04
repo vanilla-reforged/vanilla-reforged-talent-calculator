@@ -58,6 +58,8 @@ export const data: TalentData = {
         icon: icons["inv_weapon_shortblade_05"],
         maxRank: 5,
         reqPoints: 5,
+        prereq: "Improved Backstab",
+        arrows: [{ dir: "down", from: "a2", to: "b2" }],
         description: talentText`Reduces the Energy cost of your Backstab ability by ${[
           2,
           4,
@@ -133,6 +135,8 @@ export const data: TalentData = {
         icon: icons["ability_rogue_feigndeath"],
         maxRank: 2,
         reqPoints: 15,
+        prereq: "Improved Poisons",
+        arrows: [{ dir: "down", from: "c2", to: "d2" }],
         description: talentText`Increases the damage dealt by your poisons by ${[
           15,
           30,
