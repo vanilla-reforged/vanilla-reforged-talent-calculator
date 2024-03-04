@@ -523,12 +523,12 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the damage of your Consecration and Exorcism spells by ${[
-          3,
+        description: talentText`Improves the critical strike chance of your Consecration and Exorcism spells by ${[
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
       "Eye for an Eye": {
