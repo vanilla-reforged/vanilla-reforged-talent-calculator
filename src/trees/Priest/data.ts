@@ -525,7 +525,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Vampiric Embrace",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
-        description: talentText`Increases the percentage healed by Vampiric Embrace by an additional  ${[
+        description: talentText`Increases the percentage healed by Vampiric Embrace by an additional ${[
           5,
           10,
         ]}%.`,
