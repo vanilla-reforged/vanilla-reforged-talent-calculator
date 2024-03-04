@@ -81,7 +81,7 @@ export const data: TalentData = {
         name: "Improved Weakened Soul",
         pos: "b3",
         icon: icons["spell_holy_ashestoashes"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 5,
         description: talentText`Decreases the duration of your Power Word: Shield's Weakened Soul effect by ${[
           1,
@@ -144,17 +144,6 @@ export const data: TalentData = {
           10,
           20,
         ]}% of your Mana regeneration to continue while casting.`,
-      },
-      "Blessed Recovery": {
-        name: "Blessed Recovery",
-        pos: "d2",
-        icon: icons["spell_holy_blessedrecovery"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Heals ${[
-          15,
-          30,
-        ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
       },
       "Spiritual Guidance": {
         name: "Spiritual Guidance",
@@ -257,6 +246,17 @@ export const data: TalentData = {
           8,
           10,
         ]}%.`,
+      },
+      "Blessed Recovery": {
+        name: "Blessed Recovery",
+        pos: "d2",
+        icon: icons["spell_holy_blessedrecovery"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`Heals ${[
+          15,
+          30,
+        ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
       },
       "Divine Grace": {
         name: "Divine Grace",
