@@ -244,7 +244,7 @@ export const data: TalentData = {
       "Rampage": {
         name: "Rampage",
         pos: "b3",
-        icon: icons["spell_shadow_ritualofsacrifice"],
+        icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Gives you a ${[
