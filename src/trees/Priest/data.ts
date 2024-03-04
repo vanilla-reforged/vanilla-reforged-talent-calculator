@@ -287,7 +287,7 @@ export const data: TalentData = {
       },
       "Improved Desperate Prayer": {
         name: "Improved Desperate Prayer",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_holy_restoration"],
         maxRank: 5,
         reqPoints: 5,
