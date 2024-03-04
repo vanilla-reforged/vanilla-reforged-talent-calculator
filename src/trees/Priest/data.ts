@@ -178,7 +178,7 @@ export const data: TalentData = {
       },
       "Burst of Light": {
         name: "Burst of Light",
-        pos: "e2",
+        pos: "e3",
         icon: icons["spell_holy_holybolt"],
         maxRank: 3,
         reqPoints: 20,
