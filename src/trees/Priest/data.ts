@@ -12,6 +12,18 @@ export const data: TalentData = {
     background: backgrounds["discipline"],
     icon: icons["spell_holy_wordfortitude"],
     talents: {
+      "Improved Inner Fire": {
+        name: "Improved Inner Fire,
+        pos: "a1",
+        icon: icons["spell_holy_innerfire"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the Armor bonus of your Inner Fire spell by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
       "Guided by Faith": {
         name: "Guided by Faith",
         pos: "a2",
