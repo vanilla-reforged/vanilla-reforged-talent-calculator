@@ -340,18 +340,6 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-      "Improved Prayer of Healing": {
-        name: "Improved Prayer of Healing",
-        pos: "d3",
-        icon: icons["spell_holy_prayerofhealing02"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Reduces the Mana cost of your Prayer of Healing spell by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
-      },
       "Burst of Faith": {
         name: "Burst of Faith",
         pos: "e2",
@@ -359,6 +347,18 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         description: talentText`When activated, your next Holy spell becomes an instant cast spell.  2 min cooldown`,
+      },
+      "Improved Prayer of Healing": {
+        name: "Improved Prayer of Healing",
+        pos: "e3",
+        icon: icons["spell_holy_prayerofhealing02"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Reduces the Mana cost of your Prayer of Healing spell by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
