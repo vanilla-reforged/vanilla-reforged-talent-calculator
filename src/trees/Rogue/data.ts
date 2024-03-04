@@ -345,7 +345,7 @@ export const data: TalentData = {
         icon: icons["ability_criticalstrike"],
         maxRank: 3,
         reqPoints: 15,
-        prereq: "Spitey",
+        prereq: "Spite",
         arrows: [{ dir: "down", from: "a3", to: "d3" }],
         description: talentText`Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by ${[
           10,
