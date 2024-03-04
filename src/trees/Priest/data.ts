@@ -454,6 +454,20 @@ export const data: TalentData = {
           6,
         ]} sec.`,
       },
+      "Blackout": {
+        name: "Blackout",
+        pos: "a4",
+        icon: icons["spell_shadow_gathershadows"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Shadow damage spells a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Warping Shadows": {
         name: "Warping Shadows",
         pos: "b3",
