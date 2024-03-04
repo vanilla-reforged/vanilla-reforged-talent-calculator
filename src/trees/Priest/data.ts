@@ -270,6 +270,18 @@ export const data: TalentData = {
           30,
         ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
       },
+      "Improved Heal": {
+        name: "Improved Heal",
+        pos: "b1",
+        icon: icons["spell_holy_heal02"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Increases the critical effect chance of your Heal spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
       "Divine Grace": {
         name: "Divine Grace",
         pos: "b2",
