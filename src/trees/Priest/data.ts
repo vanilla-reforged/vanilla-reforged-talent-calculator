@@ -354,6 +354,18 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
+      "Divine Mind": {
+        name: "Divine Mind",
+        pos: "d3",
+        icon: icons["spell_holy_dispelmagic"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Reduces the mana cost of your Abolish Disease, Cure Disease and Dispel Magic spells by ${[
+          12,
+          24,
+          36,
+        ]}%.`,
+      },
       "Burst of Faith": {
         name: "Burst of Faith",
         pos: "e2",
