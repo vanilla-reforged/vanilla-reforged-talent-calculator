@@ -469,6 +469,8 @@ export const data: TalentData = {
         icon: icons["ability_sap"],
         maxRank: 3,
         reqPoints: 5,
+        prereq: "Camouflage",
+        arrows: [{ dir: "down", from: "a3", to: "b3" }],
         description: talentText`Gives you a ${[
           33,
           66,
