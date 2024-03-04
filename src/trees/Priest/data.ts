@@ -299,7 +299,7 @@ export const data: TalentData = {
       "Inner Focus": {
         name: "Inner Focus",
         pos: "c1",
-        icon: icons[spell_frost_windwalkon"],
+        icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  2 min cooldown`,
@@ -307,7 +307,7 @@ export const data: TalentData = {
       "Improved Healing": {
         name: "Improved Healing",
         pos: "c2",
-        icon: icons["spell_holy_heal02"],
+        icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by ${[
