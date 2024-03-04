@@ -259,17 +259,6 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Blessed Recovery": {
-        name: "Blessed Recovery",
-        pos: "d2",
-        icon: icons["spell_holy_blessedrecovery"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Heals ${[
-          15,
-          30,
-        ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
-      },
       "Improved Heal": {
         name: "Improved Heal",
         pos: "b1",
@@ -318,8 +307,19 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Holy Focus": {
-        name: "Holy Focus",
+      "Blessed Recovery": {
+        name: "Blessed Recovery",
+        pos: "c3",
+        icon: icons["spell_holy_blessedrecovery"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Heals ${[
+          15,
+          30,
+        ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
+      },
+      "Healing Focus": {
+        name: "Healing Focus,
         pos: "c4",
         icon: icons["spell_holy_healingfocus"],
         maxRank: 2,
@@ -327,7 +327,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           35,
           70,
-        ]}% chance to resist interruption caused by damage while casting any Holy spell.`,
+        ]}% chance to resist interruption caused by damage while casting any healing spell.`,
       },
       "Inspiration": {
         name: "Inspiration",
