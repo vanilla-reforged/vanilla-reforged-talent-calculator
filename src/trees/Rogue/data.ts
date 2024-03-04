@@ -282,7 +282,7 @@ export const data: TalentData = {
       },
       "Rampage": {
         name: "Rampage",
-        pos: "b3",
+        pos: "b4",
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 5,
         reqPoints: 5,
@@ -345,6 +345,8 @@ export const data: TalentData = {
         icon: icons["ability_criticalstrike"],
         maxRank: 3,
         reqPoints: 15,
+        prereq: "Spitey",
+        arrows: [{ dir: "down", from: "a3", to: "d3" }],
         description: talentText`Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by ${[
           10,
           20,
