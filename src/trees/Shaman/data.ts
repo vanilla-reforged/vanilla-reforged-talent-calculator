@@ -54,9 +54,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Storm Reach": {
+        name: "Storm Reach",
+        pos: "b1",
+        icon: icons["spell_nature_stormreach"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of Elemental spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Lightning Mastery": {
         name: "Lightning Mastery",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_lightning_lightningbolt01"],
         maxRank: 5,
         reqPoints: 5,
@@ -75,17 +86,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
-      },
-      "Storm Reach": {
-        name: "Storm Reach",
-        pos: "c2",
-        icon: icons["spell_nature_stormreach"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of Elemental spells by ${[
-          10,
-          20,
-        ]}%.`,
       },
       "Convection": {
         name: "Convection",
