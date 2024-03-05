@@ -12,6 +12,20 @@ export const data: TalentData = {
     background: backgrounds["elemental"],
     icon: icons["spell_nature_lightning"],
     talents: {
+      "Electrifying": {
+        name: "Electrifying",
+        pos: "a1",
+        icon: icons["spell_frost_stun"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Elemental Spells a ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Storm's Guidance": {
         name: "Storm's Guidance",
         pos: "a2",
