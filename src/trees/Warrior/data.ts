@@ -322,11 +322,11 @@ export const data: TalentData = {
         prereq: "Enrage",
         arrows: [{ dir: "down", from: "d3", to: "f3" }],
         description: talentText`Increases your attack speed by ${[
+          5,
           10,
           15,
           20,
           25,
-          30,
         ]}% for your next 3 swings after dealing a melee critical strike.`,
       },
       "Bloodthirst": {

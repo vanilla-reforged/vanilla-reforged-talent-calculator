@@ -358,19 +358,21 @@ export const data: TalentData = {
           100,
         ]}% chance to increase the damage done by your party by 3% for 12 sec.`,
       },
-      "Weapon Mastery": {
-        name: "Weapon Mastery",
+      "Flurry": {
+        name: "Flurry",
         pos: "f3",
-        icon: icons["ability_hunter_swiftstrike"],
+        icon: icons["ability_ghoulfrenzy"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage you deal with all weapons by ${[
-          2,
-          4,
-          6,
-          8,
+        prereq: "Enrage",
+        arrows: [{ dir: "down", from: "d3", to: "f3" }],
+        description: talentText`Increases your attack speed by ${[
+          5,
           10,
-        ]}%.`,
+          15,
+          20,
+          25,
+        ]}% for your next 3 swings after dealing a melee critical strike.`,
       },
       "Stormstrike": {
         name: "Stormstrike",
