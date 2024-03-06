@@ -80,7 +80,7 @@ export const data: TalentData = {
         ]} sec.`,
       },
       "Reverberation": {
-        name: "Reverberatio",
+        name: "Reverberation",
         pos: "b3",
         icon: icons["spell_lightning_lightningbolt01"],
         maxRank: 3,
@@ -91,6 +91,17 @@ export const data: TalentData = {
           1.5,
         ]} sec.`,
       },
+      "Eye of the Storm": {
+        name: "Eye of the Storm",
+        pos: "b4",
+        icon: icons["spell_nature_eyeofthestorm"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
+      }, 
       "Elemental Focus": {
         name: "Elemental Focus",
         pos: "c1",
@@ -101,7 +112,7 @@ export const data: TalentData = {
       },
       "Convection": {
         name: "Convection",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_nature_wispsplode"],
         maxRank: 5,
         reqPoints: 10,
@@ -113,17 +124,18 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Eye of the Storm": {
-        name: "Eye of the Storm",
-        pos: "c4",
-        icon: icons["spell_nature_eyeofthestorm"],
-        maxRank: 2,
+      "Elemental Devastation": {
+        name: "Elemental Devastation",
+        pos: "c3",
+        icon: icons["classic_spell_fire_elementaldevastation"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Gives you a ${[
-          50,
-          100,
-        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
-      }, 
+        description: talentText`Improves your chance to get a critical strike by ${[
+          5,
+          10,
+          15,
+        ]}% for 10 sec, after getting a critical strike with a spell.`,
+      },
       "Improved Fire Totems": {
         name: "Improved Fire Totems",
         pos: "d2",
@@ -277,18 +289,6 @@ export const data: TalentData = {
           20,
           30,
         ]}%.`,
-      },
-      "Elemental Devastation": {
-        name: "Elemental Devastation",
-        pos: "c3",
-        icon: icons["classic_spell_fire_elementaldevastation"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Improves your chance to get a critical strike by ${[
-          5,
-          10,
-          15,
-        ]}% for 10 sec, after getting a critical strike with a spell.`,
       },
       "Enhancing Totems": {
         name: "Enhancing Totems",
