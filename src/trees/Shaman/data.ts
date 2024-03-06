@@ -247,13 +247,27 @@ export const data: TalentData = {
           100,
         ]}% chance to generate 2% of your total mana when a block occurs.`,
       },
+      "Precision": {
+        name: "Precision",
+        pos: "a3",
+        icon: icons["ability_marksmanship"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Improves your chance to hit by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Thundering Strikes": {
         name: "Thundering Strikes",
-        pos: "a3",
+        pos: "a4",
         icon: icons["ability_thunderbolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike and your chance to hit by ${[
+        description: talentText`Improves your chance to get a critical strike by ${[
           1,
           2,
           3,
@@ -265,11 +279,12 @@ export const data: TalentData = {
         name: "Improved Ghost Wolf",
         pos: "b1",
         icon: icons["spell_nature_spiritwolf"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Ghost Wolf spell by ${[
           1,
           2,
+          3,
         ]} sec.`,
       },
       "Improved Lightning Shield": {
