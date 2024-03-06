@@ -130,6 +130,8 @@ export const data: TalentData = {
         icon: icons["classic_spell_fire_elementaldevastation"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Reverberation",
+        arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Improves your chance to get a critical strike by ${[
           5,
           10,
