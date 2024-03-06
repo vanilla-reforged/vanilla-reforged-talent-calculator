@@ -82,7 +82,7 @@ export const data: TalentData = {
       "Reverberation": {
         name: "Reverberation",
         pos: "b3",
-        icon: icons["spell_lightning_lightningbolt01"],
+        icon: icons["spell_frost_frostward"],
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Shock spells by ${[
