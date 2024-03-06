@@ -520,32 +520,24 @@ export const data: TalentData = {
         icon: icons["spell_frost_manarecharge"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your healing spells by ${[
-          1,
+        description: talentText`Increases the amount healed by your Healing Wave and Lesser Healing Wave spells by ${[
           2,
-          3,
           4,
-          5,
-        ]}% and reduces the Mana cost of your Totems by ${[
-          3,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
-      "Improved Reincarnation": {
-        name: "Improved Reincarnation",
+      "Restorative Totems": {
+        name: "Restorative Totems",
         pos: "c3",
-        icon: icons["spell_nature_reincarnation"],
-        maxRank: 2,
+        icon: icons["spell_nature_manaregentotem"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
+        description: talentText`Increases the effect of your Mana Spring and Healing Stream totems by ${[
+          5,
           10,
-          20,
-        ]} min and increases the amount of health and mana you reincarnate with by ${[
-          10,
-          20,
+          15,
         ]}%.`,
       },
       "Healing Focus": {
@@ -570,16 +562,20 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-      "Restorative Totems": {
-        name: "Restorative Totems",
+      "Improved Reincarnation": {
+        name: "Improved Reincarnation",
         pos: "d3",
-        icon: icons["spell_nature_manaregentotem"],
+        icon: icons["spell_nature_reincarnation"],
         maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Increases the effect of your Mana Spring and Healing Stream totems by ${[
-          5,
+        reqPoints: 10,
+        description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
+          6,
+          12,
+          18,
+        ]} min and increases the amount of health and mana you reincarnate with by ${[
           10,
-          15,
+          20,
+          30,
         ]}%.`,
       },
       "Nature's Swiftness": {
