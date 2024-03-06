@@ -409,8 +409,6 @@ export const data: TalentData = {
         icon: icons["ability_ghoulfrenzy"],
         maxRank: 5,
         reqPoints: 25,
-        prereq: "Enrage",
-        arrows: [{ dir: "down", from: "d3", to: "f3" }],
         description: talentText`Increases your attack speed by ${[
           5,
           10,
