@@ -337,14 +337,16 @@ export const data: TalentData = {
       },
       "Enhancing Totems": {
         name: "Enhancing Totems",
-        pos: "c4",
+        pos: "c3",
         icon: icons["spell_nature_earthbindtotem"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 10,
         description: talentText`Increase the effect of your Strength of Earth and Grace of Air Totems by ${[
           5,
           10,
           15,
+          20,
+          25,
         ]}%.`,
       },
       "Improved Weapon Totems": {
