@@ -436,6 +436,20 @@ export const data: TalentData = {
     background: backgrounds["restoration"],
     icon: icons["spell_nature_magicimmunity"],
     talents: {
+      "Tidal Mastery": {
+        name: "Tidal Mastery",
+        pos: "a1",
+        icon: icons["spell_nature_tranquility"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Improves your chance to get a critical strike with spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Grace": {
         name: "Grace",
         pos: "a2",
