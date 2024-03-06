@@ -289,7 +289,7 @@ export const data: TalentData = {
       },
       "Earth's Grasp": {
         name: "Earth's Grasp",
-        pos: "b2",
+        pos: "b3",
         icon: icons["spell_nature_stoneclawtotem"],
         maxRank: 3,
         reqPoints: 5,
@@ -305,7 +305,7 @@ export const data: TalentData = {
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
-        pos: "b3",
+        pos: "b4",
         icon: icons["spell_nature_lightningshield"],
         maxRank: 3,
         reqPoints: 5,
@@ -329,6 +329,8 @@ export const data: TalentData = {
         icon: icons["inv_shield_06"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Shield Specialization",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Increases the amount of damage absorbed by your shield by ${[
           10,
           20,
