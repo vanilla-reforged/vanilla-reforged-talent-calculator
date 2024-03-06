@@ -478,6 +478,20 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
+      "Totemic Focus": {
+        name: "Totemic Focus",
+        pos: "b2",
+        icon: icons["spell_nature_moonglow"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the Mana cost of your totems by ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}%.`,
+      },
       "Improved Healing Waves": {
         name: "Improved Healing Waves",
         pos: "b3",
