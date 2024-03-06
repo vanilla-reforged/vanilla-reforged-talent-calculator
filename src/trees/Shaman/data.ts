@@ -287,9 +287,25 @@ export const data: TalentData = {
           3,
         ]} sec.`,
       },
+      "Earth's Grasp": {
+        name: "Earth's Grasp",
+        pos: "b2",
+        icon: icons["spell_nature_stoneclawtotem"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Grounding Totem by ${[
+          1,
+          2,
+          3,
+        ]} sec and increases the radius of your Earthbind Totem by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
-        pos: "b4",
+        pos: "b3",
         icon: icons["spell_nature_lightningshield"],
         maxRank: 3,
         reqPoints: 5,
