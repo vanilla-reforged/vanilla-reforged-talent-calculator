@@ -215,6 +215,18 @@ export const data: TalentData = {
     background: backgrounds["enhancement"],
     icon: icons["spell_nature_lightningshield"],
     talents: {
+      "Improved Stoneskin Totem": {
+        name: "Improved Stoneskin Totem",
+        pos: "a1",
+        icon: icons["spell_nature_stoneskintotem"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Improves your chance to get a critical strike and your chance to hit by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
