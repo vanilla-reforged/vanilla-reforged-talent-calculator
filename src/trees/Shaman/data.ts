@@ -72,11 +72,23 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Lightning Bolt and Chain Lightning spells by ${[
+          0.1,
           0.2,
+          0.3,
           0.4,
-          0.6,
-          0.8,
+          0.5,
+        ]} sec.`,
+      },
+      "Reverberation": {
+        name: "Reverberatio",
+        pos: "b3",
+        icon: icons["spell_lightning_lightningbolt01"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Shock spells by ${[
+          0.5,
           1,
+          1.5,
         ]} sec.`,
       },
       "Elemental Focus": {
