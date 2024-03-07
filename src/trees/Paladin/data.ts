@@ -225,13 +225,13 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and has a ${[
-          20,
-          40,
-          60,
-          80,
-          100,
-        ]}% chance to generate 2% of your total mana when a block occurs.`,
+        ]}% and increases the amount blocked by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}%.`,
       },
       "Divine Focus": {
         name: "Divine Focus",
