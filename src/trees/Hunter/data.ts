@@ -437,18 +437,18 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Savage Strike": {
-        name: "Savage Strike",
+      "Savage Strikes": {
+        name: "Savage Strikes",
         pos: "a3",
         icon: icons["ability_racial_bloodrage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike by ${[
-          1,
-          2,
+        description: talentText`Increases the critical strike chance of Raptor Strike and Mongoose Bite by ${[
           3,
-          4,
-          5,
+          6,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Surefooted": {
