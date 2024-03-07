@@ -263,13 +263,13 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Feral Threat": {
-        name: "Feral Threat",
+      "Feral Instinct": {
+        name: "Feral Instinct",
         pos: "a4",
-        icon: icons["ability_tracking"],
+        icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the threat you cause in Bear and Dire Bear Form by ${[
+        description: talentText`Increases threat caused in Bear and Dire Bear Form by ${[
           3,
           6,
           9,
