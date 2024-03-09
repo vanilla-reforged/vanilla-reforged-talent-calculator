@@ -592,7 +592,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Veil yourself in Shadows, removing all harmful magic and curse effects and absorbing 650 magic damage for 40 sec.  2 min cooldown`,
+        description: talentText`Veil yourself in Shadows, removing all harmful effects and absorbing 500 damage for 15 sec.  30 sec cooldown`,
       },
     },
   },
