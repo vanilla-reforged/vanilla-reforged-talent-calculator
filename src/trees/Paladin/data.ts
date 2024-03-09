@@ -607,7 +607,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Repentance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals 135% weapon damage and generates 5% of your total mana.  10 sec cooldown`,
+        description: talentText`A vicious strike that deals 135% weapon damage and generates 3% of your total mana.  6 sec cooldown`,
       },
     },
   },
