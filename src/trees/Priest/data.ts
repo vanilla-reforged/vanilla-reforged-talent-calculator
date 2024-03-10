@@ -585,7 +585,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_impphaseshift"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Silences the target, preventing them from casting spells for 5 sec.  45 sec cooldown`,
+        description: talentText`Silences the target, preventing them from casting spells for 5 sec.  35 sec cooldown`,
       },
       "Shadow Weaving": {
         name: "Shadow Weaving",
