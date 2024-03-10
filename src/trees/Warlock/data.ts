@@ -49,6 +49,17 @@ export const data: TalentData = {
           0.3,
         ]} sec.`,
       },
+      "Grim Reach": {
+        name: "Grim Reach",
+        pos: "b1",
+        icon: icons["spell_shadow_callofbone"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Affliction spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Improved Corruption": {
         name: "Improved Corruption",
         pos: "b3",
@@ -71,20 +82,9 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Reduces the target's movement speed by 30% for 12 sec.  Only one Curse per Warlock can be active on any one target.`,
       },
-      "Grim Reach": {
-        name: "Grim Reach",
-        pos: "c2",
-        icon: icons["spell_shadow_callofbone"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your Affliction spells by ${[
-          10,
-          20,
-        ]}%.`,
-      },
       "Calamity": {
         name: "Calamity",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_shadow_manaburn"],
         maxRank: 5,
         reqPoints: 10,
@@ -102,6 +102,18 @@ export const data: TalentData = {
           25,
         ]}%.`,
       },
+      "Improved Curse of Agony": {
+        name: "Improved Curse of Agony",
+        pos: "c3",
+        icon: icons["spell_shadow_curseofsargeras"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases the damage done by your Curse of Agony spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
       "Fel Concentration": {
         name: "Fel Concentration",
         pos: "c4",
@@ -113,24 +125,24 @@ export const data: TalentData = {
           100,
         ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spell.`,
       },
-      "Improved Drain Life": {
-        name: "Improved Drain Life",
+      "Improved Life Tap": {
+        name: "Improved Life Tap",
         pos: "d2",
-        icon: icons["spell_shadow_lifedrain02"],
+        icon: icons["spell_shadow_burningspirit"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the Health drained by your Drain Life spell by ${[
-          5,
+        description: talentText`Increases the amount of Mana awarded by your Life Tap spell by ${[
           10,
+          20,
         ]}%.`,
       },
-      "Improved Curse of Agony": {
-        name: "Improved Curse of Agony",
+      "Improved Drain Life": {
+        name: "Improved Drain Life",
         pos: "d3",
-        icon: icons["spell_shadow_curseofsargeras"],
+        icon: icons["spell_shadow_lifedrain02"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage done by your Curse of Agony spell by ${[
+        description: talentText`Increases the Health drained by your Drain Life spell by ${[
           5,
           10,
           15,
