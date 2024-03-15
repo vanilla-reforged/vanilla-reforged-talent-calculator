@@ -455,6 +455,20 @@ export const data: TalentData = {
     background: backgrounds["destruction"],
     icon: icons["spell_shadow_rainoffire"],
     talents: {
+      "Aftermath": {
+        name: "Aftermath",
+        pos: "a1",
+        icon: icons["spell_fire_fire"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Gives your Destruction spells a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% chance to stun the target for 3 sec.`,
+      },
       "Seek and Destroy": {
         name: "Seek and Destroy",
         pos: "a2",
