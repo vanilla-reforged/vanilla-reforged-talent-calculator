@@ -286,7 +286,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_impphaseshift"],
         maxRank: 3,
         reqPoints: 10,
-        prereq: "Soul Link",
+        prereq: "Fel Domination",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
         description: talentText`Reduces the casting time of your pet Summoning spells by ${[
           2,
