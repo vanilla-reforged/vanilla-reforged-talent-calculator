@@ -37,17 +37,19 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Fear": {
-        name: "Improved Fear",
+      "Misery": {
+        name: "Misery",
         pos: "a3",
-        icon: icons["spell_shadow_possession"],
-        maxRank: 3,
+        icon: icons["spell_shadow_gathershadows"],
+        maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the casting time of your Howl of Terror and Fear spells by ${[
-          0.1,
-          0.2,
-          0.3,
-        ]} sec.`,
+        description: talentText`Gives your Affliction damage spells a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% chance to stun the target for 3 sec.`,
       },
       "Grim Reach": {
         name: "Grim Reach",
@@ -59,6 +61,20 @@ export const data: TalentData = {
           10,
           20,
         ]}%.`,
+      },
+      "Improved Fear": {
+        name: "Improved Fear",
+        pos: "b2",
+        icon: icons["spell_shadow_possession"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the casting time of your Howl of Terror and Fear spells by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ]} sec.`,
       },
       "Improved Corruption": {
         name: "Improved Corruption",
@@ -118,10 +134,11 @@ export const data: TalentData = {
         name: "Fel Concentration",
         pos: "c4",
         icon: icons["spell_shadow_fingerofdeath"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 10,
         description: talentText`Gives you a ${[
-          50,
+          35,
+          70,
           100,
         ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spell.`,
       },
