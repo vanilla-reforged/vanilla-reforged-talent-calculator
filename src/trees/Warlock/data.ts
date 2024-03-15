@@ -304,8 +304,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_metamorphosis"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`
-        Increases your total Stamina by 3% ${[
+        description: talentText`Increases your total Stamina by ${[
           3,
           6,
           9,
