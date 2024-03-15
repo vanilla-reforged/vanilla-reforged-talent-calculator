@@ -497,6 +497,17 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Destructive Reach": {
+        name: "Destructive Reach",
+        pos: "b1",
+        icon: icons["spell_shadow_corpseexplode"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases the range of your Destruction spells by ${[
+          10,
+          20,
+        ]}%.`,
+      },
       "Bane": {
         name: "Bane",
         pos: "b3",
@@ -524,17 +535,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Instantly blasts the target for 91 to 104 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  15 sec cooldown`,
-      },
-      "Destructive Reach": {
-        name: "Destructive Reach",
-        pos: "c2",
-        icon: icons["spell_shadow_corpseexplode"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the range of your Destruction spells by ${[
-          10,
-          20,
-        ]}%.`,
       },
       "Cataclysm": {
         name: "Cataclysm",
