@@ -330,6 +330,22 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
+      "Improved Enslave Demon": {
+        name: "Improved Enslave Demon",
+        pos: "d3",
+        icon: icons["spell_shadow_enslavedemon"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
+          5,
+          10,
+          15,
+        ]}% and reduces the resist chance by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
+      },
       "Demonic Command": {
         name: "Demonic Commands",
         pos: "d3",
