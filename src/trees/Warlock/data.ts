@@ -298,6 +298,27 @@ export const data: TalentData = {
           30
         ]}%.`,
       },
+      "Demonic Embrace": {
+        name: "Demonic Embrace",
+        pos: "c2",
+        icon: icons["spell_shadow_metamorphosis"],
+        maxRank: 5,
+        reqPoints: 10,
+        description: talentText`
+        Increases your total Stamina by 3% ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}% but reduces your total Spirit by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Fel Swiftness": {
         name: "Fel Swiftness",
         pos: "c4",
@@ -308,17 +329,6 @@ export const data: TalentData = {
           15,
           30,
           45,
-        ]}%.`,
-      },
-      "Demonic Embrace": {
-        name: "Demonic Embrace",
-        pos: "d2",
-        icon: icons["spell_shadow_metamorphosis"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Increases your total Stamina by ${[
-          5,
-          10,
         ]}%.`,
       },
       "Demonic Command": {
