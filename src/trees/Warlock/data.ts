@@ -300,7 +300,7 @@ export const data: TalentData = {
       },
       "Demonic Embrace": {
         name: "Demonic Embrace",
-        pos: "c2",
+        pos: "c3",
         icon: icons["spell_shadow_metamorphosis"],
         maxRank: 5,
         reqPoints: 10,
