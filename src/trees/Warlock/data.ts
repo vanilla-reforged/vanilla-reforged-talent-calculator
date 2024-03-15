@@ -472,7 +472,7 @@ export const data: TalentData = {
       "Seek and Destroy": {
         name: "Seek and Destroy",
         pos: "a2",
-        icon: icons["spell_fire_soulburn"],
+        icon: icons["spell_fire_flare"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Improves your chance to hit with Destruction spells by ${[
