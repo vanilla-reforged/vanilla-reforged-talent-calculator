@@ -19,11 +19,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Gives your Elemental Spells a ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}% chance to stun the target for 3 sec.`,
       },
       "Storm's Guidance": {
@@ -221,7 +221,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_stoneskintotem"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike and your chance to hit by ${[
+        description: talentText`Increases the armor bonus of your Stoneskin Totem by ${[
           10,
           20,
           30,
