@@ -118,21 +118,9 @@ export const data: TalentData = {
           25,
         ]}%.`,
       },
-      "Improved Curse of Agony": {
-        name: "Improved Curse of Agony",
-        pos: "c3",
-        icon: icons["spell_shadow_curseofsargeras"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Increases the damage done by your Curse of Agony spell by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
-      },
       "Fel Concentration": {
         name: "Fel Concentration",
-        pos: "c4",
+        pos: "c3",
         icon: icons["spell_shadow_fingerofdeath"],
         maxRank: 3,
         reqPoints: 10,
@@ -141,6 +129,18 @@ export const data: TalentData = {
           70,
           100,
         ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spell.`,
+      },
+      "Improved Curse of Agony": {
+        name: "Improved Curse of Agony",
+        pos: "c4",
+        icon: icons["spell_shadow_curseofsargeras"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases the damage done by your Curse of Agony spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
       },
       "Improved Life Tap": {
         name: "Improved Life Tap",
@@ -159,6 +159,8 @@ export const data: TalentData = {
         icon: icons["spell_shadow_lifedrain02"],
         maxRank: 3,
         reqPoints: 15,
+        prereq: "Fel Concentration",
+        arrows: [{ dir: "down", from: "c3", to: "d3" }],
         description: talentText`Increases the Health drained by your Drain Life spell by ${[
           5,
           10,
