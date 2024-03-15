@@ -258,6 +258,32 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
+      "Motivation by Threats": {
+        name: "Motivation by Threats",
+        pos: "b2",
+        icon: icons["spell_shadow_summonimp"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the casting time of your Imp's Firebolt spell by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+        ]} sec, the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]} sec and reduces the cooldown of Voidwalker's Torment spell by ${[
+          0.4,
+          0.8,
+          1.2,
+          1.6,
+          2,
+        ]} sec`,
+      },
       "Fel Endurance": {
         name: "Fel Endurance",
         pos: "b3",
