@@ -272,21 +272,9 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Fel Swiftness": {
-        name: "Fel Swiftness",
-        pos: "c1",
-        icon: icons["ability_druid_dash"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Increases the outdoor movement speed of your pet by ${[
-          15,
-          30,
-          45,
-        ]}%.`,
-      },
       "Fel Domination": {
         name: "Fel Domination",
-        pos: "c2",
+        pos: "c1",
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
@@ -294,10 +282,12 @@ export const data: TalentData = {
       },
       "Master Summoner": {
         name: "Master Summoner",
-        pos: "c4",
+        pos: "c2",
         icon: icons["spell_shadow_impphaseshift"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Soul Link",
+        arrows: [{ dir: "right", from: "c1", to: "c2" }],
         description: talentText`Reduces the casting time of your pet Summoning spells by ${[
           2,
           4,
@@ -306,6 +296,18 @@ export const data: TalentData = {
           10,
           20,
           30
+        ]}%.`,
+      },
+      "Fel Swiftness": {
+        name: "Fel Swiftness",
+        pos: "c4",
+        icon: icons["ability_druid_dash"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases the outdoor movement speed of your pet by ${[
+          15,
+          30,
+          45,
         ]}%.`,
       },
       "Demonic Embrace": {
