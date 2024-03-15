@@ -218,6 +218,18 @@ export const data: TalentData = {
     background: backgrounds["demonology"],
     icon: icons["spell_shadow_metamorphosis"],
     talents: {
+      "Improved Demon Armor": {
+        name: "Improved Demon Armor",
+        pos: "a1",
+        icon: icons["spell_shadow_demon_armor"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases the effects of your Demon Skin and Demon Armor spells by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
+      },
       "Demonic Precision": {
         name: "Demonic Precision",
         pos: "a2",
@@ -279,18 +291,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Your next pet Summon spell has its casting time reduced by 4 sec and its mana cost reduced by 50%.  15 min cooldown`,
-      },
-      "Improved Demon Armor": {
-        name: "Improved Demon Armor",
-        pos: "c3",
-        icon: icons["spell_shadow_demon_armor"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Increases the effects of your Demon Armor spell by ${[
-          10,
-          20,
-          30,
-        ]}%.`,
       },
       "Master Summoner": {
         name: "Master Summoner",
