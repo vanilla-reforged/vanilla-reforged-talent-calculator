@@ -332,7 +332,7 @@ export const data: TalentData = {
       },
       "Improved Enslave Demon": {
         name: "Improved Enslave Demon",
-        pos: "d3",
+        pos: "d2",
         icon: icons["spell_shadow_enslavedemon"],
         maxRank: 3,
         reqPoints: 15,
