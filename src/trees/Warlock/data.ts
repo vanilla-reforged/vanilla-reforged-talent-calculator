@@ -510,7 +510,7 @@ export const data: TalentData = {
       },
       "Bane": {
         name: "Bane",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_shadow_deathpact"],
         maxRank: 5,
         reqPoints: 5,
@@ -527,6 +527,18 @@ export const data: TalentData = {
           1.6,
           2
         ]} sec.`,
+      },
+      "Improved Searing Pain": {
+        name: "Improved Searing Pain",
+        pos: "b3",
+        icon: icons["spell_shadow_corpseexplode"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt by ${[
+          4,
+          8,
+          12,
+        ]}% for 5 sec.`,
       },
       "Shadowburn": {
         name: "Shadowburn",
