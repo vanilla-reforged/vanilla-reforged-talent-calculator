@@ -548,6 +548,20 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Instantly blasts the target for 91 to 104 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  15 sec cooldown`,
       },
+      "Improved Shadowburn": {
+        name: "Improved Shadowburn",
+        pos: "c2",
+        icon: icons["spell_shadow_scourgebuild"],
+        maxRank: 3,
+        reqPoints: 10,
+        prereq: "Shadowburn",
+        arrows: [{ dir: "right", from: "c1", to: "c2" }],
+        description: talentText`Reduces the cooldown of your Shadowburn spell by ${[
+          1,
+          2,
+          3,
+        ]} sec.`,
+      },
       "Cataclysm": {
         name: "Cataclysm",
         pos: "c3",
