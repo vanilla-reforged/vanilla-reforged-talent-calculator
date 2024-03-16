@@ -432,11 +432,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the Rage cost of your Thunder Clap ability by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}.`,
       },
       "Improved Revenge": {
