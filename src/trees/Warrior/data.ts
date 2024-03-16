@@ -398,9 +398,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Reduces the Rage cost of your Sunder Armor ability by ${[
-          1,
           2,
-          3,
+          4,
+          6,
         ]}.`,
       },
       "Last Stand": {
@@ -459,7 +459,7 @@ export const data: TalentData = {
         description: talentText`Gives your Shield Bash ability a ${[
           50,
           100,
-        ]}% chance to silence the target for 3 sec.`,
+        ]}% chance to silence the target for 2 sec.`,
       },
       "Primal Fury": {
         name: "Primal Fury",
