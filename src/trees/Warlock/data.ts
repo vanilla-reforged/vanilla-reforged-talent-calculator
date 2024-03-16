@@ -531,7 +531,7 @@ export const data: TalentData = {
       "Improved Searing Pain": {
         name: "Improved Searing Pain",
         pos: "b3",
-        icon: icons["spell_shadow_corpseexplode"],
+        icon: icons["spell_fire_soulburn"],
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Your Searing Pain critical strikes increase Fire damage dealt by ${[
