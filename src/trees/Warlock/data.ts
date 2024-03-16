@@ -546,7 +546,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_scourgebuild"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Instantly blasts the target for 91 to 104 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  15 sec cooldown`,
+        description: talentText`Instantly blasts the target for 91 to 104 Fire damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  15 sec cooldown`,
       },
       "Improved Shadowburn": {
         name: "Improved Shadowburn",
