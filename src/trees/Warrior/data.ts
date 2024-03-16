@@ -311,7 +311,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases your physical damage by 10% and makes you immune to Fear effects, but lowers your armor and all resistances by 10%.  3 min cooldown`,
+        description: talentText`When activated, increases your physical damage by 10%, but lowers your armor and all resistances by 10%.  Lasts 20 sec.  2 min cooldown`,
       },
       "Flurry": {
         name: "Flurry",
