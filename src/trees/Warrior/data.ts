@@ -262,7 +262,7 @@ export const data: TalentData = {
         ]}%.`,
       },
       "Pent up Rage": {
-        name: "Pent up Rage,
+        name: "Pent up Rage",
         pos: "b2",
         icon: icons["spell_nature_purge"],
         maxRank: 5,
