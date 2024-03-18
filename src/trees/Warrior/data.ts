@@ -261,6 +261,20 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      "Pent up Rage": {
+        name: "Pent up Rage,
+        pos: "b2",
+        icon: icons["spell_nature_purge"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Intimidating Shout and Slam abilities by ${[
+          18,
+          36,
+          54,
+          72,
+          90,
+        ]} sec.`,
+      },
       "Unbridled Wrath": {
         name: "Unbridled Wrath",
         pos: "b3",
@@ -396,6 +410,20 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["inv_shield_06"],
     talents: {
+      "Anticipation": {
+        name: "Anticipation",
+        pos: "a1",
+        icon: icons["spell_nature_mirrorimage"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases your Dodge chance by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
+      },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
@@ -441,6 +469,20 @@ export const data: TalentData = {
           10,
         ]}.`,
       },
+      "Improved Thunder Clap": {
+        name: "Improved Thunder Clap",
+        pos: "b2",
+        icon: icons["ability_thunderclap"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the Rage cost of your Thunder Clap ability by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}.`,
+      },
       "Improved Sunder Armor": {
         name: "Improved Sunder Armor",
         pos: "b3",
@@ -474,20 +516,6 @@ export const data: TalentData = {
           1,
           2,
         ]} sec.`,
-      },
-      "Improved Thunder Clap": {
-        name: "Improved Thunder Clap",
-        pos: "c3",
-        icon: icons["ability_thunderclap"],
-        maxRank: 5,
-        reqPoints: 10,
-        description: talentText`Reduces the Rage cost of your Thunder Clap ability by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}.`,
       },
       "Improved Revenge": {
         name: "Improved Revenge",
