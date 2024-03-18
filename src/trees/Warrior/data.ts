@@ -40,6 +40,26 @@ export const data: TalentData = {
           10,
         ]}.`,
       },
+      "Improved Hamstring": {
+        name: "Improved Hamstring",
+        pos: "b1",
+        icon: icons["ability_shockwave"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Gives your Hamstring ability a ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}% chance to immobilize the target for 5 sec and reduces the rage cost of your Hamstring ability by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}.`,
+      },
       "Prepared for Battle": {
         name: "Prepared for Battle",
         pos: "b2",
@@ -117,11 +137,12 @@ export const data: TalentData = {
         name: "Improved Execute",
         pos: "c4",
         icon: icons["inv_sword_48"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 10,
         description: talentText`Reduces the Rage cost of your Execute ability by ${[
-          3,
-          5,
+          2,
+          4,
+          6,
         ]}.`,
       },
       "Improved Pummel": {
