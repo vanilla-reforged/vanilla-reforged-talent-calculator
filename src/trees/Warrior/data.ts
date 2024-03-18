@@ -511,6 +511,8 @@ export const data: TalentData = {
         icon: icons["ability_defend"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Shield Specialization",
+        arrows: [{ dir: "down", from: "a2", to: "c2" }],
         description: talentText`Allows your Shield Block ability to block an additional attack and increases the duration by ${[
           0.5,
           1,
