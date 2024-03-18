@@ -219,6 +219,20 @@ export const data: TalentData = {
     background: backgrounds["fury"],
     icon: icons["ability_warrior_innerrage"],
     talents: {
+      "Blood Craze": {
+        name: "Blood Craze",
+        pos: "a1",
+        icon: icons["spell_shadow_summonimp"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Regenerates ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}% of your total Health over 6 sec after being the victim of a critical strike.`,
+      },
       "Precision": {
         name: "Precision",
         pos: "a2",
