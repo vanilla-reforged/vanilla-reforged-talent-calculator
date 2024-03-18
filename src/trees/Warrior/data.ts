@@ -40,6 +40,20 @@ export const data: TalentData = {
           10,
         ]}.`,
       },
+      "Prepared for Battle": {
+        name: "Prepared for Battle",
+        pos: "b2",
+        icon: icons["ability_warrior_warcry"],
+        maxRank: 5,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Recklessness, Retaliation and Shield Wall abilities by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]} min.`,
+      },
       "Improved Heroic Strike": {
         name: "Improved Heroic Strike",
         pos: "b3",
