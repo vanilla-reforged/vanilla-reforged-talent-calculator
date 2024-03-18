@@ -471,7 +471,7 @@ export const data: TalentData = {
       },
       "Improved Thunder Clap": {
         name: "Improved Thunder Clap",
-        pos: "b2",
+        pos: "b3",
         icon: icons["ability_thunderclap"],
         maxRank: 5,
         reqPoints: 5,
@@ -485,7 +485,7 @@ export const data: TalentData = {
       },
       "Improved Sunder Armor": {
         name: "Improved Sunder Armor",
-        pos: "b3",
+        pos: "b4",
         icon: icons["ability_warrior_sunder"],
         maxRank: 3,
         reqPoints: 5,
@@ -515,6 +515,26 @@ export const data: TalentData = {
           0.5,
           1,
           2,
+        ]} sec.`,
+      },
+      "Colourful Language": {
+        name: "Colorful Language",
+        pos: "c3",
+        icon: icons["spell_holy_devotion"],
+        maxRank: 5,
+        reqPoints: 10,
+        description: talentText`Reduces the cooldown of your Challenging Shout abilitiy by ${[
+          60,
+          120,
+          180,
+          240,
+          300,
+        ]} sec and the cooldown of your Mocking Blow abilitiy by ${[
+          12,
+          24,
+          36,
+          48,
+          60,
         ]} sec.`,
       },
       "Improved Revenge": {
