@@ -63,7 +63,7 @@ export const data: TalentData = {
       "Prepared for Battle": {
         name: "Prepared for Battle",
         pos: "b2",
-        icon: icons["ability_warrior_warcry"],
+        icon: icons["spell_holy_devotion"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Recklessness, Retaliation and Shield Wall abilities by ${[
@@ -311,20 +311,9 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Improved Whirlwind": {
-        name: "Improved Whirlwind",
-        pos: "c3",
-        icon: icons["ability_whirlwind"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Reduces the Rage cost of your Whirlwind ability by ${[
-          3,
-          5,
-        ]}.`,
-      },
       "Improved Cleave": {
         name: "Improved Cleave",
-        pos: "c4",
+        pos: "c3",
         icon: icons["ability_warrior_cleave"],
         maxRank: 3,
         reqPoints: 10,
@@ -333,6 +322,17 @@ export const data: TalentData = {
           80,
           120,
         ]}%.`,
+      },
+      "Improved Whirlwind": {
+        name: "Improved Whirlwind",
+        pos: "c4",
+        icon: icons["ability_whirlwind"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Reduces the Rage cost of your Whirlwind ability by ${[
+          3,
+          5,
+        ]}.`,
       },
       "Improved Intercept": {
         name: "Improved Intercept",
@@ -522,7 +522,7 @@ export const data: TalentData = {
       "Colourful Language": {
         name: "Colorful Language",
         pos: "c3",
-        icon: icons["spell_holy_devotion"],
+        icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the cooldown of your Challenging Shout abilitiy by ${[
