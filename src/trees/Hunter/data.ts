@@ -374,10 +374,10 @@ export const data: TalentData = {
         icon: icons["ability_upgrademoonglaive"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Multi-Shot, Quick Shot and Volley spells by ${[
-          2,
-          4,
+        description: talentText`Increases the critical strike chance of your Multi-Shot, Quick Shot and Volley spells by ${[
+          3,
           6,
+          9,
         ]}%.`,
       },
       "Ranged Weapon Specialization": {
