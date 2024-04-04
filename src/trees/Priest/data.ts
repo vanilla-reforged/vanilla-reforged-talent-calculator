@@ -520,7 +520,7 @@ export const data: TalentData = {
       "Improved Vampiric Embrace": {
         name: "Improved Vampiric Embrace",
         pos: "c2",
-        icon: icons["spell_shadow_improvedvampiricembrace"],
+        icon: icons["spell_shadow_unsummonbuilding"],
         maxRank: 2,
         reqPoints: 10,
         prereq: "Vampiric Embrace",
