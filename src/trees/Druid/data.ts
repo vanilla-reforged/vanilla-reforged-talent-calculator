@@ -334,7 +334,7 @@ export const data: TalentData = {
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
       reqPoints: 10,
-      description: talentText`Reduces the Energy cost of your Claw and Rake abilities by ${[
+      description: talentText`Reduces the Energy cost of your Claw and Ravage abilities by ${[
         1,
         2,
         3,
