@@ -414,7 +414,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_cat"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Claw, Rake, Maul and Swipe abilities have a ${[
+        description: talentText`Your Claw, Ravage, Maul and Swipe abilities have a ${[
           5,
           10,
           15,
