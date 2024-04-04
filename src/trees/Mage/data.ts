@@ -433,9 +433,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the armor and resistances given by your Frost Armor and Ice Armor spells by ${[
-          10,
           20,
-          30,
+          40,
+          60,
         ]}%.`,
       },
       "Frozen Focus": {
