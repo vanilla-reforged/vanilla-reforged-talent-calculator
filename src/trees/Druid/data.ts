@@ -334,7 +334,7 @@ export const data: TalentData = {
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
       reqPoints: 10,
-      description: talentText`Reduces the Energy cost of your Claw and Ravage abilities by ${[
+      description: talentText`Reduces the Energy cost of your Claw and Shred abilities by ${[
         1,
         2,
         3,
@@ -414,7 +414,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_cat"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Claw, Ravage, Maul and Swipe abilities have a ${[
+        description: talentText`Your Claw, Shred, Maul and Swipe abilities have a ${[
           5,
           10,
           15,
