@@ -388,7 +388,7 @@ export const data: TalentData = {
       "Plate Mail": {
         name: "Plate Mail",
         pos: "e2",
-        icon: icons["inv_chest_plate01"],
+        icon: icons["inv_chest_plate02"],
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Allows you to wear Plate Mail armor.`,
