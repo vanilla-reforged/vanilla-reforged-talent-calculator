@@ -367,7 +367,11 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Sinister Strike and Eviscerate abilities by ${[
+        description: talentText`Increases the bonus damage of your Sinister Strike ability by ${[
+          6,
+          12,
+          18,
+        ]}% and the damage done by your Eviscerate ability by ${[
           2,
           4,
           6,
