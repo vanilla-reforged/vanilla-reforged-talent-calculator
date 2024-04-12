@@ -314,7 +314,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Fel Domination",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
-        description: talentText`Reduces the casting time of your next Demon Summoning spell by ${[
+        description: talentText`Reduces the casting time of your Demon Summoning spells by ${[
           2,
           4,
           6,
