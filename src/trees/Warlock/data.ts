@@ -378,7 +378,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowworddominate"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the effect of your pet abilities by ${[
+        description: talentText`Increases all effects of your Summoned Demon's abilities by ${[
           10,
           20,
           30,
