@@ -236,7 +236,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your Summoned Demon's chance to hit by ${[
+        description: talentText`Improves your summoned demon's chance to hit by ${[
           2,
           4,
           6,
@@ -250,7 +250,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_bash"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your Summoned Demon's chance to get a critical strike by ${[
+        description: talentText`Improves your summoned demon's chance to get a critical strike by ${[
           3,
           6,
           9,
@@ -290,7 +290,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_antishadow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the maximum Health and Mana of your Summoned Demon by ${[
+        description: talentText`Increases the maximum Health and Mana of your summoned demon by ${[
           3,
           6,
           9,
@@ -314,7 +314,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Fel Domination",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
-        description: talentText`Reduces the casting time of your Demon Summoning spells by ${[
+        description: talentText`Reduces the casting time of your demon summoning spells by ${[
           2,
           4,
           6,
@@ -350,7 +350,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_dash"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the outdoor movement speed of your Summoned Demon by ${[
+        description: talentText`Increases the outdoor movement speed of your summoned demon by ${[
           15,
           30,
           45,
@@ -378,7 +378,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowworddominate"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases all effects of your Summoned Demon's abilities by ${[
+        description: talentText`Increases all effects of your summoned demon's abilities by ${[
           10,
           20,
           30,
@@ -390,7 +390,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_improvedvampiricembrace"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Summoned Demon by ${[
+        description: talentText`Increases the damage done by your summoned demon by ${[
           3,
           6,
           9,
