@@ -43,7 +43,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives your Affliction damage spells a ${[
+        description: talentText`Gives your Shadow spells a ${[
           2,
           4,
           6,
