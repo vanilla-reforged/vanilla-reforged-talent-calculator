@@ -231,7 +231,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% of your total Health over 6 sec after being the victim of a critical strike.`,
+        ]}% of your total Health over 2 sec after being the victim of a critical strike.`,
       },
       "Precision": {
         name: "Precision",
