@@ -567,7 +567,7 @@ export const data: TalentData = {
         pos: "d3",
         icon: icons["spell_nature_reincarnation"],
         maxRank: 3,
-        reqPoints: 10,
+        reqPoints: 15,
         description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
           6,
           12,
