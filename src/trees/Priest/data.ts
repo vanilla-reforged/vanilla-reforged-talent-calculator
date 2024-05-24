@@ -493,7 +493,7 @@ export const data: TalentData = {
         reqPoints: 5,
         description: talentText`Increases movement and mounted movement speed by ${[
           5,
-          10.
+          10,
           15,
         ]}%.  This does not stack with other movement speed increasing effects.`,
       },
