@@ -134,7 +134,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`The enemy is swarmed by insects, causing 60 Nature damage.  10 sec cooldown`,
+        description: talentText`The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec.`,
       },
       "Balanced Soul": {
         name: "Balanced Soul",
@@ -166,11 +166,11 @@ export const data: TalentData = {
         reqPoints: 15,
         prereq: "Insect Swarm",
         arrows: [{ dir: "down", from: "c3", to: "d3" }],
-        description: talentText`Improves the damage done by your Insect Swarm spell by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
+        description: talentText`Increases the duration of your Insect Swarm spell by ${[
+          2,
+          4,
+          6,
+        ]} sec.`,
       },
       "Vengeance": {
         name: "Vengeance",
@@ -186,11 +186,11 @@ export const data: TalentData = {
         icon: icons["spell_shadow_teleport"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Insect Swarm spell has a ${[
-          33,
-          66,
-          100,
-        ]}% chance to restore 1% of total Mana to the members of your party.`,
+        description: talentText`Your Insect Swarm, Moonfire, Starfire and Wrath spells have a ${[
+          5,
+          10,
+          15,
+        ]}% chance to restore 3% of total Mana to the members of your party.`,
       },
       "Moonfury": {
         name: "Moonfury",
@@ -371,8 +371,8 @@ export const data: TalentData = {
       prereq: "Ferocity",
       arrows: [{ dir: "down", from: "c2", to: "d2" }],
       description: talentText`Increases the damage done by your Claw and Shred abilities by ${[
-        5,
-        10,
+        3,
+        6,
       ]}% and your critical strikes from Cat Form abilities that add combo points have a ${[
         50,
         100,
@@ -391,9 +391,9 @@ export const data: TalentData = {
         66,
         100,
       ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.  In addition increases the damage caused by your Maul and Swipe abilities by ${[
-        5,
-        10,
-        15,
+        2,
+        4,
+        6,
       ]}% and increases the stun duration of your Bash ability by ${[
         0.5,
         1,

@@ -43,13 +43,13 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives your Corruption, Drain Life, Drain Mana and Shadow Bolt spells a ${[
+        description: talentText`Gives your Corruption, Curse of Agony, Drain Life and Drain Mana spells a ${[
           2,
           4,
           6,
           8,
           10,
-        ]}% chance to stun the target for 3 sec.`,
+        ]}% chance to stun the target for 2 sec.`,
       },
       "Grim Reach": {
         name: "Grim Reach",
@@ -462,12 +462,12 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Gives your Destruction spells a ${[
-          2,
-          4,
+          3,
           6,
-          8,
-          10,
-        ]}% chance to stun the target for 3 sec.`,
+          9,
+          12,
+          15,
+        ]}% chance to daze the target for 5 sec.`,
       },
       "Seek and Destroy": {
         name: "Seek and Destroy",
@@ -528,17 +528,17 @@ export const data: TalentData = {
           2
         ]} sec.`,
       },
-      "Improved Searing Pain": {
-        name: "Improved Searing Pain",
+            "Improved Immolate": {
+        name: "Improved Immolate",
         pos: "b3",
-        icon: icons["spell_fire_soulburn"],
+        icon: icons["spell_fire_immolation"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt by ${[
-          4,
-          8,
-          12,
-        ]}% for 5 sec.`,
+        description: talentText`Increases the initial damage done by your Immolate spell by ${[
+          5,
+          10,
+          15,
+        ]}%.`,
       },
       "Shadowburn": {
         name: "Shadowburn",
@@ -604,17 +604,17 @@ export const data: TalentData = {
           26,
         ]}% chance to stun the target for 3 sec.`,
       },
-      "Improved Immolate": {
-        name: "Improved Immolate",
+      "Improved Searing Pain": {
+        name: "Improved Searing Pain",
         pos: "d3",
-        icon: icons["spell_fire_immolation"],
+        icon: icons["spell_fire_soulburn"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the initial damage done by your Immolate spell by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
+        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt by ${[
+          4,
+          8,
+          12,
+        ]}% for 5 sec.`,
       },
       "Ruin": {
         name: "Ruin",
@@ -658,7 +658,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ruin",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Ignites a target dealing 249 to 316 Fire damage.  12 sec cooldown`,
+        description: talentText`Ignites a target that is already afflicted by Immolate, dealing 240 to 307 Fire damage and consuming the Immolate spell.  10 sec cooldown`,
       },
     },
   },

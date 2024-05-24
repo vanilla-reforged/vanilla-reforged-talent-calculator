@@ -317,11 +317,15 @@ export const data: TalentData = {
         icon: icons["ability_warrior_cleave"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the bonus damage done by your Cleave ability by ${[
-          40,
-          80,
-          120,
-        ]}%.`,
+        description: talentText`Increases the damage done by your Cleave ability by ${[
+          1,
+          2,
+          3,
+        ]}% and reduces its rage cost by ${[
+          1,
+          2,
+          3,
+        ]}.`,
       },
       "Improved Whirlwind": {
         name: "Improved Whirlwind",
@@ -330,8 +334,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Reduces the Rage cost of your Whirlwind ability by ${[
-          3,
-          5,
+          2,
+          4,
         ]}.`,
       },
       "Improved Intercept": {

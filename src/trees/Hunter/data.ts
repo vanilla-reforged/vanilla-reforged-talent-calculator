@@ -227,12 +227,12 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Gives your Concussive Shot a ${[
-          3,
-          6,
-          9,
+          4,
+          8,
           12,
-          15,
-        ]}% chance to stun the target for 3 sec.`,
+          16,
+          20,
+        ]}% chance to stun the target for 2 sec.`,
       },
       "Precision": {
         name: "Precision",
@@ -523,11 +523,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Increases the duration of Freezing and Frost trap effects by ${[
+          5,
           10,
+          15,
           20,
-          30,
-          40,
-          50,
+          25,
         ]}% and the damage of Steel and Explosive trap by ${[10, 20, 30, 40, 50,]}%.`,
       },
       "Improved Feign Death": {
@@ -537,8 +537,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Reduces the chance your Feign Death ability will be resisted by ${[
-          8,
-          16,
+          5,
+          10,
         ]}%.`,
       },
       "Improved Disengage": {
@@ -555,7 +555,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Mongoose Bite and Raptor Strike Abilities by ${[5, 10, 15,]}%.`,
+        description: talentText`Increases the damage of your Mongoose Bite and Raptor Strike Abilities by ${[3, 6, 9,]}%.`,
       },
       "Scatter Shot": {
         name: "Scatter Shot",

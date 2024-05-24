@@ -11,6 +11,8 @@
 # production
 /build
 
+*.vsidx
+
 # misc
 .DS_Store
 .env.local

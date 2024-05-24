@@ -370,7 +370,7 @@ export const data: TalentData = {
       "Crusader's Charge": {
         name: "Crusader's Charge",
         pos: "e2",
-        icon: icons["spell_holy_vindication"],
+        icon: icons["spell_holy_sealofmight"],
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec.  18 sec cooldown`,
@@ -425,12 +425,12 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Gives your Judgement spell a ${[
-          3,
-          6,
-          9,
+          4,
+          8,
           12,
           16,
-        ]}% chance to stun the target for 3 sec.`,
+          20,
+        ]}% chance to stun the target for 2 sec.`,
       },
       "Precision": {
         name: "Precision",
@@ -523,7 +523,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Improves the critical strike chance of your Consecration and Exorcism spells by ${[
+        description: talentText`Increases the damage done by your Consecration and Exorcism spells by ${[
           2,
           4,
           6,
@@ -553,13 +553,13 @@ export const data: TalentData = {
           100,
         ]}% chance to silence the target for 2 sec.`,
       },
-      "Improved Seal of the Crusader": {
-        name: "Improved Seal of the Crusader",
+      "Sanctity": {
+        name: "Sanctity",
         pos: "d3",
         icon: icons["spell_holy_holysmite"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the melee attack power bonus of your Seal of the Crusader spell and the Holy damage increase of your Judgement of the Crusader spell by ${[
+        description: talentText`Increases the holy damage you deal by ${[
           5,
           10,
           15,
@@ -583,7 +583,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to increase the damage done by your party by 3% for 12 sec.`,
+        ]}% chance to increase the damage done by your party by 1% for 12 sec.  Stacks up to 3 times.`,
       },
       "Vengeance": {
         name: "Vengeance",
@@ -607,7 +607,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Repentance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals 135% weapon damage and generates 3% of your total mana.  6 sec cooldown`,
+        description: talentText`Gives you an extra attack and generates 3% of your total mana.  In addition, the next 2 sources of Holy damage dealt to the target are increased by 20%.  Lasts 12 sec.  10 sec cooldown`,
       },
     },
   },

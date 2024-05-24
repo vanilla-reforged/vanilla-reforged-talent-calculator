@@ -458,7 +458,7 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}% chance to stun the target for 3 sec.`,
+        ]}% chance to stun the target for 2 sec.`,
       },
       "Shadow Reach": {
         name: "Shadow Reach",
@@ -477,7 +477,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_siphonmana"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Mind Blast, Mind Control and Mind Spike spells by ${[
+        description: talentText`Reduces the casting time of your Mind Blast and Mind Control spells by ${[
           0.1,
           0.2,
           0.3,
@@ -485,17 +485,17 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
-      "Improved Shadow Words": {
-        name: "Improved Shadow Words",
+      "Shadow Steps": {
+        name: "Shadow Steps",
         pos: "b3",
-        icon: icons["spell_shadow_shadowwordpain"],
+        icon: icons["ability_rogue_feint"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Shadow Word spells by ${[
-          0.5,
-          1,
-          1.5,
-        ]} sec.`,
+        description: talentText`Increases movement and mounted movement speed by ${[
+          5,
+          10.
+          15,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Improved Psychic Scream": {
         name: "Improved Psychic Scream",
@@ -567,17 +567,17 @@ export const data: TalentData = {
           30,
         ]} sec.`,
       },
-      "Improved Shadow Word: Suffering": {
-        name: "Improved Shadow Word: Suffering",
+      "Improved Shadow Word: Pain": {
+        name: "Improved Shadow Word: Pain",
         pos: "d3",
         icon: icons["spell_shadow_shadowwordpain"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Shadow Word: Suffering spell by ${[
-          5,
-          10,
-          15,
-        ]}%.`,
+        description: talentText`Increases the duration of your Shadow Word: Pain spell by ${[
+          3,
+          6,
+          9,
+        ]} sec.`,
       },
       "Silence": {
         name: "Silence",
@@ -593,11 +593,11 @@ export const data: TalentData = {
         icon: icons["spell_shadow_blackplague"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Shadow Word: Pain and Shadow Word: Suffering spells have a ${[
+        description: talentText`Your Shadow damage spells have a ${[
           33,
           66,
           100,
-        ]}% chance to increase the damage done by your party by 3% for 12 sec.`,
+        ]}% chance to cause your target to be vulnerable to Shadow damage.  This vulnerability increases the Shadow damage dealt to your target by 3% and lasts 15 sec.  Stacks up to 3 times.`,
       },
       "Darkness": {
         name: "Darkness",

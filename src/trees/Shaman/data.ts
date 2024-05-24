@@ -24,7 +24,7 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}% chance to stun the target for 3 sec.`,
+        ]}% chance to stun the target for 2 sec.`,
       },
       "Storm's Guidance": {
         name: "Storm's Guidance",
@@ -403,7 +403,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to increase the damage done by your party by 3% for 12 sec.`,
+        ]}% chance to increase the damage done by your party by 1% for 15 sec.  Stacks up to 3 times.`,
       },
       "Flurry": {
         name: "Flurry",
@@ -427,7 +427,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Plate Mail",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals 135% weapon damage and generates 3% of your total mana.  6 sec cooldown`,
+        description: talentText`Gives you an extra attack and generates 3% of your total mana.  In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%.  Lasts 12 sec.  10 sec cooldown`,
       },
     },
   },

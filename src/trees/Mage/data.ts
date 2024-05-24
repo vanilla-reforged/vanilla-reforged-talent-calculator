@@ -52,19 +52,19 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Arcane Missiles": {
-        name: "Improved Arcane Missiles",
+      "Improved Evocation": {
+        name: "Improved Evocation",
         pos: "b2",
-        icon: icons["spell_nature_starfall"],
+        icon: icons["spell_nature_purge"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Casting time of your Arcane Missiles spell by ${[
-          0.1,
-          0.2,
-          0.3,
-          0.4,
-          0.5,
-        ]} sec.`,
+        description: talentText`Reduces the cooldown of your Evocation spell by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]} min.`,
       },
       "Improved Blink": {
         name: "Improved Blink",
@@ -153,7 +153,7 @@ export const data: TalentData = {
         description: talentText`Gives your Counterspell a ${[
           50,
           100,
-        ]}% chance to silence the target for 2 sec.`,
+        ]}% chance to silence the target for 3 sec.`,
       },
       "Improved Mana Shield": {
         name: "Improved Mana Shield",
@@ -167,13 +167,13 @@ export const data: TalentData = {
           60,
         ]}%.`,
       },
-      "Arcane Impact": {
-        name: "Arcane Impact",
+      "Arcane Burst": {
+        name: "Arcane Burst",
         pos: "e2",
         icon: icons["spell_arcane_starfire"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the critical strike damage bonus of your Arcane spells by 100%.`,
+        description: talentText`All Arcane spell criticals grace you with an Arcane Burst, reducing the casting time of your next spell by 0.5 sec.`,
       },
       "Magic Absorption": {
         name: "Magic Absorption",
@@ -211,7 +211,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_lightning"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Arcane Impact",
+        prereq: "Arcane Burst",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`When activated, your spells deal 30% more damage while costing 30% more mana for 15 sec.  2 min cooldown`,
       },
@@ -234,7 +234,7 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}% chance to stun the target for 3 sec.`,
+        ]}% chance to stun the target for 2 sec.`,
       },
       "Fiery Focus": {
         name: "Fiery Focus",
@@ -560,10 +560,10 @@ export const data: TalentData = {
         name: "Improved Blizzard",
         pos: "d2",
         icon: icons["spell_frost_icestorm"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 15,
         description: talentText`Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by ${[
-          30,
+          25,
           50,
         ]}%.  Lasts 2 sec.`,
       },
