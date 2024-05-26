@@ -280,11 +280,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Quick Shot ability by ${[
-          0.5,
-          1,
-          1.5,
+          0.4,
+          0.8,
+          1.2,
+          1.6,
           2,
-          2.5,
         ]} sec.`,
       },
       "Improved Aspect of the Hawk": {
