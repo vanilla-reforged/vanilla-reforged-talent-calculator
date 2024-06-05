@@ -84,9 +84,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases damage caused by your Thorns spell by ${[
-          15,
+          10,
+          20,
           30,
-          45,
         ]}%.`,
       },
       "Nature's Reach": {
