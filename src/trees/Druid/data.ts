@@ -307,11 +307,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
-          8,
-          16,
-          24,
-          32,
-          40,
+          1,
+          2,
+          3,
+          4,
+          5,
         ]}% and reduces the Rage cost of your Maul, and Swipe abilities by ${[
           1,
           2,
