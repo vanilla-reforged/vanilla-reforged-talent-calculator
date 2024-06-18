@@ -599,7 +599,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Scatter Shot",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Allows the hunter to sneak around, but reduces your speed by 35%.  Lasts until cancelled.`,
+        description: talentText`Allows the hunter to sneak around, but reduces your speed by 30%.  Lasts until cancelled.`,
       },
     },
   },
