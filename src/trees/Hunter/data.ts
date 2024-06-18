@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["ability_trueshot"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the attack power of party members within 45 yards by 15.  Lasts 30 min.`,
+        description: talentText`Increases the attack power of party members within 45 yards by 2%.  Lasts 30 min.`,
       },
       "Efficiency": {
         name: "Efficiency",
