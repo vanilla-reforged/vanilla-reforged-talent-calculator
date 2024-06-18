@@ -329,7 +329,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_snipershot"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the Ranged Attack damage bonus of your Hunter's Mark spell by ${[
+        description: talentText`Increases the Ranged Damage bonus of your Hunter's Mark spell by ${[
           1,
           2,
           3,
