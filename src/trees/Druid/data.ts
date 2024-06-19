@@ -108,7 +108,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Nature's Grasp",
         arrows: [{ dir: "down", from: "a1", to: "c1" }],
-        description: talentText`Reduces the casting time of your Entangling Roots spells by ${[
+        description: talentText`Reduces the casting time of your Entangling Root spells by ${[
           0.3,
           0.6,
           0.9,
