@@ -381,7 +381,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism_02"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 154 to 187 Fire damage, and dazing them for 6 sec.  45 sec cooldown`,
+        description: talentText`A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 153 Fire damage, and dazing them for 6 sec.  45 sec cooldown`,
       },
       "Ashmaker": {
         name: "Ashmaker",
