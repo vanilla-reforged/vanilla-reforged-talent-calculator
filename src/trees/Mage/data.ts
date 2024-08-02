@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fireball02"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Hurls an immense fiery boulder that causes 141 to 188 Fire damage.`,
+        description: talentText`Hurls an immense fiery boulder that causes 140 Fire damage and an additional 52 Fire damage over 12 sec.`,
       },
       "Master of Flame": {
         name: "Master of Flame",
