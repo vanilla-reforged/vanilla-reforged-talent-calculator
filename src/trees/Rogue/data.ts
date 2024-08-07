@@ -138,8 +138,8 @@ export const data: TalentData = {
         prereq: "Improved Poisons",
         arrows: [{ dir: "down", from: "c2", to: "d2" }],
         description: talentText`Increases the damage dealt by your poisons by ${[
-          15,
-          30,
+          10,
+          20,
         ]}% and gives your poisons a ${[
           30,
           60,
