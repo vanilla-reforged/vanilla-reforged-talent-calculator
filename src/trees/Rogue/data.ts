@@ -111,11 +111,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Increases the damage of your Garrote ability by ${[
-          2,
-          4,
-          6,
-          8,
           10,
+          20,
+          30,
+          40,
+          50,
         ]}%.`,
       },
       "Improved Ambush": {
@@ -506,11 +506,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Increases the damage of your Rupture ability by ${[
-          2,
-          4,
-          6,
-          8,
           10,
+          20,
+          30,
+          40,
+          50,
         ]}%.`,
       },
       "Setup": {
