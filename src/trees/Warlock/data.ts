@@ -218,13 +218,13 @@ export const data: TalentData = {
     background: backgrounds["demonology"],
     icon: icons["spell_shadow_metamorphosis"],
     talents: {
-      "Improved Demon Armor": {
-        name: "Improved Demon Armor",
+      "Improved Demon Skin": {
+        name: "Improved Demon Skin",
         pos: "a1",
         icon: icons["spell_shadow_demon_armor"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the effects of your Demon Skin and Demon Armor spells by ${[
+        description: talentText`Increases the effects of your Demon Skin spell by ${[
           10,
           20,
           30,
