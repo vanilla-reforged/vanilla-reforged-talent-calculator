@@ -19,9 +19,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the Armor bonus of your Inner Fire spell by ${[
+          5,
           10,
-          20,
-          30,
+          15,
         ]}%.`,
       },
       "Divine Focus": {
