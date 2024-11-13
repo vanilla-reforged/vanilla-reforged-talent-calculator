@@ -619,7 +619,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Concussion Blow",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Slam the target with your shield, causing 225 to 236 damage, modified by your shield block value, and dispelling 1 magic effect on the target.  Also causes a high amount of threat.  6 sec cooldown`,
+        description: talentText`Slam the target with your shield, causing 224 damage, modified by your shield block value, and dispelling 1 magic effect on the target.  Also causes a high amount of threat.  6 sec cooldown`,
       },
     },
   },
