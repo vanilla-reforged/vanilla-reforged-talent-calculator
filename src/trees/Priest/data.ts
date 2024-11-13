@@ -106,7 +106,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holynova"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes an explosion of holy light around the caster, causing 29 to 34 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63.  These effects cause no threat.`,
+        description: talentText`Causes an explosion of holy light around the caster, causing 28 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 52.  These effects cause no threat.`,
       },
       "Mental Agility": {
         name: "Mental Agility",
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by ${[
+        description: talentText`Reduces the Mana cost of your Lesser Heal and Greater Heal spells by ${[
           3,
           6,
           9,
