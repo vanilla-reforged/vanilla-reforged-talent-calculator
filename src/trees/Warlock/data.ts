@@ -225,7 +225,7 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the effects of your Demon Skin spell by ${[
-          4,
+          5,
           10,
           15,
         ]}%.`,
