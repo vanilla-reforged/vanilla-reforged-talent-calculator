@@ -192,7 +192,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or healing an ally for 204 to 220.  10 sec cooldown`,
+        description: talentText`Blasts the target with Holy energy, causing 184 Holy damage to an enemy, or healing an ally for 184.  10 sec cooldown`,
       },
     },
   },
@@ -208,9 +208,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the armor bonus of your Devotion Aura by ${[
-          10,
-          20,
-          30,
+          1,
+          2,
+          3,
         ]}%.`,
       },
       "Shield Specialization": {
@@ -382,9 +382,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases damage and healing done by magical spells and effects by up to ${[
+          10,
           20,
-          40,
-          60,
+          30,
         ]}.`,
       },
       "One-Handed Weapon Specialization": {
@@ -490,9 +490,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the damage done by your Retribution Aura spell by ${[
-          15,
-          30,
-          45,
+          4,
+          9,
+          14,
         ]}%.`,
       },
       "Seal of Command": {
@@ -501,7 +501,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 90 to 95 Holy damage, 137 to 146 if the target is stunned or incapacitated.`,
+        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 90 Holy damage, 137 if the target is stunned or incapacitated.`,
       },
       "Benediction": {
         name: "Benediction",
