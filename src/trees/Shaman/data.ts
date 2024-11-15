@@ -222,9 +222,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the armor bonus of your Stoneskin Totem by ${[
-          10,
-          20,
-          30,
+          1,
+          2,
+          3,
         ]}%.`,
       },
       "Shield Specialization": {
@@ -360,7 +360,7 @@ export const data: TalentData = {
         description: talentText`Increases the melee attack power bonus of your Windfury Totem by ${[
           5,
           10,
-        ]}% and increases the damage done by your Flametongue Totem by ${[
+        ]}% and increases the spell damage bonus of your Windcaller Totem by ${[
           5,
           10,
         ]}%.`,
@@ -379,7 +379,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% and increases the damage done by your Flametongue Weapon by ${[
+        ]}% and increases the spell damage bonus of your Windcaller Weapon by ${[
           5,
           10,
           15,
