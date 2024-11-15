@@ -509,7 +509,7 @@ export const data: TalentData = {
       "Shamanistic Focus": {
         name: "Shamanistic Focus",
         pos: "c1",
-        icon: icons["spell_nature_moonglow"],
+        icon: icons["spell_nature_sentinal"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`When activated, reduces the Mana cost of your next spell by 100%.`,
@@ -543,7 +543,7 @@ export const data: TalentData = {
       "Healing Focus": {
         name: "Healing Focus",
         pos: "c4",
-        icon: icons["spell_nature_healingwavelesser"],
+        icon: icons["spell_nature_protectionformnature"],
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Gives you a ${[
