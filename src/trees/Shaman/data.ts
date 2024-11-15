@@ -337,8 +337,8 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Enhancing Totems": {
-        name: "Enhancing Totems",
+      "Enhanced Totems": {
+        name: "Enhanced Totems",
         pos: "c3",
         icon: icons["spell_nature_earthbindtotem"],
         maxRank: 5,
