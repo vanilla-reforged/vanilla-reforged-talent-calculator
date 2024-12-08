@@ -597,7 +597,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to cause your target to be vulnerable to Shadow damage.  This vulnerability increases the Shadow damage dealt to your target by 3% and lasts 15 sec.  Stacks up to 3 times.`,
+        ]}% chance to cause your target to be vulnerable to Shadow damage.  This vulnerability increases the Shadow damage dealt to your target by 3% and lasts 15 sec.  Stacks up to 5 times.`,
       },
       "Darkness": {
         name: "Darkness",
