@@ -370,7 +370,7 @@ export const data: TalentData = {
       "Crusader's Charge": {
         name: "Crusader's Charge",
         pos: "e2",
-        icon: icons["spell_holy_sealofmight"],
+        icon: icons["spell_holy_vindication"],
         maxRank: 1,
         reqPoints: 20,
         description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec.  18 sec cooldown`,
