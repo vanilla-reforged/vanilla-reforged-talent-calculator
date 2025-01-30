@@ -604,11 +604,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 25,
         description: talentText`Increases the damage you deal with One-Handed Melee weapons by ${[
-          5,
-          10,
-          15,
+          4,
+          8,
+          12,
+          16,
           20,
-          25,
         ]}%.`,
       },
       "Shield Slam": {
