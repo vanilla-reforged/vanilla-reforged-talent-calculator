@@ -61,11 +61,11 @@ export const data: TalentData = {
         prereq: "Improved Backstab",
         arrows: [{ dir: "down", from: "a2", to: "b2" }],
         description: talentText`Reduces the Energy cost of your Backstab ability by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}.`,
       },
       "Ruthlessness": {
@@ -273,11 +273,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the Energy cost of your Sinister Strike ability by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}.`,
       },
       "Rampage": {
@@ -287,11 +287,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Gives you a ${[
-          1,
           2,
-          3,
           4,
-          5,
+          6,
+          8,
+          10,
         ]}% chance to generate 10 Energy when you deal melee damage.`,
       },
       "Relentless Strikes": {
