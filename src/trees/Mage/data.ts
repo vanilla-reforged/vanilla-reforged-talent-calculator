@@ -173,7 +173,7 @@ export const data: TalentData = {
         icon: icons["spell_arcane_starfire"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`All Arcane spell criticals grace you with an Arcane Burst, reducing the casting time of your Fireball, Frostbolt or Pyroblast spell by 0.5 sec.  Stacks up to 3 times.`,
+        description: talentText`All Arcane spell criticals grace you with an Arcane Burst, reducing the casting time of your next Fireball, Frostbolt or Pyroblast spell by 0.5 sec.  Stacks up to 3 times.`,
       },
       "Magic Absorption": {
         name: "Magic Absorption",
