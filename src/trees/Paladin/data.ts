@@ -509,7 +509,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your Judgement and Seal spells by ${[
+        description: talentText`Reduces the Mana cost of your offensive spells by ${[
           10,
           20,
           30,
