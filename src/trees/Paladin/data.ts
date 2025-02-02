@@ -490,9 +490,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the damage done by your Retribution Aura spell by ${[
-          4,
-          9,
-          14,
+          5,
+          10,
+          15,
         ]}%.`,
       },
       "Seal of Command": {
