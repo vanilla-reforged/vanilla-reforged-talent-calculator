@@ -442,7 +442,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% and increases the duration of its chill effect ${[
+        ]}% and increases the duration of its chill effect by ${[
           1,
           2,
           3,
