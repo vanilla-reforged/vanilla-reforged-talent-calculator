@@ -442,7 +442,11 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}%.`,
+        ]}% and increases the duration of its chill effect ${[
+          1,
+          2,
+          3,
+        ]} sec.`,
       },
       "Frozen Focus": {
         name: "Frozen Focus",
