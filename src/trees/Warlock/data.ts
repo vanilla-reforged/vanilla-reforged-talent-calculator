@@ -60,7 +60,10 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Affliction spells by ${[
           10,
           20,
-        ]}%.`,
+        ]}% and gives them a ${[
+          15,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Improved Fear": {
         name: "Improved Fear",
@@ -506,7 +509,10 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Destruction spells by ${[
           10,
           20,
-        ]}%.`,
+        ]}% and gives them a ${[
+          15,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Bane": {
         name: "Bane",
