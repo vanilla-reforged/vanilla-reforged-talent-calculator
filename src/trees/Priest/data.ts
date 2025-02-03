@@ -475,7 +475,10 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Shadow spells by ${[
           10,
           20,
-        ]}%.`,
+        ]}% and gives them a ${[
+          15,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Warping Shadows": {
         name: "Warping Shadows",
