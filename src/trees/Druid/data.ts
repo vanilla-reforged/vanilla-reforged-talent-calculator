@@ -95,7 +95,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_naturetouchgrow"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the range of your Balance spells by ${[
+        description: talentText`Increases the range of your Balance and Restoration spells by ${[
           10,
           20,
         ]}%.`,
@@ -111,7 +111,7 @@ export const data: TalentData = {
         description: talentText`Reduces the casting time of your Entangling Roots spell by ${[
           0.3,
           0.6,
-          0.9,
+          1,
         ]} sec.`,
       },
       "Moonglow": {
@@ -475,7 +475,13 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]}%.`,
+        ]}% and gives them a ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Druidal Warding": {
         name: "Druidal Warding",
