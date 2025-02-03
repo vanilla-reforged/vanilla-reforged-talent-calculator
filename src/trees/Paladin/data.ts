@@ -44,7 +44,7 @@ export const data: TalentData = {
           18,
           24,
           30,
-        ]}% chance to resist dispel effects..`,
+        ]}% chance to resist dispel effects.`,
       },
       "Spell Warding": {
         name: "Spell Warding",
