@@ -293,13 +293,13 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`While Aspect of the Hawk is active, all normal ranged attacks have a ${[
+        description: talentText`While Aspect of the Hawk is active, all normal melee and ranged attacks have a ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% chance of increasing ranged attack speed by 30% for 12 sec.`,
+        ]}% chance of increasing melee and ranged attack speed by 30% for 12 sec.`,
       },
       "Trueshot Aura": {
         name: "Trueshot Aura",
