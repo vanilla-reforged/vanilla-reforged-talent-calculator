@@ -97,11 +97,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Improves the chance to apply poisons to your target by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
       "Improved Garrote": {
@@ -138,11 +138,11 @@ export const data: TalentData = {
         prereq: "Improved Poisons",
         arrows: [{ dir: "down", from: "c2", to: "d2" }],
         description: talentText`Increases the damage dealt by your poisons by ${[
+          5,
           10,
-          20,
         ]}% and gives your poisons a ${[
+          15,
           30,
-          60,
         ]}% chance to resist dispel effects.`,
       },
       "Serrated Blades": {
