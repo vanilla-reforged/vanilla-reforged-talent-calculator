@@ -338,8 +338,8 @@ export const data: TalentData = {
         prereq: "Improved Desperate Prayer",
         arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Heals ${[
-          15,
-          30,
+          50,
+          100,
         ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
       },
       "Healing Focus": {
