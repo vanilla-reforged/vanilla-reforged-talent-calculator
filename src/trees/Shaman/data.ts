@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_stormreach"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the range of Elemental spells by ${[
+        description: talentText`Increases the range of your Elemental and Restoration spells by ${[
           10,
           20,
         ]}%.`,
@@ -462,7 +462,13 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]}%.`,
+        ]}% and gives them a ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Elemental Warding": {
         name: "Elemental Warding",
