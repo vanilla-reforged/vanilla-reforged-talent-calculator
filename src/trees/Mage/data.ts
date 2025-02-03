@@ -99,7 +99,10 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Arcane spells by ${[
           10,
           20,
-        ]}%.`,
+        ]}% and gives them a ${[
+          15,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Arcane Mind": {
         name: "Arcane Mind",
@@ -273,7 +276,10 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Fire spells by ${[
           10,
           20,
-        ]}%.`,
+        ]}% and gives them a ${[
+          15,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Improved Fireball": {
         name: "Improved Fireball",
@@ -489,7 +495,10 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Frost spells by ${[
           10,
           20,
-        ]}%.`,
+        ]}% and gives them a ${[
+          15,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Improved Frostbolt": {
         name: "Improved Frostbolt",
