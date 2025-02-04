@@ -584,11 +584,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 25,
         description: talentText`Increases your Agility by ${[
-          3,
-          6,
-          9,
+          4,
+          8,
           12,
-          15,
+          16,
+          20,
         ]}%.`,
       },
       "Stalk": {
