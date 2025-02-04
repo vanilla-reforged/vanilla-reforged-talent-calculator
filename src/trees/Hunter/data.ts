@@ -341,10 +341,10 @@ export const data: TalentData = {
         icon: icons["ability_hunter_runningshot"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Reduces the cooldown of your Rapid Fire ability by ${[
-          30,
-          60,
-        ]} sec.`,
+        description: talentText`Increases the melee and ranged attack speed increase of your Rapid Fire ability by ${[
+          10,
+          20,
+        ]}%.`,
       },
       "Mortal Shots": {
         name: "Mortal Shots",
@@ -522,13 +522,13 @@ export const data: TalentData = {
         icon: icons["spell_nature_timestop"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the duration of Freezing and Frost trap effects by ${[
+        description: talentText`Increases the duration of your Freezing and Frost trap's effects by ${[
           5,
           10,
           15,
           20,
           25,
-        ]}% and the damage of Steel and Explosive trap by ${[10, 20, 30, 40, 50,]}%.`,
+        ]}% and the damage of your Steel and Explosive trap abilities by ${[8, 16, 24, 32, 40,]}%.`,
       },
       "Improved Feign Death": {
         name: "Improved Feign Death",
