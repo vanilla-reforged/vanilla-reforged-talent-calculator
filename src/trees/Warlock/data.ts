@@ -212,7 +212,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Amplify Curse",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Gives your Corruption and Drain Life spells a 10% chance to reduce the casting time of your next Shadow Bolt spell by 100%.`,
+        description: talentText`Gives your Corruption and Drain Life spells a 7% chance to reduce the casting time of your next Shadow Bolt spell by 100%.`,
       },
     },
   },
