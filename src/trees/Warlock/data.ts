@@ -536,7 +536,7 @@ export const data: TalentData = {
       },
       "Improved Searing Pain": {
         name: "Improved Searing Pain",
-        pos: "c3",
+        pos: "b3",
         icon: icons["spell_fire_soulburn"],
         maxRank: 3,
         reqPoints: 5,
