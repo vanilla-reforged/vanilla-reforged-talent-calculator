@@ -541,9 +541,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the initial damage done by your Immolate spell by ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]}%.`,
       },
       "Shadowburn": {
