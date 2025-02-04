@@ -357,9 +357,9 @@ export const data: TalentData = {
       description: talentText`Increases your outdoor movement speed while in Cat Form by ${[
         15,
         30,
-      ]}% and increases your chance to dodge an attack while in Cat Form by ${[
-        2,
-        4,
+      ]}% and increases the duration of your Rip ability by ${[
+        15,
+        30,
       ]}%.`,
     },
     "Blood Frenzy": {
