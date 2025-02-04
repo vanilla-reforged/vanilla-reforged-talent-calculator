@@ -540,11 +540,11 @@ export const data: TalentData = {
         icon: icons["spell_fire_soulburn"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt by ${[
-          4,
-          8,
-          12,
-        ]}% for 5 sec.`,
+        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt to the target by ${[
+          5,
+          10,
+          15,
+        ]}% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.`,
       },
       "Shadowburn": {
         name: "Shadowburn",
