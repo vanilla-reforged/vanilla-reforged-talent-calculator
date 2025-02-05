@@ -535,7 +535,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.`,
+        ]}% chance to gain 15 Rage when you shapeshift into Bear and Dire Bear Form or 60 Energy when you shapeshift into Cat Form.`,
       },
       "Omen of Clarity": {
         name: "Omen of Clarity",
