@@ -167,7 +167,11 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathscream"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Backstab and Eviscerate abilities by ${[
+        description: talentText`Increases the damage done by your Sinister Strike ability by ${[
+          2,
+          4,
+          6,
+        ]}% and the total damage done by your Eviscerate ability by ${[
           2,
           4,
           6,
@@ -367,7 +371,11 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Sinister Strike and Eviscerate abilities by ${[
+        description: talentText`Increases the damage done by your Sinister Strike ability by ${[
+          2,
+          4,
+          6,
+        ]}% and the total damage done by your Eviscerate ability by ${[
           2,
           4,
           6,

@@ -340,7 +340,7 @@ export const data: TalentData = {
         3,
         4,
         5,
-      ]} and increases the damage caused by your Ferocious Bite ability by ${[
+      ]} and increases the total damage caused by your Ferocious Bite ability by ${[
         3,
         6,
         9,
@@ -370,7 +370,7 @@ export const data: TalentData = {
       reqPoints: 15,
       prereq: "Ferocity",
       arrows: [{ dir: "down", from: "c2", to: "d2" }],
-      description: talentText`Increases the damage done by your Claw and Shred abilities by ${[
+      description: talentText`Increases the total damage done by your Claw and Shred abilities by ${[
         10,
         20,
       ]}% and your critical strikes from Cat Form abilities that add combo points have a ${[
