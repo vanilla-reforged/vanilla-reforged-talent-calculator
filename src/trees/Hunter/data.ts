@@ -402,7 +402,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Steady Hands",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`An aimed shot that deals 130% ranged weapon damage.  6 sec cooldown`,
+        description: talentText`An aimed shot that deals 150% ranged weapon damage.  6 sec cooldown`,
       },
     },
   },
