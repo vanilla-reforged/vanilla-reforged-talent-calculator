@@ -371,8 +371,8 @@ export const data: TalentData = {
       prereq: "Ferocity",
       arrows: [{ dir: "down", from: "c2", to: "d2" }],
       description: talentText`Increases the damage done by your Claw and Shred abilities by ${[
-        15,
-        30,
+        10,
+        20,
       ]}% and your critical strikes from Cat Form abilities that add combo points have a ${[
         50,
         100,
