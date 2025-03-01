@@ -94,7 +94,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_05"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Improves your chance to get a critical strike with your Overpower ability by ${[
+        description: talentText`Increases your chance to get a critical strike with your Overpower ability by ${[
           25,
           50,
         ]}%.`,
@@ -239,7 +239,7 @@ export const data: TalentData = {
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit by ${[
+        description: talentText`Increases your chance to hit by ${[
           1,
           2,
           3,
@@ -253,7 +253,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_eviscerate"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike by ${[
+        description: talentText`Increases your chance to get a critical strike by ${[
           1,
           2,
           3,
@@ -549,7 +549,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_revenge"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Improves your chance to get a critical strike with your Revenge ability by ${[
+        description: talentText`Increases your chance to get a critical strike with your Revenge ability by ${[
           25,
           50,
         ]}%.`,

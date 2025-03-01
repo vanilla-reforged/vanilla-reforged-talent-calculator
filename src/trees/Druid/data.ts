@@ -41,7 +41,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_natureresistancetotem"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with spells by ${[
+        description: talentText`Increases your chance to hit with spells by ${[
           1,
           2,
           3,
@@ -55,7 +55,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_naturesblessing"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike with spells by ${[
+        description: talentText`Increases your chance to get a critical strike with spells by ${[
           1,
           2,
           3,
@@ -241,7 +241,7 @@ export const data: TalentData = {
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit by ${[
+        description: talentText`Increases your chance to hit by ${[
           1,
           2,
           3,
@@ -255,7 +255,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike by ${[
+        description: talentText`Increases your chance to get a critical strike by ${[
           1,
           2,
           3,

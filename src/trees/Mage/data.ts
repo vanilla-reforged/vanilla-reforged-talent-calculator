@@ -30,7 +30,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dispelmagic"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with Arcane spells by ${[
+        description: talentText`Increases your chance to hit with Arcane spells by ${[
           1,
           2,
           3,
@@ -44,7 +44,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_devotion"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike with Arcane spells by ${[
+        description: talentText`Increases your chance to get a critical strike with Arcane spells by ${[
           1,
           2,
           3,
@@ -245,7 +245,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_firebolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with Fire spells by ${[
+        description: talentText`Increases your chance to hit with Fire spells by ${[
           1,
           2,
           3,
@@ -259,7 +259,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_lavaspawn"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike with Fire spells by ${[
+        description: talentText`Increases your chance to get a critical strike with Fire spells by ${[
           1,
           2,
           3,
@@ -454,7 +454,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_magicdamage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with Frost spells by ${[
+        description: talentText`Increases your chance to hit with Frost spells by ${[
           1,
           2,
           3,
@@ -468,7 +468,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_frostbolt"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike with Frost spells by ${[
+        description: talentText`Increases your chance to get a critical strike with Frost spells by ${[
           1,
           2,
           3,

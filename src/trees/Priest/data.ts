@@ -30,7 +30,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_unyieldingfaith"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with spells by ${[
+        description: talentText`Increases your chance to hit with spells by ${[
           1,
           2,
           3,
@@ -44,7 +44,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holyprotection"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike with spells by ${[
+        description: talentText`Increases your chance to get a critical strike with spells by ${[
           1,
           2,
           3,
@@ -444,7 +444,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_burningspirit"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit with Shadow spells by ${[
+        description: talentText`Increases your chance to hit with Shadow spells by ${[
           1,
           2,
           3,

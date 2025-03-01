@@ -32,7 +32,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_bloodrage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike by ${[
+        description: talentText`Increases your chance to get a critical strike by ${[
           1,
           2,
           3,
@@ -96,7 +96,7 @@ export const data: TalentData = {
         icon: icons["ability_poisons"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Improves the chance to apply poisons to your target by ${[
+        description: talentText`Increases the chance to apply poisons to your target by ${[
           2,
           4,
           6,
@@ -124,7 +124,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_ambush"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Improves the critical strike chance of your Ambush ability by ${[
+        description: talentText`Increases the critical strike chance of your Ambush ability by ${[
           25,
           50,
         ]}%.`,
@@ -225,7 +225,7 @@ export const data: TalentData = {
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit by ${[
+        description: talentText`Increases your chance to hit by ${[
           1,
           2,
           3,
@@ -239,7 +239,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_summonimp"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to get a critical strike by ${[
+        description: talentText`Increases your chance to get a critical strike by ${[
           1,
           2,
           3,

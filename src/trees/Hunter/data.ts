@@ -30,7 +30,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_monsterclaw_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your pet's chance to hit by ${[
+        description: talentText`Increases your pet's chance to hit by ${[
           2,
           4,
           6,
@@ -44,7 +44,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_bash"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your pet's chance to get a critical strike by ${[
+        description: talentText`Increases your pet's chance to get a critical strike by ${[
           3,
           6,
           9,
@@ -240,7 +240,7 @@ export const data: TalentData = {
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Improves your chance to hit by ${[
+        description: talentText`Increases your chance to hit by ${[
           1,
           2,
           3,
