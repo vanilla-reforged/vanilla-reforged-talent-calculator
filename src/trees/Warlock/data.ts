@@ -369,7 +369,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% and reduces the resist chance by ${[
+        ]}% and increases its chance to hit by ${[
           5,
           10,
           15,
