@@ -151,7 +151,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_17"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Causes your attacks to ignore 0 of your target's Armor.  The amount of Armor reduced increases with your level.`,
+        description: talentText`Causes your attacks to ignore N of your target's Armor.  The amount of Armor reduced increases with your level.`,
       },
       "Cold Blood": {
         name: "Cold Blood",
@@ -544,7 +544,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.`,
+        ]}% chance to add an additional combo point to your target when using your Ambush, Cheap Shot or Garrote abilities.`,
       },
       "Improved Kidney Shot": {
         name: "Improved Kidney Shot",
