@@ -66,7 +66,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Healing spells by ${[
+        description: talentText`Reduces the casting time of your healing spells by ${[
           0.1,
           0.2,
           0.3,
@@ -515,7 +515,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your offensive spells by ${[
+        description: talentText`Reduces the Mana cost of your offensive abilities and spells by ${[
           10,
           20,
           30,

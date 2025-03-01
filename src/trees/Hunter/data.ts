@@ -375,9 +375,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Increases the critical strike chance of your Multi-Shot, Quick Shot and Volley spells by ${[
-          3,
-          6,
-          9,
+          5,
+          10,
+          15,
         ]}%.`,
       },
       "Ranged Weapon Specialization": {
@@ -443,7 +443,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_bloodrage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of Raptor Strike and Mongoose Bite by ${[
+        description: talentText`Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by ${[
           3,
           6,
           9,
