@@ -592,15 +592,15 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Veil of Shadows": {
-        name: "Veil of Shadows",
+      "Veil of Shadow": {
+        name: "Veil of Shadow",
         pos: "g2",
         icon: icons["spell_shadow_antishadow"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Veil yourself in Shadows, removing all disease, poison, magic and bleed effects and absorbing 500 damage for 15 sec.  30 sec cooldown`,
+        description: talentText`Veil yourself in Shadows, removing all bleed, disease, magic and poison effects and absorbing 500 damage for 15 sec.  30 sec cooldown`,
       },
     },
   },
