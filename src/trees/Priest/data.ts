@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  2 min cooldown`,
+        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  90 sec cooldown`,
       },
       "Improved Healing": {
         name: "Improved Healing",

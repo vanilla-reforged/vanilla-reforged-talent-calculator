@@ -94,7 +94,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_gem_pearl_04"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  2 min cooldown`,
+        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.  90 sec cooldown`,
       },
       "Healing Light": {
         name: "Healing Light",

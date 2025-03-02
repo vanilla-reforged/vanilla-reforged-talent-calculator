@@ -518,7 +518,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.`,
+        description: talentText`When activated, reduces the Mana cost of your next spell by 100%. 90 sec cooldown.`,
       },
       "Tidal Focus": {
         name: "Tidal Focus",
