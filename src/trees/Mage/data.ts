@@ -636,7 +636,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Inflicts 276 Frost damage and freezes all targets within the area for 6 sec.  45 sec cooldown`,
+        description: talentText`Inflicts 276 Frost damage and freezes all targets within the area for 8 sec.  30 sec cooldown`,
       },
     },
   },
