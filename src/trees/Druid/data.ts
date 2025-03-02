@@ -83,7 +83,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_thorns"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases damage caused by your Thorns spell by ${[
+        description: talentText`Increases damage done by your Thorns spell by ${[
           10,
           20,
           30,
@@ -153,7 +153,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_starfall"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the damage and critical strike chance of your Moonfire spell by ${[
+        description: talentText`Increases the damage done by, and the critical strike chance of, your Moonfire spell by ${[
           5,
           10,
         ]}%.`,
@@ -269,7 +269,7 @@ export const data: TalentData = {
         icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases threat caused in Bear and Dire Bear Form by ${[
+        description: talentText`Increases threat you cause in Bear and Dire Bear Form by ${[
           3,
           6,
           9,
@@ -326,7 +326,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decrease the armor of the target by 5% for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
+      description: talentText`Decreases the armor of your target by 5% for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
@@ -340,7 +340,7 @@ export const data: TalentData = {
         3,
         4,
         5,
-      ]} and increases the total damage caused by your Ferocious Bite ability by ${[
+      ]} and increases the damage done by your Ferocious Bite ability by ${[
         3,
         6,
         9,
@@ -370,7 +370,7 @@ export const data: TalentData = {
       reqPoints: 15,
       prereq: "Ferocity",
       arrows: [{ dir: "down", from: "c2", to: "d2" }],
-      description: talentText`Increases the total damage done by your Claw and Shred abilities by ${[
+      description: talentText`Increases the damage done by your Claw and Shred abilities by an additional ${[
         10,
         20,
       ]}% and your critical strikes from Cat Form abilities that add combo points have a ${[
@@ -390,7 +390,7 @@ export const data: TalentData = {
         33,
         66,
         100,
-      ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.  In addition increases the damage caused by your Maul and Swipe abilities by ${[
+      ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.  In addition increases the damage done by your Maul and Swipe abilities by an additional ${[
         2,
         4,
         6,
