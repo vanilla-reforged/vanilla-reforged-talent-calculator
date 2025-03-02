@@ -405,7 +405,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead.  In addition, both the demon and master will inflict 1% more damage.  Lasts as long as the demon is active.`,
+        description: talentText`When active, 20% of all damage taken by you is taken by your summoned demon instead.  In addition, both your summoned demon and you will deal 1% more damage.  Lasts as long as the demon is active.`,
       },
       "Master Demonologist": {
         name: "Master Demonologist",
@@ -552,7 +552,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_scourgebuild"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Instantly blasts the target for 87 Fire damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  15 sec cooldown`,
+        description: talentText`Instantly blasts the target for 87 Fire damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, you gain a Soul Shard.  15 sec cooldown`,
       },
       "Improved Shadowburn": {
         name: "Improved Shadowburn",

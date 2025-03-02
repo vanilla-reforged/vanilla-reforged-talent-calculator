@@ -120,11 +120,11 @@ export const data: TalentData = {
           4,
           5,
         ]}%, the melee attack power reduction of your Demoralizing Shout by ${[
-          -1,
-          -2,
-          -3,
-          -4,
-          -5,
+          1,
+          2,
+          3,
+          4,
+          5,
         ]}% and the duration of your Battle Shout and Demoralizing Shout by ${[
           10,
           20,
@@ -317,7 +317,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_cleave"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the damage done by your Cleave ability by ${[
+        description: talentText`Increases the damage done by your Cleave ability by an additional ${[
           1,
           2,
           3,
@@ -367,7 +367,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ancestralguardian"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`The Berserker Rage ability will generate ${[
+        description: talentText`Your Berserker Rage ability will generate ${[
           5,
           10,
           15,
@@ -379,7 +379,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases your physical damage by 10%, but lowers your armor and all resistances by 10%.  Lasts 20 sec.  2 min cooldown`,
+        description: talentText`When activated, increases your physical damage by 10%, but lowers your armor and all resistances by 90%.  Lasts 20 sec.  2 min cooldown`,
       },
       "Flurry": {
         name: "Flurry",
@@ -420,7 +420,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_mirrorimage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your Dodge chance by ${[
+        description: talentText`Increases your chance to Dodge by ${[
           1,
           2,
           3,
@@ -529,13 +529,13 @@ export const data: TalentData = {
         icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Challenging Shout abilitiy by ${[
+        description: talentText`Reduces the cooldown of your Challenging Shout ability by ${[
           60,
           120,
           180,
           240,
           300,
-        ]} sec and the cooldown of your Mocking Blow abilitiy by ${[
+        ]} sec and the cooldown of your Mocking Blow ability by ${[
           12,
           24,
           36,
