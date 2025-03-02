@@ -198,15 +198,15 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Thunderstorm": {
-        name: "Thunderstorm",
+      "Lightning Storm": {
+        name: "Lightning Storm",
         pos: "g2",
         icon: icons["spell_nature_wispheal"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 277 to 331 Nature damage, and dazing them for 6 sec.  30 sec cooldown`,
+        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 276 Nature damage, and dazing them for 8 sec.  30 sec cooldown`,
       },
     },
   },
