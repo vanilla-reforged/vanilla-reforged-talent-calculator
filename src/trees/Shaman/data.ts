@@ -206,7 +206,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Thunderstorm, damaging all enemies caught within the blast for 276 Nature damage, and dazing them for 8 sec.  30 sec cooldown`,
+        description: talentText`Call down a Lightning Storm, damaging all enemies caught within the blast for 276 Nature damage, and dazing them for 8 sec.  30 sec cooldown`,
       },
     },
   },
@@ -221,7 +221,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_stoneskintotem"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the armor bonus of your Stoneskin Totem by ${[
+        description: talentText`Increases the armor bonus of your Stoneskin Totem by an additional ${[
           1,
           2,
           3,
@@ -321,7 +321,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places an Elemental Blessing on the Shaman, reducing damage received from all sources by up to 10 for 30 min.  In addition, when the Shaman blocks a melee attack the attacker will take 14 Nature damage.`,
+        description: talentText`Places an Elemental Blessing on you, reducing damage received from all sources by up to 10 for 30 min.  In addition, when you block a melee attack the attacker will take 14 Nature damage.`,
       },
       "Redoubt": {
         name: "Redoubt",
@@ -375,7 +375,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}%, your Windfury Weapon effect by ${[
+        ]}%, the melee attack power bonus of your Windfury Weapon by ${[
           5,
           10,
           15,

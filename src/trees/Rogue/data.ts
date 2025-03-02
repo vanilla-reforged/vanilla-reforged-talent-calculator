@@ -159,7 +159,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_lament"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate ability by 100%.  2 min cooldown`,
+        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.  2 min cooldown`,
       },
       "Murder": {
         name: "Murder",
@@ -171,7 +171,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% and the total damage done by your Eviscerate ability by ${[
+        ]}% and the damage done by your Eviscerate ability by ${[
           2,
           4,
           6,
@@ -183,7 +183,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage done when striking from behind with your Backstab, Garrote, or Ambush abilities by ${[
+        description: talentText`Increases the damage done by your Backstab, Garrote, or Ambush abilities by ${[
           3,
           6,
           9,
@@ -375,7 +375,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% and the total damage done by your Eviscerate ability by ${[
+        ]}% and the damage done by your Eviscerate ability by ${[
           2,
           4,
           6,
@@ -452,7 +452,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_feint"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases movement and mounted movement speed by ${[
+        description: talentText`Increases your movement and mounted movement speed by ${[
           5,
           10,
         ]}%.  This does not stack with other movement speed increasing effects.`,
