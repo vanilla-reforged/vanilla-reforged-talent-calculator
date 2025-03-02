@@ -503,7 +503,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_resistnature"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the critical effect chance of your Regrowth spell by ${[
+        description: talentText`Increases the critical strike chance of your Regrowth spell by ${[
           5,
           10,
           15,

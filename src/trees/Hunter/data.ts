@@ -58,7 +58,7 @@ export const data: TalentData = {
         icon: icons["ability_mount_jungletiger"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by ${[
+        description: talentText`Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by an additional ${[
           2,
           4,
           6,
@@ -70,7 +70,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_aspectofthemonkey"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey by ${[
+        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey by an additional ${[
           2,
           4,
           6,
@@ -128,7 +128,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the effect of your Aspects by ${[
+        description: talentText`Increases the effects of your Aspects by ${[
           10,
           20,
           30,
@@ -293,13 +293,13 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`While Aspect of the Hawk is active, all normal melee and ranged attacks have a ${[
+        description: talentText`While your Aspect of the Hawk is active, all of your normal melee and ranged attacks have a ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% chance of increasing melee and ranged attack speed by 30% for 12 sec.`,
+        ]}% chance of increasing your melee and ranged attack speed by 30% for 12 sec.`,
       },
       "Trueshot Aura": {
         name: "Trueshot Aura",
@@ -402,7 +402,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Steady Hands",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`An aimed shot that deals 150% ranged weapon damage.  6 sec cooldown`,
+        description: talentText`An aimed shot that deals 140% ranged weapon damage.  6 sec cooldown`,
       },
     },
   },
@@ -457,11 +457,11 @@ export const data: TalentData = {
         icon: icons["ability_kick"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases hit chance by ${[
+        description: talentText`Increases you chance to hit by ${[
           1,
           2,
           3,
-        ]}% and increases the chance movement impairing effects will be resisted by an additional ${[
+        ]}% and increases your chance to resist movement impairing effects by an additional ${[
           2,
           4,
           6,
@@ -528,7 +528,7 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]}% and the damage of your Steel and Explosive trap abilities by ${[8, 16, 24, 32, 40,]}%.`,
+        ]}% and the damage done by your Steel and Explosive traps by ${[8, 16, 24, 32, 40,]}%.`,
       },
       "Improved Feign Death": {
         name: "Improved Feign Death",
@@ -555,7 +555,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Mongoose Bite and Raptor Strike Abilities by ${[3, 6, 9,]}%.`,
+        description: talentText`Increases the damage of your Mongoose Bite and Raptor Strike abilities by ${[3, 6, 9,]}%.`,
       },
       "Scatter Shot": {
         name: "Scatter Shot",
@@ -571,7 +571,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Survival abilities by ${[
+        description: talentText`Increases the damage done by your Survival abilities by an additional ${[
           2,
           4,
           6,
@@ -599,7 +599,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Scatter Shot",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Allows the hunter to sneak around, but reduces your speed by 30%.  Lasts until cancelled.`,
+        description: talentText`Allows you to sneak around, but reduces your speed by 30%.  Lasts until cancelled.`,
       },
     },
   },

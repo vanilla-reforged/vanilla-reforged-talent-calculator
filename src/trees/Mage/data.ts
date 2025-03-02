@@ -88,7 +88,7 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Gives you a ${[
           10,
-        ]}% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
+        ]}% chance of entering a Clearcasting state after any of your damage spells hit a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
       },
       "Arcane Reach": {
         name: "Arcane Reach",
@@ -164,7 +164,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_detectlesserinvisibility"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Decreases the mana lost per point of damage taken when Mana Shield is active by ${[
+        description: talentText`Decreases the mana lost per point of damage taken when your Mana Shield is active by ${[
           20,
           40,
           60,
@@ -176,7 +176,7 @@ export const data: TalentData = {
         icon: icons["spell_arcane_starfire"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`All Arcane spell criticals grace you with an Arcane Burst, reducing the casting time of your next Fireball, Frostbolt or Pyroblast spell by 0.5 sec.  Stacks up to 3 times.`,
+        description: talentText`All of your Arcane spell critical strikes grace you with an Arcane Burst, reducing the casting time of your next Fireball, Frostbolt or Pyroblast spell by 0.5 sec.  Stacks up to 3 times.`,
       },
       "Magic Absorption": {
         name: "Magic Absorption",
@@ -184,7 +184,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_astralrecalgroup"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases all resistances by ${[
+        description: talentText`Increases all of your resistances by ${[
           4,
           8,
           12,
@@ -628,15 +628,15 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Frost Bomb": {
-        name: "Frost Bomb",
+      "Sphere of Frost": {
+        name: "Sphere of Frost",
         pos: "g2",
         icon: icons["spell_frost_wizardmark"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Inflicts 276 Frost damage and freezes all targets within the area for 8 sec.  30 sec cooldown`,
+        description: talentText`Conjure a Sphere of Frost, dealing 276 Frost damage to all enemies within the area and freezing them for 8 sec.`,
       },
     },
   },
