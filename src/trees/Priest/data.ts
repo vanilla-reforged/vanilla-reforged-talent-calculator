@@ -106,7 +106,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holynova"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes an explosion of holy light around the caster, causing 28 Holy damageto all enemy targets within 10 yards and healing all party members within 10 yards for 52.  These effects cause no threat.`,
+        description: talentText`Causes an explosion of holy light around the caster, causing 28 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52.  These effects cause no threat.`,
       },
       "Mental Agility": {
         name: "Mental Agility",
@@ -153,7 +153,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_spiritualguidence"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases spell damage and healing by up to ${[
+        description: talentText`Increases your spell damage and healing by up to ${[
           15,
           30,
         ]}% of your total Spirit.`,
@@ -273,7 +273,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal02"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the critical effect chance of your Heal spell by ${[
+        description: talentText`Increases the critical strike chance of your Heal spell by ${[
           5,
           10,
           15,
@@ -285,7 +285,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Healing spells by ${[
+        description: talentText`Reduces the casting time of your healing spells by ${[
           0.1,
           0.2,
           0.3,
@@ -500,7 +500,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_feint"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases movement and mounted movement speed by ${[
+        description: talentText`Increases your movement and mounted movement speed by ${[
           5,
           10,
           15,
@@ -602,7 +602,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_blackplague"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Shadow damage spells have a ${[
+        description: talentText`Your Shadow spells have a ${[
           33,
           66,
           100,
