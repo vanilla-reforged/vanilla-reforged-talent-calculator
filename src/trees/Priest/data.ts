@@ -300,11 +300,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Desperate Prayer spell by ${[
-          12,
-          24,
+          18,
           36,
-          48,
-          60,
+          54,
+          72,
+          90,
         ]} sec.`,
       },
       "Inner Focus": {
