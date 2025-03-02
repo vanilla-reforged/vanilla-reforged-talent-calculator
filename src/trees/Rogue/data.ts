@@ -585,11 +585,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 25,
         description: talentText`Increases your Attack Power by ${[
-          2,
           4,
-          6,
           8,
-          10,
+          12,
+          16,
+          20,
         ]}%.`,
       },
       "Veil of Shadow": {
