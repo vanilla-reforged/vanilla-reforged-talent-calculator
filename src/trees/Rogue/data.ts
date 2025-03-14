@@ -47,9 +47,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the armor reduced by your Expose Armor ability by ${[
-          10,
           20,
-          30,
+          40,
+          60,
         ]}%.`,
       },
       "Dissection": {
