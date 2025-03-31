@@ -626,7 +626,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Nature's Swiftness",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 170 mana every 3 sec to group members within 20 yards.  5 min cooldown`,
+        description: talentText`Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 170 mana every 3 sec to group members within 20 yards.  2 min cooldown`,
       },
     },
   },
