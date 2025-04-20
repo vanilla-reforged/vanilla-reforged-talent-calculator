@@ -315,13 +315,13 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Elemental Blessing": {
-        name: "Elemental Blessing",
+      "Spirit Ward": {
+        name: "Spirit Ward",
         pos: "c1",
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places an Elemental Blessing on you, reducing damage received from all sources by up to 10 for 30 min.  In addition, when you block a melee attack the attacker will take 14 Nature damage.`,
+        description: talentText`Places a Spirit Ward on you, reducing damage received from all sources by up to 10 for 30 min.  In addition, when you block a melee attack the attacker will take 14 Nature damage.`,
       },
       "Redoubt": {
         name: "Redoubt",
