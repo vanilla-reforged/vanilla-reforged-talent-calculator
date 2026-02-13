@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fireball02"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Hurls an immense fiery boulder that causes 140 Fire damage and an additional 52 Fire damage over 12 sec.`,
+        description: talentText`Hurls an immense fiery boulder that causes an average of 148 Fire damage and an additional 50 Fire damage over 12 sec.`,
       },
       "Master of Flame": {
         name: "Master of Flame",
@@ -387,7 +387,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism_02"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 153 Fire damage, and dazing them for 6 sec.  45 sec cooldown`,
+        description: talentText`A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for an average of 153 Fire damage, and dazing them for 6 sec.  45 sec cooldown`,
       },
       "Ashmaker": {
         name: "Ashmaker",
@@ -636,7 +636,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Conjure a Sphere of Frost, dealing 276 Frost damage to all enemies within the area and freezing them for 8 sec.  30 sec cooldown`,
+        description: talentText`Conjure a Sphere of Frost, dealing an average of 248 Frost damage to all enemies within the area and freezing them for 8 sec.  30 sec cooldown`,
       },
     },
   },

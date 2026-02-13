@@ -198,7 +198,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 184 Holy damage to an enemy, or healing an ally for 184.  10 sec cooldown`,
+        description: talentText`Blasts the target with Holy energy, causing 191 Holy damage to an enemy, or healing an ally for 191.  10 sec cooldown`,
       },
     },
   },
@@ -507,7 +507,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 90 Holy damage, 137 if the target is stunned or incapacitated.`,
+        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing an average of 84 Holy damage, 127 if the target is stunned or incapacitated.`,
       },
       "Benediction": {
         name: "Benediction",
