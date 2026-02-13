@@ -106,7 +106,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holynova"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes an explosion of holy light around the caster, causing an average of 27 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 50.  These effects cause no threat.`,
+        description: talentText`Causes an explosion of holy light around the caster, causing an average of 27 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for an average of 50.  These effects cause no threat.`,
       },
       "Mental Agility": {
         name: "Mental Agility",
