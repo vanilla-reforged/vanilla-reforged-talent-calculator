@@ -591,15 +591,15 @@ export const data: TalentData = {
           20,
         ]}%.`,
       },
-      "Steady Hands": {
-        name: "Steady Hands",
+      "Silent Hunt": {
+        name: "Silent Hunt",
         pos: "g2",
         icon: icons["ability_rogue_kidneyshot"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Stalk",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, increases the critical strike chance of your next Aimed Shot, Multi-Shot or Quick Shot by 100%.  2 min cooldown`,
+        description: talentText`A vicious strike that deals 130% weapon damage to your target. Silent Hunt triggers your Survival Instinct for 18 sec, increasing your chance to get a critical strike by 5% and increasing the critical strike damage bonus of your mongoose bite, raptor strike, explosive trap and steel trap abilities by 30%  15 sec cooldown`,
       },
     },
   },
