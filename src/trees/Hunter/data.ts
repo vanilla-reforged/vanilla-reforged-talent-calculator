@@ -360,13 +360,13 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Steady Hands": {
-        name: "Steady Hands",
+      "Scatter Shot": {
+        name: "Scatter Shot",
         pos: "e2",
-        icon: icons["ability_rogue_kidneyshot"],
+        icon: icons["ability_golemstormbolt"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Aimed Shot, Multi-Shot or Quick Shot by 100%.  2 min cooldown`,
+        description: talentText`A short range shot that deals 50% wepon damage and disorients the target for 4 sec.  Any damage caused will remove the effect.  Turns off your attack when used.  30 sec cooldown`,
       },
       "Barrage": {
         name: "Barrage",
@@ -557,13 +557,13 @@ export const data: TalentData = {
         reqPoints: 15,
         description: talentText`Increases the damage of your Mongoose Bite and Raptor Strike abilities by ${[3, 6, 9,]}%.`,
       },
-      "Scatter Shot": {
-        name: "Scatter Shot",
+      "Stalk": {
+        name: "Stalk",
         pos: "e2",
-        icon: icons["ability_golemstormbolt"],
+        icon: icons["ability_stealth"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`A short range shot that deals 50% wepon damage and disorients the target for 4 sec.  Any damage caused will remove the effect.  Turns off your attack when used.  30 sec cooldown`,
+        description: talentText`Allows you to sneak around, but reduces your speed by 30%.  Lasts until cancelled.`,
       },
       "Killer Instinct": {
         name: "Killer Instinct",
@@ -591,15 +591,15 @@ export const data: TalentData = {
           20,
         ]}%.`,
       },
-      "Stalk": {
-        name: "Stalk",
+      "Steady Hands": {
+        name: "Steady Hands",
         pos: "g2",
-        icon: icons["ability_stealth"],
+        icon: icons["ability_rogue_kidneyshot"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Scatter Shot",
+        prereq: "Stalk",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Allows you to sneak around, but reduces your speed by 30%.  Lasts until cancelled.`,
+        description: talentText`When activated, increases the critical strike chance of your next Aimed Shot, Multi-Shot or Quick Shot by 100%.  2 min cooldown`,
       },
     },
   },
