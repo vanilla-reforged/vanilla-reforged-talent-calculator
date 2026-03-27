@@ -400,7 +400,7 @@ export const data: TalentData = {
         icon: icons["inv_spear_07"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Steady Hands",
+        prereq: "Scatter Shot",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`An aimed shot that deals 140% ranged weapon damage.  6 sec cooldown`,
       },
