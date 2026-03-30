@@ -387,7 +387,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_slowingtotem"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases damage and healing done by magical spells and effects by up to ${[
+        description: talentText`Increases your spell damage and healing by up to ${[
           10,
           20,
           30,
