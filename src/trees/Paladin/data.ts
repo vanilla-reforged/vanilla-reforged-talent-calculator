@@ -391,7 +391,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}.`,
+        ]}% of your total Stamina.`,
       },
       "One-Handed Weapon Specialization": {
         name: "One-Handed Weapon Specialization",
