@@ -156,7 +156,7 @@ export const data: TalentData = {
         description: talentText`Increases your spell damage and healing by up to ${[
           15,
           30,
-        ]}% of your total Spirit.`,
+        ]}% of your total Intellect.`,
       },
       "Searing Light": {
         name: "Searing Light",
