@@ -440,7 +440,13 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and has a ${[
+        ]}% and increases the amount blocked by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}%. In addition you gain a ${[
           20,
           40,
           60,
