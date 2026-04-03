@@ -446,7 +446,7 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]}%. In addition you gain a ${[
+        ]}%.  In addition you gain a ${[
           20,
           40,
           60,
