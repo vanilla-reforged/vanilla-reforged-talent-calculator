@@ -509,19 +509,19 @@ export const data: TalentData = {
         arrows: [{ dir: "down", from: "b1", to: "c1" }],
         description: talentText`Increases chance to block by 60% for 7 sec, but will only block 2 attacks.  5 sec cooldown`,
       },
-      "Improved Shield Block": {
-        name: "Improved Shield Block",
+      "Redoubt": {
+        name: "Redoubt",
         pos: "c2",
-        icon: icons["ability_defend"],
+        icon: icons["inv_shield_06"],
         maxRank: 3,
         reqPoints: 10,
         prereq: "Shield Specialization",
         arrows: [{ dir: "down", from: "a2", to: "c2" }],
-        description: talentText`Allows your Shield Block ability to block an additional attack and increases the duration by ${[
-          0.5,
-          1,
-          2,
-        ]} sec.`,
+        description: talentText`Increases the amount of damage absorbed by your shield by ${[
+          10,
+          20,
+          30,
+        ]}%.`,
       },
       "Colourful Language": {
         name: "Colorful Language",
