@@ -499,15 +499,15 @@ export const data: TalentData = {
           6,
         ]}.`,
       },
-      "Last Stand": {
-        name: "Last Stand",
+      "Shield Block": {
+        name: "Shield Block",
         pos: "c1",
-        icon: icons["spell_holy_ashestoashes"],
+        icon: icons["ability_defend"],
         maxRank: 1,
         reqPoints: 10,
         prereq: "Improved Bloodrage",
         arrows: [{ dir: "down", from: "b1", to: "c1" }],
-        description: talentText`When activated, this ability temporarily grants you 30% of your maximum hit points for 20 sec.  After the effect expires, the hit points are lost.  10 min cooldown`,
+        description: talentText`Increases chance to block by 60% for 7 sec, but will only block 2 attacks.  5 sec cooldown`,
       },
       "Improved Shield Block": {
         name: "Improved Shield Block",
