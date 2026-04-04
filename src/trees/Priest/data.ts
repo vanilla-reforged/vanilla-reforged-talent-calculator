@@ -259,7 +259,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_spellwarding"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`o	Reduces the chance you are hit by melee and ranged attacks by ${[
+        description: talentText`Reduces the chance you are hit by melee and ranged attacks by ${[
           1,
           2,
           3,
