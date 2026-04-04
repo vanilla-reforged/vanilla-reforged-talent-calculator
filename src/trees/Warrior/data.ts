@@ -225,14 +225,14 @@ export const data: TalentData = {
         icon: icons["spell_shadow_summonimp"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Regenerates ${[
-          1,
+        description: talentText`Reduces all spell damage taken by ${[
           2,
-          3,
           4,
-          5,
-        ]}% of your total Health over 2 sec after being the victim of a critical strike.`,
-      },
+          6,
+          8,
+          10,
+        ]}%.`,
+       },
       "Precision": {
         name: "Precision",
         pos: "a2",
@@ -511,8 +511,6 @@ export const data: TalentData = {
         icon: icons["ability_defend"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Improved Bloodrage",
-        arrows: [{ dir: "down", from: "b1", to: "c1" }],
         description: talentText`Increases chance to block by 60% for 7 sec, but will only block 2 attacks.  5 sec cooldown`,
       },
       "Redoubt": {

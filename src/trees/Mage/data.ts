@@ -12,17 +12,19 @@ export const data: TalentData = {
     background: backgrounds["arcane"],
     icon: icons["spell_holy_magicalsentry"],
     talents: {
-      "Arcane Resilience": {
-        name: "Arcane Resilience",
+      "Clairvoyance": {
+        name: "Clairvoyance",
         pos: "a1",
         icon: icons["spell_arcane_arcaneresilience"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your armor by an amount equal to ${[
-          25,
-          50,
-          75,
-        ]}% of your Intellect.`,
+        description: talentText`Reduces the chance you are hit by melee and ranged attacks by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
       },
       "Arcane Focus": {
         name: "Arcane Focus",
@@ -56,14 +58,12 @@ export const data: TalentData = {
         name: "Improved Evocation",
         pos: "b2",
         icon: icons["spell_nature_purge"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Evocation spell by ${[
           1,
           2,
           3,
-          4,
-          5,
         ]} min.`,
       },
       "Improved Blink": {

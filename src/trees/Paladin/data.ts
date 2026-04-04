@@ -415,7 +415,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusader's Charge",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your chance to block by 60% for 14 sec, and deals 65 Holy damage for each attack blocked while active.  In Addition each Block generates 1% of your total mana.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.  10 sec cooldown`,
+        description: talentText`Increases your chance to block by 60% for 14 sec and generates 3% of your total Mana.  While active 65 Holy damage are dealt to an attacker when his attack is blocked.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.  10 sec cooldown`,
       },
     },
   },

@@ -253,18 +253,18 @@ export const data: TalentData = {
           30,
         ]}% chance to resist dispel effects.`,
       },
-      "Spell Warding": {
-        name: "Spell Warding",
+      "Augury": {
+        name: "Augury",
         pos: "a3",
         icon: icons["spell_holy_spellwarding"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces all spell damage taken by ${[
+        description: talentText`o	Reduces the chance you are hit by melee and ranged attacks by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}%.`,
       },
       "Improved Heal": {
@@ -321,7 +321,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your Lesser Heal and Greater Heal spells by ${[
+        description: talentText`Reduces the Mana cost of your Heal and Greater Heal spells by ${[
           3,
           6,
           9,
@@ -475,10 +475,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Shadow spells by ${[
           10,
           20,
-        ]}% and gives them a ${[
-          15,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Warping Shadows": {
         name: "Warping Shadows",
