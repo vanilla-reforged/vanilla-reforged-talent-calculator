@@ -443,7 +443,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_bloodrage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by ${[
+        description: talentText`Increases the critical strike chance of your Raptor Strike, Mongoose Bite and Silent Hunt abilities by ${[
           3,
           6,
           9,
@@ -555,7 +555,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Mongoose Bite and Raptor Strike abilities by ${[3, 6, 9,]}%.`,
+        description: talentText`Increases the damage of your Raptor Strike, Mongoose Bite and Silent Hunt abilities by ${[3, 6, 9,]}%.`,
       },
       "Stalk": {
         name: "Stalk",
@@ -599,7 +599,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Stalk",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals 130% weapon damage to your target. If used from Stealth, the attack deals 195% weapon damage instead. Silent Hunt triggers your Survival Instinct for 18 sec, increasing your chance to get a critical strike by 5% and increasing the critical strike damage bonus of your mongoose bite, raptor strike, explosive trap and steel trap abilities by 30%  15 sec cooldown`,
+        description: talentText`A vicious strike that deals 125% weapon damage to your target. If used from Stealth, the attack deals 190% weapon damage instead. Silent Hunt triggers your Survival Instinct for 18 sec, increasing your chance to get a critical strike by 5% and increasing the critical strike damage bonus of your mongoose bite, raptor strike, explosive trap and steel trap abilities by 30%  15 sec cooldown`,
       },
     },
   },
