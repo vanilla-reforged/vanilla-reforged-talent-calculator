@@ -219,8 +219,8 @@ export const data: TalentData = {
     background: backgrounds["fury"],
     icon: icons["ability_warrior_innerrage"],
     talents: {
-      "Blood Craze": {
-        name: "Blood Craze",
+      "Magebane": {
+        name: "Magebane",
         pos: "a1",
         icon: icons["spell_shadow_summonimp"],
         maxRank: 5,
