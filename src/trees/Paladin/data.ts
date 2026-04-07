@@ -613,7 +613,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Repentance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Gives you an extra attack and generates 3% of your total mana.  In addition, the next 2 sources of Holy damage dealt to the target are increased by 20%.  Lasts 12 sec.  10 sec cooldown`,
+        description: talentText`Requires Two Handed Weapon.  Gives you an extra attack and generates 3% of your total mana.  In addition, the next 2 sources of Holy damage dealt to the target are increased by 20%.  Lasts 12 sec.  10 sec cooldown`,
       },
     },
   },
