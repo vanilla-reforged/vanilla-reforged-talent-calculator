@@ -115,11 +115,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the Mana cost of your offensive spells by ${[
-          10,
-          20,
+          6,
+          12,
+          18,
+          24,
           30,
-          40,
-          50,
         ]}%.`,
       },
       "Improved Power Word: Shield": {
@@ -240,17 +240,17 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Reduces the threat caused by your spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
-        ]}% and gives them a ${[
+          2,
+          4,
           6,
-          12,
-          18,
-          24,
-          30,
+          8,
+          10,
+        ]}% and gives them a ${[
+          2,
+          4,
+          6,
+          8,
+          10,
         ]}% chance to resist dispel effects.`,
       },
       "Augury": {

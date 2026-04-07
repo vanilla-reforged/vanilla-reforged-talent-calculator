@@ -316,11 +316,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the Mana cost of your Shot and Sting abilities by ${[
-          10,
-          20,
+          6,
+          12,
+          18,
+          24,
           30,
-          40,
-          50,
         ]}%.`,
       },
       "Improved Hunter's Mark": {
