@@ -373,13 +373,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Crusader's Charge": {
-        name: "Crusader's Charge",
+      "Templar's Blow": {
+        name: "Templar's Blow",
         pos: "e2",
-        icon: icons["spell_holy_vindication"],
+        icon: icons["ability_rogue_ambush"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to Charge an enemy, stunning the target for 3 sec.  18 sec cooldown`,
+        description: talentText`Requires One Handed Weapon.  An instant attack that deals holy damage equal to 120% of weapon damage.  10 sec cooldown`,
       },
       "Force of Faith": {
         name: "Force of Faith",
@@ -537,27 +537,27 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
+      "Vindication": {
+        name: "Vindication",
+        pos: "d2",
+        icon: icons["spell_holy_vindication"],
+        maxRank: 2,
+        reqPoints: 15,
+        description: talentText`Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by ${[
+          5,
+          10,
+        ]}%.`,
+      },
       "Eye for an Eye": {
         name: "Eye for an Eye",
-        pos: "c4",
+        pos: "d2",
         icon: icons["spell_holy_eyeforaneye"],
         maxRank: 2,
-        reqPoints: 10,
+        reqPoints: 15,
         description: talentText`All spell criticals against you cause ${[
           15,
           30,
         ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
-      },
-      "Improved Rebuke": {
-        name: "Improved Rebuke",
-        pos: "d2",
-        icon: icons["inv_gauntlets_04"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Gives your Rebuke spell a ${[
-          50,
-          100,
-        ]}% chance to silence the target for 2 sec.`,
       },
       "Sanctity": {
         name: "Sanctity",

@@ -594,7 +594,7 @@ export const data: TalentData = {
       "Silent Hunt": {
         name: "Silent Hunt",
         pos: "g2",
-        icon: icons["ability_rogue_kidneyshot"],
+        icon: icons["spell_shadow_charm"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Stalk",

@@ -99,10 +99,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Arcane spells by ${[
           10,
           20,
-        ]}% and gives them a ${[
-          15,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Arcane Mind": {
         name: "Arcane Mind",
@@ -111,30 +108,29 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Arcane spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          2.55,
+          5.1,
+          7.65,
+          10.2,
+          12.75,
         ]}% and reduces the threat caused by your Arcane spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          1.5,
+          3,
+          4.5,
+          6,
+          7.5,
         ]}%.`,
       },
-      "Improved Arcane Explosion": {
-        name: "Improved Arcane Explosion",
+      "Arcane Tempest": {
+        name: "Arcane Tempest",
         pos: "c3",
         icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the critical strike chance of your Arcane Explosion spell by an additional ${[
-          5,
-          10,
-          15,
-        ]}%.`,
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
       },
       "Arcane Meditation": {
         name: "Arcane Meditation",
@@ -188,7 +184,11 @@ export const data: TalentData = {
           4,
           8,
           12,
-        ]} and causes all spells you fully resist to restore ${[
+        ]} and gives your Arcane spells a ${[
+          6.5,
+          13,
+          20,
+        ]}% chance to resist dispel effects.  In addition it causes all spells you fully resist to restore ${[
           2,
           4,
           6,
@@ -276,10 +276,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Fire spells by ${[
           10,
           20,
-        ]}% and gives them a ${[
-          15,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Improved Fireball": {
         name: "Improved Fireball",
@@ -322,11 +319,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Fire spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          0.8,
+          1.6,
+          2.4,
+          3.2,
+          4,
         ]}% and reduces the threat caused by your Fire spells by ${[
           5,
           10,
@@ -476,20 +473,6 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Frostbite": {
-        name: "Frostbite",
-        pos: "a4",
-        icon: icons["spell_frost_frostarmor"],
-        maxRank: 5,
-        reqPoints: 0,
-        description: talentText`Gives your Chill effects a ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}% chance to freeze the target for 5 sec.`,
-      },
       "Arctic Reach": {
         name: "Arctic Reach",
         pos: "b1",
@@ -499,10 +482,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Frost spells by ${[
           10,
           20,
-        ]}% and gives them a ${[
-          15,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Improved Frostbolt": {
         name: "Improved Frostbolt",
@@ -522,12 +502,14 @@ export const data: TalentData = {
         name: "Improved Frost Nova",
         pos: "b3",
         icon: icons["spell_frost_freezingbreath"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Frost Nova spell by ${[
+          1,
           2,
+          3,
           4,
-          6,
+          5,
         ]} sec.`,
       },
       "Ice Block": {
@@ -545,35 +527,38 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Frost spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          1.8,
+          3.6,
+          5.4,
+          7.2,
+          9,
         ]}% and reduces the threat caused by your Frost spells by ${[
-          5,
-          10,
+          3,
+          6,
+          9,
+          12,
           15,
-          20,
-          25,
         ]}%.`,
       },
-      "Frozen Soul": {
-        name: "Frozen Soul",
+      "Frostbite": {
+        name: "Frostbite",
         pos: "c3",
-        icon: icons["spell_frost_wisp"],
+        icon: icons["spell_frost_frostarmor"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives you a ${[
-          35,
-          70,
-        ]}% chance to resist interruption caused by damage while casting any Frost spell.`,
+        description: talentText`Gives your Chill effects a ${[
+          4,
+          8,
+          12,
+          16,
+          20,
+        ]}% chance to freeze the target for 5 sec.`,
       },
       "Improved Blizzard": {
         name: "Improved Blizzard",
         pos: "d2",
         icon: icons["spell_frost_icestorm"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 15,
         description: talentText`Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by ${[
           25,
@@ -626,7 +611,13 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}%.`,
+        ]}% and gives your Chill and Freeze Effects a ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}% chance to resist dispel effects..`,
       },
       "Sphere of Frost": {
         name: "Sphere of Frost",

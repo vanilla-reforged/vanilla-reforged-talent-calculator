@@ -104,15 +104,17 @@ export const data: TalentData = {
         name: "Improved Entangling Roots",
         pos: "c1",
         icon: icons["spell_nature_stranglevines"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 10,
         prereq: "Nature's Grasp",
         arrows: [{ dir: "down", from: "a1", to: "c1" }],
-        description: talentText`Reduces the casting time of your Entangling Roots spell by ${[
-          0.3,
-          0.6,
-          1,
-        ]} sec.`,
+        description: talentText`Gives you a ${[
+          20,
+          40,
+          60,
+          80,
+          100,
+        ]}% chance to avoid interruption caused by damage while casting Entangling Roots.`,
       },
       "Moonglow": {
         name: "Moonglow",
@@ -135,17 +137,6 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 10,
         description: talentText`The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 60 Nature damage over 12 sec.`,
-      },
-      "Balanced Soul": {
-        name: "Balanced Soul",
-        pos: "c4",
-        icon: icons["spell_nature_naturetouchdecay"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Gives you a ${[
-          35,
-          70,
-        ]}% chance to avoid interruption caused by damage while casting any Balance spell.`,
       },
       "Improved Moonfire": {
         name: "Improved Moonfire",
@@ -406,7 +397,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_bear"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to charge an enemy, stunning the target for 3 sec.  18 sec cooldown`,
+        description: talentText`Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec.  15 sec cooldown`,
       },
       "Eye of the Tiger": {
         name: "Eye of the Tiger",

@@ -60,10 +60,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Affliction spells by ${[
           10,
           20,
-        ]}% and gives them a ${[
-          15,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Improved Fear": {
         name: "Improved Fear",
@@ -108,17 +105,17 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Affliction spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          2.55,
+          5.1,
+          7.65,
+          10.2,
+          12.75,
         ]}% and reduces the threat caused by your Affliction spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          1.5,
+          3,
+          4.5,
+          6,
+          7.5,
         ]}%.`,
       },
       "Fel Concentration": {
@@ -202,7 +199,13 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}%.`,
+        ]}% and gives your Curses a ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}% chance to resist dispel effects.`,
       },
       "Nightfall": {
         name: "Nightfall",
@@ -334,11 +337,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Increases your total Stamina by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}% but reduces your total Spirit by ${[
           1,
           2,
@@ -509,10 +512,7 @@ export const data: TalentData = {
         description: talentText`Increases the range of your Destruction spells by ${[
           10,
           20,
-        ]}% and gives them a ${[
-          15,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Bane": {
         name: "Bane",
@@ -520,7 +520,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Immolate, Searing Pain and Shadow Bolt spells by ${[
+        description: talentText`Reduces the casting time of your Searing Pain and Shadow Bolt spells by ${[
           0.1,
           0.2,
           0.3,
@@ -534,17 +534,19 @@ export const data: TalentData = {
           2
         ]} sec.`,
       },
-      "Improved Searing Pain": {
-        name: "Improved Searing Pain",
+      "Improved Immolate": {
+        name: "Improved Immolate",
         pos: "b3",
-        icon: icons["spell_fire_soulburn"],
-        maxRank: 3,
+        icon: icons["spell_fire_immolation"],
+        maxRank: 5,
         reqPoints: 5,
-        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt to the target by ${[
-          5,
-          10,
-          15,
-        ]}% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.`,
+        description: talentText`Reduces the casting time of your Immolate spell by ${[
+          0.4,
+          0.8,
+          1.2,
+          1.6,
+          2,
+        ]} sec.`,
       },
       "Shadowburn": {
         name: "Shadowburn",
@@ -575,11 +577,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Destruction spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          0.8,
+          1.6,
+          2.4,
+          3.2,
+          4,
         ]}% and reduces the threat caused by your Destruction spells by ${[
           5,
           10,
@@ -587,17 +589,6 @@ export const data: TalentData = {
           20,
           25,
         ]}%.`,
-      },
-      "Intensity": {
-        name: "Intensity",
-        pos: "c4",
-        icon: icons["spell_fire_lavaspawn"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Gives you a ${[
-          35,
-          70,
-        ]}% chance to resist interruption caused by damage while casting any Destruction spell.`,
       },
       "Pyroclasm": {
         name: "Pyroclasm",
@@ -610,17 +601,17 @@ export const data: TalentData = {
           26,
         ]}% chance to stun the target for 3 sec.`,
       },
-      "Improved Immolate": {
-        name: "Improved Immolate",
+            "Improved Searing Pain": {
+        name: "Improved Searing Pain",
         pos: "d3",
-        icon: icons["spell_fire_immolation"],
+        icon: icons["spell_fire_soulburn"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the initial damage done by your Immolate spell by ${[
+        description: talentText`Your Searing Pain critical strikes increase Fire damage dealt to the target by ${[
+          5,
           10,
-          20,
-          30,
-        ]}%.`,
+          15,
+        ]}% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.`,
       },
       "Ruin": {
         name: "Ruin",
