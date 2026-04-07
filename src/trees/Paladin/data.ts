@@ -539,10 +539,10 @@ export const data: TalentData = {
       },
       "Vindication": {
         name: "Vindication",
-        pos: "d2",
+        pos: "c4",
         icon: icons["spell_holy_vindication"],
         maxRank: 2,
-        reqPoints: 15,
+        reqPoints: 10,
         description: talentText`Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by ${[
           5,
           10,
