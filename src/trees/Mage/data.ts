@@ -54,21 +54,9 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Improved Evocation": {
-        name: "Improved Evocation",
-        pos: "b2",
-        icon: icons["spell_nature_purge"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Evocation spell by ${[
-          1,
-          2,
-          3,
-        ]} min.`,
-      },
       "Improved Blink": {
         name: "Improved Blink",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_arcane_blink"],
         maxRank: 5,
         reqPoints: 5,
@@ -79,6 +67,18 @@ export const data: TalentData = {
           4,
           5,
         ]} sec.`,
+      },
+            "Improved Evocation": {
+        name: "Improved Evocation",
+        pos: "b3",
+        icon: icons["spell_nature_purge"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Reduces the cooldown of your Evocation spell by ${[
+          1,
+          2,
+          3,
+        ]} min.`,
       },
       "Arcane Concentration": {
         name: "Arcane Concentration",
