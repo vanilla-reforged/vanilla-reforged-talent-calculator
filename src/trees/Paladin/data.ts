@@ -413,7 +413,7 @@ export const data: TalentData = {
         icon: icons["classic_spell_holy_blessingofprotection"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Crusader's Charge",
+        prereq: "Templar's Blow",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`Increases your chance to block by 60% for 14 sec and generates 3% of your total Mana.  While active 65 Holy damage are dealt to an attacker when his attack is blocked.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.  10 sec cooldown`,
       },
