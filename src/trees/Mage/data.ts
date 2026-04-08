@@ -128,9 +128,10 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Gives you a ${[
-          50,
+          35,
+          70,
           100,
-        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
+        ]}% chance to resist interruption caused by damage while casting the Arcane Missiles spell.`,
       },
       "Arcane Meditation": {
         name: "Arcane Meditation",
