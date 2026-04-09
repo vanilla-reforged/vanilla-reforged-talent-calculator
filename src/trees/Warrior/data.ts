@@ -423,10 +423,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Health will regenerate at a ${[
-          50,
-          100,
-        ]}% rate while in combat.  Lasts 15 sec.`,
+        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Health will regenerate at a 50% rate while in combat.  Lasts 15 sec.`,
       },
       "Shield Specialization": {
         name: "Shield Specialization",
