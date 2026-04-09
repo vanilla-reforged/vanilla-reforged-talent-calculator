@@ -185,11 +185,7 @@ export const data: TalentData = {
           4,
           8,
           12,
-        ]} and gives your Arcane spells a ${[
-          6.5,
-          13,
-          20,
-        ]}% chance to resist dispel effects.  In addition it causes all spells you fully resist to restore ${[
+        ]} and causes all spells you fully resist to restore  ${[
           2,
           4,
           6,
@@ -612,13 +608,7 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}% and gives your Chill and Freeze Effects a ${[
-          6,
-          12,
-          18,
-          24,
-          30,
-        ]}% chance to resist dispel effects..`,
+        ]}%.`,
       },
       "Sphere of Frost": {
         name: "Sphere of Frost",

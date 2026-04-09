@@ -199,13 +199,7 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}% and gives your Curses a ${[
-          6,
-          12,
-          18,
-          24,
-          30,
-        ]}% chance to resist dispel effects.`,
+        ]}%.`,
       },
       "Nightfall": {
         name: "Nightfall",
