@@ -105,17 +105,17 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Affliction spells by ${[
-          2.55,
-          5.1,
-          7.65,
-          10.2,
-          12.75,
-        ]}% and reduces the threat caused by your Affliction spells by ${[
-          1.5,
           3,
-          4.5,
           6,
-          7.5,
+          9,
+          12,
+          15,
+        ]}% and reduces the threat caused by your Affliction spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
         ]}%.`,
       },
       "Fel Concentration": {
@@ -571,17 +571,17 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Reduces the mana cost of your Destruction spells by ${[
-          0.8,
-          1.6,
-          2.4,
-          3.2,
+          1,
+          2,
+          3,
           4,
-        ]}% and reduces the threat caused by your Destruction spells by ${[
           5,
-          10,
-          15,
+        ]}% and reduces the threat caused by your Destruction spells by ${[
+          4,
+          8,
+          12,
+          16,
           20,
-          25,
         ]}%.`,
       },
       "Pyroclasm": {
