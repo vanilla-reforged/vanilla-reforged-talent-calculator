@@ -245,7 +245,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_unyieldingfaith"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with spells by ${[
+        description: talentText`Increases your chance to hit with Holy spells by ${[
           1,
           2,
           3,
@@ -466,27 +466,18 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Pursuit of Justice": {
-        name: "Pursuit of Justice",
-        pos: "b1",
-        icon: icons["spell_holy_persuitofjustice"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Increases your movement and mounted movement speed by ${[
-          5,
-          10,
-        ]}%.  This does not stack with other movement speed increasing effects.`,
-      },
       "Improved Judgement": {
         name: "Improved Judgement",
         pos: "b2",
         icon: icons["spell_holy_righteousfury"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 5,
         description: talentText`Decreases the cooldown of your Judgement spell by ${[
-          0.5,
-          1,
-          1.5,
+          0.4,
+          0.8,
+          1.2,
+          1.6,
+          2,
         ]} sec.`,
       }, 
       "Improved Retribution Aura": {

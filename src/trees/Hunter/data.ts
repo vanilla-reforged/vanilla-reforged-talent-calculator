@@ -563,7 +563,7 @@ export const data: TalentData = {
         icon: icons["ability_stealth"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Allows you to sneak around, but reduces your speed by 30%.  Lasts until cancelled.`,
+        description: talentText`Allows you to sneak around, but reduces your speed by 50%.  Lasts until cancelled.`,
       },
       "Killer Instinct": {
         name: "Killer Instinct",

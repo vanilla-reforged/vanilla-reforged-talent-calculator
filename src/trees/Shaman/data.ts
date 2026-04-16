@@ -54,17 +54,17 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
-      "Storm Reach": {
-        name: "Storm Reach",
+      "Eye of the Storm": {
+        name: "Eye of the Storm",
         pos: "b1",
-        icon: icons["spell_nature_stormreach"],
+        icon: icons["spell_nature_eyeofthestorm"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the range of your Elemental and Restoration spells by ${[
-          10,
-          20,
-        ]}%.`,
-      },
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
+      }, 
       "Lightning Mastery": {
         name: "Lightning Mastery",
         pos: "b2",
@@ -83,25 +83,16 @@ export const data: TalentData = {
         name: "Reverberation",
         pos: "b3",
         icon: icons["spell_frost_frostward"],
-        maxRank: 3,
+        maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Shock spells by ${[
-          0.5,
-          1,
-          1.5,
+          0.4,
+          0.8,
+          1.2,
+          1.6,
+          2,
         ]} sec.`,
       },
-      "Eye of the Storm": {
-        name: "Eye of the Storm",
-        pos: "b4",
-        icon: icons["spell_nature_eyeofthestorm"],
-        maxRank: 2,
-        reqPoints: 5,
-        description: talentText`Gives you a ${[
-          50,
-          100,
-        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
-      }, 
       "Elemental Focus": {
         name: "Elemental Focus",
         pos: "c1",
@@ -130,8 +121,6 @@ export const data: TalentData = {
         icon: icons["classic_spell_fire_elementaldevastation"],
         maxRank: 3,
         reqPoints: 10,
-        prereq: "Reverberation",
-        arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Increases your chance to get a critical strike by ${[
           5,
           10,

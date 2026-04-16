@@ -40,25 +40,16 @@ export const data: TalentData = {
           10,
         ]}.`,
       },
-      "Improved Hamstring": {
-        name: "Improved Hamstring",
+      "Veteran's March": {
+        name: "Veteran's March",
         pos: "b1",
-        icon: icons["ability_shockwave"],
-        maxRank: 5,
+        icon: icons["spell_holy_prayerofhealing"],
+        maxRank: 2,
         reqPoints: 5,
-        description: talentText`Gives your Hamstring ability a ${[
+        description: talentText`Increases your movement and mounted movement speed by ${[
           5,
           10,
-          15,
-          20,
-          25,
-        ]}% chance to immobilize the target for 5 sec and reduces the rage cost of your Hamstring ability by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
-        ]}.`,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Prepared for Battle": {
         name: "Prepared for Battle",
@@ -86,6 +77,22 @@ export const data: TalentData = {
           3,
           4,
           5,
+        ]}.`,
+      },
+      "Improved Hamstring": {
+        name: "Improved Hamstring",
+        pos: "b3",
+        icon: icons["ability_shockwave"],
+        maxRank: 3,
+        reqPoints: 3,
+        description: talentText`Gives your Hamstring ability a ${[
+          5,
+          10,
+          15,
+        ]}% chance to immobilize the target for 5 sec and reduces the rage cost of your Hamstring ability by ${[
+          1,
+          2,
+          3,
         ]}.`,
       },
       "Improved Overpower": {
@@ -345,8 +352,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Reduces the cooldown of your Intercept ability by ${[
-          7,
-          14,
+          6,
+          12,
         ]} sec.`,
       },
       "Enrage": {
@@ -379,7 +386,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases your physical damage by 10%, but lowers your armor and all resistances by 90%.  Lasts 20 sec.  2 min cooldown`,
+        description: talentText`When activated, increases your physical damage by 10%, but lowers your armor and all resistances by 10%.  Lasts 20 sec.  2 min cooldown`,
       },
       "Flurry": {
         name: "Flurry",

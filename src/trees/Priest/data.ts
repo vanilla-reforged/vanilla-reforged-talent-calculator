@@ -30,7 +30,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_unyieldingfaith"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with spells by ${[
+        description: talentText`Increases your chance to hit with Holy spells by ${[
           1,
           2,
           3,
@@ -491,18 +491,6 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
-      "Shadow Steps": {
-        name: "Shadow Steps",
-        pos: "b3",
-        icon: icons["ability_rogue_feint"],
-        maxRank: 3,
-        reqPoints: 5,
-        description: talentText`Increases your movement and mounted movement speed by ${[
-          5,
-          10,
-          15,
-        ]}%.  This does not stack with other movement speed increasing effects.`,
-      },
       "Improved Psychic Scream": {
         name: "Improved Psychic Scream",
         pos: "b4",
@@ -514,6 +502,17 @@ export const data: TalentData = {
           4,
           6,
         ]} sec.`,
+      },
+      "Shadow Steps": {
+        name: "Shadow Steps",
+        pos: "b4",
+        icon: icons["ability_rogue_feint"],
+        maxRank: 2,
+        reqPoints: 5,
+        description: talentText`Increases your movement and mounted movement speed by ${[
+          5,
+          10,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Vampiric Embrace": {
         name: "Vampiric Embrace",
@@ -527,13 +526,14 @@ export const data: TalentData = {
         name: "Improved Vampiric Embrace",
         pos: "c2",
         icon: icons["spell_shadow_unsummonbuilding"],
-        maxRank: 2,
+        maxRank: 3,
         reqPoints: 10,
         prereq: "Vampiric Embrace",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
         description: talentText`Increases the percentage healed by Vampiric Embrace by an additional ${[
           5,
           10,
+          15,
         ]}%.`,
       },
       "Improved Mind Blast": {

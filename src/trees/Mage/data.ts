@@ -90,16 +90,16 @@ export const data: TalentData = {
           10,
         ]}% chance of entering a Clearcasting state after any of your damage spells hit a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
       },
-      "Arcane Reach": {
-        name: "Arcane Reach",
+      "Tomeseeker": {
+        name: "Tomeseeker",
         pos: "b1",
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the range of your Arcane spells by ${[
+        description: talentText`Increases your movement and mounted movement speed by ${[
+          5,
           10,
-          20,
-        ]}%.`,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Arcane Mind": {
         name: "Arcane Mind",
