@@ -493,7 +493,7 @@ export const data: TalentData = {
       },
       "Improved Psychic Scream": {
         name: "Improved Psychic Scream",
-        pos: "b4",
+        pos: "b3",
         icon: icons["spell_shadow_psychicscream"],
         maxRank: 3,
         reqPoints: 5,
