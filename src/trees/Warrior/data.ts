@@ -84,7 +84,7 @@ export const data: TalentData = {
         pos: "b3",
         icon: icons["ability_shockwave"],
         maxRank: 3,
-        reqPoints: 3,
+        reqPoints: 5,
         description: talentText`Gives your Hamstring ability a ${[
           5,
           10,
