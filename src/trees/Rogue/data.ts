@@ -167,7 +167,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathscream"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Sinister Strike ability by ${[
+        description: talentText`Increases the damage done by your Backstab ability by ${[
           2,
           4,
           6,
