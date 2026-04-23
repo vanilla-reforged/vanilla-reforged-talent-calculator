@@ -445,7 +445,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_healingtouch"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the threat caused by your spells by ${[
+        description: talentText`Reduces the threat you cause by ${[
           2,
           4,
           6,
