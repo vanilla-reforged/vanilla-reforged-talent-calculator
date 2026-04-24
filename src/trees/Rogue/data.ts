@@ -432,13 +432,7 @@ export const data: TalentData = {
         icon: icons["ability_stealth"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your speed while stealthed by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}% and reduces the cooldown of your Stealth ability by ${[
+        description: talentText`Reduces the cooldown of your Stealth ability by ${[
           1,
           2,
           3,
