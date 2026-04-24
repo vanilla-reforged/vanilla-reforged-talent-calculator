@@ -110,7 +110,7 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]}% and reduces the threat caused by your Affliction spells by ${[
+        ]}% and reduces the threat caused by your Shadow spells by ${[
           1,
           2,
           3,
@@ -576,7 +576,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and reduces the threat caused by your Destruction spells by ${[
+        ]}% and reduces the threat caused by your Fire spells by ${[
           4,
           8,
           12,

@@ -460,7 +460,7 @@ export const data: TalentData = {
         icon: icons["ability_eyeoftheowl"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the threat you cause by ${[
+        description: talentText`Reduces the threat caused by your Arcane and Nature spells by ${[
           2,
           4,
           6,
