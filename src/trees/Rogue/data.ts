@@ -88,7 +88,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When used, adds 1 combo point to your target.  You must add to or use this combo point within 10 sec or the combo point is lost.  1 min cooldown`,
+        description: talentText`When used, adds 1 combo point to your target.  You must add to or use this combo point within 10 sec or the combo point is lost.\n\n1 min cooldown.`,
       },
       "Improved Poisons": {
         name: "Improved Poisons",
@@ -159,7 +159,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_lament"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.  2 min cooldown`,
+        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.\n\n2 min cooldown.`,
       },
       "Murder": {
         name: "Murder",
@@ -363,7 +363,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_punishingblow"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 sec.  2 min cooldown`,
+        description: talentText`Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 sec.\n\n2 min cooldown.`,
       },
       "Aggression": {
         name: "Aggression",
@@ -403,7 +403,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blade Flurry",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your Energy regeneration rate by 100% for 15 sec.  In addition you become immune to stun and incapacitate effects.  2 min cooldown`,
+        description: talentText`Increases your Energy regeneration rate by 100% for 15 sec.  In addition you become immune to stun and incapacitate effects.\n\n2 min cooldown.`,
       },
     },
   },
@@ -485,7 +485,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_curse"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec.  Awards 1 combo point.  20 sec cooldown`,
+        description: talentText`A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec.  Awards 1 combo point.\n\n20 sec cooldown.`,
       },
       "Elusiveness": {
         name: "Elusiveness",
@@ -594,7 +594,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Veil yourself in Shadows, removing all bleed, disease, magic and poison effects and absorbing 500 damage for 15 sec.  30 sec cooldown`,
+        description: talentText`Veil yourself in Shadows, removing all bleed, disease, magic and poison effects and absorbing 500 damage for 15 sec.\n\n30 sec cooldown.`,
       },
     },
   },

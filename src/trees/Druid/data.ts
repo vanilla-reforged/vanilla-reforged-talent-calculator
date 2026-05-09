@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_natureswrath"],
         maxRank: 1,
         reqPoints: 0,
-        description: talentText`While active, any time an enemy strikes the caster they have a 35% chance to become afflicted by Entangling Roots (Rank 1).  Only useable outdoors.  1 charge.  Lasts 45 sec.  1 min cooldown`,
+        description: talentText`While active, any time an enemy strikes the caster they have a 35% chance to become afflicted by Entangling Roots (Rank 1).  Only useable outdoors.  1 charge.  Lasts 45 sec.\n\n1 min cooldown.`,
       },
       "Improved Nature's Grasp": {
         name: "Nature's Guidance",
@@ -397,7 +397,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_bear"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec.  15 sec cooldown`,
+        description: talentText`Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec.\n\n15 sec cooldown.`,
       },
       "Eye of the Tiger": {
         name: "Eye of the Tiger",
@@ -601,7 +601,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Nature spell becomes an instant cast spell.  2 min cooldown`,
+        description: talentText`When activated, your next Nature spell becomes an instant cast spell.\n\n2 min cooldown.`,
       },
       "Tranquil Mind": {
         name: "Tranquil Mind",
