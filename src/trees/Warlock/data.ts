@@ -425,11 +425,11 @@ export const data: TalentData = {
           8,
           10,
         ]}%.\n\nSuccubus - Increases all damage caused by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}%.\n\nFelhunter - Increases all resistances by ${[
           0.2,
           0.4,
