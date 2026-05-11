@@ -217,7 +217,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Sweeping Strikes",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals 130% normal weapon damage.  Whenever this ability deals a critical strike, your next Hamstring, Heroic Strike, Rend, or Overpower costs no rage.\n\n6 sec cooldown.`,
+        description: talentText`A vicious strike that deals 130% normal weapon damage.  Whenever this ability deals a critical strike, your next Hamstring, Heroic Strike, Rend, or Overpower costs no rage.  Lasts 8 sec.\n\n6 sec cooldown.`,
       },
     },
   },
