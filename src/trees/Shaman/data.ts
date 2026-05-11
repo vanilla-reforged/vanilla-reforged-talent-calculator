@@ -374,13 +374,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Plate Mail": {
-        name: "Plate Mail",
+      "Stormstrike": {
+        name: "Stormstrike",
         pos: "e2",
-        icon: icons["inv_chest_plate02"],
+        icon: icons["spell_holy_sealofmight"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Allows you to wear Plate Mail armor.`,
+        description: talentText`Gives you an extra attack and generates 3% of your total mana.  In addition, the damage of your next Nature spell is increased by 10%.  Lasts 8 sec.\n\n10 sec cooldown.`,
       },
       "Thunderstruck": {
         name: "Thunderstruck",
@@ -408,15 +408,15 @@ export const data: TalentData = {
           25,
         ]}% for your next 3 swings after dealing a melee critical strike.`,
       },
-      "Stormstrike": {
-        name: "Stormstrike",
+        "Plate Mail": {
+        name: "Plate Mail",
         pos: "g2",
-        icon: icons["spell_holy_sealofmight"],
+        icon: icons["inv_chest_plate02"],
         maxRank: 1,
         reqPoints: 30,
-        prereq: "Plate Mail",
+        prereq: "Stormstrike",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Gives you an extra attack and generates 3% of your total mana.  In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%.  Lasts 12 sec.\n\n10 sec cooldown.`,
+        description: talentText`Allows you to wear Plate Mail armor.`,
       },
     },
   },
