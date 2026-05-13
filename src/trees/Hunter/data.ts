@@ -211,7 +211,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Intimidation",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Send yourself and your pet into a rage causing 30% additional damage for 18 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.\n\n2 min cooldown.`,
+        description: talentText`Send yourself and your pet into a rage causing 20% additional damage for 15 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.\n\n2 min cooldown.`,
       },
     },
   },
