@@ -93,7 +93,7 @@ export const data: TalentData = {
       "Tomeseeker": {
         name: "Tomeseeker",
         pos: "b1",
-        icon: icons["spell_nature_abolishmagic"],
+        icon: icons["spell_magic_lesserinvisibilty"],
         maxRank: 2,
         reqPoints: 5,
         description: talentText`Increases your movement and mounted movement speed by ${[
@@ -124,7 +124,7 @@ export const data: TalentData = {
       "Arcane Tempest": {
         name: "Arcane Tempest",
         pos: "c3",
-        icon: icons["spell_nature_wispsplode"],
+        icon: icons["spell_nature_starfall"],
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Gives you a ${[
