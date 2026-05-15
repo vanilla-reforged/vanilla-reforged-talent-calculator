@@ -335,8 +335,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessedrecovery"],
         maxRank: 2,
         reqPoints: 10,
-        prereq: "Improved Desperate Prayer",
-        arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Heals ${[
           50,
           100,

@@ -58,8 +58,6 @@ export const data: TalentData = {
         icon: icons["inv_weapon_shortblade_05"],
         maxRank: 5,
         reqPoints: 5,
-        prereq: "Improved Backstab",
-        arrows: [{ dir: "down", from: "a2", to: "b2" }],
         description: talentText`Reduces the Energy cost of your Backstab ability by ${[
           1,
           2,
@@ -286,7 +284,7 @@ export const data: TalentData = {
       },
       "Rampage": {
         name: "Rampage",
-        pos: "b4",
+        pos: "b3",
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 5,
         reqPoints: 5,
@@ -322,7 +320,7 @@ export const data: TalentData = {
       },
       "Improved Slice and Dice": {
         name: "Improved Slice and Dice",
-        pos: "c4",
+        pos: "c3",
         icon: icons["ability_rogue_slicedice"],
         maxRank: 3,
         reqPoints: 10,
@@ -349,8 +347,6 @@ export const data: TalentData = {
         icon: icons["ability_criticalstrike"],
         maxRank: 3,
         reqPoints: 15,
-        prereq: "Spite",
-        arrows: [{ dir: "down", from: "a3", to: "d3" }],
         description: talentText`Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by ${[
           10,
           20,
@@ -471,8 +467,6 @@ export const data: TalentData = {
         icon: icons["ability_sap"],
         maxRank: 3,
         reqPoints: 5,
-        prereq: "Camouflage",
-        arrows: [{ dir: "down", from: "a3", to: "b3" }],
         description: talentText`Gives you a ${[
           33,
           66,

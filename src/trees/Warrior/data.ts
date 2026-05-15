@@ -81,7 +81,7 @@ export const data: TalentData = {
       },
       "Improved Hamstring": {
         name: "Improved Hamstring",
-        pos: "b3",
+        pos: "b4",
         icon: icons["ability_shockwave"],
         maxRank: 3,
         reqPoints: 5,

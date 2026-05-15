@@ -162,7 +162,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%.\n\n2 min cooldown.`,
+        description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%.\n\n1 min cooldown.`,
       },
       "Lasting Judgement": {
         name: "Lasting Judgement",

@@ -289,7 +289,7 @@ export const data: TalentData = {
       },
       "Improved Aspect of the Hawk": {
         name: "Improved Aspect of the Hawk",
-        pos: "b4",
+        pos: "b3",
         icon: icons["spell_nature_ravenform"],
         maxRank: 5,
         reqPoints: 5,
@@ -325,7 +325,7 @@ export const data: TalentData = {
       },
       "Improved Hunter's Mark": {
         name: "Improved Hunter's Mark",
-        pos: "c4",
+        pos: "c3",
         icon: icons["ability_hunter_snipershot"],
         maxRank: 3,
         reqPoints: 10,
@@ -352,8 +352,6 @@ export const data: TalentData = {
         icon: icons["ability_piercedamage"],
         maxRank: 3,
         reqPoints: 15,
-        prereq: "Lethal Shots",
-        arrows: [{ dir: "down", from: "a3", to: "d3" }],
         description: talentText`Increases the critical strike damage bonus of your ranged attacks by ${[
           10,
           20,
