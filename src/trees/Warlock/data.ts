@@ -328,20 +328,16 @@ export const data: TalentData = {
         name: "Demonic Embrace",
         pos: "c3",
         icon: icons["spell_shadow_metamorphosis"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases your total Stamina by ${[
           2,
           4,
           6,
-          8,
-          10,
         ]}% but reduces your total Spirit by ${[
           1,
           2,
           3,
-          4,
-          5,
         ]}%.`,
       },
       "Fel Swiftness": {
@@ -360,16 +356,14 @@ export const data: TalentData = {
         name: "Improved Enslave Demon",
         pos: "d2",
         icon: icons["spell_shadow_enslavedemon"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 15,
         description: talentText`Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
-          5,
           10,
-          15,
+          20,
         ]}% and increases its chance to hit by ${[
-          5,
           10,
-          15,
+          20,
         ]}%.`,
       },
       "Demonic Command": {
