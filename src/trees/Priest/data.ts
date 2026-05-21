@@ -496,9 +496,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Reduces the cooldown of your Psychic Scream spell by ${[
+          1,
           2,
-          4,
-          6,
+          3,
         ]} sec.`,
       },
       "Shadow Steps": {
