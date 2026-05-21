@@ -393,7 +393,7 @@ export const data: TalentData = {
         description: talentText`Increases the damage done by your summoned demon by ${[
           3,
           6,
-          9,
+          10,
         ]}%.`,
       },
       "Soul Link": {
