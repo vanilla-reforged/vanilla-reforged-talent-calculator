@@ -116,7 +116,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_renew"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Cleanse and Purify spells by ${[
+        description: talentText`Reduces the mana cost of your Cleanse spell by ${[
           6,
           12,
           18,

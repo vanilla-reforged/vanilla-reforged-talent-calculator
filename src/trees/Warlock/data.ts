@@ -268,7 +268,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to create a Soul Shard when using an ability that consumes one.`,
+        ]}% chance to create a Soul Shard when summoning or enslaving a demon.`,
       },
       "Demonic Embrace": {
         name: "Demonic Embrace",

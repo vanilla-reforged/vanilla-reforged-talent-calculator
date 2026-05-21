@@ -304,8 +304,8 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Elemental Blessing": {
-        name: "Elemental Blessing",
+      "Elemental Bullwark": {
+        name: "Elemental Bullwark",
         pos: "c1",
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
