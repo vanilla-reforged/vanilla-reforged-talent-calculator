@@ -258,31 +258,33 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Motivation by Threat": {
-        name: "Motivation by Threat",
+      "Forbidden Knowledge": {
+        name: "Forbidden Knowledge",
         pos: "b2",
-        icon: icons["spell_shadow_summonimp"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Reduces the casting time of your Imp's Firebolt spell by ${[
-          0.1,
-          0.2,
-          0.3,
-          0.4,
-          0.5,
-        ]} sec, the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
+        icon: icons["spell_shadow_unholyfrenzy"],
+        maxRank: 3,
+        reqPoints: 6,
+        description: talentText`Gives you a ${[
+          33,
+          66,
+          100,
+        ]}% chance to create a Soul Shard when using an ability that consumes one.`,
+      },
+      "Demonic Embrace": {
+        name: "Demonic Embrace",
+        pos: "b2",
+        icon: icons["spell_shadow_metamorphosis"],
+        maxRank: 3,
+        reqPoints: 6,
+        description: talentText`Increases your total Stamina by ${[
+          2,
+          4,
+          6,
+        ]}% but reduces your total Spirit by ${[
           1,
           2,
           3,
-          4,
-          5,
-        ]} sec and reduces the cooldown of Voidwalker's Torment spell by ${[
-          0.4,
-          0.8,
-          1.2,
-          1.6,
-          2,
-        ]} sec`,
+        ]}%.`,
       },
       "Fel Endurance": {
         name: "Fel Endurance",
@@ -324,21 +326,31 @@ export const data: TalentData = {
           30
         ]}%.`,
       },
-      "Demonic Embrace": {
-        name: "Demonic Embrace",
+        "Motivation by Threat": {
+        name: "Motivation by Threat",
         pos: "c3",
-        icon: icons["spell_shadow_metamorphosis"],
-        maxRank: 3,
+        icon: icons["spell_shadow_summonimp"],
+        maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases your total Stamina by ${[
-          2,
-          4,
-          6,
-        ]}% but reduces your total Spirit by ${[
+        description: talentText`Reduces the casting time of your Imp's Firebolt spell by ${[
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+        ]} sec, the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
           1,
           2,
           3,
-        ]}%.`,
+          4,
+          5,
+        ]} sec and reduces the cooldown of Voidwalker's Torment spell by ${[
+          0.4,
+          0.8,
+          1.2,
+          1.6,
+          2,
+        ]} sec`,
       },
       "Fel Swiftness": {
         name: "Fel Swiftness",
