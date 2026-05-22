@@ -332,19 +332,19 @@ export const data: TalentData = {
         icon: icons["spell_shadow_summonimp"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the casting time of yourImp's Firebolt spell b y${[
+        description: talentText`Reduces the casting time of your Imp's Firebolt spell by ${[
           0.1,
           0.2,
           0.3,
           0.4,
           0.5,
-        ]} sec,\n\n the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
+        ]} sec.\n\n Reduces the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
           1,
           2,
           3,
           4,
           5,
-        ]} sec\n\n and reduces the cooldown of Voidwalker's Torment spell by ${[
+        ]} sec.\n\n Reduces the cooldown of Voidwalker's Torment spell by ${[
           0.4,
           0.8,
           1.2,
