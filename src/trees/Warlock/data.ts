@@ -260,10 +260,10 @@ export const data: TalentData = {
       },
       "Forbidden Knowledge": {
         name: "Forbidden Knowledge",
-        pos: "b2",
+        pos: "b1",
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
-        reqPoints: 6,
+        reqPoints: 5,
         description: talentText`Gives you a ${[
           33,
           66,
@@ -275,7 +275,7 @@ export const data: TalentData = {
         pos: "b2",
         icon: icons["spell_shadow_metamorphosis"],
         maxRank: 3,
-        reqPoints: 6,
+        reqPoints: 5,
         description: talentText`Increases your total Stamina by ${[
           2,
           4,
