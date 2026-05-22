@@ -338,13 +338,13 @@ export const data: TalentData = {
           0.3,
           0.4,
           0.5,
-        ]} sec.\n\n Reduces the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
+        ]} sec.\n\nReduces the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
           1,
           2,
           3,
           4,
           5,
-        ]} sec.\n\n Reduces the cooldown of Voidwalker's Torment spell by ${[
+        ]} sec.\n\nReduces the cooldown of Voidwalker's Torment spell by ${[
           0.4,
           0.8,
           1.2,
