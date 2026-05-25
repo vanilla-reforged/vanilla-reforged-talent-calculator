@@ -371,11 +371,11 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 15,
         description: talentText`Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
-          10,
-          20,
+          15,
+          30,
         ]}% and increases its chance to hit by ${[
+          5,
           10,
-          20,
         ]}%.`,
       },
       "Demonic Command": {
