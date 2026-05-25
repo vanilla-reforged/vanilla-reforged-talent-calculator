@@ -185,10 +185,10 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Gives your offensive spells a ${[
-          2,
-          4,
-          6,
-        ]}% chance to reduce the casting time of your next Holy Fire or Smite Spell spell by 100%.`,
+          5,
+          10,
+          15,
+        ]}% chance to reduce the casting time of your next Holy Fire or Smite spell by 1 sec and its mana cost by 100%.`,
       },
       "Force of Will": {
         name: "Force of Will",
@@ -274,9 +274,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 5,
         description: talentText`Increases the critical strike chance of your Heal spell by ${[
-          5,
+          3,
+          6,
           10,
-          15,
         ]}%.`,
       },
       "Divine Grace": {
@@ -389,9 +389,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 20,
         description: talentText`Reduces the Mana cost of your Prayer of Healing spell by ${[
-          10,
-          20,
+          15,
           30,
+          45,
         ]}%.`,
       },
       "Spiritual Healing": {
