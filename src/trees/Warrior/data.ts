@@ -226,10 +226,10 @@ export const data: TalentData = {
     background: backgrounds["fury"],
     icon: icons["ability_warrior_innerrage"],
     talents: {
-      "Warrior's Vigor": {
-        name: "Warrior's Vigor",
+      "Blood Craze": {
+        name: "Blood Craze",
         pos: "a1",
-        icon: icons["spell_holy_devotionaura"],
+        icon: icons["spell_shadow_summonimp"],
         maxRank: 2,
         reqPoints: 0,
         description: talentText`Gives you a ${[
@@ -433,7 +433,7 @@ export const data: TalentData = {
       "Spellbreaker": {
         name: "Spellbreaker",
         pos: "a1",
-        icon: icons["spell_shadow_summonimp"],
+        icon: icons["spell_holy_devotionaura"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Reduces all spell damage taken by ${[
@@ -497,7 +497,7 @@ export const data: TalentData = {
       },
       "Colourful Language": {
         name: "Colorful Language",
-        pos: "b2",
+        pos: "b3",
         icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 5,
