@@ -368,7 +368,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dispelmagic"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Reduces the mana cost of your Abolish Disease, Cure Disease and Dispel Magic spells by ${[
+        description: talentText`Reduces the mana cost of your Abolish Disease and Dispel Magic spells by ${[
           12,
           24,
           36,

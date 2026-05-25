@@ -110,17 +110,17 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Improved Cleanse": {
-        name: "Improved Cleanse",
+      "Lasting Judgement": {
+        name: "Lasting Judgement",
         pos: "c3",
-        icon: icons["spell_holy_renew"],
+        icon: icons["spell_holy_healingaura"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Cleanse spell by ${[
-          6,
-          12,
-          18,
-        ]}%.`,
+        description: talentText`Increases the duration of your Judgement of Light and Judgement of Wisdom spells by ${[
+          10,
+          20,
+          30,
+        ]} sec.`,
       },
       "Spiritual Focus": {
         name: "Spiritual Focus",
@@ -144,17 +144,17 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-      "Illumination": {
-        name: "Illumination",
+            "Improved Cleanse": {
+        name: "Improved Cleanse",
         pos: "d3",
-        icon: icons["spell_holy_greaterheal"],
+        icon: icons["spell_holy_renew"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Gives you a ${[
-          33,
-          66,
-          100,
-        ]}% chance to gain Mana equal to the base cost of the spell, after getting a critical effect from one of your healing spells.`,
+        description: talentText`Reduces the mana cost of your Cleanse spell by ${[
+          6,
+          12,
+          18,
+        ]}%.`,
       },
       "Divine Favor": {
         name: "Divine Favor",
@@ -164,17 +164,17 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%.\n\n1 min cooldown.`,
       },
-      "Lasting Judgement": {
-        name: "Lasting Judgement",
+      "Illumination": {
+        name: "Illumination",
         pos: "e3",
-        icon: icons["spell_holy_healingaura"],
+        icon: icons["spell_holy_greaterheal"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the duration of your Judgement of Light and Judgement of Wisdom spells by ${[
-          15,
-          30,
-          45,
-        ]} sec.`,
+        description: talentText`Gives you a ${[
+          33,
+          66,
+          100,
+        ]}% chance to gain Mana equal to the base cost of the spell, after getting a critical effect from one of your healing spells.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
