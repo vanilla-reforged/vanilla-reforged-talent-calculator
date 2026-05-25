@@ -144,16 +144,16 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-            "Improved Cleanse": {
+      "Improved Cleanse": {
         name: "Improved Cleanse",
         pos: "d3",
         icon: icons["spell_holy_renew"],
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Reduces the mana cost of your Cleanse spell by ${[
-          6,
           12,
-          18,
+          24,
+          36,
         ]}%.`,
       },
       "Divine Favor": {
