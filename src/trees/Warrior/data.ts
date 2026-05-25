@@ -14,17 +14,29 @@ export const data: TalentData = {
     talents: {
       "Tactical Mastery": {
         name: "Tactical Mastery",
-        pos: "a2",
+        pos: "a1",
         icon: icons["spell_nature_enchantarmor"],
-        maxRank: 5,
+        maxRank: 3,
         reqPoints: 0,
         description: talentText`You retain up to ${[
           5,
           10,
           15,
-          20,
-          25,
         ]} of your rage points when you change stances.`,
+      },
+      "Two-Handed Precision": {
+        name: "Two-Handed Precision",
+        pos: "a2",
+        icon: icons["ability_marksmanship"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases your chance to hit with two-handed weapons by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`,
       },
       "Improved Charge": {
         name: "Improved Charge",
@@ -140,18 +152,6 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Improved Execute": {
-        name: "Improved Execute",
-        pos: "c4",
-        icon: icons["inv_sword_48"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Reduces the Rage cost of your Execute ability by ${[
-          2,
-          4,
-          6,
-        ]}.`,
-      },
       "Improved Pummel": {
         name: "Improved Pummel",
         pos: "d2",
@@ -226,27 +226,24 @@ export const data: TalentData = {
     background: backgrounds["fury"],
     icon: icons["ability_warrior_innerrage"],
     talents: {
-      "Magebane": {
-        name: "Magebane",
+      "Warrior's Vigor": {
+        name: "Warrior's Vigor",
         pos: "a1",
-        icon: icons["spell_shadow_summonimp"],
-        maxRank: 5,
+        icon: icons["spell_holy_devotionaura"],
+        maxRank: 2,
         reqPoints: 0,
-        description: talentText`Reduces all spell damage taken by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}%.`,
-       },
-      "Precision": {
-        name: "Precision",
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Health will regenerate at a 50% rate while in combat.  Lasts 15 sec.`,
+      },
+      "One-Handed Precision": {
+        name: "One-Handed Precision",
         pos: "a2",
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit by ${[
+        description: talentText`Increases your chance to hit with one-handed weapons by ${[
           1,
           2,
           3,
@@ -267,6 +264,22 @@ export const data: TalentData = {
           4,
           5,
         ]}%.`,
+      },
+      "Improved Cleave": {
+        name: "Improved Cleave",
+        pos: "b1",
+        icon: icons["ability_warrior_cleave"],
+        maxRank: 3,
+        reqPoints: 5,
+        description: talentText`Increases the damage done by your Cleave ability by an additional ${[
+          1,
+          2,
+          3,
+        ]}% and reduces its rage cost by ${[
+          1,
+          2,
+          3,
+        ]}.`,
       },
       "Pent up Rage": {
         name: "Pent up Rage",
@@ -318,20 +331,16 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Improved Cleave": {
-        name: "Improved Cleave",
+      "Improved Execute": {
+        name: "Improved Execute",
         pos: "c3",
-        icon: icons["ability_warrior_cleave"],
+        icon: icons["inv_sword_48"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the damage done by your Cleave ability by an additional ${[
-          1,
+        description: talentText`Reduces the Rage cost of your Execute ability by ${[
           2,
-          3,
-        ]}% and reduces its rage cost by ${[
-          1,
-          2,
-          3,
+          4,
+          6,
         ]}.`,
       },
       "Improved Whirlwind": {
@@ -421,17 +430,20 @@ export const data: TalentData = {
     background: backgrounds["protection"],
     icon: icons["inv_shield_06"],
     talents: {
-      "Warrior's Vigor": {
-        name: "Warrior's Vigor",
+      "Spellbreaker": {
+        name: "Spellbreaker",
         pos: "a1",
-        icon: icons["spell_holy_devotionaura"],
-        maxRank: 2,
+        icon: icons["spell_shadow_summonimp"],
+        maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives you a ${[
-          50,
-          100,
-        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Health will regenerate at a 50% rate while in combat.  Lasts 15 sec.`,
-      },
+        description: talentText`Reduces all spell damage taken by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}%.`,
+       },
       "Shield Specialization": {
         name: "Shield Specialization",
         pos: "a2",
@@ -476,29 +488,38 @@ export const data: TalentData = {
         name: "Improved Bloodrage",
         pos: "b1",
         icon: icons["ability_racial_bloodrage"],
-        maxRank: 5,
+        maxRank: 2,
         reqPoints: 5,
         description: talentText`Increases the instant Rage generated by your Bloodrage ability by ${[
           2,
           4,
-          6,
-          8,
-          10,
         ]}.`,
       },
-      "Improved Sunder Armor": {
-        name: "Improved Sunder Armor",
-        pos: "b3",
-        icon: icons["ability_warrior_sunder"],
+      "Colourful Language": {
+        name: "Colorful Language",
+        pos: "b2",
+        icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Rage cost of your Sunder Armor ability by ${[
+        description: talentText`Reduces the cooldown of your Challenging Shout ability by ${[
+          60,
+          120,
+          180,
+          240,
+          300,
+        ]} sec, the cooldown of your Mocking Blow ability by ${[
+          12,
+          24,
+          36,
+          48,
+          60,
+        ]} sec and the cooldown of your Taunt ability by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}.`,
+        ]} sec.`,
       },
       "Improved Thunder Clap": {
         name: "Improved Thunder Clap",
@@ -534,31 +555,19 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Colourful Language": {
-        name: "Colorful Language",
+      "Improved Sunder Armor": {
+        name: "Improved Sunder Armor",
         pos: "c3",
-        icon: icons["ability_warrior_warcry"],
+        icon: icons["ability_warrior_sunder"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Challenging Shout ability by ${[
-          60,
-          120,
-          180,
-          240,
-          300,
-        ]} sec, the cooldown of your Mocking Blow ability by ${[
-          12,
-          24,
-          36,
-          48,
-          60,
-        ]} sec and the cooldown of your Taunt ability by ${[
+        description: talentText`Reduces the Rage cost of your Sunder Armor ability by ${[
           1,
           2,
           3,
           4,
           5,
-        ]} sec.`,
+        ]}.`,
       },
       "Improved Revenge": {
         name: "Improved Revenge",
