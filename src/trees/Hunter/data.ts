@@ -491,17 +491,6 @@ export const data: TalentData = {
           20,
         ]}% chance to entrap the target, preventing them from moving for 5 sec.`,
       },
-      "Improved Wing Clip": {
-        name: "Improved Wing Clip",
-        pos: "c1",
-        icon: icons["ability_rogue_trip"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases the movement speed reduction of your Wing Clip ability by an additional ${[
-          5,
-          10,
-        ]}%.`,
-      },
       "Deterrence": {
         name: "Deterrence",
         pos: "c1",
@@ -514,7 +503,7 @@ export const data: TalentData = {
       },
       "Clever Traps": {
         name: "Clever Traps",
-        pos: "c3",
+        pos: "c2",
         icon: icons["spell_nature_timestop"],
         maxRank: 5,
         reqPoints: 10,
@@ -525,6 +514,17 @@ export const data: TalentData = {
           20,
           25,
         ]}% and the damage done by your Steel and Explosive traps by ${[8, 16, 24, 32, 40,]}%.`,
+      },
+      "Improved Wing Clip": {
+        name: "Improved Wing Clip",
+        pos: "c3",
+        icon: icons["ability_rogue_trip"],
+        maxRank: 2,
+        reqPoints: 10,
+        description: talentText`Increases the movement speed reduction of your Wing Clip ability by an additional ${[
+          5,
+          10,
+        ]}%.`,
       },
       "Improved Feign Death": {
         name: "Improved Feign Death",
