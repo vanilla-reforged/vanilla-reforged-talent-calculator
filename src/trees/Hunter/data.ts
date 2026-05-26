@@ -451,23 +451,9 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Trap Mastery": {
-        name: "Trap Mastery",
-        pos: "b2",
-        icon: icons["ability_ensnare"],
-        maxRank: 5,
-        reqPoints: 5,
-        description: talentText`Decreases the chance enemies will resist trap effects by ${[
-          3,
-          6,
-          9,
-          12,
-          15,
-        ]}%.`,
-      },
       "Survivalist": {
         name: "Survivalist",
-        pos: "b3",
+        pos: "b2",
         icon: icons["spell_shadow_twilight"],
         maxRank: 5,
         reqPoints: 5,
@@ -477,6 +463,18 @@ export const data: TalentData = {
           6,
           8,
           10,
+        ]}%.`,
+      },
+      "Trap Mastery": {
+        name: "Trap Mastery",
+        pos: "b3",
+        icon: icons["ability_ensnare"],
+        maxRank: 5,
+        reqPoints: 3,
+        description: talentText`Decreases the chance enemies will resist trap effects by ${[
+          5,
+          10,
+          15,
         ]}%.`,
       },
       "Entrapment": {
