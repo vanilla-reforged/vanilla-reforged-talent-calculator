@@ -469,8 +469,8 @@ export const data: TalentData = {
         name: "Trap Mastery",
         pos: "b3",
         icon: icons["ability_ensnare"],
-        maxRank: 5,
-        reqPoints: 3,
+        maxRank: 3,
+        reqPoints: 5,
         description: talentText`Decreases the chance enemies will resist trap effects by ${[
           5,
           10,
@@ -481,8 +481,8 @@ export const data: TalentData = {
         name: "Entrapment",
         pos: "b4",
         icon: icons["spell_nature_stranglevines"],
-        maxRank: 5,
-        reqPoints: 3,
+        maxRank: 3,
+        reqPoints: 5,
         description: talentText`Gives your Immolation Trap, Frost Trap, and Explosive Trap a ${[
           7,
           14,
