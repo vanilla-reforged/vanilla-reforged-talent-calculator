@@ -380,7 +380,7 @@ export const data: TalentData = {
       "Weapon Mastery": {
         name: "Weapon Mastery",
         pos: "f3",
-        icon: icons["inv_sword_27"],
+        icon: icons["spell_holy_blessingofstrength"],
         maxRank: 5,
         reqPoints: 25,
         description: talentText`Gives you a ${[

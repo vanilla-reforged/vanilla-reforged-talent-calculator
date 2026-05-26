@@ -27,7 +27,7 @@ export const data: TalentData = {
       "Two-Handed Precision": {
         name: "Two-Handed Precision",
         pos: "a2",
-        icon: icons["ability_marksmanship"],
+        icon: icons["inv_hammer_04"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to hit with two-handed weapons by ${[
@@ -198,7 +198,7 @@ export const data: TalentData = {
       "Weapon Mastery": {
         name: "Weapon Mastery",
         pos: "f3",
-        icon: icons["inv_sword_27"],
+        icon: icons["spell_holy_blessingofstrength"],
         maxRank: 5,
         reqPoints: 25,
         description: talentText`Gives you a ${[
@@ -240,7 +240,7 @@ export const data: TalentData = {
       "One-Handed Precision": {
         name: "One-Handed Precision",
         pos: "a2",
-        icon: icons["ability_marksmanship"],
+        icon: icons["spell_holy_fistofjustice"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases your chance to hit with one-handed weapons by ${[
@@ -594,7 +594,7 @@ export const data: TalentData = {
       "Raging Bastion": {
         name: "Raging Bastion",
         pos: "d3",
-        icon: icons["spell_holy_blessingofstrength"],
+        icon: icons["ability_bullrush"],
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Gives you ${[
