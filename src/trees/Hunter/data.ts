@@ -234,13 +234,13 @@ export const data: TalentData = {
           20,
         ]}% chance to stun the target for 2 sec.`,
       },
-      "Precision": {
-        name: "Precision",
+      "Ranged Precision": {
+        name: "Ranged Precision",
         pos: "a2",
         icon: icons["ability_marksmanship"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit by ${[
+        description: talentText`Increases your chance to hit with ranged weapons by ${[
           1,
           2,
           3,
@@ -409,21 +409,9 @@ export const data: TalentData = {
     background: backgrounds["survival"],
     icon: icons["ability_hunter_swiftstrike"],
     talents: {
-      "Trap Mastery": {
-        name: "Trap Mastery",
-        pos: "a1",
-        icon: icons["ability_ensnare"],
-        maxRank: 3,
-        reqPoints: 0,
-        description: talentText`Decreases the chance enemies will resist trap effects by ${[
-          5,
-          10,
-          16,
-        ]}%.`,
-      },
       "Heightened Senses": {
         name: "Heightened Senses",
-        pos: "a2",
+        pos: "a1",
         icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
@@ -434,6 +422,20 @@ export const data: TalentData = {
           4,
           5,
         ]}%.`,
+      },
+      "Surefooted": {
+        name: "Surefooted",
+        pos: "a2",
+        icon: icons["ability_kick"],
+        maxRank: 5,
+        reqPoints: 0,
+        description: talentText`Increases you chance to hit with melee weapons by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%. `,
       },
       "Savage Strikes": {
         name: "Savage Strikes",
@@ -449,21 +451,19 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Surefooted": {
-        name: "Surefooted",
-        pos: "b1",
-        icon: icons["ability_kick"],
-        maxRank: 3,
+      "Trap Mastery": {
+        name: "Trap Mastery",
+        pos: "b2",
+        icon: icons["ability_ensnare"],
+        maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases you chance to hit by ${[
-          1,
-          2,
+        description: talentText`Decreases the chance enemies will resist trap effects by ${[
           3,
-        ]}% and increases your chance to resist movement impairing effects by an additional ${[
-          2,
-          4,
           6,
-        ]}%. `,
+          9,
+          12,
+          15,
+        ]}%.`,
       },
       "Survivalist": {
         name: "Survivalist",
@@ -484,13 +484,11 @@ export const data: TalentData = {
         pos: "b4",
         icon: icons["spell_nature_stranglevines"],
         maxRank: 5,
-        reqPoints: 5,
+        reqPoints: 3,
         description: talentText`Gives your Immolation Trap, Frost Trap, and Explosive Trap a ${[
-          5,
-          10,
-          15,
+          7,
+          14,
           20,
-          25,
         ]}% chance to entrap the target, preventing them from moving for 5 sec.`,
       },
       "Improved Wing Clip": {
@@ -506,12 +504,12 @@ export const data: TalentData = {
       },
       "Deterrence": {
         name: "Deterrence",
-        pos: "c2",
+        pos: "c1",
         icon: icons["ability_whirlwind"],
         maxRank: 1,
         reqPoints: 10,
         prereq: "Heightened Senses",
-        arrows: [{ dir: "down", from: "a2", to: "c2" }],
+        arrows: [{ dir: "down", from: "a1", to: "c1" }],
         description: talentText`When activated, increases your Dodge and Parry chance by 25% for 10 sec.\n\n2 min cooldown.`,
       },
       "Clever Traps": {
