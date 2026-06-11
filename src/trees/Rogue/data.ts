@@ -16,8 +16,8 @@ export const data: TalentData = {
         name: "Ruthlessness",
         pos: "a1",
         icon: icons["ability_druid_disembowel"],
-        maxRank: 0,
-        reqPoints: 5,
+        maxRank: 5,
+        reqPoints: 0,
         description: talentText`Gives your finishing moves a ${[
           10,
           20,
@@ -471,7 +471,7 @@ export const data: TalentData = {
         pos: "b3",
         icon: icons["spell_shadow_summonsuccubus"],
         maxRank: 5,
-        reqPoints: 25,
+        reqPoints: 5,
         description: talentText`Reduces the Energy cost of your Cheap Shot and Garrote abilities by ${[
           2,
           4,
@@ -541,7 +541,7 @@ export const data: TalentData = {
         name: "Improved Kidney Shot",
         pos: "d2",
         icon: icons["ability_rogue_kidneyshot"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 15,
         description: talentText`While affected by your Kidney Shot ability, the target receives an additional ${[
           5,
@@ -570,7 +570,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_eviscerate"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`o	Increases the critical strike chance of your Eviscerate ability by ${[
+        description: talentText`Increases the critical strike chance of your Eviscerate ability by ${[
           10,
           20,
           30,
