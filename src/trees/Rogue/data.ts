@@ -72,11 +72,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Gives you a ${[
-          15,
-          30,
-          45,
+          20,
+          40,
           60,
-          75,
+          80,
+          100,
         ]}% chance to add an additional combo point to your target when using your Garrote ability.`,
       },
       "Dissection": {
