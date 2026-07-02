@@ -228,7 +228,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_27"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with swords and maces by ${[
+        description: talentText`Increases your chance to hit with maces and swords by ${[
           1,
           2,
           3,
