@@ -77,7 +77,7 @@ export const data: TalentData = {
           45,
           60,
           75,
-        ]}% chance to add two additional combo points to your target when using your Garrote ability.`,
+        ]}% chance to add an additional combo point to your target when using your Garrote ability.`,
       },
       "Dissection": {
         name: "Dissection",
