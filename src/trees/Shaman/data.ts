@@ -572,7 +572,7 @@ export const data: TalentData = {
       },
       "Restorative Totems": {
         name: "Restorative Totems",
-        pos: "d",
+        pos: "d3",
         icon: icons["spell_nature_manaregentotem"],
         maxRank: 3,
         reqPoints: 15,
