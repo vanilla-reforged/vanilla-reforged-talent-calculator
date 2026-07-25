@@ -262,16 +262,16 @@ export const data: TalentData = {
           1.5,
         ]} sec.`,
       },
-      "Improved Sprint": {
-        name: "Improved Sprint",
+      "Pursuit of Injustice": {
+        name: "Pursuit of Injustice",
         pos: "b1",
-        icon: icons["ability_rogue_sprint"],
+        icon: icons["ability_rogue_feint"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Gives your Sprint ability a ${[
-          50,
-          100,
-        ]}% chance to remove all movement impairing effects.`,
+        description: talentText`Increases your movement and mounted movement speed by ${[
+          5,
+          10,
+        ]}%.  This does not stack with other movement speed increasing effects.`,
       },
       "Improved Sinister Strike": {
         name: "Improved Sinister Strike",
@@ -441,16 +441,16 @@ export const data: TalentData = {
           5,
         ]} sec.`,
       },
-      "Pursuit of Injustice": {
-        name: "Pursuit of Injustice",
+      "Improved Sprint": {
+        name: "Improved Sprint",
         pos: "b1",
-        icon: icons["ability_rogue_feint"],
+        icon: icons["ability_rogue_sprint"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases your movement and mounted movement speed by ${[
-          5,
-          10,
-        ]}%.  This does not stack with other movement speed increasing effects.`,
+        description: talentText`Gives your Sprint ability a ${[
+          50,
+          100,
+        ]}% chance to remove all movement impairing effects.`,
       },
       "Endurance": {
         name: "Endurance",
