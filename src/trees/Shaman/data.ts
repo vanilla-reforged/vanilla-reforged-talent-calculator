@@ -335,7 +335,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}%. chance to increase your movement speed by 20% and your chance to resist Root and Snare effects by 20% for 10 sec.`,
+        ]}% chance to increase your movement speed by 20% and your chance to resist Root and Snare effects by 20% for 10 sec.`,
       },
       "Battle Rhythm": {
         name: "Battle Rhythm",
