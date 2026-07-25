@@ -590,9 +590,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Reduces the cooldown of your Rebirth spell by ${[
-          3,
-          6,
-          9,
+          5,
+          10,
+          15,
         ]} min.`,
       },
       "Nature's Swiftness": {
