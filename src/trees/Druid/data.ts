@@ -365,8 +365,8 @@ export const data: TalentData = {
         10,
         20,
       ]}% and your critical strikes from Cat Form abilities that add combo points have a ${[
+        25,
         50,
-        100,
       ]}% chance to add an additional combo point.`,
     },
     "Primal Fury": {

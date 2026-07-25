@@ -417,7 +417,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blast Wave",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, this spell causes each of your Fire spell hits to improve your chance to get a critical strike with Fire spells by 10% until you have caused 3 critical strikes with Fire spells.\n\n2 min cooldown.`,
+        description: talentText`When activated, this spell causes each of your Fire spell hits to improve your chance to get a critical strike with Fire spells by 10% until you have caused 3 critical strikes with Fire spells.\n\n1 min cooldown.`,
       },
     },
   },

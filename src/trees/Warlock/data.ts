@@ -565,9 +565,9 @@ export const data: TalentData = {
         prereq: "Shadowburn",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
         description: talentText`Reduces the cooldown of your Shadowburn spell by ${[
-          1,
           2,
-          3,
+          4,
+          6,
         ]} sec.`,
       },
       "Cataclysm": {
