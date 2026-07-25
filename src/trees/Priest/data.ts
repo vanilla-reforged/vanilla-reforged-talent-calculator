@@ -188,7 +188,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% chance to reduce the casting time of your next Holy Fire or Smite spell by 1 sec and its mana cost by 100%.`,
+        ]}% chance to reduce the casting time of your next Holy Fire or Smite spell by 1 sec and its mana cost by 100%. Lasts 10 sec.`,
       },
       "Force of Will": {
         name: "Force of Will",
