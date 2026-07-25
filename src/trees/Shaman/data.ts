@@ -199,7 +199,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`o	Your Lightning Bolt and Shock spell criticals grace you with elemental focus, increasing the critical strike chance of your next Chain Lightning spell by 5% and reducing its mana cost by 33% for 10 sec. Stacks up to 3 times.`,
+        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with elemental focus, increasing the critical strike chance of your next Chain Lightning spell by 5% and reducing its mana cost by 33% for 10 sec.  Stacks up to 3 times.`,
       },
     },
   },
@@ -347,7 +347,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% chance to reduce the casting time of your next Lesser Heal or Healing Wave spell by 100% after dealing melee damage. Lasts 10 sec.`,
+        ]}% chance to reduce the casting time of your next Lesser Heal or Healing Wave spell by 100% after dealing melee damage.  Lasts 10 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
