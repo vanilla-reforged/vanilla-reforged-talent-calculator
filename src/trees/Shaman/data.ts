@@ -93,13 +93,13 @@ export const data: TalentData = {
           2,
         ]} sec.`,
       },
-      "Elemental Focus": {
-        name: "Elemental Focus",
+      "Lightning Storm": {
+        name: "Lightning Storm",
         pos: "c1",
-        icon: icons["spell_shadow_manaburn"],
+        icon: icons["spell_nature_wispheal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
+        description: talentText`Calls down a Lightning Storm around the caster, causing 50 Nature damage to all targets within 10 yards.`,
       },
       "Convection": {
         name: "Convection",
@@ -115,17 +115,21 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Elemental Devastation": {
-        name: "Elemental Devastation",
+      "Earth's Grasp": {
+        name: "Earth's Grasp",
         pos: "c3",
-        icon: icons["classic_spell_fire_elementaldevastation"],
+        icon: icons["spell_nature_stoneclawtotem"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases your chance to get a critical strike by ${[
-          5,
+        description: talentText`Reduces the cooldown of your Grounding Totem by ${[
+          1,
+          2,
+          3,
+        ]} sec and increases the radius of your Earthbind Totem by ${[
           10,
-          15,
-        ]}% for 10 sec, after getting a critical strike with a spell.`,
+          20,
+          30,
+        ]}%.`,
       },
       "Improved Fire Totems": {
         name: "Improved Fire Totems",
@@ -187,15 +191,15 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Lightning Storm": {
-        name: "Lightning Storm",
+      "Elemental Focus": {
+        name: "Elemental Focus",
         pos: "g2",
-        icon: icons["spell_nature_wispheal"],
+        icon: icons["spell_shadow_manaburn"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Call down a Lightning Storm, damaging all enemies caught within the blast for 248 Nature damage, and dazing them for 8 sec.\n\n30 sec cooldown.`,
+        description: talentText`o	Your Lightning Bolt and Shock spell criticals grace you with elemental focus, increasing the critical strike chance of your next Chain Lightning spell by 5% and reducing its mana cost by 33% for 10 sec. Stacks up to 3 times.`,
       },
     },
   },
@@ -268,29 +272,24 @@ export const data: TalentData = {
         name: "Improved Ghost Wolf",
         pos: "b1",
         icon: icons["spell_nature_spiritwolf"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Ghost Wolf spell by ${[
-          1,
-          2,
+          1.5,
           3,
         ]} sec.`,
       },
-      "Earth's Grasp": {
-        name: "Earth's Grasp",
+      "Elemental Devastation": {
+        name: "Elemental Devastation",
         pos: "b3",
-        icon: icons["spell_nature_stoneclawtotem"],
+        icon: icons["classic_spell_fire_elementaldevastation"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Grounding Totem by ${[
-          1,
-          2,
-          3,
-        ]} sec and increases the radius of your Earthbind Totem by ${[
+        description: talentText`Increases your chance to get a critical strike by ${[
+          5,
           10,
-          20,
-          30,
-        ]}%.`,
+          15,
+        ]}% for 10 sec, after getting a critical strike with a spell.`,
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
@@ -326,19 +325,29 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
-      "Enhanced Totems": {
-        name: "Enhanced Totems",
+      "Surge Steps": {
+        name: "Surge Steps",
         pos: "c3",
-        icon: icons["spell_nature_earthbindtotem"],
-        maxRank: 5,
+        icon: icons["ability_rogue_sprint"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the duration of your Totems by ${[
-          10,
-          20,
-          30,
-          40,
-          50,
-        ]}%.`,
+        description: talentText`Your Shock spells have a ${[
+          33,
+          66,
+          100,
+        ]}%. chance to increase your movement speed by 20% and your chance to resist Root and Snare effects by 20% for 10 sec.`,
+      },
+      "Battle Rhythm": {
+        name: "Battle Rhythm",
+        pos: "c4",
+        icon: icons["spell_holy_blessingofstamina"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Gives you a ${[
+          2,
+          4,
+          6,
+        ]}% chance to reduce the casting time of your next Lesser Heal or Healing Wave spell by 100% after dealing melee damage. Lasts 10 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
@@ -425,18 +434,20 @@ export const data: TalentData = {
     background: backgrounds["restoration"],
     icon: icons["spell_nature_magicimmunity"],
     talents: {
-      "Tidal Mastery": {
-        name: "Tidal Mastery",
+        "Improved Reincarnation": {
+        name: "Improved Reincarnation",
         pos: "a1",
-        icon: icons["spell_nature_tranquility"],
-        maxRank: 5,
+        icon: icons["spell_nature_reincarnation"],
+        maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases your chance to get a critical strike with spells by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
+        description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
+          10,
+          20,
+          30,
+        ]} min and increases the amount of health and mana you reincarnate with by ${[
+          10,
+          20,
+          30,
         ]}%.`,
       },
       "Grace": {
@@ -523,16 +534,18 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "Restorative Totems": {
-        name: "Restorative Totems",
+      "Enhanced Totems": {
+        name: "Enhanced Totems",
         pos: "c3",
-        icon: icons["spell_nature_manaregentotem"],
-        maxRank: 3,
+        icon: icons["spell_nature_earthbindtotem"],
+        maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the effect of your Mana Spring and Healing Stream totems by ${[
-          5,
+        description: talentText`Increases the duration of your Totems by ${[
           10,
-          15,
+          20,
+          30,
+          40,
+          50,
         ]}%.`,
       },
       "Healing Focus": {
@@ -557,17 +570,13 @@ export const data: TalentData = {
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
       },
-      "Improved Reincarnation": {
-        name: "Improved Reincarnation",
-        pos: "d3",
-        icon: icons["spell_nature_reincarnation"],
+      "Restorative Totems": {
+        name: "Restorative Totems",
+        pos: "d",
+        icon: icons["spell_nature_manaregentotem"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Reduces the cooldown of your Reincarnation spell by ${[
-          6,
-          12,
-          18,
-        ]} min and increases the amount of health and mana you reincarnate with by ${[
+        description: talentText`Increases the effect of your Mana Spring and Healing Stream totems by ${[
           10,
           20,
           30,
