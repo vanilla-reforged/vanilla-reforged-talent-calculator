@@ -279,17 +279,17 @@ export const data: TalentData = {
           3,
         ]} sec.`,
       },
-      "Elemental Devastation": {
-        name: "Elemental Devastation",
+      "Battle Rhythm": {
+        name: "Battle Rhythm",
         pos: "b3",
-        icon: icons["classic_spell_fire_elementaldevastation"],
+        icon: icons["spell_holy_blessingofstamina"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases your chance to get a critical strike by ${[
-          5,
-          10,
-          15,
-        ]}% for 10 sec, after getting a critical strike with a spell.`,
+        description: talentText`Gives you a ${[
+          2,
+          4,
+          6,
+        ]}% chance to reduce the casting time of your next Lesser Heal or Healing Wave spell by 100% after dealing melee damage.  Lasts 10 sec.`,
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
@@ -325,9 +325,21 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
+      "Elemental Devastation": {
+        name: "Elemental Devastation",
+        pos: "c3",
+        icon: icons["classic_spell_fire_elementaldevastation"],
+        maxRank: 3,
+        reqPoints: 10,
+        description: talentText`Increases your chance to get a critical strike by ${[
+          5,
+          10,
+          15,
+        ]}% for 10 sec, after getting a critical strike with a spell.`,
+      },
       "Surge Steps": {
         name: "Surge Steps",
-        pos: "c3",
+        pos: "c4",
         icon: icons["ability_rogue_sprint"],
         maxRank: 3,
         reqPoints: 10,
@@ -336,18 +348,6 @@ export const data: TalentData = {
           66,
           100,
         ]}% chance to increase your movement speed by 20% and your chance to resist Root and Snare effects by 20% for 10 sec.`,
-      },
-      "Battle Rhythm": {
-        name: "Battle Rhythm",
-        pos: "c4",
-        icon: icons["spell_holy_blessingofstamina"],
-        maxRank: 3,
-        reqPoints: 10,
-        description: talentText`Gives you a ${[
-          2,
-          4,
-          6,
-        ]}% chance to reduce the casting time of your next Lesser Heal or Healing Wave spell by 100% after dealing melee damage.  Lasts 10 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",

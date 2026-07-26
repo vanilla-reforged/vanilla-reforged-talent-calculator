@@ -212,7 +212,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusade",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Power infuses the target's party, increasing their spell damage and healing by 10% for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Power infuses the target's party, increasing their spell damage and healing by 15% for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },
