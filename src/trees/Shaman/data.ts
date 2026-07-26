@@ -347,7 +347,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to increase your movement speed by 10% and your chance to resist Root and Snare effects by 25% for 10 sec.`,
+        ]}% chance to increase your movement speed by 10% and your chance to resist Root and Snare effects by 25%.  Lasts 10 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
