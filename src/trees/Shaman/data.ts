@@ -183,7 +183,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fireball"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage done by your Chain Lightning, Lightning Bolt and Shock spells by ${[
+        description: talentText`Increases the damage done by your Elemental spells by ${[
           2,
           4,
           6,
@@ -199,7 +199,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with elemental focus, increasing the critical strike chance of your next Chain Lightning spell by 5% and reducing its mana cost by 33% for 10 sec.  Stacks up to 3 times.`,
+        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with elemental focus, reducing the casting time of your next Chain Lightning spell by 40% and reducing its mana cost by 100%.  Lasts 10 sec.`,
       },
     },
   },
@@ -275,8 +275,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 5,
         description: talentText`Reduces the casting time of your Ghost Wolf spell by ${[
-          1.5,
-          3,
+          2,
+          4,
         ]} sec.`,
       },
       "Battle Rhythm": {

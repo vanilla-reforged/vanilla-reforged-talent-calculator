@@ -158,17 +158,17 @@ export const data: TalentData = {
           30,
         ]}% of your total Intellect.`,
       },
-      "Searing Light": {
-        name: "Searing Light",
+      "Burst of Light": {
+        name: "Burst of Light",
         pos: "d3",
-        icon: icons["spell_holy_searinglightpriest"],
+        icon: icons["spell_holy_holybolt"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage done by your Smite and Holy Fire spells by ${[
-          5,
+        description: talentText`Your Holy Fire and Smite spell criticals grace you with a Burst of Light, reducing the casting time of your next Holy spell by ${[
           10,
-          15,
-        ]}%.`,
+          20,
+          30,
+        ]}%. Lasts 10 sec.`,
       },
       "Crusade": {
         name: "Crusade",
@@ -178,17 +178,17 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Increases the critical strike damage bonus of your Holy Fire and Smite spells by 100%.`,
       },
-      "Burst of Light": {
-        name: "Burst of Light",
+      "Searing Light": {
+        name: "Searing Light",
         pos: "e3",
-        icon: icons["spell_holy_holybolt"],
+        icon: icons["spell_holy_searinglightpriest"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Gives your offensive spells a ${[
-          5,
-          10,
-          15,
-        ]}% chance to reduce the casting time of your next Holy Fire or Smite spell by 1 sec and its mana cost by 100%.  Lasts 10 sec.`,
+        description: talentText`Increases the damage done by your Smite and Holy Fire spells by ${[
+          2,
+          4,
+          6,
+        ]}%.`,
       },
       "Force of Will": {
         name: "Force of Will",
@@ -212,7 +212,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusade",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Power infuses the target's party, increasing their spell damage and healing by 15% for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Power infuses the Priests party, increasing their spell damage and healing by 15% for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },

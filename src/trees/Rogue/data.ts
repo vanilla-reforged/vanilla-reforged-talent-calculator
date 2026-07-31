@@ -570,10 +570,10 @@ export const data: TalentData = {
         icon: icons["ability_rogue_eviscerate"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the critical strike chance of your Eviscerate ability by ${[
-          10,
-          20,
-          30,
+        description: talentText`Increases the damage done by your Eviscerate ability by ${[
+          4,
+          8,
+          12,
         ]}%.`,
       },
       "Deadliness": {
