@@ -205,7 +205,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and your offensive spell criticals grace you with the blessing of nature, reducing the casting time of your next spell by 1.5 sec.  The Moonkin can only cast Balance spells while shapeshifted.  \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`o	Transforms the Druid into Moonkin Form, increasing the armor contribution from items by 360%.  Also causes the Druid's offensive spell critical strikes to grant a blessing of nature, reducing the casting time of the Druid's next spell by 1.5 sec.  The Moonkin can only cast Balance spells while shapeshifted.   \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
     },
   },
@@ -317,7 +317,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decreases the armor of your target by 7% for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
+      description: talentText`Decreases the target's armor by 7% for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
