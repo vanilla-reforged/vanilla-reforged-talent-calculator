@@ -94,7 +94,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_gem_pearl_04"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`When activated, reduces the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Healing Light": {
         name: "Healing Light",
@@ -415,7 +415,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Templar's Blow",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your chance to block by 60% for 14 sec and restores 3% of your total Mana.  While active 65 Holy damage are dealt to an attacker when his attack is blocked.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.\n\n10 sec cooldown.`,
+        description: talentText`Increases your chance to block by 60% for 14 sec and restores 3% of your total Mana.  While active 65 Holy damage are dealt to an attacker when his attack is blocked.  Damage dealt by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.\n\n10 sec cooldown.`,
       },
     },
   },
@@ -506,7 +506,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your offensive abilities and spells by ${[
+        description: talentText`Reduces the mna cost of your offensive abilities and spells by ${[
           6,
           12,
           18,

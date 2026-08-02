@@ -107,7 +107,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your offensive spells by ${[
+        description: talentText`Reduces the mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -490,7 +490,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_moonglow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Mana cost of your totems by ${[
+        description: talentText`Reduces the mana cost of your totems by ${[
           5,
           10,
           15,
@@ -518,7 +518,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`When activated, reduces the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Tidal Focus": {
         name: "Tidal Focus",

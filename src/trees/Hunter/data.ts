@@ -98,7 +98,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its Mana cost reduced by 50%.\n\n15 min cooldown.`,
+        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its mana cost reduced by 50%.\n\n15 min cooldown.`,
       },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",
@@ -112,7 +112,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]} sec, the Mana cost by ${[
+        ]} sec, the mana cost by ${[
           10,
           20,
           30,
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your Shot and Sting abilities by ${[
+        description: talentText`Reduces the mana cost of your Shot and Sting abilities by ${[
           6,
           12,
           18,

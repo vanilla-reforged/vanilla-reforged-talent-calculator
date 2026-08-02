@@ -122,7 +122,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduce the Mana cost of your offensive spells by ${[
+        description: talentText`Reduce the mana cost of your offensive spells by ${[
           6,
           12,
           18,

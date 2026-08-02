@@ -114,7 +114,7 @@ export const data: TalentData = {
         icon: icons["ability_hibernation"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your offensive spells by ${[
+        description: talentText`Reduces the mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the Mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`When activated, reduces the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Improved Healing": {
         name: "Improved Healing",
@@ -321,7 +321,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Mana cost of your Heal and Greater Heal spells by ${[
+        description: talentText`Reduces the mana cost of your Heal and Greater Heal spells by ${[
           3,
           6,
           9,
@@ -388,7 +388,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing02"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Reduces the Mana cost of your Prayer of Healing spell by ${[
+        description: talentText`Reduces the mana cost of your Prayer of Healing spell by ${[
           15,
           30,
           45,
@@ -416,7 +416,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Burst of Faith",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Become the Spirit of Redemption, increasing your Healing by 10% and reducing Physical damage done to you by 10%.  However, you may not cast Shadow spells while in this form.`,
+        description: talentText`Become the Spirit of Redemption, increasing your healing by 10% and reducing physical damage done to you by 10%.  However, you may not cast Shadow spells while in this form.`,
       },
     },
   },
@@ -625,7 +625,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Silence",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Assume a Shadowform, increasing your Shadow damage by 10% and reducing Physical damage done to you by 10%.  However, you may not cast Holy spells while in this form.`,
+        description: talentText`Assume a Shadowform, increasing your Shadow damage by 10% and reducing physical damage done to you by 10%.  However, you may not cast Holy spells while in this form.`,
       },
     },
   },

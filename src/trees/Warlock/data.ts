@@ -320,7 +320,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]} sec and the Mana cost by ${[
+        ]} sec and the mana cost by ${[
           10,
           20,
           30
