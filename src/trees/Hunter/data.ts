@@ -372,7 +372,7 @@ export const data: TalentData = {
         icon: icons["ability_upgrademoonglaive"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Multi-Shot, Quick Shot and Volley spells by ${[
+        description: talentText`Increases the damage done by your Multi-Shot, Quick Shot and Volley abilities by ${[
           2,
           4,
           6,

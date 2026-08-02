@@ -174,7 +174,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% and the damage done by your Eviscerate ability by ${[
+        ]}% and the total damage done by your Eviscerate ability by ${[
           2,
           4,
           6,
@@ -376,7 +376,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% and the damage done by your Eviscerate ability by ${[
+        ]}% and the total damage done by your Eviscerate ability by ${[
           2,
           4,
           6,
@@ -570,7 +570,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_eviscerate"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Eviscerate ability by ${[
+        description: talentText`Increases the total damage done by your Eviscerate ability by ${[
           4,
           8,
           12,
