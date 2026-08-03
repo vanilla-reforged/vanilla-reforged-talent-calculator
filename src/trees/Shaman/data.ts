@@ -518,7 +518,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`Decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Tidal Focus": {
         name: "Tidal Focus",
@@ -588,7 +588,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Nature spell becomes an instant cast spell.\n\n2 min cooldown.`,
+        description: talentText`The next Nature spell becomes an instant cast spell.\n\n2 min cooldown.`,
       },
       "Healing Way": {
         name: "Healing Way",

@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`Decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Improved Healing": {
         name: "Improved Healing",
@@ -380,7 +380,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_summonlightwell"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, your next Holy spell becomes an instant cast spell.\n\n2 min cooldown.`,
+        description: talentText`The next Holy spell becomes an instant cast spell.\n\n2 min cooldown.`,
       },
       "Improved Prayer of Healing": {
         name: "Improved Prayer of Healing",

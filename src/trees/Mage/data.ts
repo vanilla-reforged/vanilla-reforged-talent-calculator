@@ -213,7 +213,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Arcane Burst",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, your spells deal 30% more damage while costing 30% more mana for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Increases damage dealt by spells by 30%, but increases their mana cost by 30% for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },
