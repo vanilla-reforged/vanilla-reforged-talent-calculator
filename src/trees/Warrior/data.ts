@@ -69,7 +69,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_devotion"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Recklessness, Retaliation and Shield Wall abilities by ${[
+        description: talentText`Decreases the cooldown of your Recklessness, Retaliation and Shield Wall abilities by ${[
           3,
           6,
           9,
@@ -83,7 +83,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_ambush"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Rage cost of your Heroic Strike ability by ${[
+        description: talentText`Decreases the Rage cost of your Heroic Strike ability by ${[
           1,
           2,
           3,
@@ -101,7 +101,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% chance to immobilize the target for 5 sec and reduces the rage cost of your Hamstring ability by ${[
+        ]}% chance to immobilize the target for 5 sec and decreases the rage cost of your Hamstring ability by ${[
           1,
           2,
           3,
@@ -217,7 +217,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Sweeping Strikes",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`A vicious strike that deals 130% normal weapon damage.  In addition the rage cost of your next Hamstring, Heroic Strike, Rend, or Overpower ability is reduced by 5.  Lasts 8 sec.\n\n6 sec cooldown.`,
+        description: talentText`A vicious strike that deals 130% normal weapon damage.  In addition the rage cost of your next Hamstring, Heroic Strike, Rend, or Overpower ability is decreased by 5.  Lasts 8 sec.\n\n6 sec cooldown.`,
       },
     },
   },
@@ -275,7 +275,7 @@ export const data: TalentData = {
           1,
           2,
           3,
-        ]}% and reduces its rage cost by ${[
+        ]}% and decreases its rage cost by ${[
           1,
           2,
           3,
@@ -287,7 +287,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_purge"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Intimidating Shout and Slam abilities by ${[
+        description: talentText`Decreases the cooldown of your Intimidating Shout and Slam abilities by ${[
           18,
           36,
           54,
@@ -337,7 +337,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_48"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the Rage cost of your Execute ability by ${[
+        description: talentText`Decreases the Rage cost of your Execute ability by ${[
           2,
           4,
           6,
@@ -349,7 +349,7 @@ export const data: TalentData = {
         icon: icons["ability_whirlwind"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Reduces the Rage cost of your Whirlwind ability by ${[
+        description: talentText`Decreases the Rage cost of your Whirlwind ability by ${[
           2,
           4,
         ]}.`,
@@ -360,7 +360,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_sprint"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Reduces the cooldown of your Intercept ability by ${[
+        description: talentText`Decreases the cooldown of your Intercept ability by ${[
           6,
           12,
         ]} sec.`,
@@ -436,7 +436,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_devotionaura"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces all spell damage taken by ${[
+        description: talentText`Decreases all spell damage taken by ${[
           2,
           4,
           6,
@@ -501,7 +501,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Challenging Shout ability by ${[
+        description: talentText`Decreases the cooldown of your Challenging Shout ability by ${[
           60,
           120,
           180,
@@ -527,7 +527,7 @@ export const data: TalentData = {
         icon: icons["ability_thunderclap"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the Rage cost of your Thunder Clap ability by ${[
+        description: talentText`Decreases the Rage cost of your Thunder Clap ability by ${[
           2,
           4,
           6,
@@ -561,7 +561,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_sunder"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the Rage cost of your Sunder Armor ability by ${[
+        description: talentText`Decreases the Rage cost of your Sunder Armor ability by ${[
           1,
           2,
           3,

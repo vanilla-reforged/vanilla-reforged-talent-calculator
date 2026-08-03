@@ -68,7 +68,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_possession"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Howl of Terror and Fear spells by ${[
+        description: talentText`Decreases the casting time of your Howl of Terror and Fear spells by ${[
           0.1,
           0.2,
           0.3,
@@ -82,7 +82,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_abominationexplosion"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Corruption spell by ${[
+        description: talentText`Decreases the casting time of your Corruption spell by ${[
           0.4,
           0.8,
           1.2,
@@ -96,7 +96,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_grimward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Reduces the target's movement speed by 30% for 12 sec.  Only one Curse per Warlock can be active on any one target.`,
+        description: talentText`Decreases the target's movement speed by 30% for 12 sec.  Only one Curse per Warlock can be active on any one target.`,
       },
       "Calamity": {
         name: "Calamity",
@@ -104,13 +104,13 @@ export const data: TalentData = {
         icon: icons["spell_shadow_manaburn"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Affliction spells by ${[
+        description: talentText`Decreases the mana cost of your Affliction spells by ${[
           3,
           6,
           9,
           12,
           15,
-        ]}% and reduces the threat caused by your Shadow spells by ${[
+        ]}% and decreases the threat caused by your Shadow spells by ${[
           1,
           2,
           3,
@@ -209,7 +209,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Amplify Curse",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Gives your Corruption and Drain Life spells a 7% chance to reduce the casting time of your next Shadow Bolt spell by 100%.`,
+        description: talentText`Gives your Corruption and Drain Life spells a 7% chance to decrease the casting time of your next Shadow Bolt spell by 100%.`,
       },
     },
   },
@@ -280,7 +280,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% but reduces your total Spirit by ${[
+        ]}% but decreases your total Spirit by ${[
           1,
           2,
           3,
@@ -306,7 +306,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your next Demon Summoning spell has its casting time reduced by 4 sec and its mana cost reduced by 50%.\n\n15 min cooldown.`,
+        description: talentText`Your next Demon Summoning spell has its casting time decreased by 4 sec and its mana cost decreased by 50%.\n\n15 min cooldown.`,
       },
       "Master Summoner": {
         name: "Master Summoner",
@@ -316,7 +316,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Fel Domination",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
-        description: talentText`Reduces the casting time of your demon summoning spells by ${[
+        description: talentText`Decreases the casting time of your demon summoning spells by ${[
           2,
           4,
           6,
@@ -332,19 +332,19 @@ export const data: TalentData = {
         icon: icons["spell_shadow_summonimp"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the casting time of your Imp's Firebolt spell by ${[
+        description: talentText`Decreases the casting time of your Imp's Firebolt spell by ${[
           0.1,
           0.2,
           0.3,
           0.4,
           0.5,
-        ]} sec.\n\nReduces the cooldown of Voidwalker's Torment spell by ${[
+        ]} sec.\n\nDecreases the cooldown of Voidwalker's Torment spell by ${[
           0.4,
           0.8,
           1.2,
           1.6,
           2,
-        ]} sec.\n\nReduces the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
+        ]} sec.\n\nDecreases the cooldown of your Succubus' Lash of Pain and your Felhunters Shadow Charge spells by ${[
           1,
           2,
           3,
@@ -370,7 +370,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_enslavedemon"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
+        description: talentText`Decreases the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
           15,
           30,
         ]}% and increases its chance to hit by ${[
@@ -418,13 +418,13 @@ export const data: TalentData = {
         reqPoints: 25,
         prereq: "Demonic Command",
         arrows: [{ dir: "down", from: "d3", to: "f3" }],
-        description: talentText`Grants both the Warlock and the summoned demon an effect as long as the demon is active.\n\nImp - Reduces threat caused by ${[
+        description: talentText`Grants both the Warlock and the summoned demon an effect as long as the demon is active.\n\nImp - Decreases threat caused by ${[
           4,
           8,
           12,
           16,
           20,
-        ]}%.\n\nVoidwalker - Reduces physical damage taken by ${[
+        ]}%.\n\nVoidwalker - Decreases physical damage taken by ${[
           2,
           4,
           6,
@@ -520,7 +520,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Searing Pain and Shadow Bolt spells by ${[
+        description: talentText`Decreases the casting time of your Searing Pain and Shadow Bolt spells by ${[
           0.1,
           0.2,
           0.3,
@@ -540,7 +540,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_immolation"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Immolate spell by ${[
+        description: talentText`Decreases the casting time of your Immolate spell by ${[
           0.4,
           0.8,
           1.2,
@@ -564,7 +564,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Shadowburn",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
-        description: talentText`Reduces the cooldown of your Shadowburn spell by ${[
+        description: talentText`Decreases the cooldown of your Shadowburn spell by ${[
           2,
           4,
           6,
@@ -576,13 +576,13 @@ export const data: TalentData = {
         icon: icons["spell_fire_windsofwoe"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Destruction spells by ${[
+        description: talentText`Decreases the mana cost of your Destruction spells by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% and reduces the threat caused by your Fire spells by ${[
+        ]}% and decreases the threat caused by your Fire spells by ${[
           4,
           8,
           12,

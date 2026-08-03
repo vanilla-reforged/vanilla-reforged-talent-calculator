@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["spell_arcane_arcaneresilience"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the chance you are hit by melee and ranged attacks by ${[
+        description: talentText`Decreases the chance you are hit by melee and ranged attacks by ${[
           1,
           2,
           3,
@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["spell_arcane_blink"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Blink spell by ${[
+        description: talentText`Decreases the cooldown of your Blink spell by ${[
           1,
           2,
           3,
@@ -74,7 +74,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_purge"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Evocation spell by ${[
+        description: talentText`Decreases the cooldown of your Evocation spell by ${[
           1,
           2,
           3,
@@ -88,7 +88,7 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Gives you a ${[
           10,
-        ]}% chance of entering a Clearcasting state after any of your damage spells hit a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.`,
+        ]}% chance of entering a Clearcasting state after any of your damage spells hit a target.  The Clearcasting state decreases the mana cost of your next damage spell by 100%.`,
       },
       "Tomeseeker": {
         name: "Tomeseeker",
@@ -107,13 +107,13 @@ export const data: TalentData = {
         icon: icons["spell_shadow_charm"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Arcane spells by ${[
+        description: talentText`Decreases the mana cost of your Arcane spells by ${[
           3,
           6,
           9,
           12,
           15,
-        ]}% and reduces the threat caused by your Arcane spells by ${[
+        ]}% and decreases the threat caused by your Arcane spells by ${[
           1,
           2,
           3,
@@ -281,7 +281,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_firebolt02"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Fireball spell by ${[
+        description: talentText`Decreases the casting time of your Fireball spell by ${[
           0.1,
           0.2,
           0.3,
@@ -295,7 +295,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fireball"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Fire Blast spell by ${[
+        description: talentText`Decreases the cooldown of your Fire Blast spell by ${[
           0.5,
           1,
           1.5,
@@ -315,13 +315,13 @@ export const data: TalentData = {
         icon: icons["spell_fire_flameshock"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Fire spells by ${[
+        description: talentText`Decreases the mana cost of your Fire spells by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% and reduces the threat caused by your Fire spells by ${[
+        ]}% and decreases the threat caused by your Fire spells by ${[
           4,
           8,
           12,
@@ -487,7 +487,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_frostbolt02"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Frostbolt spell by ${[
+        description: talentText`Decreases the casting time of your Frostbolt spell by ${[
           0.1,
           0.2,
           0.3,
@@ -501,7 +501,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_freezingbreath"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Frost Nova spell by ${[
+        description: talentText`Decreases the cooldown of your Frost Nova spell by ${[
           1,
           2,
           3,
@@ -523,13 +523,13 @@ export const data: TalentData = {
         icon: icons["spell_frost_stun"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Frost spells by ${[
+        description: talentText`Decreases the mana cost of your Frost spells by ${[
           2,
           4,
           6,
           8,
           10,
-        ]}% and reduces the threat caused by your Frost spells by ${[
+        ]}% and decreases the threat caused by your Frost spells by ${[
           2,
           4,
           6,

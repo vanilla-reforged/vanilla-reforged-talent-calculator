@@ -69,7 +69,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Starfire and Wrath spells by ${[
+        description: talentText`Decreases the casting time of your Starfire and Wrath spells by ${[
           0.1,
           0.2,
           0.3,
@@ -122,7 +122,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduce the mana cost of your offensive spells by ${[
+        description: talentText`Decreases the mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -285,7 +285,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the mana cost of all shapeshifting by ${[
+        description: talentText`Decreases the mana cost of all shapeshifting by ${[
           10,
           20,
           30,
@@ -303,7 +303,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and reduces the Rage cost of your Maul, and Swipe abilities by ${[
+        ]}% and decreases the Rage cost of your Maul, and Swipe abilities by ${[
           1,
           2,
           3,
@@ -325,7 +325,7 @@ export const data: TalentData = {
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
       reqPoints: 10,
-      description: talentText`Reduces the Energy cost of your Claw and Shred abilities by ${[
+      description: talentText`Decreases the Energy cost of your Claw and Shred abilities by ${[
         1,
         2,
         3,
@@ -460,7 +460,7 @@ export const data: TalentData = {
         icon: icons["ability_eyeoftheowl"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the threat caused by your Arcane and Nature spells by ${[
+        description: talentText`Decreases the threat caused by your Arcane and Nature spells by ${[
           2,
           4,
           6,
@@ -480,7 +480,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_spiritarmor"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces all spell damage taken by ${[
+        description: talentText`Decreases all spell damage taken by ${[
           2,
           4,
           6,
@@ -506,7 +506,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_healingtouch"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cast time of your Healing Touch spell by ${[
+        description: talentText`Decreases the cast time of your Healing Touch spell by ${[
           0.1,
           0.2,
           0.3,
@@ -534,7 +534,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state reduces the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
+        description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state decreases the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
       },
       "Reflection": {
         name: "Reflection",
@@ -553,7 +553,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_elunesgrace"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Healing Touch and Tranquility spells by ${[
+        description: talentText`Decreases the mana cost of your Healing Touch and Tranquility spells by ${[
           3,
           6,
           9,
@@ -589,7 +589,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_reincarnation"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Reduces the cooldown of your Rebirth spell by ${[
+        description: talentText`Decreases the cooldown of your Rebirth spell by ${[
           5,
           10,
           15,
@@ -611,7 +611,7 @@ export const data: TalentData = {
         reqPoints: 20,
         prereq: "Tranquil Spirit",
         arrows: [{ dir: "down", from: "c3", to: "e3" }],
-        description: talentText`Reduces the cooldown of your Tranquility spell by ${[
+        description: talentText`Decreases the cooldown of your Tranquility spell by ${[
           50,
           100,
           150,

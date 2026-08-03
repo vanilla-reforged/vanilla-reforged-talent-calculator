@@ -69,7 +69,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofwrath"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Smite and Holy Fire spells by ${[
+        description: talentText`Decreases the casting time of your Smite and Holy Fire spells by ${[
           0.1,
           0.2,
           0.3,
@@ -114,7 +114,7 @@ export const data: TalentData = {
         icon: icons["ability_hibernation"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your offensive spells by ${[
+        description: talentText`Decreases the mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -239,7 +239,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_manaregentotem"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the threat caused by your Holy and Shadow spells by ${[
+        description: talentText`Decreases the threat caused by your Holy and Shadow spells by ${[
           2,
           4,
           6,
@@ -259,7 +259,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_spellwarding"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the chance you are hit by melee and ranged attacks by ${[
+        description: talentText`Decreases the chance you are hit by melee and ranged attacks by ${[
           1,
           2,
           3,
@@ -285,7 +285,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your healing spells by ${[
+        description: talentText`Decreases the casting time of your healing spells by ${[
           0.1,
           0.2,
           0.3,
@@ -299,7 +299,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_restoration"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Desperate Prayer spell by ${[
+        description: talentText`Decreases the cooldown of your Desperate Prayer spell by ${[
           18,
           36,
           54,
@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`When activated, decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Improved Healing": {
         name: "Improved Healing",
@@ -321,7 +321,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Heal and Greater Heal spells by ${[
+        description: talentText`Decreases the mana cost of your Heal and Greater Heal spells by ${[
           3,
           6,
           9,
@@ -368,7 +368,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dispelmagic"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Reduces the mana cost of your Abolish Disease and Dispel Magic spells by ${[
+        description: talentText`Decreases the mana cost of your Abolish Disease and Dispel Magic spells by ${[
           12,
           24,
           36,
@@ -388,7 +388,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing02"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Reduces the mana cost of your Prayer of Healing spell by ${[
+        description: talentText`Decreases the mana cost of your Prayer of Healing spell by ${[
           15,
           30,
           45,
@@ -481,7 +481,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_siphonmana"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your Mind Blast and Mind Control spells by ${[
+        description: talentText`Decreases the casting time of your Mind Blast and Mind Control spells by ${[
           0.1,
           0.2,
           0.3,
@@ -495,7 +495,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_psychicscream"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Psychic Scream spell by ${[
+        description: talentText`Decreases the cooldown of your Psychic Scream spell by ${[
           1,
           2,
           3,
@@ -540,7 +540,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Mind Blast spell by ${[
+        description: talentText`Decreases the cooldown of your Mind Blast spell by ${[
           0.5,
           1.0,
           1.5,

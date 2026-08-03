@@ -108,7 +108,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Soulmate",
         arrows: [{ dir: "right", from: "c1", to: "c2" }],
-        description: talentText`Reduces the casting time of your Revive Pet spell by ${[
+        description: talentText`Decreases the casting time of your Revive Pet spell by ${[
           2,
           4,
           6,
@@ -279,7 +279,7 @@ export const data: TalentData = {
         icon: icons["ability_impalingbolt"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Quick Shot ability by ${[
+        description: talentText`Decreases the cooldown of your Quick Shot ability by ${[
           0.4,
           0.8,
           1.2,
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mana cost of your Shot and Sting abilities by ${[
+        description: talentText`Decreases the mana cost of your Shot and Sting abilities by ${[
           6,
           12,
           18,
@@ -415,7 +415,7 @@ export const data: TalentData = {
         icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the chance you are hit by spells and ranged attacks by ${[
+        description: talentText`Decreases the chance you are hit by spells and ranged attacks by ${[
           1,
           2,
           3,
@@ -530,7 +530,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_feigndeath"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Reduces the chance your Feign Death ability will be resisted by ${[
+        description: talentText`Decreases the chance your Feign Death ability will be resisted by ${[
           5,
           10,
         ]}%.`,
@@ -541,7 +541,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_feint"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Reduces the cooldown of your Disengage ability by ${[15, 30,]} sec.`,
+        description: talentText`Decreases the cooldown of your Disengage ability by ${[15, 30,]} sec.`,
       },
       "Steel Porcupine": {
         name: "Steel Porcupine",

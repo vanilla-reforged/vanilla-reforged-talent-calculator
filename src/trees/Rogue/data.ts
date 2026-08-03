@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_riposte"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the armor reduced by your Expose Armor ability by ${[
+        description: talentText`Increases the armor decreased by your Expose Armor ability by ${[
           25,
           50,
         ]}%.`,
@@ -85,7 +85,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_48"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Energy cost of your Backstab ability by ${[
+        description: talentText`Decreases the Energy cost of your Backstab ability by ${[
           1,
           2,
           3,
@@ -279,7 +279,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_ritualofsacrifice"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Energy cost of your Sinister Strike ability by ${[
+        description: talentText`Decreases the Energy cost of your Sinister Strike ability by ${[
           1,
           2,
           3,
@@ -419,7 +419,7 @@ export const data: TalentData = {
         icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the chance you are hit by spells and ranged attacks by ${[
+        description: talentText`Decreases the chance you are hit by spells and ranged attacks by ${[
           1,
           2,
           3,
@@ -433,7 +433,7 @@ export const data: TalentData = {
         icon: icons["ability_stealth"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the cooldown of your Stealth ability by ${[
+        description: talentText`Decreases the cooldown of your Stealth ability by ${[
           1,
           2,
           3,
@@ -458,7 +458,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowward"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Sprint and Evasion abilities by ${[
+        description: talentText`Decreases the cooldown of your Sprint and Evasion abilities by ${[
           30,
           60,
           90,
@@ -472,7 +472,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_summonsuccubus"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the Energy cost of your Cheap Shot and Garrote abilities by ${[
+        description: talentText`Decreases the Energy cost of your Cheap Shot and Garrote abilities by ${[
           2,
           4,
           6,
@@ -506,7 +506,7 @@ export const data: TalentData = {
         icon: icons["spell_magic_lesserinvisibilty"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Vanish and Blind abilities by ${[
+        description: talentText`Decreases the cooldown of your Vanish and Blind abilities by ${[
           30,
           60,
           90,
@@ -554,7 +554,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_17"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Causes your attacks to ignore N of your target's Armor.  The amount of Armor reduced increases with your level.`,
+        description: talentText`Causes your attacks to ignore N of your target's Armor.  The amount of Armor ignored increases with your level.`,
       },
       "Hemorrhage": {
         name: "Hemorrhage",

@@ -32,7 +32,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_manaregentotem"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces the threat caused by your Holy spells by ${[
+        description: talentText`Decreases the threat caused by your Holy spells by ${[
           2,
           4,
           6,
@@ -52,7 +52,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_spellwarding"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Reduces all spell damage taken by ${[
+        description: talentText`Decreases all spell damage taken by ${[
           2,
           4,
           6,
@@ -66,7 +66,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dizzy"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the casting time of your healing spells by ${[
+        description: talentText`Decreases the casting time of your healing spells by ${[
           0.1,
           0.2,
           0.3,
@@ -80,7 +80,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_layonhands"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Divine Intervention and Lay on Hands spells by ${[
+        description: talentText`Decreases the cooldown of your Divine Intervention and Lay on Hands spells by ${[
           6,
           12,
           18,
@@ -94,7 +94,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_gem_pearl_04"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`When activated, reduces the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`When activated, decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Healing Light": {
         name: "Healing Light",
@@ -150,7 +150,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_renew"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Reduces the mana cost of your Cleanse spell by ${[
+        description: talentText`Decreases the mana cost of your Cleanse spell by ${[
           12,
           24,
           36,
@@ -296,7 +296,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofmight"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Reduces the cooldown of your Hammer of Justice spell by ${[
+        description: talentText`Decreases the cooldown of your Hammer of Justice spell by ${[
           6,
           12,
           18,
@@ -332,7 +332,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Divine Endurance",
         arrows: [{ dir: "down", from: "b3", to: "c3" }],
-        description: talentText`Reduces the cooldown of your Blessing of Protection, Divine Protection and Divine Shield spells by ${[
+        description: talentText`Decreases the cooldown of your Blessing of Protection, Divine Protection and Divine Shield spells by ${[
           30,
           60,
           90,
@@ -344,7 +344,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofsalvation"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the cooldown of your Consecration and Exorcism spells by ${[
+        description: talentText`Decreases the cooldown of your Consecration and Exorcism spells by ${[
           0.5,
           1,
           1.5,
@@ -506,7 +506,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Reduces the mna cost of your offensive abilities and spells by ${[
+        description: talentText`Decreases the mana cost of your offensive abilities and spells by ${[
           6,
           12,
           18,
@@ -534,7 +534,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_vindication"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by ${[
+        description: talentText`Gives the Paladin's damaging melee attacks a chance to decrease the target's Strength and Agility by ${[
           5,
           10,
         ]}%.`,
