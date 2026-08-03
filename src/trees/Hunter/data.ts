@@ -98,7 +98,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your next Revive Pet spell has its casting time reduced by 4 sec and its mana cost reduced by 50%.\n\n15 min cooldown.`,
+        description: talentText`Decreases the casting time of the next Revive Pet spell by 4 sec and its mana cost by 50%.\n\n15 min cooldown.`,
       },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",
@@ -175,7 +175,7 @@ export const data: TalentData = {
         icon: icons["ability_devour"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.\n\n25 sec cooldown.`,
+        description: talentText`Causes the pet's next successful melee attack to generate a high amount of threat and stun the target for 3 sec.\n\n25 sec cooldown.`,
       },
       "Bestial Discipline": {
         name: "Bestial Discipline",
@@ -557,7 +557,7 @@ export const data: TalentData = {
         icon: icons["ability_stealth"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Allows you to sneak around, but reduces your speed by 50%.  Lasts until cancelled.`,
+        description: talentText`Allows the Hunter to enter Stealth, but decreases movement speed by 50%.  Lasts until cancelled.`,
       },
       "Killer Instinct": {
         name: "Killer Instinct",
