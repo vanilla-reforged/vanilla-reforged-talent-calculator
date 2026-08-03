@@ -136,7 +136,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 60 Nature damage over 12 sec.`,
+        description: talentText`Deals 59 Nature damage over 12 sec and decreases the target's hit chance by 2% for the same duration.`,
       },
       "Improved Moonfire": {
         name: "Improved Moonfire",
@@ -317,7 +317,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decreases the armor of your target by 7% for 40 sec.  While affected, the target cannot stealth or turn invisible.`,
+      description: talentText`Decreases the target's armor by 7% for 30 sec.  While affected, the target cannot stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
