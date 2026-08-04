@@ -562,7 +562,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_lifedrain"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`An instant strike that damages the opponent and causes the target to hemmorhage, increasing any physical damage dealt to the target by up to 3.  Lasts 30 charges or 15 sec.  Awards 1 combo point.`,
+        description: talentText`Deals weapon damage and causes the target to hemorrhage, increasing physical damage taken by up to 3.  Lasts 15 sec.  30 charges.  Awards 1 combo point.`,
       },
       "Improved Eviscerate": {
         name: "Improved Eviscerate",
@@ -598,7 +598,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Veil yourself in shadows, removing all bleed, disease, magic and poison effects and absorbing 500 damage for 15 sec.\n\n30 sec cooldown.`,
+        description: talentText`Removes all bleed, disease, magic and poison effects and absorbs 500 damage for 15 sec.\n\n30 sec cooldown.`,
       },
     },
   },
