@@ -618,7 +618,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Conjure a Sphere of Frost, dealing 248 Frost damage to all enemies within the area and freezing them for 8 sec.\n\n30 sec cooldown.`,
+        description: talentText`o	Deals 248 Frost damage to all enemies within the target area and freezes them for 8 sec.\n\n30 sec cooldown.`,
       },
     },
   },
