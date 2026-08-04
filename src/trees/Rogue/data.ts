@@ -162,7 +162,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_lament"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.\n\n2 min cooldown.`,
+        description: talentText`Increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.\n\n2 min cooldown.`,
       },
       "Murder": {
         name: "Murder",
@@ -404,7 +404,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blade Flurry",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your Energy regeneration rate by 100% for 15 sec.  In addition, you become immune to stun and incapacitate effects.\n\n2 min cooldown.`,
+        description: talentText`Increases the Energy regeneration rate by 100% and grants immunity to Incapacitate and Stun effects for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },

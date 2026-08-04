@@ -162,7 +162,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_heal"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock spell by 100%.\n\n1 min cooldown.`,
+        description: talentText`Increases the critical strike chance of your next Flash of Light, Holy Light, or Holy Shock by 100%.\n\n1 min cooldown.`,
       },
       "Illumination": {
         name: "Illumination",
@@ -568,7 +568,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec.  Any damage caused will awaken the target.  Only works against Humanoids.\n\n45 sec cooldown.`,
+        description: talentText`Incapacitiates the enemy target for up to $d.  Any damage breaks the effect.  Can only be used on Humanoids.\n\n45 sec cooldown.`,
       },
       "Justice": {
         name: "Justice",
