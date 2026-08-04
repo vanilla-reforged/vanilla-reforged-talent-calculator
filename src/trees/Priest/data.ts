@@ -380,7 +380,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_summonlightwell"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`The next Holy spell becomes an instant cast spell.\n\n2 min cooldown.`,
+        description: talentText`Your next Holy spell becomes an instant cast spell.\n\n2 min cooldown.`,
       },
       "Improved Prayer of Healing": {
         name: "Improved Prayer of Healing",

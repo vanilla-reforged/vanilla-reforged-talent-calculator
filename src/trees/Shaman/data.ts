@@ -588,7 +588,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`The next Nature spell becomes an instant cast spell.\n\n2 min cooldown.`,
+        description: talentText`Your next Nature spell becomes an instant cast spell.\n\n2 min cooldown.`,
       },
       "Healing Way": {
         name: "Healing Way",
