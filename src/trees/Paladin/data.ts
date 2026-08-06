@@ -415,7 +415,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Templar's Blow",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`o	Increases your block chance by 60% for 14 sec and restores 3% of your total mana.  While active, blocking an attack deals 65@lvl40 Holy damage to the attacker and consumes one charge.  Holy Shield damage generates 20% additional threat.  4 charges.\n\n10 sec cooldown.`,
+        description: talentText`Increases your block chance by 60% for 14 sec and restores 3% of your total mana.  While active, blocking an attack deals 65@lvl40 Holy damage to the attacker and consumes one charge.  Holy Shield damage generates 20% additional threat.  4 charges.\n\n10 sec cooldown.`,
       },
     },
   },

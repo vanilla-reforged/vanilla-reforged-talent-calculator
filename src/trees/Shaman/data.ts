@@ -303,13 +303,13 @@ export const data: TalentData = {
           45,
         ]}%.`,
       },
-      "Elemental Bullwark": {
-        name: "Elemental Bullwark",
+      "Elemental Bulwark": {
+        name: "Elemental Bulwark",
         pos: "c1",
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases chance to block by 60% for 7 sec, but will only block 2 attacks.\n\n5 sec cooldown.`,
+        description: talentText`Increases block chance by 60% for 7 sec. The effect can only block 2 attacks. \n\n5 sec cooldown.`,
       },
       "Redoubt": {
         name: "Redoubt",

@@ -598,7 +598,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Hemorrhage",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`o	Removes all Bleed, Disease, Magic, and Poison effects and absorbs 500 damage for 15 sec.\n\n30 sec cooldown.`,
+        description: talentText`Removes all Bleed, Disease, Magic, and Poison effects and absorbs 500 damage for 15 sec.\n\n30 sec cooldown.`,
       },
     },
   },

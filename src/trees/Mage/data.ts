@@ -381,7 +381,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism_02"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`o	Deals an average of 153 Fire damage to all enemies within 10 yards of you and dazes them for 6 sec\n\n45 sec cooldown.`,
+        description: talentText`Deals an average of 153 Fire damage to all enemies within 10 yards of you and dazes them for 6 sec\n\n45 sec cooldown.`,
       },
       "Ashmaker": {
         name: "Ashmaker",
