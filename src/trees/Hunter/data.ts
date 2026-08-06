@@ -400,7 +400,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Scatter Shot",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`An aimed shot that deals 140% normal ranged weapon damage.\n\n6 sec cooldown.`,
+        description: talentText`Deals 140% normal ranged weapon damage.\n\n6 sec cooldown.`,
       },
     },
   },

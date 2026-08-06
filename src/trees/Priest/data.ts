@@ -98,7 +98,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
+        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec after beeing the victim of a critical strike.`,
       },
       "Holy Nova": {
         name: "Holy Nova",
@@ -145,7 +145,7 @@ export const data: TalentData = {
         description: talentText`Allows ${[
           10,
           20,
-        ]}% of your Mana regeneration to continue while casting.`,
+        ]}% of your mana regeneration to continue while casting.`,
       },
       "Spiritual Guidance": {
         name: "Spiritual Guidance",
@@ -338,7 +338,7 @@ export const data: TalentData = {
         description: talentText`Heals ${[
           50,
           100,
-        ]}% of the damage taken over 6 sec, after being the victim of a critical strike.`,
+        ]}% of the damage taken over 6 sec after being the victim of a critical strike.`,
       },
       "Healing Focus": {
         name: "Healing Focus",
@@ -434,7 +434,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.`,
+        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 15 sec.`,
       },
       "Shadow Focus": {
         name: "Shadow Focus",

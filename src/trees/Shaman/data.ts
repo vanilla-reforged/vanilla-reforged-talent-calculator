@@ -63,7 +63,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec, after beeing the victim of a critical strike.`,
+        ]}% chance to resist interruption caused by damage while casting any spell for 6 sec after beeing the victim of a critical strike.`,
       }, 
       "Lightning Mastery": {
         name: "Lightning Mastery",
@@ -335,7 +335,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% for 10 sec, after getting a critical strike with a spell.`,
+        ]}% for 10 sec after getting a critical strike with a spell.`,
       },
       "Surge Steps": {
         name: "Surge Steps",

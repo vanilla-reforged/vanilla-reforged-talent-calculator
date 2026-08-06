@@ -102,7 +102,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holybolt"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the amount healed by your Holy Light and Flash of Light spells by ${[
+        description: talentText`Increases healing done by your Holy Light and Flash of Light spells by ${[
           2,
           4,
           6,
@@ -174,7 +174,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to gain Mana equal to the base cost of the spell, after getting a critical effect from one of your healing spells.`,
+        ]}% chance to gain Mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
@@ -198,7 +198,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Blasts the target with Holy energy, causing 191 Holy damage to an enemy, or healing an ally for 191.\n\n10 sec cooldown.`,
+        description: talentText`Deals an average of 191 Holy damage to an enemy, or restores an average of 191 health to an ally.\n\n10 sec cooldown.`,
       },
     },
   },
@@ -332,7 +332,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Divine Endurance",
         arrows: [{ dir: "down", from: "b3", to: "c3" }],
-        description: talentText`Decreases the cooldown of your Blessing of Protection, Divine Protection and Divine Shield spells by ${[
+        description: talentText`Decreases the cooldown of your Blessing of Protection, Divine Protection, and Divine Shield spells by ${[
           30,
           60,
           90,

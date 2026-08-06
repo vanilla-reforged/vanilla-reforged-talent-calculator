@@ -60,7 +60,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_riposte"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the armor decreased by your Expose Armor ability by ${[
+        description: talentText`Increases the armor reduction caused by your Expose Armor ability by ${[
           25,
           50,
         ]}%.`,
