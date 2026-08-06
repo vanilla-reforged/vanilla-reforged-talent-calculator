@@ -173,7 +173,7 @@ export const data: TalentData = {
         icon: icons["spell_arcane_starfire"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`All of your Arcane spell critical strikes grace you with an Arcane Burst, reducing the casting time of your next Fireball or Frostbolt spell by 0.75 sec.  Stacks up to 3 times.`,
+        description: talentText`All of your Arcane spell critical strikes grace you with an Arcane Burst, decreasing the casting time of your next Fireball or Frostbolt spell by 0.75 sec.  Stacks up to 3 times.`,
       },
       "Magic Absorption": {
         name: "Magic Absorption",
@@ -557,7 +557,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_icestorm"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by ${[
+        description: talentText`Adds a chill effect to your Blizzard spell.  This effect decreases the target's movement speed by ${[
           25,
           50,
         ]}%.  Lasts 2 sec.`,
