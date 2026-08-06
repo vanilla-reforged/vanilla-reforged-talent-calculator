@@ -260,7 +260,7 @@ export const data: TalentData = {
         icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases threat you cause in Bear and Dire Bear Form by ${[
+        description: talentText`Increases threat you generate in Bear and Dire Bear Form by ${[
           3,
           6,
           9,
@@ -405,7 +405,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_cat"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Claw, Shred, Maul and Swipe abilities have a ${[
+        description: talentText`Your Claw, Shred, Maul, and Swipe abilities have a ${[
           5,
           10,
           15,

@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_stun"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives your Chain Lightning, Lightning Bolt and Shock spells a ${[
+        description: talentText`Gives your Chain Lightning, Lightning Bolt, and Shock spells a ${[
           2,
           4,
           6,
