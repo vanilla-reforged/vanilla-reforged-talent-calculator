@@ -568,7 +568,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Incapacitiates the enemy target for up to $d.  Any damage breaks the effect.  Can only be used on Humanoids.\n\n45 sec cooldown.`,
+        description: talentText`Incapacitates the target for up to 6 sec.  Any damage breaks the effect.  Can only be used on Humanoids.\n\n45 sec cooldown.`,
       },
       "Justice": {
         name: "Justice",

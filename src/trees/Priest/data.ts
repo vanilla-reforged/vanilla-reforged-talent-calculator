@@ -212,7 +212,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Crusade",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Power infuses the Priests party, increasing their spell damage and healing by 15% for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Infuses your party with power, increasing spell damage and healing by 15% for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },
