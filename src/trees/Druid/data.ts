@@ -205,7 +205,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`o	Transforms the Druid into Moonkin Form, increasing the armor contribution from items by 360%.  Also causes the Druid's offensive spell critical strikes to grant a blessing of nature, reducing the casting time of the Druid's next spell by 1.5 sec.  The Moonkin can only cast Balance spells while shapeshifted.   \n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
+        description: talentText`o	Transforms you into Moonkin Form, increasing the armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec. While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
       },
     },
   },
@@ -317,7 +317,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decreases the target's armor by 7% for 30 sec.  While affected, the target cannot stealth or turn invisible.`,
+      description: talentText`Decreases the target's armor by 7% for $d.  While affected, the target cannot enter Stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
@@ -601,7 +601,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Your next Nature spell becomes an instant cast spell.\n\n2 min cooldown.`,
+        description: talentText`Your next Nature spell is cast instantly.\n\n2 min cooldown.`,
       },
       "Tranquil Mind": {
         name: "Tranquil Mind",

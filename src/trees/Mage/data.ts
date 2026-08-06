@@ -381,7 +381,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism_02"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 153 Fire damage, and dazing them for 6 sec.\n\n45 sec cooldown.`,
+        description: talentText`o	Deals an average of 153 Fire damage to all enemies within 10 yards of you and dazes them for 6 sec\n\n45 sec cooldown.`,
       },
       "Ashmaker": {
         name: "Ashmaker",
@@ -618,7 +618,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 248 Frost damage to all enemies within the target area and freezes them for 8 sec.\n\n30 sec cooldown.`,
+        description: talentText`Deals an average of 248 Frost damage to all enemies within the target area and freezes them for 8 sec.  Any damage may break the effect. \n\n30 sec cooldown.`,
       },
     },
   },

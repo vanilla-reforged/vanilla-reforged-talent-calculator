@@ -98,7 +98,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the casting time of the next Revive Pet spell by 4 sec and its mana cost by 50%.\n\n15 min cooldown.`,
+        description: talentText`Decreases the casting time of your next Revive Pet spell by 4 sec and its mana cost by 50%.\n\n15 min cooldown.`,
       },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",
@@ -175,7 +175,7 @@ export const data: TalentData = {
         icon: icons["ability_devour"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Causes the pet's next successful melee attack to generate a high amount of threat and stun the target for 3 sec.\n\n25 sec cooldown.`,
+        description: talentText`Causes your pet's next successful melee attack to generate a high amount of threat and stun the target for 3 sec.\n\n25 sec cooldown.`,
       },
       "Bestial Discipline": {
         name: "Bestial Discipline",

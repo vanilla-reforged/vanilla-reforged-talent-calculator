@@ -498,7 +498,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Gives the Paladin a chance to deal Holy damage equal to 70% of normal weapon damage.  Only one Seal can be active on the Paladin at any one time.  Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing an average of 84 Holy damage, 127 if the target is stunned or incapacitated.`,
+        description: talentText`Grants your melee attacks a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active at a time.  Lasts 30 sec.\n\nUnleashing this Seal's energy deals an average of 84 Holy damage, or an average of 127 if the target is stunned or incapacitated.`,
       },
       "Benediction": {
         name: "Benediction",
