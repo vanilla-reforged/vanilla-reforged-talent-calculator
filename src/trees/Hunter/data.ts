@@ -58,7 +58,7 @@ export const data: TalentData = {
         icon: icons["ability_mount_jungletiger"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by an additional ${[
+        description: talentText`Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack abilities by an additional ${[
           2,
           4,
           6,
@@ -70,7 +70,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_aspectofthemonkey"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey by an additional ${[
+        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey ability by an additional ${[
           2,
           4,
           6,
@@ -112,11 +112,11 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]} sec, the mana cost by ${[
+        ]} sec and its mana cost by ${[
           10,
           20,
           30,
-        ]}% and increases the Health your pet returns with by an additional ${[
+        ]}%, and increases the Health your pet returns with by an additional ${[
           10,
           20,
           30,
@@ -341,7 +341,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_runningshot"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the melee and ranged attack speed increase of your Rapid Fire ability by ${[
+        description: talentText`Increases the melee and ranged attack speed bonus of your Rapid Fire ability by ${[
           10,
           20,
         ]}%.`,
@@ -372,7 +372,7 @@ export const data: TalentData = {
         icon: icons["ability_upgrademoonglaive"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Multi-Shot, Quick Shot and Volley abilities by ${[
+        description: talentText`Increases the damage done by your Multi-Shot, Quick Shot, and Volley abilities by ${[
           2,
           4,
           6,
@@ -505,7 +505,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_timestop"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the duration of your Freezing and Frost trap's effects by ${[
+        description: talentText`Increases the duration of your Freezing and Frost trap effects by ${[
           5,
           10,
           15,
