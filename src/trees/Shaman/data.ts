@@ -608,7 +608,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the amount healed by your healing spells by ${[
+        description: talentText`Increases healing done by your healing spells by ${[
           2,
           4,
           6,
