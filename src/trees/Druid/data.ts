@@ -144,7 +144,10 @@ export const data: TalentData = {
         icon: icons["spell_nature_starfall"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the damage done by, and the critical strike chance of, your Moonfire spell by ${[
+        description: talentText`o	Increases the damage done by your Moonfire spell by ${[
+          5,
+          10,
+        ]}% and its critical strike chance by ${[
           5,
           10,
         ]}%.`,
