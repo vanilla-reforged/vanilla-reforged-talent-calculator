@@ -490,7 +490,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to return to stealth mode after using your Sap ability.`,
+        ]}% chance to re-enter Stealth after using your Sap ability.`,
       },
       "Ghostly Strike": {
         name: "Ghostly Strike",
