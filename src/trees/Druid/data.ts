@@ -480,7 +480,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_spiritarmor"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Decreases all spell damage taken by ${[
+        description: talentText`Decreases all spell damage you take by ${[
           2,
           4,
           6,
