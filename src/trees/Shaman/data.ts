@@ -309,7 +309,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_nullward"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases block chance by 60% for 7 sec. The effect can only block 2 attacks. \n\n5 sec cooldown.`,
+        description: talentText`Increases your block chance by 60% for 7 sec. The effect can only block 2 attacks. \n\n5 sec cooldown.`,
       },
       "Redoubt": {
         name: "Redoubt",
