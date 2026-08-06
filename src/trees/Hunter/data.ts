@@ -443,7 +443,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_bloodrage"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the critical strike chance of your Raptor Strike, Mongoose Bite and Silent Hunt abilities by ${[
+        description: talentText`Increases the critical strike chance of your Raptor Strike, Mongoose Bite, and Silent Hunt abilities by ${[
           3,
           6,
           9,
@@ -549,7 +549,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Raptor Strike, Mongoose Bite and Silent Hunt abilities by ${[3, 6, 9,]}%.`,
+        description: talentText`Increases the damage of your Raptor Strike, Mongoose Bite, and Silent Hunt abilities by ${[3, 6, 9,]}%.`,
       },
       "Stalk": {
         name: "Stalk",

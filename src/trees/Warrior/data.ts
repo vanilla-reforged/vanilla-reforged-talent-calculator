@@ -101,7 +101,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% chance to immobilize the target for 5 sec and decreases the rage cost of your Hamstring ability by ${[
+        ]}% chance to immobilize the target for 5 sec and decreases the Rage cost of your Hamstring ability by ${[
           1,
           2,
           3,
@@ -462,7 +462,7 @@ export const data: TalentData = {
           9,
           12,
           15,
-        ]}%.  In addition you gain a ${[
+        ]}%.  In addition, you gain a ${[
           20,
           40,
           60,

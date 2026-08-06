@@ -284,7 +284,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_restoration"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the duration of your Blessing of Protection, Divine Protection and Divine Shield spells ${[
+        description: talentText`Increases the duration of your Blessing of Protection, Divine Protection, and Divine Shield spells ${[
           1,
           2,
           3,
@@ -379,7 +379,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_ambush"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Requires One Handed Weapon.\n\nAn instant attack that deals holy damage equal to 110% of weapon damage.\n\n10 sec cooldown.`,
+        description: talentText`Requires One Handed Weapon.\n\nDeals 110% of weapon damage as Holy damage.\n\n10 sec cooldown.`,
       },
       "Force of Faith": {
         name: "Force of Faith",
@@ -604,7 +604,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Repentance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Requires Two Handed Weapon.\n\nAn instant strike that deals 130% normal weapon damage and generates 3% of your total mana.\n\n10 sec cooldown.`,
+        description: talentText`Requires Two Handed Weapon.\n\nDeals 130% normal weapon damage and generates 3% of your total mana.\n\n10 sec cooldown.`,
       },
     },
   },

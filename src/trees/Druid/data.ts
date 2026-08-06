@@ -367,7 +367,7 @@ export const data: TalentData = {
       description: talentText`Increases the damage done by your Claw and Shred abilities by an additional ${[
         10,
         20,
-      ]}% and your critical strikes from Cat Form abilities that add combo points have a ${[
+      ]}%, and your critical strikes from Cat Form abilities that add combo points have a ${[
         25,
         50,
       ]}% chance to add an additional combo point.`,
