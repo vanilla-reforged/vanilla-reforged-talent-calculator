@@ -306,7 +306,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% and decreases the Rage cost of your Maul, and Swipe abilities by ${[
+        ]}% and decreases the Rage cost of your Maul and Swipe abilities by ${[
           1,
           2,
           3,
@@ -384,11 +384,11 @@ export const data: TalentData = {
         33,
         66,
         100,
-      ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.  In addition increases the damage done by your Maul and Swipe abilities by an additional ${[
+      ]}% chance to gain an additional 5 Rage awhenever you get a critical strike while in Bear Form and Dire Bear Form.  Increases the damage done by your Maul and Swipe abilities by an additional ${[
         2,
         4,
         6,
-      ]}% and increases the stun duration of your Bash ability by ${[
+      ]}% and the stun duration of your Bash ability by ${[
         0.5,
         1,
         1.5,
