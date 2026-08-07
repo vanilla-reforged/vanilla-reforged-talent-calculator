@@ -107,7 +107,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your offensive spells by ${[
+        description: talentText`Decreases the mana cost of your Chain Lightning, Lightning Bolt, and Shock spells by ${[
           6,
           12,
           18,
@@ -444,7 +444,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]} min and increases the amount of health and mana you reincarnate with by ${[
+        ]} min and increases the amount of health and mana you reincarnate with by an additional ${[
           10,
           20,
           30,

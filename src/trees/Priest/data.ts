@@ -69,7 +69,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofwrath"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Decreases the casting time of your Smite and Holy Fire spells by ${[
+        description: talentText`Decreases the casting time of your Holy Fire and Smite spells by ${[
           0.1,
           0.2,
           0.3,

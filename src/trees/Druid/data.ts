@@ -263,7 +263,7 @@ export const data: TalentData = {
         icon: icons["ability_ambush"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases threat you generate in Bear and Dire Bear Form by ${[
+        description: talentText`Increases the threat you generate in Bear and Dire Bear Form by ${[
           3,
           6,
           9,
@@ -581,7 +581,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_undyingstrength"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increase your target's armor value by ${[
+        description: talentText`Increases your target's armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
