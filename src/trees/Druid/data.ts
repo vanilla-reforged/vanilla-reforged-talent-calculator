@@ -320,7 +320,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decreases the target's armor by 7% for $d.  While affected, the target cannot enter Stealth or turn invisible.`,
+      description: talentText`Decreases the target's armor by 7% for 30 sec.  While affected, the target cannot enter Stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
