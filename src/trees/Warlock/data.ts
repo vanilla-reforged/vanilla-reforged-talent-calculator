@@ -173,7 +173,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by 20%.  Lasts 30 sec.\n\n2 min cooldown.`,
+        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by an additional 20%.  Lasts 30 sec.\n\n2 min cooldown.`,
       },
       "Blight": {
         name: "Blight",
@@ -338,7 +338,7 @@ export const data: TalentData = {
           0.3,
           0.4,
           0.5,
-        ]} sec.\n\nDecreases the cooldown of Voidwalker's Torment spell by ${[
+        ]} sec.\n\nDecreases the cooldown of your Voidwalker's Torment spell by ${[
           0.4,
           0.8,
           1.2,
@@ -452,7 +452,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Soul Link",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Sacrifices your summoned demon to grant you an effect that lasts 30 min.\n\nImp: Increases your Fire damage by 10%.\n\nVoidwalker: Restores 3% of your total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 10%.\n\nFelhunter: Restores 2% of your total Mana every 4 sec.`,
+        description: talentText`Sacrifices your summoned demon to grant you an effect that lasts for 30 min.\n\nImp: Increases your Fire damage by 10%.\n\nVoidwalker: Restores 3% of your total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 10%.\n\nFelhunter: Restores 2% of your total Mana every 4 sec.`,
       },
     },
   },
@@ -601,7 +601,7 @@ export const data: TalentData = {
           26,
         ]}% chance to stun the target for 3 sec.`,
       },
-            "Improved Searing Pain": {
+      "Improved Searing Pain": {
         name: "Improved Searing Pain",
         pos: "d3",
         icon: icons["spell_fire_soulburn"],

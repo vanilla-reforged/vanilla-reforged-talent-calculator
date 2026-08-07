@@ -30,7 +30,7 @@ export const data: TalentData = {
         icon: icons["inv_hammer_04"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with two-handed weapons by ${[
+        description: talentText`Increases your chance to hit with two-handed melee weapons by ${[
           1,
           2,
           3,
@@ -243,7 +243,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_fistofjustice"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases your chance to hit with one-handed weapons by ${[
+        description: talentText`Increases your chance to hit with one-handed melee weapons by ${[
           1,
           2,
           3,
