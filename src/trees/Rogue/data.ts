@@ -136,7 +136,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to add an additional combo point to your target when using your Ambush, Cheap Shot or Garrote abilities.`,
+        ]}% chance to add an additional combo point to your target when using your Ambush, Cheap Shot, or Garrote abilities.`,
       },
       "Vile Poisons": {
         name: "Vile Poisons",
