@@ -99,7 +99,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispheal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Calls down a Lightning Storm around the caster, causing 50 Nature damage to all targets within 10 yards.`,
+        description: talentText`o	Deals an average of 50 Nature damage to all enemies within 10 yards.`,
       },
       "Convection": {
         name: "Convection",
@@ -373,11 +373,11 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}%, the melee attack power bonus of your Windfury Weapon by ${[
+        ]}%, the melee attack power bonus of your Windfury Weapon by 5/10/15%  by 5/10/15% ${[
           5,
           10,
           15,
-        ]}% and increases the spell damage bonus of your Windcaller Weapon by ${[
+        ]}%, and increases the spell damage and healing bonus of your Windcaller Weapon ${[
           5,
           10,
           15,
@@ -526,7 +526,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_manarecharge"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the amount healed by your Healing Wave and Lesser Healing Wave spells by ${[
+        description: talentText`Increases the healing done by your Healing Wave and Lesser Healing Wave spells by ${[
           2,
           4,
           6,
