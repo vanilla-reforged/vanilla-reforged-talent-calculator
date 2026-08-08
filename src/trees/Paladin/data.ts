@@ -534,7 +534,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_vindication"],
         maxRank: 2,
         reqPoints: 10,
-        description: talentText`Gives your damaging melee attacks a chance to decrease the target's Strength and Agility by ${[
+        description: talentText`Gives your damaging melee attacks a chance to decrease your target's Strength and Agility by ${[
           5,
           10,
         ]}%.`,
