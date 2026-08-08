@@ -21,7 +21,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul.  For the duration, your Mana will regenerate at a 50% rate while casting.`,
+        ]}% chance to get a 100% increase to your mana regeneration for 10 sec if the target is killed by you while you drain its soul.  For the duration, your Mana will regenerate at a 50% rate while casting.`,
       },
       "Suppression": {
         name: "Suppression",
@@ -43,7 +43,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives your Corruption, Curse of Agony, Drain Life and Drain Mana spells a ${[
+        description: talentText`Gives your Corruption, Curse of Agony, Drain Life, and Drain Mana spells a ${[
           2,
           4,
           6,
@@ -128,7 +128,7 @@ export const data: TalentData = {
           35,
           70,
           100,
-        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spell.`,
+        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spells.`,
       },
       "Improved Curse of Agony": {
         name: "Improved Curse of Agony",
@@ -161,7 +161,7 @@ export const data: TalentData = {
         reqPoints: 15,
         prereq: "Fel Concentration",
         arrows: [{ dir: "down", from: "c3", to: "d3" }],
-        description: talentText`Increases the Health drained by your Drain Life spell by ${[
+        description: talentText`Increases the health drained by your Drain Life spell by ${[
           5,
           10,
           15,
@@ -181,7 +181,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_requiem"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Corruption, Drain Life and Shadow Bolt spells by ${[
+        description: talentText`Increases the damage done by your Corruption, Drain Life, and Shadow Bolt spells by ${[
           2,
           4,
           6,
@@ -292,7 +292,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_antishadow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the maximum Health and Mana of your summoned demon by ${[
+        description: talentText`Increases the maximum health and mana of your summoned demon by ${[
           3,
           6,
           9,
@@ -370,7 +370,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_enslavedemon"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Decreases the Attack Speed and Casting Speed penalty of your Enslave Demon spell by ${[
+        description: talentText`Decreases the attack speed and casting speed penalty of your Enslave Demon spell by ${[
           15,
           30,
         ]}% and increases its chance to hit by ${[
@@ -554,7 +554,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_scourgebuild"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Instantly blasts the target for an average of 84 Fire damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, you gain a Soul Shard.\n\n15 sec cooldown.`,
+        description: talentText`Deals an average of 84 Fire damage.  If the target dies within 5 sec of Shadowburn and yields experience or honor, you gain a Soul Shard.\n\n15 sec cooldown.`,
       },
       "Improved Shadowburn": {
         name: "Improved Shadowburn",
@@ -611,7 +611,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.`,
+        ]}% for 12 sec or until 4 non-periodic damage sources are applied.`,
       },
       "Ruin": {
         name: "Ruin",
@@ -627,7 +627,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fire"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Hellfire, Searing Pain and Soul Fire spells by ${[
+        description: talentText`Increases the damage done by your Hellfire, Searing Pain, and Soul Fire spells by ${[
           2,
           4,
           6,
@@ -655,7 +655,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ruin",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Ignites a target that is already afflicted by Immolate, dealing an average of 246 Fire damage and consuming the Immolate spell.\n\n10 sec cooldown.`,
+        description: talentText`Deals an average of 246 Fire damage to a target afflicted by Immolate, consuming the Immolate effect.\n\n10 sec cooldown.`,
       },
     },
   },

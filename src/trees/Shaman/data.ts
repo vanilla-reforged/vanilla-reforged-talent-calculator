@@ -99,7 +99,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispheal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`o	Deals an average of 50 Nature damage to all enemies within 10 yards.`,
+        description: talentText`Deals an average of 50 Nature damage to all enemies within 10 yards.`,
       },
       "Convection": {
         name: "Convection",
@@ -624,7 +624,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Nature's Swiftness",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Summons a Mana Tide Totem with 5 health at the Shaman's feet for 12 sec. Restores 170 mana to group members within 20 yards every 3 sec.\n\n2 min cooldown.`,
+        description: talentText`Summons a Mana Tide Totem with 5 health for 12 sec. It restores 170 mana to group members within 20 yards every 3 sec.\n\n2 min cooldown.`,
       },
     },
   },

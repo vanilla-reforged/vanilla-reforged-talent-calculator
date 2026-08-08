@@ -180,7 +180,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_teleport"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Insect Swarm, Moonfire, Starfire and Wrath spells have a ${[
+        description: talentText`Your Insect Swarm, Moonfire, Starfire, and Wrath spells have a ${[
           5,
           10,
           15,
