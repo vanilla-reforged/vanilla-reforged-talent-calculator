@@ -70,7 +70,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_aspectofthemonkey"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the dodge bonus of your Aspect of the Monkey ability by an additional ${[
+        description: talentText`Increases the Dodge bonus of your Aspect of the Monkey ability by an additional ${[
           2,
           4,
           6,
