@@ -107,7 +107,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your Chain Lightning, Lightning Bolt, and Shock spells by ${[
+        description: talentText`Decreases the Mana cost of your Chain Lightning, Lightning Bolt, and Shock spells by ${[
           6,
           12,
           18,
@@ -194,12 +194,12 @@ export const data: TalentData = {
       "Elemental Focus": {
         name: "Elemental Focus",
         pos: "g2",
-        icon: icons["spell_shadow_manaburn"],
+        icon: icons["spell_shadow_Manaburn"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with elemental focus, decreasing the casting time of your next Chain Lightning spell by 40% and decreasing its mana cost by 100%.  Lasts 10 sec.`,
+        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with Elemental Focus, decreasing the casting time of your next Chain Lightning spell by 40% and decreasing its Mana cost by 100%.  Lasts 10 sec.`,
       },
     },
   },
@@ -214,7 +214,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_stoneskintotem"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the armor bonus of your Stoneskin Totem by an additional ${[
+        description: talentText`Increases the Armor bonus of your Stoneskin Totem by an additional ${[
           1,
           2,
           3,
@@ -355,7 +355,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_enchantweapon"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the melee attack power bonus of your Windfury Totem by ${[
+        description: talentText`Increases the melee Attack Power bonus of your Windfury Totem by ${[
           5,
           10,
         ]}% and increases the spell damage bonus of your Windcaller Totem by ${[
@@ -369,11 +369,11 @@ export const data: TalentData = {
         icon: icons["spell_fire_flametounge"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the melee attack power bonus of your Rockbiter Weapon by ${[
+        description: talentText`Increases the melee Attack Power bonus of your Rockbiter Weapon by ${[
           5,
           10,
           15,
-        ]}%, the melee attack power bonus of your Windfury Weapon by 5/10/15%  by 5/10/15% ${[
+        ]}%, the melee Attack Power bonus of your Windfury Weapon by 5/10/15%  by 5/10/15% ${[
           5,
           10,
           15,
@@ -389,7 +389,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_sealofmight"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Gives you an extra attack and generates 3% of your total mana.  In addition, the damage of your next Nature spell is increased by 10%.  Lasts 8 sec.\n\n10 sec cooldown.`,
+        description: talentText`Gives you an extra attack and generates 3% of your total Mana.  In addition, the damage of your next Nature spell is increased by 10%.  Lasts 8 sec.\n\n10 sec cooldown.`,
       },
       "Thunderstruck": {
         name: "Thunderstruck",
@@ -425,7 +425,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Stormstrike",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Allows you to wear Plate Mail armor.`,
+        description: talentText`Allows you to wear Plate Mail Armor.`,
       },
     },
   },
@@ -444,7 +444,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]} min and increases the amount of health and mana you reincarnate with by an additional ${[
+        ]} min and increases the amount of Health and Mana you reincarnate with by an additional ${[
           10,
           20,
           30,
@@ -473,7 +473,7 @@ export const data: TalentData = {
       "Elemental Warding": {
         name: "Elemental Warding",
         pos: "a3",
-        icon: icons["spell_nature_spiritarmor"],
+        icon: icons["spell_nature_spiritArmor"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Decreases all spell damage you take by ${[
@@ -490,7 +490,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_moonglow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Decreases the mana cost of your totems by ${[
+        description: talentText`Decreases the Mana cost of your totems by ${[
           5,
           10,
           15,
@@ -518,12 +518,12 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`Decreases the Mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Tidal Focus": {
         name: "Tidal Focus",
         pos: "c2",
-        icon: icons["spell_frost_manarecharge"],
+        icon: icons["spell_frost_Manarecharge"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Increases the healing done by your Healing Wave and Lesser Healing Wave spells by ${[
@@ -565,7 +565,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_undyingstrength"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases your target's armor value by ${[
+        description: talentText`Increases your target's Armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
@@ -573,7 +573,7 @@ export const data: TalentData = {
       "Restorative Totems": {
         name: "Restorative Totems",
         pos: "d3",
-        icon: icons["spell_nature_manaregentotem"],
+        icon: icons["spell_nature_Manaregentotem"],
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Increases the effect of your Mana Spring and Healing Stream totems by ${[
@@ -624,7 +624,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Nature's Swiftness",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Summons a Mana Tide Totem with 5 health for 12 sec. It restores 170 mana to group members within 20 yards every 3 sec.\n\n2 min cooldown.`,
+        description: talentText`o	Summons a Mana Tide Totem with 5 Health for 12 sec that restores 170 Mana every 3 sec to group members within 20 yards.\n\n2 min cooldown.`,
       },
     },
   },

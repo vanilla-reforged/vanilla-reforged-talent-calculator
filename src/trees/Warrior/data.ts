@@ -15,7 +15,7 @@ export const data: TalentData = {
       "Tactical Mastery": {
         name: "Tactical Mastery",
         pos: "a1",
-        icon: icons["spell_nature_enchantarmor"],
+        icon: icons["spell_nature_enchantArmor"],
         maxRank: 3,
         reqPoints: 0,
         description: talentText`You retain up to ${[
@@ -132,13 +132,13 @@ export const data: TalentData = {
         icon: icons["ability_warrior_battleshout"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the melee attack power bonus of your Battle Shout by ${[
+        description: talentText`Increases the melee Attack Power bonus of your Battle Shout by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}%, the melee attack power reduction of your Demoralizing Shout by ${[
+        ]}%, the melee Attack Power reduction of your Demoralizing Shout by ${[
           1,
           2,
           3,
@@ -235,7 +235,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your health will regenerate at a 50% rate while in combat.  Lasts 15 sec.`,
+        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Health regenerates at a 50% rate while in combat.  Lasts 15 sec.`,
       },
       "One-Handed Precision": {
         name: "One-Handed Precision",
@@ -395,7 +395,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathpact"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When activated, increases your physical damage by 10%, but decreases your armor and all resistances by 10%.  Lasts 20 sec.\n\n2 min cooldown.`,
+        description: talentText`When activated, increases your physical damage by 10%, but decreases your Armor and all resistances by 10%.  Lasts 20 sec.\n\n2 min cooldown.`,
       },
       "Flurry": {
         name: "Flurry",
@@ -421,7 +421,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Death Wish",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals damage equal to 45% of your attack power and your next 5 successful melee attacks will restore 10 health.  Lasts 8 sec.\n\n6 sec cooldown.`,
+        description: talentText`Deals damage equal to 45% of your Attack Power and your next 5 successful melee attacks will restore 10 Health.  Lasts 8 sec.\n\n6 sec cooldown.`,
       },
     },
   },

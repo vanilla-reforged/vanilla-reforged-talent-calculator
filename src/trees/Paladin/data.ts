@@ -139,7 +139,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_power"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases your target's armor value by ${[
+        description: talentText`Increases your target's Armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
@@ -174,7 +174,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to gain Mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
+        ]}% chance to gain mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
@@ -198,7 +198,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 191 Holy damage to an enemy, or restores an average of 191 health to an ally.\n\n10 sec cooldown.`,
+        description: talentText`Deals an average of 191 Holy damage to an enemy, or restores an average of 191 Health to an ally.\n\n10 sec cooldown.`,
       },
     },
   },
@@ -213,7 +213,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_devotionaura"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the armor bonus of your Devotion Aura by an additional ${[
+        description: talentText`Increases the Armor bonus of your Devotion Aura by an additional ${[
           1,
           2,
           3,
@@ -308,7 +308,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_lightningshield"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places a Holy Blessing on you, decreasing damage taken from all sources by up to 10 for 30 min.  While active, blocking a melee attack will deal 14 Holy damage to the attacker.`,
+        description: talentText`Places a Holy Blessing on you, decreasing damage taken from all sources by up to 10 for 30 min.  While active, blocking a melee attack deals 14 Holy damage to the attacker.`,
       },
       "Redoubt": {
         name: "Redoubt",
@@ -399,7 +399,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_20"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage you deal with one-handed melee weapons by ${[
+        description: talentText`Increases the damage you deal with One-Handed melee weapons by ${[
           4,
           8,
           12,
@@ -548,7 +548,7 @@ export const data: TalentData = {
         description: talentText`All spell criticals against you cause ${[
           15,
           30,
-        ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
+        ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total Health.`,
       },
       "Sanctity": {
         name: "Sanctity",
@@ -556,7 +556,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holysmite"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the holy damage you deal by ${[
+        description: talentText`Increases the Holy damage you deal by ${[
           5,
           10,
           15,
@@ -588,7 +588,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Your critical strikes increase the physical and holy damage you deal by ${[
+        description: talentText`Your critical strikes increase the Physical and Holy damage you deal by ${[
           3,
           6,
           9,

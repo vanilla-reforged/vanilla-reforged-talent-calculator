@@ -122,7 +122,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your offensive spells by ${[
+        description: talentText`Decreases the Mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -208,7 +208,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Transforms you into Moonkin Form, increasing the armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec. While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms you into Moonkin Form, increasing the Armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec. While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
       },
     },
   },
@@ -288,7 +288,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Decreases the mana cost of all shapeshifting by ${[
+        description: talentText`Decreases the Mana cost of all shapeshifting by ${[
           10,
           20,
           30,
@@ -320,7 +320,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decreases the target's armor by 7% for 30 sec.  While affected, the target cannot enter Stealth or turn invisible.`,
+      description: talentText`Decreases the target's Armor by 7% for 30 sec.  While affected, the target cannot enter Stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
@@ -480,7 +480,7 @@ export const data: TalentData = {
       "Druidal Warding": {
         name: "Druidal Warding",
         pos: "a3",
-        icon: icons["spell_nature_spiritarmor"],
+        icon: icons["spell_nature_spiritArmor"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Decreases all spell damage you take by ${[
@@ -556,7 +556,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_elunesgrace"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your Healing Touch and Tranquility spells by ${[
+        description: talentText`Decreases the Mana cost of your Healing Touch and Tranquility spells by ${[
           3,
           6,
           9,
@@ -581,7 +581,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_undyingstrength"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases your target's armor value by ${[
+        description: talentText`Increases your target's Armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,

@@ -83,12 +83,12 @@ export const data: TalentData = {
       "Arcane Concentration": {
         name: "Arcane Concentration",
         pos: "c1",
-        icon: icons["spell_shadow_manaburn"],
+        icon: icons["spell_shadow_Manaburn"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Gives you a ${[
           10,
-        ]}% chance of entering a Clearcasting state after any of your damage spells hit a target.  The Clearcasting state decreases the mana cost of your next damage spell by 100%.`,
+        ]}% chance of entering a Clearcasting state after any of your damage spells hit a target.  The Clearcasting state decreases the Mana cost of your next damage spell by 100%.`,
       },
       "Tomeseeker": {
         name: "Tomeseeker",
@@ -107,7 +107,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_charm"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your Arcane spells by ${[
+        description: talentText`Decreases the Mana cost of your Arcane spells by ${[
           3,
           6,
           9,
@@ -136,7 +136,7 @@ export const data: TalentData = {
       "Arcane Meditation": {
         name: "Arcane Meditation",
         pos: "c4",
-        icon: icons["spell_shadow_siphonmana"],
+        icon: icons["spell_shadow_siphonMana"],
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Allows ${[
@@ -161,7 +161,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_detectlesserinvisibility"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Decreases the mana lost per point of damage taken when your Mana Shield is active by ${[
+        description: talentText`Decreases the Mana lost per point of damage taken when your Mana Shield is active by ${[
           20,
           40,
           60,
@@ -213,7 +213,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Arcane Burst",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases damage dealt by your spells by 30%, but increases their mana cost by 30% for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Increases damage dealt by your spells by 30%, but increases their Mana cost by 30% for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_flameshock"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your Fire spells by ${[
+        description: talentText`Decreases the Mana cost of your Fire spells by ${[
           1,
           2,
           3,
@@ -358,10 +358,10 @@ export const data: TalentData = {
         icon: icons["spell_fire_masterofelements"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Your Fire and Frost spell critical strikes will refund ${[
+        description: talentText`Your Fire and Frost spell critical strikes refund ${[
           10,
           20,
-        ]}% of their base mana cost.`,
+        ]}% of their base Mana cost.`,
       },
       "Ignite": {
         name: "Ignite",
@@ -429,7 +429,7 @@ export const data: TalentData = {
       "Improved Frost Armor": {
         name: "Improved Frost Armor",
         pos: "a1",
-        icon: icons["spell_frost_frostarmor02"],
+        icon: icons["spell_frost_frostArmor02"],
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the Armor bonus given by your Frost Armor spell by ${[
@@ -523,7 +523,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_stun"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your Frost spells by ${[
+        description: talentText`Decreases the Mana cost of your Frost spells by ${[
           2,
           4,
           6,
@@ -540,7 +540,7 @@ export const data: TalentData = {
       "Frostbite": {
         name: "Frostbite",
         pos: "c3",
-        icon: icons["spell_frost_frostarmor"],
+        icon: icons["spell_frost_frostArmor"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Gives your Chill effects a ${[
