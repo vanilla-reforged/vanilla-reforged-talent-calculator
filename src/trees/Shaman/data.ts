@@ -199,7 +199,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with Elemental Focus, decreasing the casting time of your next Chain Lightning spell by 40% and decreasing its Mana cost by 100%.  Lasts 10 sec.`,
+        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with Elemental Focus, decreasing the casting time of your next Chain Lightning spell by 40% and decreasing its Mana cost by 100%.  Lasts 8 sec.`,
       },
     },
   },

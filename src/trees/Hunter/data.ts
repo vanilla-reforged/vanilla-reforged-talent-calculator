@@ -84,7 +84,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_reincarnation"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the maximum Health of your pet by ${[
+        description: talentText`Increases the maximum health of your pet by ${[
           3,
           6,
           9,
@@ -98,7 +98,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the casting time of your next Revive Pet spell by 4 sec and its Mana cost by 50%.\n\n15 min cooldown.`,
+        description: talentText`Decreases the casting time of your next Revive Pet spell by 4 sec and its mana cost by 50%.\n\n15 min cooldown.`,
       },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",
@@ -112,11 +112,11 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]} sec and its Mana cost by ${[
+        ]} sec and its mana cost by ${[
           10,
           20,
           30,
-        ]}%, and increases the Health your pet returns with by an additional ${[
+        ]}%, and increases the health your pet returns with by an additional ${[
           10,
           20,
           30,
@@ -155,7 +155,7 @@ export const data: TalentData = {
         description: talentText`While your pet is active, you and your pet will regenerate ${[
           3,
           6,
-        ]}% of total Health every 10 sec.`,
+        ]}% of total health every 10 sec.`,
       },
       "Frenzy": {
         name: "Frenzy",
@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["ability_trueshot"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the Attack Power of party members within 45 yards by 2%.  Lasts 30 min.`,
+        description: talentText`Increases the attack power of party members within 45 yards by 2%.  Lasts 30 min.`,
       },
       "Efficiency": {
         name: "Efficiency",
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your Shot and Sting abilities by ${[
+        description: talentText`Decreases the mana cost of your Shot and Sting abilities by ${[
           6,
           12,
           18,
@@ -457,7 +457,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_twilight"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases total Health by ${[
+        description: talentText`Increases total health by ${[
           2,
           4,
           6,
@@ -471,7 +471,7 @@ export const data: TalentData = {
         icon: icons["ability_ensnare"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Decreases the chance for enemies to resist trap effects by ${[
+        description: talentText`Decreases the chance enemies will resist trap effects by ${[
           5,
           10,
           15,
