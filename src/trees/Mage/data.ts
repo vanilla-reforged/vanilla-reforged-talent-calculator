@@ -540,7 +540,7 @@ export const data: TalentData = {
       "Frostbite": {
         name: "Frostbite",
         pos: "c3",
-        icon: icons["spell_frost_frostarmor"],
+        icon: icons["spell_frost_frostArmor"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Gives your Chill effects a ${[

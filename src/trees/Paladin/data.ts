@@ -150,7 +150,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_renew"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Decreases the mana cost of your Cleanse spell by ${[
+        description: talentText`Decreases the Mana cost of your Cleanse spell by ${[
           12,
           24,
           36,
@@ -174,7 +174,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to gain mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
+        ]}% chance to gain Mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
@@ -415,7 +415,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Templar's Blow",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases your block chance by 60% for 14 sec and restores 3% of your total mana.  While active, blocking an attack deals 65@lvl40 Holy damage to the attacker and consumes one charge.  Holy Shield damage generates 20% additional threat.  4 charges.\n\n10 sec cooldown.`,
+        description: talentText`Increases your block chance by 60% for 14 sec and restores 3% of your total mana.  While active, blocking an attack deals Holy damage to the attacker and consumes one charge.  Holy Shield damage generates 20% additional threat.  4 charges.\n\n10 sec cooldown.`,
       },
     },
   },

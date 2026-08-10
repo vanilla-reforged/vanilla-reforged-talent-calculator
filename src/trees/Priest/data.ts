@@ -168,7 +168,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}%. Lasts 10 sec.`,
+        ]}% for 10 sec.`,
       },
       "Crusade": {
         name: "Crusade",
@@ -236,7 +236,7 @@ export const data: TalentData = {
       "Silent Resolve": {
         name: "Silent Resolve",
         pos: "a2",
-        icon: icons["spell_nature_Manaregentotem"],
+        icon: icons["spell_nature_manaregentotem"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Decreases the threat caused by your Holy and Shadow spells by ${[
@@ -478,7 +478,7 @@ export const data: TalentData = {
       "Warping Shadows": {
         name: "Warping Shadows",
         pos: "b2",
-        icon: icons["spell_shadow_siphonMana"],
+        icon: icons["spell_shadow_siphonmana"],
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Decreases the casting time of your Mind Blast and Mind Control spells by ${[
