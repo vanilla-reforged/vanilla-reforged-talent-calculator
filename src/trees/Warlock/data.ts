@@ -21,7 +21,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul.  For the duration, your Mana regenerates at a 50% rate while casting.`,
+        ]}% chance to get a 100% increase to your mana regeneration for 10 sec if the target is killed by you while you drain its soul.  For the duration, your mana regenerates at a 50% rate while casting.`,
       },
       "Suppression": {
         name: "Suppression",
@@ -43,7 +43,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives your Corruption, Curse of Agony, Drain Life, and Drain Mana spells a ${[
+        description: talentText`Gives your Corruption, Curse of Agony, Drain Life, and Drain mana spells a ${[
           2,
           4,
           6,
@@ -101,10 +101,10 @@ export const data: TalentData = {
       "Calamity": {
         name: "Calamity",
         pos: "c2",
-        icon: icons["spell_shadow_Manaburn"],
+        icon: icons["spell_shadow_manaburn"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your Affliction spells by ${[
+        description: talentText`Decreases the mana cost of your Affliction spells by ${[
           3,
           6,
           9,
@@ -128,7 +128,7 @@ export const data: TalentData = {
           35,
           70,
           100,
-        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spells.`,
+        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain mana, or Drain Soul spells.`,
       },
       "Improved Curse of Agony": {
         name: "Improved Curse of Agony",
@@ -148,7 +148,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_burningspirit"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases the amount of Mana awarded by your Life Tap spell by ${[
+        description: talentText`Increases the amount of mana awarded by your Life Tap spell by ${[
           10,
           20,
         ]}%.`,
@@ -161,7 +161,7 @@ export const data: TalentData = {
         reqPoints: 15,
         prereq: "Fel Concentration",
         arrows: [{ dir: "down", from: "c3", to: "d3" }],
-        description: talentText`Increases the Health drained by your Drain Life spell by ${[
+        description: talentText`Increases the health drained by your Drain Life spell by ${[
           5,
           10,
           15,
@@ -221,7 +221,7 @@ export const data: TalentData = {
       "Improved Demon Skin": {
         name: "Improved Demon Skin",
         pos: "a1",
-        icon: icons["spell_shadow_demon_Armor"],
+        icon: icons["spell_shadow_demon_armor"],
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the effects of your Demon Skin spell by ${[
@@ -292,7 +292,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_antishadow"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the maximum Health and Mana of your summoned demon by ${[
+        description: talentText`Increases the maximum health and mana of your summoned demon by ${[
           3,
           6,
           9,
@@ -306,7 +306,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your next Demon Summoning spell has its casting time decreased by 4 sec and its Mana cost decreased by 50%.\n\n15 min cooldown.`,
+        description: talentText`Your next Demon Summoning spell has its casting time decreased by 4 sec and its mana cost decreased by 50%.\n\n15 min cooldown.`,
       },
       "Master Summoner": {
         name: "Master Summoner",
@@ -320,7 +320,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]} sec and the Mana cost by ${[
+        ]} sec and the mana cost by ${[
           10,
           20,
           30
@@ -452,7 +452,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Soul Link",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Sacrifices your summoned demon to grant you an effect that lasts for 30 min.\n\nImp: Increases your Fire damage by 10%.\n\nVoidwalker: Restores 3% of your total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 10%.\n\nFelhunter: Restores 2% of your total Mana every 4 sec.`,
+        description: talentText`Sacrifices your summoned demon to grant you an effect that lasts for 30 min.\n\nImp: Increases your Fire damage by 10%.\n\nVoidwalker: Restores 3% of your total health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 10%.\n\nFelhunter: Restores 2% of your total mana every 4 sec.`,
       },
     },
   },
@@ -576,7 +576,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_windsofwoe"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your Destruction spells by ${[
+        description: talentText`Decreases the mana cost of your Destruction spells by ${[
           1,
           2,
           3,

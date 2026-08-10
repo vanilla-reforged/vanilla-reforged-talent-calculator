@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_pelt_bear_03"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases your pet's Armor by ${[
+        description: talentText`Increases your pet's armor by ${[
           6,
           12,
           18,
@@ -183,7 +183,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_abolishmagic"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increase the Focus regeneration of your pet by ${[
+        description: talentText`Increase the focus regeneration of your pet by ${[
           15,
           30,
           45,
@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["ability_trueshot"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the Attack Power of party members within 45 yards by 2% for 30 min.`,
+        description: talentText`Increases the attack power of party members within 45 yards by 2% for 30 min.`,
       },
       "Efficiency": {
         name: "Efficiency",
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your Shot and Sting abilities by ${[
+        description: talentText`Decreases the mana cost of your Shot and Sting abilities by ${[
           6,
           12,
           18,

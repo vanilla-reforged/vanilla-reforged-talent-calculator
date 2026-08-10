@@ -122,7 +122,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your offensive spells by ${[
+        description: talentText`Decreases the mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -184,7 +184,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% chance to restore 3% of total Mana to the members of your party.`,
+        ]}% chance to restore 3% of total mana to the members of your party.`,
       },
       "Moonfury": {
         name: "Moonfury",
@@ -208,7 +208,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Transforms you into Moonkin Form, increasing the Armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec. While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms you into Moonkin Form, increasing the armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec. While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
       },
     },
   },
@@ -223,7 +223,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_pelt_bear_03"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases your Armor contribution from items by ${[
+        description: talentText`Increases your armor contribution from items by ${[
           2,
           4,
           6,
@@ -280,7 +280,7 @@ export const data: TalentData = {
         description: talentText`The Enrage ability now instantly generates ${[
           5,
           10,
-        ]} Rage.`,
+        ]} rage.`,
       },
       "Natural Shapeshifter": {
         name: "Natural Shapeshifter",
@@ -288,7 +288,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispsplode"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Decreases the Mana cost of all shapeshifting by ${[
+        description: talentText`Decreases the mana cost of all shapeshifting by ${[
           10,
           20,
           30,
@@ -300,13 +300,13 @@ export const data: TalentData = {
         icon: icons["ability_druid_demoralizingroar"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the Attack Power reduction of your Demoralizing Roar ability by ${[
+        description: talentText`Increases the attack power reduction of your Demoralizing Roar ability by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}% and decreases the Rage cost of your Maul and Swipe abilities by ${[
+        ]}% and decreases the rage cost of your Maul and Swipe abilities by ${[
           1,
           2,
           3,
@@ -320,7 +320,7 @@ export const data: TalentData = {
       icon: icons["spell_nature_faeriefire"],
       maxRank: 1,
       reqPoints: 10,
-      description: talentText`Decreases the target's Armor by 7% for 30 sec.  While affected, the target cannot enter Stealth or turn invisible.`,
+      description: talentText`Decreases the target's armor by 7% for 30 sec.  While affected, the target cannot enter Stealth or turn invisible.`,
     },
     "Ferocity": {
       name: "Ferocity",
@@ -328,7 +328,7 @@ export const data: TalentData = {
       icon: icons["ability_hunter_pet_hyena"],
       maxRank: 5,
       reqPoints: 10,
-      description: talentText`Decreases the Energy cost of your Claw and Shred abilities by ${[
+      description: talentText`Decreases the energy cost of your Claw and Shred abilities by ${[
         1,
         2,
         3,
@@ -384,7 +384,7 @@ export const data: TalentData = {
         33,
         66,
         100,
-      ]}% chance to gain an additional 5 Rage whenever you get a critical strike while in Bear Form and Dire Bear Form.  Increases the damage done by your Maul and Swipe abilities by an additional ${[
+      ]}% chance to gain an additional 5 rage whenever you get a critical strike while in Bear Form and Dire Bear Form.  Increases the damage done by your Maul and Swipe abilities by an additional ${[
         2,
         4,
         6,
@@ -412,7 +412,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}% chance to grant 10 Energy or Rage to the members of your party.`,
+        ]}% chance to grant 10 energy or rage to the members of your party.`,
       },
       "Natural Weapons": {
         name: "Natural Weapons",
@@ -529,7 +529,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to gain 15 Rage when you shapeshift into Bear and Dire Bear Form or 60 Energy when you shapeshift into Cat Form.`,
+        ]}% chance to gain 15 rage when you shapeshift into Bear and Dire Bear Form or 60 energy when you shapeshift into Cat Form.`,
       },
       "Omen of Clarity": {
         name: "Omen of Clarity",
@@ -537,7 +537,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state decreases the Mana, Rage, or Energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
+        description: talentText`Imbues the druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state.  The Clearcasting state decreases the mana, rage, or energy cost of your next damage or healing spell or offensive ability by 100%.  Lasts 10 min.`,
       },
       "Reflection": {
         name: "Reflection",
@@ -548,7 +548,7 @@ export const data: TalentData = {
         description: talentText`Allows ${[
           10,
           20,
-        ]}% of your Mana regeneration to continue while casting.`,
+        ]}% of your mana regeneration to continue while casting.`,
       },
       "Tranquil Spirit": {
         name: "Tranquil Spirit",
@@ -556,7 +556,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_elunesgrace"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your Healing Touch and Tranquility spells by ${[
+        description: talentText`Decreases the mana cost of your Healing Touch and Tranquility spells by ${[
           3,
           6,
           9,
@@ -581,7 +581,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_undyingstrength"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases your target's Armor value by ${[
+        description: talentText`Increases your target's armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,

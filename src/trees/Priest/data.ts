@@ -18,7 +18,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_innerfire"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the Armor bonus of your Inner Fire spell by ${[
+        description: talentText`Increases the armor bonus of your Inner Fire spell by ${[
           5,
           10,
           15,
@@ -106,7 +106,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holynova"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Causes an explosion of holy light around the caster, causing 27 Holy damage to all enemies within 10 yards and restores 50 Health to all party members within 10 yards.  These effects cause no threat.`,
+        description: talentText`Causes an explosion of holy light around the caster, causing 27 Holy damage to all enemies within 10 yards and restores 50 health to all party members within 10 yards.  These effects cause no threat.`,
       },
       "Mental Agility": {
         name: "Mental Agility",
@@ -114,7 +114,7 @@ export const data: TalentData = {
         icon: icons["ability_hibernation"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your offensive spells by ${[
+        description: talentText`Decreases the mana cost of your offensive spells by ${[
           6,
           12,
           18,
@@ -145,7 +145,7 @@ export const data: TalentData = {
         description: talentText`Allows ${[
           10,
           20,
-        ]}% of your Mana regeneration to continue while casting.`,
+        ]}% of your mana regeneration to continue while casting.`,
       },
       "Spiritual Guidance": {
         name: "Spiritual Guidance",
@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`Decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
       },
       "Improved Healing": {
         name: "Improved Healing",
@@ -321,7 +321,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_greaterheal"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the Mana cost of your Heal and Greater Heal spells by ${[
+        description: talentText`Decreases the mana cost of your Heal and Greater Heal spells by ${[
           3,
           6,
           9,
@@ -357,7 +357,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_power"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increase your target's Armor value by ${[
+        description: talentText`Increase your target's armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
@@ -368,7 +368,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_dispelmagic"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Decreases the Mana cost of your Abolish Disease and Dispel Magic spells by ${[
+        description: talentText`Decreases the mana cost of your Abolish Disease and Dispel Magic spells by ${[
           12,
           24,
           36,
@@ -388,7 +388,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_prayerofhealing02"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Decreases the Mana cost of your Prayer of Healing spell by ${[
+        description: talentText`Decreases the mana cost of your Prayer of Healing spell by ${[
           15,
           30,
           45,
@@ -434,7 +434,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana regenerates at a 50% rate while casting.  Lasts 15 sec.`,
+        ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana regenerates at a 50% rate while casting.  Lasts 15 sec.`,
       },
       "Shadow Focus": {
         name: "Shadow Focus",

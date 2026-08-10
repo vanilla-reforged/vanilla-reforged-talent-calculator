@@ -139,7 +139,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_power"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`Increases your target's Armor value by ${[
+        description: talentText`Increases your target's armor value by ${[
           10,
           20,
         ]}% for 15 sec after getting a critical effect from one of your healing spells.`,
@@ -150,7 +150,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_renew"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Decreases the Mana cost of your Cleanse spell by ${[
+        description: talentText`Decreases the mana cost of your Cleanse spell by ${[
           12,
           24,
           36,
@@ -174,7 +174,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to gain Mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
+        ]}% chance to gain mana equal to the base cost of the spell after getting a critical effect from one of your healing spells.`,
       },
       "Spiritual Healing": {
         name: "Spiritual Healing",
@@ -198,7 +198,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 191 Holy damage to an enemy, or restores an average of 191 Health to an ally.\n\n10 sec cooldown.`,
+        description: talentText`Deals an average of 191 Holy damage to an enemy, or restores an average of 191 health to an ally.\n\n10 sec cooldown.`,
       },
     },
   },
@@ -213,7 +213,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_devotionaura"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the Armor bonus of your Devotion Aura by an additional ${[
+        description: talentText`Increases the armor bonus of your Devotion Aura by an additional ${[
           1,
           2,
           3,
@@ -548,7 +548,7 @@ export const data: TalentData = {
         description: talentText`All spell criticals against you cause ${[
           15,
           30,
-        ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total Health.`,
+        ]}% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`,
       },
       "Sanctity": {
         name: "Sanctity",

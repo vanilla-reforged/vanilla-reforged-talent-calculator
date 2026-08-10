@@ -54,13 +54,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Improved Expose Armor": {
-        name: "Improved Expose Armor",
+      "Improved Expose armor": {
+        name: "Improved Expose armor",
         pos: "b1",
         icon: icons["ability_warrior_riposte"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the Armor reduction caused by your Expose Armor ability by ${[
+        description: talentText`Increases the armor reduction caused by your Expose armor ability by ${[
           25,
           50,
         ]}%.`,
@@ -85,7 +85,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_48"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Decreases the Energy cost of your Backstab ability by ${[
+        description: talentText`Decreases the energy cost of your Backstab ability by ${[
           1,
           2,
           3,
@@ -279,7 +279,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_ritualofsacrifice"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Decreases the Energy cost of your Sinister Strike ability by ${[
+        description: talentText`Decreases the energy cost of your Sinister Strike ability by ${[
           1,
           2,
           3,
@@ -299,7 +299,7 @@ export const data: TalentData = {
           6,
           8,
           10,
-        ]}% chance to generate 10 Energy when you deal melee damage.`,
+        ]}% chance to generate 10 energy when you deal melee damage.`,
       },
       "Relentless Strikes": {
         name: "Relentless Strikes",
@@ -404,7 +404,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blade Flurry",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases the Energy regeneration rate by 100% and grants immunity to Incapacitate and Stun effects for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Increases the energy regeneration rate by 100% and grants immunity to Incapacitate and Stun effects for 15 sec.\n\n2 min cooldown.`,
       },
     },
   },
@@ -472,7 +472,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_summonsuccubus"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Decreases the Energy cost of your Cheap Shot and Garrote abilities by ${[
+        description: talentText`Decreases the energy cost of your Cheap Shot and Garrote abilities by ${[
           2,
           4,
           6,
@@ -554,7 +554,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_17"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Causes your attacks to ignore N of your target's Armor.  The amount of Armor ignored increases with your level.`,
+        description: talentText`Causes your attacks to ignore N of your target's armor.  The amount of armor ignored increases with your level.`,
       },
       "Hemorrhage": {
         name: "Hemorrhage",
@@ -582,7 +582,7 @@ export const data: TalentData = {
         icon: icons["inv_weapon_crossbow_11"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases your Attack Power by ${[
+        description: talentText`Increases your attack power by ${[
           4,
           8,
           12,
