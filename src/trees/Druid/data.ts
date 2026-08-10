@@ -144,7 +144,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_starfall"],
         maxRank: 2,
         reqPoints: 15,
-        description: talentText`o	Increases the damage done by your Moonfire spell by ${[
+        description: talentText`Increases the damage done by your Moonfire spell by ${[
           5,
           10,
         ]}% and its critical strike chance by ${[
@@ -384,7 +384,7 @@ export const data: TalentData = {
         33,
         66,
         100,
-      ]}% chance to gain an additional 5 Rage awhenever you get a critical strike while in Bear Form and Dire Bear Form.  Increases the damage done by your Maul and Swipe abilities by an additional ${[
+      ]}% chance to gain an additional 5 Rage whenever you get a critical strike while in Bear Form and Dire Bear Form.  Increases the damage done by your Maul and Swipe abilities by an additional ${[
         2,
         4,
         6,
@@ -480,7 +480,7 @@ export const data: TalentData = {
       "Druidal Warding": {
         name: "Druidal Warding",
         pos: "a3",
-        icon: icons["spell_nature_spiritArmor"],
+        icon: icons["spell_nature_spiritarmor"],
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Decreases all spell damage you take by ${[
