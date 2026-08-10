@@ -195,7 +195,7 @@ export const data: TalentData = {
         icon: icons["ability_bullrush"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage done by your pets by ${[
+        description: talentText`Increases the damage done by your pet by ${[
           6,
           12,
           18,
@@ -211,7 +211,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Intimidation",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`o	Sends you and your pet into a rage, increasing damage dealt by 20% for 15 sec. While enraged, your pet feels no pity, remorse, or fear and cannot be stopped unless killed.\n\n2 min cooldown.`,
+        description: talentText`Sends you and your pet into a rage, increasing damage dealt by 20% for 15 sec. While enraged, your pet feels no pity, remorse, or fear and cannot be stopped unless killed.\n\n2 min cooldown.`,
       },
     },
   },
@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["ability_trueshot"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Increases the attack power of party members within 45 yards by 2%.  Lasts 30 min.`,
+        description: talentText`Increases the Attack Power of party members within 45 yards by 2% for 30 min.`,
       },
       "Efficiency": {
         name: "Efficiency",
@@ -315,7 +315,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_wizardmark"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your Shot and Sting abilities by ${[
+        description: talentText`Decreases the Mana cost of your Shot and Sting abilities by ${[
           6,
           12,
           18,
@@ -329,7 +329,7 @@ export const data: TalentData = {
         icon: icons["ability_hunter_snipershot"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the Ranged Damage bonus of your Hunter's Mark spell by ${[
+        description: talentText`Increases the ranged damage bonus of your Hunter's Mark spell by ${[
           1,
           2,
           3,
@@ -372,7 +372,7 @@ export const data: TalentData = {
         icon: icons["ability_upgrademoonglaive"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Multi-Shot, Quick Shot, and Volley abilities by ${[
+        description: talentText`Increases the ranged weapon damage done by your Multi-Shot, Quick Shot, and Volley abilities by an additional ${[
           2,
           4,
           6,
@@ -549,7 +549,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unholyfrenzy"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Increases the damage of your Raptor Strike, Mongoose Bite, and Silent Hunt abilities by ${[3, 6, 9,]}%.`,
+        description: talentText`Increases the weapon damage done by your Raptor Strike, Mongoose Bite, and Silent Hunt abilities by an additional ${[3, 6, 9,]}%.`,
       },
       "Stalk": {
         name: "Stalk",
@@ -565,7 +565,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Survival abilities by an additional ${[
+        description: talentText`Increases the weapon damage done by your Survival abilities by an additional ${[
           2,
           4,
           6,

@@ -83,7 +83,7 @@ export const data: TalentData = {
       "Arcane Concentration": {
         name: "Arcane Concentration",
         pos: "c1",
-        icon: icons["spell_shadow_Manaburn"],
+        icon: icons["spell_shadow_manaburn"],
         maxRank: 1,
         reqPoints: 10,
         description: talentText`Gives you a ${[
@@ -136,7 +136,7 @@ export const data: TalentData = {
       "Arcane Meditation": {
         name: "Arcane Meditation",
         pos: "c4",
-        icon: icons["spell_shadow_siphonMana"],
+        icon: icons["spell_shadow_siphonmana"],
         maxRank: 2,
         reqPoints: 10,
         description: talentText`Allows ${[
@@ -429,7 +429,7 @@ export const data: TalentData = {
       "Improved Frost Armor": {
         name: "Improved Frost Armor",
         pos: "a1",
-        icon: icons["spell_frost_frostArmor02"],
+        icon: icons["spell_frost_frostarmor02"],
         maxRank: 3,
         reqPoints: 0,
         description: talentText`Increases the Armor bonus given by your Frost Armor spell by ${[
@@ -540,7 +540,7 @@ export const data: TalentData = {
       "Frostbite": {
         name: "Frostbite",
         pos: "c3",
-        icon: icons["spell_frost_frostArmor"],
+        icon: icons["spell_frost_frostarmor"],
         maxRank: 5,
         reqPoints: 10,
         description: talentText`Gives your Chill effects a ${[
