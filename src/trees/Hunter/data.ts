@@ -511,7 +511,7 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]}% and the damage done by your Steel and Explosive traps by ${[8, 16, 24, 32, 40,]}%.`,
+        ]}% and the ranged weapon damage done by your Steel and Explosive traps by an additional ${[8, 16, 24, 32, 40,]}%.`,
       },
       "Improved Wing Clip": {
         name: "Improved Wing Clip",
