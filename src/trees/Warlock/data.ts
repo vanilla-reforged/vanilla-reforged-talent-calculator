@@ -43,7 +43,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Gives your Corruption, Curse of Agony, Drain Life, and Drain mana spells a ${[
+        description: talentText`Gives your Corruption, Curse of Agony, Drain Life, and Drain Mana spells a ${[
           2,
           4,
           6,
@@ -128,7 +128,7 @@ export const data: TalentData = {
           35,
           70,
           100,
-        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain mana, or Drain Soul spells.`,
+        ]}% chance to resist interruption caused by damage while casting the Drain Life, Drain Mana, or Drain Soul spells.`,
       },
       "Improved Curse of Agony": {
         name: "Improved Curse of Agony",

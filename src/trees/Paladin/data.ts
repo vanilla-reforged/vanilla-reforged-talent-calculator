@@ -379,7 +379,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_ambush"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Requires One Handed Weapon.\n\nDeals 110% of weapon damage as Holy damage.\n\n10 sec cooldown.`,
+        description: talentText`Requires one-handed weapon.\n\nDeals 110% of weapon damage as Holy damage.\n\n10 sec cooldown.`,
       },
       "Force of Faith": {
         name: "Force of Faith",
@@ -399,7 +399,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_20"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage you deal with One-Handed melee weapons by ${[
+        description: talentText`Increases the damage you deal with one-handed melee weapons by ${[
           4,
           8,
           12,
@@ -604,7 +604,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Repentance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Requires Two Handed Weapon.\n\nDeals 130% normal weapon damage and generates 3% of your total mana.\n\n10 sec cooldown.`,
+        description: talentText`Requires two-handed weapon.\n\nDeals 130% normal weapon damage and generates 3% of your total mana.\n\n10 sec cooldown.`,
       },
     },
   },

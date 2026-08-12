@@ -118,8 +118,8 @@ export const data: TalentData = {
           50,
         ]}%.`,
       },
-      "Anger management": {
-        name: "Anger management",
+      "Anger Management": {
+        name: "Anger Management",
         pos: "c2",
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 1,
@@ -132,13 +132,13 @@ export const data: TalentData = {
         icon: icons["ability_warrior_battleshout"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the melee attack power bonus of your Battle Shout by ${[
+        description: talentText`Increases the melee attack power bonus of your Battle Shout by an additional ${[
           1,
           2,
           3,
           4,
           5,
-        ]}%, the melee attack power reduction of your Demoralizing Shout by ${[
+        ]}%, the melee attack power reduction of your Demoralizing Shout by an additional ${[
           1,
           2,
           3,
@@ -189,7 +189,7 @@ export const data: TalentData = {
         icon: icons["inv_axe_09"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage you deal with two-handed melee weapons by ${[
+        description: talentText`Increases the total damage you deal with two-handed melee weapons by ${[
           2,
           4,
           6,
@@ -271,7 +271,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_cleave"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the damage done by your Cleave ability by an additional ${[
+        description: talentText`Increases the weapon damage done by your Cleave ability by an additional ${[
           1,
           2,
           3,
@@ -281,8 +281,8 @@ export const data: TalentData = {
           3,
         ]}.`,
       },
-      "Pent up rage": {
-        name: "Pent up rage",
+      "Pent up Rage": {
+        name: "Pent up Rage",
         pos: "b2",
         icon: icons["spell_nature_purge"],
         maxRank: 5,
@@ -377,13 +377,13 @@ export const data: TalentData = {
           30,
         ]}% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.`,
       },
-      "Improved Berserker rage": {
-        name: "Improved Berserker rage",
+      "Improved Berserker Rage": {
+        name: "Improved Berserker Rage",
         pos: "e1",
         icon: icons["spell_nature_ancestralguardian"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Your Berserker rage ability generates ${[
+        description: talentText`Your Berserker Rage ability generates ${[
           5,
           10,
           15,
@@ -629,7 +629,7 @@ export const data: TalentData = {
         icon: icons["inv_sword_20"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage you deal with One-Handed Melee weapons by ${[
+        description: talentText`Increases the damage you deal with one-handed melee weapons by ${[
           4,
           8,
           12,

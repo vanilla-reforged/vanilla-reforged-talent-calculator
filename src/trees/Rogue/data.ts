@@ -54,13 +54,13 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
-      "Improved Expose armor": {
-        name: "Improved Expose armor",
+      "Improved Expose Armor": {
+        name: "Improved Expose Armor",
         pos: "b1",
         icon: icons["ability_warrior_riposte"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Increases the armor reduction caused by your Expose armor ability by ${[
+        description: talentText`Increases the armor reduction caused by your Expose Armor ability by ${[
           25,
           50,
         ]}%.`,
@@ -107,7 +107,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_rupture"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Increases the damage of your Rupture ability by ${[
+        description: talentText`Increases the total damage of your Rupture ability by ${[
           10,
           20,
           30,
@@ -170,7 +170,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathscream"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Backstab ability by ${[
+        description: talentText`Increases the weapon damage done by your Backstab ability by ${[
           2,
           4,
           6,
@@ -186,7 +186,13 @@ export const data: TalentData = {
         icon: icons["ability_warrior_warcry"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage done by your Backstab, Garrote, or Ambush abilities by ${[
+        description: talentText`Increases the weapon damage done by your Ambush and Backstab abilities by an additional ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}%, and the total damage done by your Garrote ability by ${[
           3,
           6,
           9,
@@ -372,7 +378,7 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the damage done by your Sinister Strike ability by ${[
+        description: talentText`Increases the weapon damage done by your Sinister Strike ability by an additional ${[
           2,
           4,
           6,

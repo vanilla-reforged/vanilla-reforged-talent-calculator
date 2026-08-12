@@ -199,7 +199,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Elemental Fury",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Your Lightning Bolt and Shock spell criticals grace you with Elemental Focus, decreasing the casting time of your next Chain Lightning spell by 40% and decreasing its mana cost by 100%.  Lasts 8 sec.`,
+        description: talentText`Your Lightning Bolt and Shock spell critical strikes grace you with Elemental Focus, decreasing the casting time of your next Chain Lightning spell by 40% and decreasing its mana cost by 100%.  Lasts 8 sec.`,
       },
     },
   },
@@ -347,7 +347,7 @@ export const data: TalentData = {
           33,
           66,
           100,
-        ]}% chance to increase your movement speed by 10% and your chance to resist Root and Snare effects by 25%.  Lasts 10 sec.`,
+        ]}% chance to increase your movement speed by 10% and your chance to resist movement impairing effects by 25%.  Lasts 10 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
@@ -373,7 +373,7 @@ export const data: TalentData = {
           5,
           10,
           15,
-        ]}%, the melee attack power bonus of your Windfury Weapon by 5/10/15%  by 5/10/15% ${[
+        ]}%, the melee attack power bonus of your Windfury Weapon by ${[
           5,
           10,
           15,
@@ -616,15 +616,15 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
-      "mana Tide Totem": {
-        name: "mana Tide Totem",
+      "Mana Tide Totem": {
+        name: "Mana Tide Totem",
         pos: "g2",
         icon: icons["spell_frost_summonwaterelemental"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Nature's Swiftness",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`o	Summons a mana Tide Totem with 5 health for 12 sec that restores 170 mana every 3 sec to group members within 20 yards.\n\n2 min cooldown.`,
+        description: talentText`Summons a Mana Tide Totem with 5 health for 12 sec that restores 170 mana every 3 sec to group members within 20 yards.\n\n2 min cooldown.`,
       },
     },
   },

@@ -155,8 +155,8 @@ export const data: TalentData = {
           100,
         ]}% chance to silence the target for 3 sec.`,
       },
-      "Improved mana Shield": {
-        name: "Improved mana Shield",
+      "Improved Mana Shield": {
+        name: "Improved Mana Shield",
         pos: "d3",
         icon: icons["spell_shadow_detectlesserinvisibility"],
         maxRank: 3,
@@ -426,13 +426,13 @@ export const data: TalentData = {
     background: backgrounds["frost"],
     icon: icons["spell_frost_frostbolt02"],
     talents: {
-      "Improved Frost armor": {
-        name: "Improved Frost armor",
+      "Improved Frost Armor": {
+        name: "Improved Frost Armor",
         pos: "a1",
         icon: icons["spell_frost_frostarmor02"],
         maxRank: 3,
         reqPoints: 0,
-        description: talentText`Increases the armor bonus given by your Frost armor spell by ${[
+        description: talentText`Increases the armor bonus given by your Frost Armor spell by ${[
           5,
           10,
           15,

@@ -164,7 +164,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_holybolt"],
         maxRank: 3,
         reqPoints: 15,
-        description: talentText`Your Holy Fire and Smite spell criticals grace you with a Burst of Light, decreasing the casting time of your next Holy spell by ${[
+        description: talentText`Your Holy Fire and Smite spell critical strikes grace you with a Burst of Light, decreasing the casting time of your next Holy spell by ${[
           10,
           20,
           30,

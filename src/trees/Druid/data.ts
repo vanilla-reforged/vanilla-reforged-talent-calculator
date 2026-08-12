@@ -300,7 +300,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_demoralizingroar"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases the attack power reduction of your Demoralizing Roar ability by ${[
+        description: talentText`Increases the attack power reduction of your Demoralizing Roar ability by an additional ${[
           1,
           2,
           3,
