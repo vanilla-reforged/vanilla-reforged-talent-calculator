@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fireball02"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Deals an average of 148 Fire damage and an additional 50 Fire damage over 12 sec.`,
+        description: talentText`Deals an average of 148 Fire damage and an additional 13 Fire damage every 3 sec for 12 sec.`,
       },
       "Master of Flame": {
         name: "Master of Flame",
@@ -618,7 +618,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 248 Frost damage to all enemies within the target area and freezes them for 8 sec.  Any damage may interrupt the effect. \n\n30 sec cooldown.`,
+        description: talentText`Deals an average of 248 Frost damage to all enemies within a target area of 8 yards and freezes them for 8 sec.  Any damage may interrupt the effect. \n\n30 sec cooldown.`,
       },
     },
   },

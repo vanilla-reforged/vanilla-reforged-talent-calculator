@@ -136,7 +136,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_insectswarm"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Deals 59 Nature damage over 12 sec and decreases the target's hit chance by 2% for the same duration.`,
+        description: talentText`Deals 10 Nature damage every 2 sec for 12 sec and decreases the target's hit chance by 2% for the same duration.`,
       },
       "Improved Moonfire": {
         name: "Improved Moonfire",
