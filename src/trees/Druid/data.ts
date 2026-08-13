@@ -334,7 +334,7 @@ export const data: TalentData = {
         3,
         4,
         5,
-      ]} and increases the damage done by your Ferocious Bite ability by ${[
+      ]} and increases the total damage done by your Ferocious Bite ability by ${[
         3,
         6,
         9,
