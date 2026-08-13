@@ -170,7 +170,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_deathscream"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases the weapon damage done by your Backstab ability by ${[
+        description: talentText`Increases the weapon damage done by your Backstab ability by an additional ${[
           2,
           4,
           6,
