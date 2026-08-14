@@ -344,7 +344,7 @@ export const data: TalentData = {
           1.2,
           1.6,
           2,
-        ]} sec.\n\nDecreases the cooldown of your Succubus' Lash of Pain and your Felhunters' Shadow Charge spells by ${[
+        ]} sec.\n\nDecreases the cooldown of your Succubus' Lash of Pain and your Felhunter's Shadow Charge spells by ${[
           1,
           2,
           3,
@@ -655,7 +655,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ruin",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 246 Fire damage to a target afflicted by Immolate, consuming the Immolate effect.\n\n10 sec cooldown.`,
+        description: talentText`Deals an average of 246 Fire damage to a target afflicted by Immolate, consuming the Immolate.\n\n10 sec cooldown.`,
       },
     },
   },
