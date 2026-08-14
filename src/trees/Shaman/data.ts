@@ -351,7 +351,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}%.  Lasts 5 sec.`,
+        ]}%.  Lasts 4 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
