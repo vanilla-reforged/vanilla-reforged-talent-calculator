@@ -289,7 +289,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% chance to decrease the casting time of your next Lesser Heal or Healing Wave spell by 100% after dealing melee damage.  Lasts 10 sec.`,
+        ]}% chance to decrease the casting time of your next Healing Wave or Lesser Healing Wave spell by 100% after dealing melee damage.  Lasts 10 sec.`,
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
