@@ -343,19 +343,15 @@ export const data: TalentData = {
         icon: icons["ability_rogue_sprint"],
         maxRank: 3,
         reqPoints: 10,
-        description: talentText`Your Shock spells have a ${[
-          33,
-          66,
-          100,
-        ]}% chance to increase your movement speed by ${[
+        description: talentText`Your Shock spells increase your movement speed by ${[
           5,
           10,
           15,
         ]}% and your chance to resist movement impairing effects by ${[
-          5,
           10,
-          15,
-        ]} for 5 sec.`,
+          20,
+          30,
+        ]}%. Lasts 5 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
