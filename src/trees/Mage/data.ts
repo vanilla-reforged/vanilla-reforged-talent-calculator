@@ -618,7 +618,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 248 Frost damage to all enemies within a target area of 8 yards and freezes them for 8 sec.  Any damage may interrupt the effect. \n\n30 sec cooldown.`,
+        description: talentText`Deals an average of 248 Frost damage to all enemies within a target area of 5 yards and freezes them for 8 sec.  Any damage may interrupt the effect. \n\n30 sec cooldown.`,
       },
     },
   },
