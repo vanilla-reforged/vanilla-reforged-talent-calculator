@@ -410,7 +410,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Blade Flurry",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Increases the energy regeneration rate by 100% and grants immunity to Incapacitate and Stun effects for 15 sec.\n\n2 min cooldown.`,
+        description: talentText`Increases the energy regeneration rate by 100% and grants immunity to Incapacitate and Stun effects.  Lasts 15 sec.\n\n2 min cooldown.`,
       },
     },
   },
