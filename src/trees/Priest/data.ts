@@ -168,7 +168,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}% for 10 sec.`,
+        ]}%.  Lasts 10 sec.`,
       },
       "Crusade": {
         name: "Crusade",
@@ -313,7 +313,7 @@ export const data: TalentData = {
         icon: icons["spell_frost_windwalkon"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`Decreases the mana cost of your next spell by 100%.  Lasts 15 sec.\n\n60 sec cooldown.`,
       },
       "Improved Healing": {
         name: "Improved Healing",

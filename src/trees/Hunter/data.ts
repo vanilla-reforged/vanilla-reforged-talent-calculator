@@ -98,7 +98,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the casting time of your next Revive Pet spell by 4 sec and its mana cost by 50%.\n\n15 min cooldown.`,
+        description: talentText`Decreases the casting time of your next Revive Pet spell by 4 sec and its mana cost by 50%.  Lasts 15 sec.\n\n15 min cooldown.`,
       },
       "Improved Revive Pet": {
         name: "Improved Revive Pet",

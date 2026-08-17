@@ -173,7 +173,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_contagion"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by an additional 20%.  Lasts 30 sec.\n\n2 min cooldown.`,
+        description: talentText`Increases the effect of your next Curse of Agony by 100% or your next Curse of Exhaustion by an additional 20%.  Lasts 8 sec.\n\n2 min cooldown.`,
       },
       "Blight": {
         name: "Blight",
@@ -306,7 +306,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_removecurse"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Your next Demon Summoning spell has its casting time decreased by 4 sec and its mana cost decreased by 50%.\n\n15 min cooldown.`,
+        description: talentText`Your next Demon Summoning spell has its casting time decreased by 4 sec and its mana cost decreased by 50%.  Lasts 15 sec.\n\n15 min cooldown.`,
       },
       "Master Summoner": {
         name: "Master Summoner",

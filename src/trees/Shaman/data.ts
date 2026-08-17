@@ -289,7 +289,7 @@ export const data: TalentData = {
           2,
           4,
           6,
-        ]}% chance to decrease the casting time of your next Healing Wave or Lesser Healing Wave spell by 100% after dealing melee damage.  Lasts 10 sec.`,
+        ]}% chance after dealing melee damage to reduce the mana cost of your next Lesser Healing Wave spell by 100% and increase your chance to resist interruption caused by damage while casting it by 100%.  Lasts 8 sec.`,
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
@@ -348,10 +348,10 @@ export const data: TalentData = {
           10,
           15,
         ]}% and your chance to resist movement impairing effects by ${[
+          5,
           10,
-          20,
-          30,
-        ]}%.  Lasts 4 sec.`,
+          15,
+        ]}%.  Lasts 8 sec.`,
       },
       "Improved Weapon Totems": {
         name: "Improved Weapon Totems",
@@ -522,7 +522,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_sentinal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Decreases the mana cost of your next spell by 100%.\n\n90 sec cooldown.`,
+        description: talentText`Decreases the mana cost of your next spell by 100%.  Lasts 15 sec.\n\n90 sec cooldown.`,
       },
       "Tidal Focus": {
         name: "Tidal Focus",

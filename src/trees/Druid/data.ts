@@ -208,7 +208,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Vengeance",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Transforms you into Moonkin Form, increasing the armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec. While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
+        description: talentText`Transforms you into Moonkin Form, increasing the armor contribution from items by 360%. Your offensive spell critical strikes to grant a blessing of nature, that decreases the casting time of your next spell by 1.5 sec.  Lasts 8 sec.  While shapeshifted, you can only cast Balance spells.\n\nShapeshifting frees you from Polymorph and Movement Impairing effects.`,
       },
     },
   },
