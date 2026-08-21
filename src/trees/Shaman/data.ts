@@ -285,11 +285,11 @@ export const data: TalentData = {
         icon: icons["spell_holy_blessingofstamina"],
         maxRank: 3,
         reqPoints: 5,
-        description: talentText`Gives you a ${[
+        description: talentText`Dealing melee damage gives you a ${[
           2,
           4,
           6,
-        ]}% chance after dealing melee damage to reduce the mana cost of your next Lesser Healing Wave spell by 100% and increase your chance to resist interruption caused by damage while casting it by 100%.  Lasts 8 sec.`,
+        ]}% chance to empower your next Lesser Healing Wave, reducing its mana cost by 100% and increasing your chance to resist interruption caused by damage while casting it by 100%.  Lasts 8 sec.`,
       },
       "Improved Lightning Shield": {
         name: "Improved Lightning Shield",
