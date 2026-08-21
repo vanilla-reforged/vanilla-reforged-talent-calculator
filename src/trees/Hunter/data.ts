@@ -593,7 +593,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Stalk",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals 115% normal weapon damage.  If used from Stealth, deals 180% normal weapon damage instead. \n\nTriggers your Survival Instinct for 18 sec, increasing your chance to get a critical strike by 5% and increasing the critical strike damage bonus of your Mongoose Bite, Raptor Strike, Explosive Trap, and Steel Trap abilities by 30%.\n\n15 sec cooldown.`,
+        description: talentText`Deals 115% normal weapon damage.  If used from Stealth, deals 180% normal weapon damage instead. \n\nTriggers your Survival Instinct, increasing your chance to get a critical strike by 5% and increasing the critical strike damage bonus of your Mongoose Bite, Raptor Strike, Explosive Trap, and Steel Trap abilities by 30%.  Lasts 18 sec.\n\n15 sec cooldown.`,
       },
     },
   },
