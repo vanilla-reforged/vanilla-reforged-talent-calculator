@@ -21,7 +21,7 @@ export const data: TalentData = {
         description: talentText`Gives you a ${[
           50,
           100,
-        ]}% chance to get a 100% increase to your mana regeneration for 10 sec if the target is killed by you while you drain its soul.  For the duration, your mana regenerates at a 50% rate while casting.`,
+        ]}% chance to get a 100% increase to your mana regeneration if the target is killed by you while you drain its soul.  For the duration, your mana regenerates at a 50% rate while casting.  Lasts 10 sec.`,
       },
       "Suppression": {
         name: "Suppression",
