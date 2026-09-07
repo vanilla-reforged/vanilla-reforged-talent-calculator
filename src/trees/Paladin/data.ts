@@ -198,7 +198,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Divine Favor",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 191 Holy damage to an enemy, or restores an average of 191 health to an ally.\n\n10 sec cooldown.`,
+        description: talentText`Deals Holy damage to an enemy, or restores health to an ally.\n\n10 sec cooldown.`,
       },
     },
   },
@@ -308,7 +308,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_lightningshield"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Places a Holy Blessing on you, decreasing damage taken from all sources by up to 10 for 30 min.  While active, blocking a melee attack deals 14 Holy damage to the attacker.`,
+        description: talentText`Places a Holy Blessing on you, decreasing damage taken from all sources by up to 10 for 30 min.  While active, blocking a melee attack deals Holy damage to the attacker.`,
       },
       "Redoubt": {
         name: "Redoubt",
@@ -498,7 +498,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Grants your melee attacks a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active at a time.  Lasts 30 sec.\n\nUnleashing this Seal's energy deals an average of 84 Holy damage, or an average of 127 if the target is stunned or incapacitated.`,
+        description: talentText`Grants your melee attacks a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active at a time.  Lasts 30 sec.\n\nUnleashing this Seal's energy deals Holy damage, the damage is increased if the target is stunned or incapacitated.`,
       },
       "Benediction": {
         name: "Benediction",

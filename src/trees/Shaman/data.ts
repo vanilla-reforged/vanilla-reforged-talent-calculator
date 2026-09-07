@@ -99,7 +99,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_wispheal"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Deals an average of 50 Nature damage to all enemies within 10 yards.`,
+        description: talentText`Deals Nature damage to all enemies within 10 yards.`,
       },
       "Convection": {
         name: "Convection",

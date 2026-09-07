@@ -307,7 +307,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_fireball02"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Deals an average of 148 Fire damage and an additional 13 Fire damage every 3 sec for 12 sec.`,
+        description: talentText`Deals Fire damage, then additional Fire damage every 3 sec for 12 sec.`,
       },
       "Master of Flame": {
         name: "Master of Flame",
@@ -381,7 +381,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_excorcism_02"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Deals an average of 153 Fire damage to all enemies within 10 yards and dazes them for 6 sec\n\n45 sec cooldown.`,
+        description: talentText`Deals Fire damage to all enemies within 10 yards and dazes them for 6 sec\n\n45 sec cooldown.`,
       },
       "Ashmaker": {
         name: "Ashmaker",
@@ -618,7 +618,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Ice Shards",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Deals an average of 248 Frost damage to all enemies within a target area of 5 yards and freezes them for 8 sec.  Any damage may interrupt the effect. \n\n30 sec cooldown.`,
+        description: talentText`Deals Frost damage to all enemies within a target area of 5 yards and freezes them for 8 sec.  Any damage may interrupt the effect. \n\n30 sec cooldown.`,
       },
     },
   },
